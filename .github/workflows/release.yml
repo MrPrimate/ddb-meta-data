@@ -15,7 +15,7 @@ jobs:
       id: get_version
       run: echo ::set-output name=VERSION::${GITHUB_REF#refs/tags/}
     - name: Create Release Zip
-      run: zip -r ./ddb-meta-data.zip content/scene_info content/note_info content/LICENSE.md
+      run: cd content; zip -r ../ddb-meta-data.zip .
     - name: Create Release
       id: create_versioned_release
       uses: ncipollo/release-action@v1
