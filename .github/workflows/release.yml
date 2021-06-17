@@ -39,10 +39,10 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         artifacts: './ddb-meta-data.zip'
         tag: latest
-    # - name: Discord notification
-    #   env:
-    #     DISCORD_WEBHOOK: ${{ secrets.DISCORD_HOOK }}
-    #     DISCORD_USERNAME: "Release-O-Bot"
-    #   uses: Ilshidur/action-discord@0.0.2
-    #   with:
-    #     args: 'DDB Adventure Muncher Data Pack ${{ steps.get-version.outputs.version }} has been compiled by our intern Squib!'
+    - name: Discord notification
+      env:
+        DISCORD_WEBHOOK: ${{ secrets.DISCORD_HOOK }}
+        DISCORD_USERNAME: "Release-O-Bot"
+      uses: Ilshidur/action-discord@0.0.2
+      with:
+        args: 'DDB Adventure Muncher Data Pack ${{ steps.get-version.outputs.version }} has been compiled by our intern Squibble!'
