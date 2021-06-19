@@ -1,3 +1,7 @@
+# 0.0.3
+
+* IDRotF Updates (Thanks @michaelko777#7952 !)
+
 # 0.0.2
 
 * LMoP Ruins of Thundertree update (Thanks @Zac !)
