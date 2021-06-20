@@ -1,6 +1,7 @@
 # 0.0.3
 
 * IDRotF Updates (Thanks @michaelko777#7952 !)
+* HotDQ Scene (Thanks @kid2407 / Tobias#6450 !)
 
 # 0.0.2
 
