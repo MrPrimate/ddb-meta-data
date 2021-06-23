@@ -1,3 +1,8 @@
+# 0.0.5
+
+* IDRotF Updates (Thanks @michaelko777#7952 !)
+* LMoP scene improvements (Thanks @Riddim#5293 !)
+
 # 0.0.4
 
 * HotDQ Scene (Thanks @kid2407 / Tobias#6450 !)
