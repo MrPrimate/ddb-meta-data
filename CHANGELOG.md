@@ -1,3 +1,8 @@
+# 0.0.6
+
+* CM improvements (Thanks @Brian1969 !)
+* Even more ATG improvements!! (Thanks @Pariah Zero#9919  !)
+
 # 0.0.5
 
 * IDRotF Updates (Thanks @michaelko777#7952 !)
