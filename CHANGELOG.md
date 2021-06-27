@@ -1,3 +1,7 @@
+# 0.0.7
+
+* IDRotF improvements (Thanks to @michaelko777#7952 and @Triasmus#0942 )
+
 # 0.0.6
 
 * CM improvements (Thanks @Brian1969 !)
