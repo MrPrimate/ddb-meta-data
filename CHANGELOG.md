@@ -1,3 +1,7 @@
+# 0.0.8
+
+* CM Big map improvements (Great work @Triasmus#0942 )
+
 # 0.0.7
 
 * IDRotF improvements (Thanks to @michaelko777#7952 and @Triasmus#0942 )
