@@ -1,6 +1,7 @@
 # 0.0.8
 
 * CM Big map improvements (Great work @Triasmus#0942 )
+* Some bad token data removed, and token meta data enhanced for better parsing
 
 # 0.0.7
 
