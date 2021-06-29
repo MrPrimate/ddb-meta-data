@@ -1218,29 +1218,6 @@
             ],
             "tokens": [
                 {
-                    "_id": "5Bm0CzcIwQmGNpgp",
-                    "width": 1,
-                    "height": 1,
-                    "scale": 1,
-                    "x": 0,
-                    "y": 0,
-                    "disposition": -1,
-                    "flags": {},
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "actorData": {}
-                },
-                {
                     "_id": "3f3rFMurS0KYiN6n",
                     "name": "Ettin",
                     "width": 2,
@@ -3322,7 +3299,12 @@
                     "x": 5967,
                     "y": 9945,
                     "disposition": -1,
-                    "flags": {},
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16999,
+                            "name": "Roper"
+                        }
+                    },
                     "actorLink": false,
                     "bar1": {
                         "attribute": "attributes.hp"
@@ -3347,7 +3329,12 @@
                     "x": 6084,
                     "y": 9945,
                     "disposition": -1,
-                    "flags": {},
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16999,
+                            "name": "Roper"
+                        }
+                    },
                     "actorLink": false,
                     "bar1": {
                         "attribute": "attributes.hp"
@@ -3528,6 +3515,10 @@
                             "visionRules": "default",
                             "monoVisionColor": "",
                             "sightLimit": null
+                        },
+                        "ddbActorFlags": {
+                            "id": 295883,
+                            "name": "Estia"
                         }
                     },
                     "actorLink": false,
@@ -3559,6 +3550,10 @@
                             "visionRules": "default",
                             "monoVisionColor": "",
                             "sightLimit": null
+                        },
+                        "ddbActorFlags": {
+                            "id": 295859,
+                            "name": "Jarl Grugnur"
                         }
                     },
                     "actorLink": false,
@@ -3585,7 +3580,12 @@
                     "x": 7722,
                     "y": 4212,
                     "disposition": -1,
-                    "flags": {},
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16867,
+                            "name": "Frost Giant"
+                        }
+                    },
                     "actorLink": false,
                     "bar1": {
                         "attribute": "attributes.hp"
@@ -4856,29 +4856,6 @@
                     "actorData": {}
                 },
                 {
-                    "_id": "jHRFz3vB4fLItJ1s",
-                    "width": 1,
-                    "height": 1,
-                    "scale": 1,
-                    "x": 5207,
-                    "y": 5441,
-                    "disposition": -1,
-                    "flags": {},
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "actorData": {}
-                },
-                {
                     "_id": "BdD9BvMpeSPbnOll",
                     "name": "Frost Giant",
                     "width": 3,
@@ -4942,29 +4919,6 @@
                         "intensity": 5
                     },
                     "tint": null,
-                    "actorData": {}
-                },
-                {
-                    "_id": "HKZIjop10RPJNL2c",
-                    "width": 1,
-                    "height": 1,
-                    "scale": 1,
-                    "x": 3510,
-                    "y": 10647,
-                    "disposition": -1,
-                    "flags": {},
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
                     "actorData": {}
                 }
             ]
