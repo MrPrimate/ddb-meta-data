@@ -1,3 +1,7 @@
+# 0.0.9
+
+* IDRotF had some tokens from the wrong adventure.
+
 # 0.0.8
 
 * CM Big map improvements (Great work @Triasmus#0942 )
