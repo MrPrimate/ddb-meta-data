@@ -1,3 +1,7 @@
+# 0.0.10
+
+* HotDQ Scene improvements by @kid2407 / Tobias#6450 !
+
 # 0.0.9
 
 * IDRotF had some tokens from the wrong adventure.
