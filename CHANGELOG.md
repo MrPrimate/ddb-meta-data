@@ -1,3 +1,7 @@
+# 0.0.11
+
+* Add IDRotF Poster Maps
+
 # 0.0.10
 
 * HotDQ Scene improvements by @kid2407 / Tobias#6450 !
