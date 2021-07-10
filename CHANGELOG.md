@@ -1,6 +1,7 @@
 # 0.0.12
 
 * IDRotF map improvements (MrPrimate)
+* IDRotF split Sunblight map into 3 separate maps.
 * SKT map additions (Thanks @Zac !)
 
 # 0.0.11
