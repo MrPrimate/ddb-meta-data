@@ -1,3 +1,8 @@
+# 0.0.12
+
+* IDRotF map improvements (MrPrimate)
+* SKT map additions (Thanks @Zac !)
+
 # 0.0.11
 
 * Add IDRotF Poster Maps
