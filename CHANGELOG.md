@@ -1,3 +1,7 @@
+# 0.0.13
+
+* SKT map additions (Thanks @Zac !)
+
 # 0.0.12
 
 * IDRotF map improvements (MrPrimate)
