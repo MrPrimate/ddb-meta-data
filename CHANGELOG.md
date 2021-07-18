@@ -1,3 +1,7 @@
+# 0.0.14
+
+* GoS: Chapter 7: Tammerauts Fate | Dragon's Maw ( Thanks ThunderSoap#0214 )
+
 # 0.0.13
 
 * SKT map additions (Thanks @Zac !)
