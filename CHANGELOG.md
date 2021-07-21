@@ -1,3 +1,7 @@
+# 0.1.1
+
+* Loads of CoS updates! (Thanks @Zac !!!)
+
 # 0.1.0
 
 * Addition of metadata to help support individual scene updates.
