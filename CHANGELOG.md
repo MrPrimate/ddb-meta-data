@@ -1,3 +1,7 @@
+# 0.1.0
+
+* Addition of metadata to help support individual scene updates.
+
 # 0.0.14
 
 * GoS: Chapter 7: Tammerauts Fate | Dragon's Maw ( Thanks ThunderSoap#0214 )
