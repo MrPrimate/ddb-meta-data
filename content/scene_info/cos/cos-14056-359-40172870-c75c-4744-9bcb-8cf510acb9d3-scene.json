@@ -1,5 +1,7 @@
 {
     "backgroundColor": "#333333",
+    "darkness": 0.65,
+    "drawings": [],
     "flags": {
         "ddb": {
             "bookCode": "cos",
@@ -7,18 +9,118 @@
             "cobaltId": null,
             "parentId": 359,
             "contentChunkId": "40172870-c75c-4744-9bcb-8cf510acb9d3",
-            "tokens": [],
+            "notes": [
+                {
+                    "label": "U03. Baba Lysaga’s Hut",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2092,
+                            "bookCode": "cos",
+                            "slug": "the-ruins-of-berez#AreasofBerez",
+                            "contentChunkId": "e86202a6-4cd1-4519-acea-63f8269ac5df",
+                            "userData": {
+                                "userDisplayName": "MrZwij"
+                            },
+                            "note": true,
+                            "img": false,
+                            "parentId": 359,
+                            "linkId": "Bp3M7OI9pItqUZf1",
+                            "pin": "13201292.5"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 1080,
+                            "y": 810
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [
+                {
+                    "_id": "QlcJObb6qDItqJtz",
+                    "name": "Baba Lysaga",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 807.0588235294117,
+                    "y": 1002.9411764705883,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17361,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "name": "Baba Lysaga"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": null,
+                    "actorData": {}
+                },
+                {
+                    "_id": "FMrtCmp3Hm4GyBL2",
+                    "name": "Baba Lysaga’s Creeping Hut",
+                    "width": 4,
+                    "height": 4,
+                    "scale": 1,
+                    "x": 778,
+                    "y": 854,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17357,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "name": "Baba Lysaga’s Creeping Hut"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": "",
+                    "actorData": {}
+                }
+            ],
             "versions": {
                 "ddbMetaData": {
                     "name": "Baba Lysaga’s Creeping Hut",
                     "bookCode": "cos",
                     "contentChunkId": "40172870-c75c-4744-9bcb-8cf510acb9d3",
                     "lastUpdate": "0.0.14",
-                    "notes": "0.0.14",
-                    "tokens": "0.0.14",
+                    "notes": "0.1.1",
+                    "tokens": "0.1.1",
                     "walls": "0.0.14",
-                    "lights": "0.0.14",
-                    "drawings": "0.0.14"
+                    "lights": "0.1.1",
+                    "drawings": "0.1.1",
+                    "flags": "0.1.1"
                 }
             }
         },
@@ -26,28 +128,71 @@
         "perfect-vision": [],
         "dynamic-illumination": []
     },
+    "globalLight": true,
+    "globalLightThreshold": 0.7,
     "grid": 90,
     "gridDistance": 5,
     "gridType": 1,
     "gridUnits": "ft",
     "height": 1125,
+    "initial": {
+        "x": 1039,
+        "y": 931,
+        "scale": 1
+    },
     "lights": [
         {
-            "angle": 360,
-            "bright": 1.5,
-            "darknessThreshold": 0,
-            "dim": 3.5,
-            "rotation": 0,
             "t": "l",
-            "tintAlpha": 0.49,
             "x": 945,
-            "y": 1035
+            "y": 1035,
+            "rotation": 0,
+            "dim": 3.5,
+            "bright": 1.5,
+            "angle": 0,
+            "tintColor": "#69f443",
+            "tintAlpha": 0.25,
+            "lightAnimation": {
+                "speed": 2,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "u",
+            "x": 945,
+            "y": 990,
+            "rotation": 0,
+            "dim": 40,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#dedede",
+            "tintAlpha": 0.3,
+            "lightAnimation": {
+                "speed": 2,
+                "intensity": 2,
+                "type": "fog"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
         }
     ],
     "name": "Baba Lysaga’s Creeping Hut",
     "navName": "Baba Lysaga’s Creeping Hut",
+    "padding": 0.25,
     "shiftX": -25,
     "shiftY": -40,
+    "tokenVision": true,
     "walls": [
         {
             "c": [
@@ -56,10 +201,13 @@
                 1080,
                 1170
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -68,10 +216,13 @@
                 810,
                 1170
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -80,10 +231,13 @@
                 810,
                 900
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -92,10 +246,13 @@
                 1080,
                 900
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -104,10 +261,13 @@
                 1080,
                 990
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -116,10 +276,13 @@
                 742,
                 978
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -128,10 +291,13 @@
                 675,
                 933
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -140,10 +306,13 @@
                 607,
                 933
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -152,10 +321,13 @@
                 787,
                 810
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -164,10 +336,13 @@
                 753,
                 810
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -176,10 +351,13 @@
                 711,
                 692
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -188,10 +366,13 @@
                 950,
                 805
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -200,10 +381,13 @@
                 985,
                 747
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -212,10 +396,13 @@
                 959,
                 719
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -224,10 +411,13 @@
                 969,
                 667
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -236,10 +426,13 @@
                 1147,
                 843
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -248,10 +441,13 @@
                 1215,
                 798
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -260,10 +456,13 @@
                 1192,
                 765
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -272,10 +471,13 @@
                 1215,
                 720
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -284,10 +486,13 @@
                 1248,
                 697
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -296,10 +501,13 @@
                 1147,
                 1237
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -308,10 +516,13 @@
                 1215,
                 1271
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -320,10 +531,13 @@
                 1215,
                 1316
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -332,10 +546,13 @@
                 1237,
                 1372
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -344,10 +561,13 @@
                 956,
                 1260
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -356,10 +576,13 @@
                 922,
                 1305
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -368,10 +591,13 @@
                 922,
                 1338
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -380,10 +606,13 @@
                 888,
                 1372
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -392,10 +621,13 @@
                 888,
                 1395
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -404,10 +636,13 @@
                 911,
                 1406
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -416,10 +651,13 @@
                 765,
                 1226
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -428,10 +666,13 @@
                 742,
                 1293
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -440,10 +681,13 @@
                 652,
                 1338
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -452,10 +696,13 @@
                 686,
                 1091
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -464,10 +711,13 @@
                 663,
                 1136
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -476,10 +726,13 @@
                 607,
                 1102
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -488,10 +741,13 @@
                 585,
                 1080
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -500,10 +756,13 @@
                 1125,
                 1091
             ],
+            "move": 0,
+            "sense": 1,
+            "sound": 1,
+            "dir": 2,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -512,10 +771,13 @@
                 1125,
                 978
             ],
+            "move": 0,
+            "sense": 1,
+            "sound": 1,
+            "dir": 2,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -524,11 +786,75 @@
                 1080,
                 978
             ],
+            "move": 0,
+            "sense": 1,
+            "sound": 1,
+            "dir": 2,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 1
+            "flags": {}
+        },
+        {
+            "c": [
+                450,
+                461,
+                450,
+                1473
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                450,
+                1473,
+                1451,
+                1473
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1451,
+                1473,
+                1451,
+                461
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1451,
+                461,
+                450,
+                461
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
         }
     ],
+    "weather": "",
     "width": 1125
 }

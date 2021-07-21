@@ -11,7 +11,7 @@
             "contentChunkId": "e585ba9b-52d1-436e-9d91-3c78bea492e8",
             "notes": [
                 {
-                    "label": "U1. Abandoned Cottages",
+                    "label": "U01. Abandoned Cottages",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -25,7 +25,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 359,
-                            "linkId": "O3ydA3f7uVhYoa8K"
+                            "linkId": "kDuRSICdgjPjiT8s",
+                            "pin": "12101045"
                         }
                     },
                     "positions": [
@@ -39,12 +40,12 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 },
                 {
-                    "label": "U2. Ulrich Mansion",
+                    "label": "U02. Ulrich Mansion",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -58,7 +59,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 359,
-                            "linkId": "WD79nXSJwnWF3o9P"
+                            "linkId": "q0ca4nEh4QaEnpmG",
+                            "pin": "12651650"
                         }
                     },
                     "positions": [
@@ -68,12 +70,12 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 },
                 {
-                    "label": "U3. Baba Lysaga’s Hut",
+                    "label": "U03. Baba Lysaga’s Hut",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -87,7 +89,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 359,
-                            "linkId": "LIz7IwNuFx1wF4WC"
+                            "linkId": "Bp3M7OI9pItqUZf1",
+                            "pin": "13201292.5"
                         }
                     },
                     "positions": [
@@ -97,12 +100,12 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 },
                 {
-                    "label": "U4. Churchyard",
+                    "label": "U04. Churchyard",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -116,7 +119,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 359,
-                            "linkId": "rr3Evd2WlTLKaACD"
+                            "linkId": "BUomeTZUBpnsJVds",
+                            "pin": "1017.51375"
                         }
                     },
                     "positions": [
@@ -126,12 +130,12 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 },
                 {
-                    "label": "U5. Marina’s Monument",
+                    "label": "U05. Marina’s Monument",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -145,7 +149,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 359,
-                            "linkId": "KsYJX9sBQLU6or9K"
+                            "linkId": "H8h5ZU2vdlsC7kkf",
+                            "pin": "7701677.5"
                         }
                     },
                     "positions": [
@@ -155,12 +160,12 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 },
                 {
-                    "label": "U6. Standing Stones",
+                    "label": "U06. Standing Stones",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -174,7 +179,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 359,
-                            "linkId": "25dOV6mkvre7u4uQ"
+                            "linkId": "EiMkQTSVjVFWYI7D",
+                            "pin": "22001540"
                         }
                     },
                     "positions": [
@@ -184,8 +190,8 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 }
             ],
@@ -199,8 +205,9 @@
                     "notes": "0.0.14",
                     "tokens": "0.0.14",
                     "walls": "0.0.14",
-                    "lights": "0.0.14",
-                    "drawings": "0.0.14"
+                    "lights": "0.1.1",
+                    "drawings": "0.0.14",
+                    "flags": "0.1.1"
                 }
             }
         },
@@ -220,9 +227,34 @@
         "y": 1566,
         "scale": 0.51
     },
-    "lights": [],
+    "lights": [
+        {
+            "t": "u",
+            "x": 1650,
+            "y": 1595,
+            "rotation": 0,
+            "dim": 2600,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#d6d6d6",
+            "tintAlpha": 0.25,
+            "lightAnimation": {
+                "speed": 2,
+                "intensity": 4,
+                "type": "fog"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.7
+            },
+            "hidden": false,
+            "flags": {}
+        }
+    ],
     "name": "Ruins of Berez",
     "navName": "Ruins of Berez",
+    "padding": 0.25,
     "shiftX": -23,
     "shiftY": -1,
     "tokenVision": true,
@@ -234,10 +266,13 @@
                 1152,
                 1577
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -246,10 +281,13 @@
                 1100,
                 1595
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -258,10 +296,13 @@
                 1086,
                 1624
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -270,10 +311,13 @@
                 1089,
                 1759
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -282,10 +326,13 @@
                 1113,
                 1870
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -294,10 +341,13 @@
                 1155,
                 1883
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -306,10 +356,13 @@
                 1278,
                 1870
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -318,10 +371,13 @@
                 1278,
                 1760
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -330,10 +386,13 @@
                 1347,
                 1705
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -342,10 +401,13 @@
                 1354,
                 1651
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -354,10 +416,13 @@
                 1320,
                 1608
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -366,10 +431,13 @@
                 1218,
                 1584
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -378,10 +446,13 @@
                 1196,
                 1540
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -390,10 +461,13 @@
                 1168,
                 1540
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -402,10 +476,13 @@
                 1416,
                 1595
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -414,10 +491,13 @@
                 1443,
                 1663
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -426,10 +506,13 @@
                 1485,
                 1691
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -438,10 +521,13 @@
                 1608,
                 1677
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -450,10 +536,13 @@
                 1691,
                 1636
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -462,10 +551,13 @@
                 1801,
                 1512
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -474,10 +566,13 @@
                 1760,
                 1457
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -486,10 +581,13 @@
                 1870,
                 1278
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -498,10 +596,13 @@
                 1870,
                 1223
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -510,10 +611,13 @@
                 1801,
                 1265
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -522,10 +626,13 @@
                 1746,
                 1333
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -534,10 +641,13 @@
                 1663,
                 1278
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -546,10 +656,13 @@
                 1567,
                 1361
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -558,10 +671,13 @@
                 1457,
                 1388
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -570,10 +686,13 @@
                 1430,
                 1512
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -582,10 +701,13 @@
                 1045,
                 1498
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -594,10 +716,13 @@
                 1045,
                 1540
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -606,10 +731,13 @@
                 990,
                 1540
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -618,10 +746,13 @@
                 1375,
                 1017
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -630,10 +761,13 @@
                 1237,
                 1182
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -642,10 +776,13 @@
                 1113,
                 1058
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -654,10 +791,13 @@
                 1182,
                 948
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -666,10 +806,13 @@
                 1320,
                 825
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -678,10 +821,13 @@
                 1430,
                 825
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -690,10 +836,13 @@
                 1471,
                 948
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -702,10 +851,13 @@
                 2227,
                 811
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -714,10 +866,13 @@
                 2131,
                 893
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -726,10 +881,13 @@
                 1993,
                 1045
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -738,10 +896,13 @@
                 1842,
                 962
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -750,10 +911,13 @@
                 1746,
                 935
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -762,10 +926,13 @@
                 1732,
                 976
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -774,10 +941,13 @@
                 1842,
                 1017
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -786,10 +956,13 @@
                 1966,
                 1086
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -798,10 +971,13 @@
                 1925,
                 1168
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -810,10 +986,13 @@
                 1952,
                 1182
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -822,10 +1001,13 @@
                 2007,
                 1100
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -834,10 +1016,13 @@
                 2158,
                 948
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -846,10 +1031,13 @@
                 2296,
                 797
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -858,10 +1046,13 @@
                 2351,
                 701
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -870,10 +1061,73 @@
                 2310,
                 687
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
+        },
+        {
+            "c": [
+                646,
+                632,
+                646,
+                2585
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                646,
+                2585,
+                2612,
+                2585
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2612,
+                2585,
+                2612,
+                632
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2612,
+                632,
+                646,
+                632
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
         }
     ],
     "weather": "",

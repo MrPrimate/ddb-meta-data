@@ -11,7 +11,7 @@
             "contentChunkId": "c461b393-9fe9-4332-a875-eb468fdcb8fd",
             "notes": [
                 {
-                    "label": "O1. Ground Floor",
+                    "label": "O01. Ground Floor",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -25,7 +25,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 355,
-                            "linkId": "k9Lv3Bnrj5T8Nb3M"
+                            "linkId": "uWxbwYGZaYbAqorA",
+                            "pin": "18701317.5"
                         }
                     },
                     "positions": [
@@ -35,12 +36,12 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 },
                 {
-                    "label": "O2. Bone Mill",
+                    "label": "O02. Bone Mill",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -54,7 +55,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 355,
-                            "linkId": "uruHOaRYVDTa8WjZ"
+                            "linkId": "F5rQj7p570I0mg5v",
+                            "pin": "25501317.5"
                         }
                     },
                     "positions": [
@@ -64,12 +66,12 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 },
                 {
-                    "label": "O3. Bedroom",
+                    "label": "O03. Bedroom",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -83,7 +85,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 355,
-                            "linkId": "5KNjM4wFwOhqHUDT"
+                            "linkId": "KIXQ9VULnfiwWNwS",
+                            "pin": "1870552.5"
                         }
                     },
                     "positions": [
@@ -93,12 +96,12 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 },
                 {
-                    "label": "O4. Domed Attic",
+                    "label": "O04. Domed Attic",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -112,7 +115,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 355,
-                            "linkId": "clhta697mK3I7Pvj"
+                            "linkId": "XmxsJbPtPCtZJrhg",
+                            "pin": "2550552.5"
                         }
                     },
                     "positions": [
@@ -122,12 +126,153 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": "",
-                    "textColor": "",
+                    "iconTint": null,
+                    "textColor": null,
                     "textAnchor": 1
                 }
             ],
-            "tokens": [],
+            "tokens": [
+                {
+                    "_id": "p20ssyNP4UXOBhct",
+                    "name": "Dretch",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 0.8,
+                    "x": 1955,
+                    "y": 1615,
+                    "disposition": -1,
+                    "flags": {
+                        "token-hud-wildcard": {
+                            "default": ""
+                        },
+                        "perfect-vision": {
+                            "visionRules": "default",
+                            "monoVisionColor": "",
+                            "sightLimit": null
+                        },
+                        "ddbActorFlags": {
+                            "id": 16846,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "name": "Dretch"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": null,
+                    "actorData": {}
+                },
+                {
+                    "_id": "UpMaVaosIU2k4WP1",
+                    "name": "Morgantha",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 2465,
+                    "y": 1615,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 301755,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "name": "Night Hag (Coven Variant)"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": "",
+                    "actorData": {}
+                },
+                {
+                    "_id": "eYRuG3vZOCk2WYtp",
+                    "name": "Bella Sunbane",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 1870,
+                    "y": 850,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 301755,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "name": "Night Hag (Coven Variant)"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": "",
+                    "actorData": {}
+                },
+                {
+                    "_id": "tUwZBOyhDlRlUStP",
+                    "name": "Offalia Wormwiggle",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 1955,
+                    "y": 935,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 301755,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "name": "Night Hag (Coven Variant)"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": "",
+                    "actorData": {}
+                }
+            ],
             "versions": {
                 "ddbMetaData": {
                     "name": "Old Bonegrinder",
@@ -135,9 +280,9 @@
                     "contentChunkId": "c461b393-9fe9-4332-a875-eb468fdcb8fd",
                     "lastUpdate": "0.0.14",
                     "notes": "0.0.14",
-                    "tokens": "0.0.14",
+                    "tokens": "0.1.1",
                     "walls": "0.0.14",
-                    "lights": "0.0.14",
+                    "lights": "0.1.1",
                     "drawings": "0.0.14"
                 }
             }
@@ -154,341 +299,510 @@
     "gridUnits": "ft",
     "height": 1650,
     "initial": {
-        "x": 2354,
-        "y": 1401,
-        "scale": 0.63
+        "x": 2001,
+        "y": 1347,
+        "scale": 0.65
     },
     "lights": [
         {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 120,
-            "rotation": 0,
             "t": "g",
-            "tintAlpha": 0.49,
             "x": 1147,
             "y": 1530,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "fog"
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 2252,
-            "y": 1232,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 1657,
-            "y": 1232,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 2252,
-            "y": 1997,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 1657,
-            "y": 1997,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 1657,
-            "y": 1317,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 2252,
-            "y": 1317,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 2337,
-            "y": 1317,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 2932,
-            "y": 1317,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 2932,
-            "y": 1997,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 2337,
-            "y": 1997,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 1657,
-            "y": 552,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 60,
-            "darknessThreshold": 0.6,
-            "dim": 60,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.49,
-            "x": 2252,
-            "y": 552,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
+            "dim": 120,
             "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 5.05,
-            "rotation": 0,
-            "t": "l",
+            "angle": 0,
+            "tintColor": "#c2c2c2",
             "tintAlpha": 0.49,
-            "x": 2635,
-            "y": 935,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 12,
-            "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
-            "x": 722.5,
-            "y": 1700,
-            "lightAnimation": {
-                "type": "fog",
-                "speed": 1,
-                "intensity": 3
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 20,
-            "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
-            "x": 1062.5,
-            "y": 1700,
-            "lightAnimation": {
-                "type": "fog",
-                "speed": 1,
-                "intensity": 3
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 10,
-            "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
-            "x": 425,
-            "y": 1487.5,
-            "lightAnimation": {
-                "type": "fog",
-                "speed": 1,
-                "intensity": 3
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 16,
-            "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
-            "x": 1360,
-            "y": 1700,
-            "lightAnimation": {
-                "type": "fog",
-                "speed": 1,
-                "intensity": 3
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 10,
-            "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
-            "x": 1572.5,
-            "y": 1530,
-            "lightAnimation": {
-                "type": "fog",
-                "speed": 1,
-                "intensity": 3
-            },
-            "hidden": false
-        },
-        {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 40,
-            "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
-            "x": 1190,
-            "y": 1997.5,
             "lightAnimation": {
                 "type": "fog",
                 "speed": 1,
                 "intensity": 1
             },
-            "hidden": false
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2252,
+            "y": 1232,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 1657,
+            "y": 1232,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2252,
+            "y": 1997,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 1657,
+            "y": 1997,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 1657,
+            "y": 1317,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2252,
+            "y": 1317,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2337,
+            "y": 1317,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2932,
+            "y": 1317,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2932,
+            "y": 1997,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2337,
+            "y": 1997,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 1657,
+            "y": 552,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2252,
+            "y": 552,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2635,
+            "y": 935,
+            "rotation": 0,
+            "dim": 5.05,
+            "bright": 0,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "g",
+            "x": 722,
+            "y": 1700,
+            "rotation": 0,
+            "dim": 12,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#c2c2c2",
+            "tintAlpha": 0.25,
+            "lightAnimation": {
+                "type": "fog",
+                "speed": 1,
+                "intensity": 3
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "g",
+            "x": 1062,
+            "y": 1700,
+            "rotation": 0,
+            "dim": 20,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#c2c2c2",
+            "tintAlpha": 0.25,
+            "lightAnimation": {
+                "type": "fog",
+                "speed": 1,
+                "intensity": 3
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "g",
+            "x": 1360,
+            "y": 1700,
+            "rotation": 0,
+            "dim": 16,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#c2c2c2",
+            "tintAlpha": 0.25,
+            "lightAnimation": {
+                "type": "fog",
+                "speed": 1,
+                "intensity": 3
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "g",
+            "x": 1572,
+            "y": 1530,
+            "rotation": 0,
+            "dim": 10,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#c2c2c2",
+            "tintAlpha": 0.25,
+            "lightAnimation": {
+                "type": "fog",
+                "speed": 1,
+                "intensity": 3
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "g",
+            "x": 1190,
+            "y": 1997,
+            "rotation": 0,
+            "dim": 40,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#c2c2c2",
+            "tintAlpha": 0.42,
+            "lightAnimation": {
+                "type": "fog",
+                "speed": 1,
+                "intensity": 2
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2337.5,
+            "y": 1232.5,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2932.5,
+            "y": 1232.5,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2932.5,
+            "y": 552.5,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "t": "l",
+            "x": 2337.5,
+            "y": 552.5,
+            "rotation": 0,
+            "dim": 60,
+            "bright": 60,
+            "angle": 0,
+            "tintAlpha": 0.49,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0.6,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
         }
     ],
     "name": "Old Bonegrinder",
     "navName": "Old Bonegrinder",
+    "padding": 0.25,
     "shiftX": 38,
     "shiftY": -24,
     "tokenVision": true,
@@ -500,10 +814,13 @@
                 2976,
                 510
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -512,10 +829,13 @@
                 2976,
                 2035
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -524,10 +844,13 @@
                 701,
                 2035
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -536,10 +859,13 @@
                 701,
                 510
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -548,10 +874,13 @@
                 1615,
                 2040
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -560,10 +889,13 @@
                 2295,
                 2040
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -572,10 +904,13 @@
                 2975,
                 1275
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -584,10 +919,13 @@
                 1997,
                 1859
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -596,10 +934,13 @@
                 1955,
                 1870
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -608,10 +949,13 @@
                 1891,
                 1859
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -620,10 +964,13 @@
                 1848,
                 1827
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -632,10 +979,13 @@
                 1816,
                 1785
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -644,10 +994,13 @@
                 1795,
                 1731
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -656,10 +1009,13 @@
                 1785,
                 1689
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -668,10 +1024,13 @@
                 1806,
                 1625
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -680,10 +1039,13 @@
                 1838,
                 1572
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -692,10 +1054,13 @@
                 1891,
                 1540
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -704,10 +1069,13 @@
                 1955,
                 1530
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -716,10 +1084,13 @@
                 2008,
                 1540
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -728,10 +1099,13 @@
                 2061,
                 1561
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -740,10 +1114,13 @@
                 2093,
                 1593
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -752,10 +1129,13 @@
                 2114,
                 1646
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -764,10 +1144,13 @@
                 2125,
                 1700
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -776,10 +1159,13 @@
                 2114,
                 1753
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -788,10 +1174,13 @@
                 2103,
                 1785
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -800,10 +1189,13 @@
                 2040,
                 1838
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -812,10 +1204,13 @@
                 2730,
                 1561
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 2,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -824,10 +1219,13 @@
                 2666,
                 1530
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -836,10 +1234,13 @@
                 2592,
                 1530
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -848,10 +1249,13 @@
                 2528,
                 1561
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -860,10 +1264,13 @@
                 2486,
                 1604
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 2,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -872,10 +1279,13 @@
                 2465,
                 1668
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -884,10 +1294,13 @@
                 2465,
                 1721
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -896,10 +1309,13 @@
                 2475,
                 1774
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -908,10 +1324,13 @@
                 2496,
                 1806
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -920,10 +1339,13 @@
                 2528,
                 1838
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 2,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -932,10 +1354,13 @@
                 2581,
                 1859
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -944,10 +1369,13 @@
                 2645,
                 1870
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -956,10 +1384,13 @@
                 2688,
                 1859
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -968,10 +1399,13 @@
                 2741,
                 1838
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -980,10 +1414,13 @@
                 2773,
                 1806
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 2,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -992,10 +1429,13 @@
                 2794,
                 1753
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1004,10 +1444,13 @@
                 2805,
                 1700
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1016,10 +1459,13 @@
                 2794,
                 1646
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1028,10 +1474,13 @@
                 2773,
                 1604
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1040,10 +1489,13 @@
                 1955,
                 1710
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1052,10 +1504,13 @@
                 1944,
                 1700
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1064,10 +1519,13 @@
                 2624,
                 1700
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1076,10 +1534,13 @@
                 2635,
                 1689
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1088,10 +1549,13 @@
                 2730,
                 1700
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1100,10 +1564,13 @@
                 2720,
                 1668
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1112,10 +1579,13 @@
                 2720,
                 1668
             ],
+            "move": 1,
+            "sense": 0,
+            "sound": 0,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "flags": {}
         },
         {
             "c": [
@@ -1124,10 +1594,13 @@
                 2645,
                 1615
             ],
+            "move": 1,
+            "sense": 0,
+            "sound": 0,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "flags": {}
         },
         {
             "c": [
@@ -1136,10 +1609,13 @@
                 1827,
                 913
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1148,10 +1624,13 @@
                 1827,
                 966
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1160,10 +1639,13 @@
                 1848,
                 1009
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1172,10 +1654,13 @@
                 1880,
                 1041
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 2,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1184,10 +1669,13 @@
                 1933,
                 1062
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1196,10 +1684,13 @@
                 1976,
                 1062
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1208,10 +1699,13 @@
                 2006,
                 1056
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1220,10 +1714,13 @@
                 2033,
                 1045
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1232,10 +1729,13 @@
                 2071,
                 1009
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 2,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1244,10 +1744,13 @@
                 2082,
                 966
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1256,10 +1759,13 @@
                 2084,
                 928
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1268,10 +1774,13 @@
                 2082,
                 892
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1280,10 +1789,13 @@
                 2071,
                 860
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1292,10 +1804,13 @@
                 2035,
                 823
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 2,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1304,10 +1819,13 @@
                 1986,
                 807
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1316,10 +1834,13 @@
                 1933,
                 807
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1328,10 +1849,13 @@
                 1880,
                 828
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1340,10 +1864,13 @@
                 1848,
                 860
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 2,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1352,10 +1879,13 @@
                 1955,
                 945
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1364,10 +1894,13 @@
                 1944,
                 935
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 2,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -1376,10 +1909,13 @@
                 1880,
                 935
             ],
+            "move": 1,
+            "sense": 0,
+            "sound": 0,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "flags": {}
         },
         {
             "c": [
@@ -1388,10 +1924,13 @@
                 2082,
                 903
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1400,10 +1939,13 @@
                 2008,
                 966
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1412,10 +1954,13 @@
                 701,
                 1721
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 2,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1424,10 +1969,13 @@
                 2556,
                 899
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1436,10 +1984,13 @@
                 2549,
                 935
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1448,10 +1999,13 @@
                 2558,
                 972
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1460,10 +2014,13 @@
                 2575,
                 995
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1472,10 +2029,13 @@
                 2598,
                 1011
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1484,10 +2044,13 @@
                 2634,
                 1019
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1496,10 +2059,13 @@
                 2666,
                 1012
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1508,10 +2074,13 @@
                 2691,
                 997
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1520,10 +2089,13 @@
                 2713,
                 966
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1532,10 +2104,13 @@
                 2719,
                 933
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1544,10 +2119,13 @@
                 2714,
                 904
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1556,10 +2134,13 @@
                 2691,
                 873
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1568,10 +2149,13 @@
                 2661,
                 855
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1580,10 +2164,13 @@
                 2620,
                 851
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1592,10 +2179,13 @@
                 2592,
                 860
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1604,10 +2194,13 @@
                 1955,
                 1615
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         }
     ],
     "weather": "",
