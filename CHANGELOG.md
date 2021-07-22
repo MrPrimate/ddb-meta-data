@@ -1,3 +1,8 @@
+# 0.1.2
+
+* Loads of CoS updates! (Thanks @Zac !!!)
+* Added some missing note pin generation for CoS Amber Temple Scene
+
 # 0.1.1
 
 * Loads of CoS updates! (Thanks @Zac !!!)
