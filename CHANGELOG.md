@@ -1,3 +1,7 @@
+# 0.1.3
+
+* DMG Table Name fixes
+
 # 0.1.2
 
 * Loads of CoS updates! (Thanks @Zac !!!)
