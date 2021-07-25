@@ -1,3 +1,7 @@
+# 0.1.4
+
+* ToA addition, Yellyark (Thanks @michaelko777#7952 )
+
 # 0.1.3
 
 * DMG Table Name fixes
