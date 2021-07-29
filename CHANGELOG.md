@@ -1,3 +1,7 @@
+# 0.1.5
+
+* New formating in latest CoS release caused breakage. If you experience problems importing Curse of Strahd, please make sure you are using Adventure Muncher 0.3.10 and you DELETE your existing cos downloads by going to File -> Remove Downloaded Files.
+
 # 0.1.4
 
 * ToA addition, Yellyark (Thanks @michaelko777#7952 )
