@@ -1,6 +1,10 @@
+# 0.1.7
+
+* Add CoS Death House pin generation back in.
+
 # 0.1.6
 
-* Restore most scene data for CoS.
+* Restore most scene data for CoS for use in v0.3.11 of the muncher.
 
 # 0.1.5
 
