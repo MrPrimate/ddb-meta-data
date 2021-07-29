@@ -1,6 +1,7 @@
-# 0.1.7
+# 0.1.8
 
 * Add CoS Death House pin generation back in.
+* GoS scene additions ( Thanks ThunderSoap#0214 !)
 
 # 0.1.6
 
