@@ -1,3 +1,7 @@
+# 0.1.9
+
+* Add information about known last good DDB version to parse.
+
 # 0.1.8
 
 * Add CoS Death House pin generation back in.
