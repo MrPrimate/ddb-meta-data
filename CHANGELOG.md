@@ -1,3 +1,7 @@
+# 0.1.10
+
+* WDotMM level 1 (Big thanks to @kid2407 / Tobias#6450 )
+
 # 0.1.9
 
 * Add information about known last good DDB version to parse.
