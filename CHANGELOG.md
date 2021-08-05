@@ -1,3 +1,7 @@
+# 0.1.11
+
+* EGTW: Dangerous Design scene basics. (Thanks @Llethander#0679)
+
 # 0.1.10
 
 * WDotMM level 1 (Big thanks to @kid2407 / Tobias#6450 )
