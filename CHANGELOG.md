@@ -1,3 +1,7 @@
+# 0.1.12
+
+* IDRotF - Sunblight Scenes (Thanks Me!)
+
 # 0.1.11
 
 * EGTW: Dangerous Design scene basics. (Thanks @Llethander#0679)
