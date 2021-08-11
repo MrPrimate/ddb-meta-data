@@ -1,3 +1,7 @@
+# 0.1.13
+
+* IDRotF - Revels End Scene (Thanks @Ergo2#2329 !)
+
 # 0.1.12
 
 * IDRotF - Sunblight Scenes (Thanks Me!)
