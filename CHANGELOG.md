@@ -1,3 +1,8 @@
+# 0.1.14
+
+* SKT - Map 1.3: Tower of Zephyros did not parse.
+* CM - Zikran’s Laboratory (Thanks @shortyverrett94#4531 !)
+
 # 0.1.13
 
 * IDRotF - Revels End Scene (Thanks @Ergo2#2329 !)
