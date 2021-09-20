@@ -1,3 +1,7 @@
+# 0.1.15
+
+* HotDQ improvements! (Thanks @Pariah Zero#9919  !)
+
 # 0.1.14
 
 * SKT - Map 1.3: Tower of Zephyros did not parse.
