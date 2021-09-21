@@ -1,3 +1,8 @@
+# 0.1.16
+
+* TWBtW initial support.
+* HotDQ improvements! (Thanks @Pariah Zero#9919  !)
+
 # 0.1.15
 
 * HotDQ improvements! (Thanks @Pariah Zero#9919  !)
