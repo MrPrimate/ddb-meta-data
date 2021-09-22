@@ -1,3 +1,7 @@
+# 0.1.17
+
+* TWBtW scene alignment.
+
 # 0.1.16
 
 * TWBtW initial support.
