@@ -1,3 +1,7 @@
+# 0.1.18
+
+* IDRotF: Solstice and Grimskalle
+
 # 0.1.17
 
 * TWBtW scene alignment.
