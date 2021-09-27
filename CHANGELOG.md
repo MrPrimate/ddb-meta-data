@@ -1,3 +1,8 @@
+# 0.1.19
+
+* IDRotF: Revels End pin generation.
+* Bump for some supported adventure versions.
+
 # 0.1.18
 
 * IDRotF: Solstice and Grimskalle
