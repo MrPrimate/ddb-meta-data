@@ -1,3 +1,7 @@
+# 0.1.22
+
+* SKT Map 5.1: Grudd Haug update (Thanks @whelan#7806 )
+
 # 0.1.21
 
 * IDRotF: Caves of Hunger
