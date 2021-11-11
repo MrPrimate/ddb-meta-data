@@ -1,3 +1,7 @@
+# 0.1.23
+
+* CM: Map 10.1: Hags Hovel (Thanks @JacksonBockus#1378 )
+
 # 0.1.22
 
 * SKT Map 5.1: Grudd Haug update (Thanks @whelan#7806 )
