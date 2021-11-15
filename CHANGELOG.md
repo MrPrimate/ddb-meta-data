@@ -1,3 +1,7 @@
+# 0.1.24
+
+* TWBtW: Downfall (Thanks anonymous submitter!)
+
 # 0.1.23
 
 * CM: Map 10.1: Hags Hovel (Thanks @JacksonBockus#1378 )
