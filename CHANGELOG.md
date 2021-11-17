@@ -1,6 +1,11 @@
+# 0.1.25
+
+* HotDQ: Castle Naerytar (4 maps!) (Thanks Pariah Zero#9919 )
+* TWBtW: Bavlornas Cottage (Thanks @JacksonBockus#1378 )
+
 # 0.1.24
 
-* TWBtW: Downfall (Thanks anonymous submitter!)
+* TWBtW: Downfall (Thanks @JacksonBockus#1378 !)
 
 # 0.1.23
 
