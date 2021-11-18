@@ -2223,12 +2223,28 @@
                     "notes": "0.1.25",
                     "tokens": "0.1.25",
                     "walls": "0.1.25",
-                    "lights": "0.1.25",
+                    "lights": "0.1.26",
                     "drawings": "0.1.25"
                 }
             }
         },
-        "stairways": {},
+        "stairways": [
+            {
+                "_id": "t8zsdu75i3coxibb",
+                "scene": "6AWnhAtQ3Pdm0aiq",
+                "name": "sw-kk24qbcl",
+                "x": 10532,
+                "y": 6069,
+                "disabled": false,
+                "hidden": false,
+                "animate": false,
+                "icon": null,
+                "label": "",
+                "fontFamily": null,
+                "fontSize": null,
+                "textColor": null
+            }
+        ],
         "perfect-vision": {
             "sightLimit": null,
             "daylightColor": "",
@@ -2292,6 +2308,131 @@
                 "speed": 1,
                 "intensity": 1,
                 "type": "torch"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {}
+            }
+        },
+        {
+            "t": "l",
+            "x": 9520,
+            "y": 4820,
+            "rotation": 0,
+            "dim": 8,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#ffffff",
+            "tintAlpha": 0.04,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 10,
+                "type": "fog"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {}
+            }
+        },
+        {
+            "t": "l",
+            "x": 9401,
+            "y": 5057.5,
+            "rotation": 0,
+            "dim": 7,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#ffffff",
+            "tintAlpha": 0.04,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 10,
+                "type": "fog"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {}
+            }
+        },
+        {
+            "t": "l",
+            "x": 9936.5,
+            "y": 4819.5,
+            "rotation": 0,
+            "dim": 8,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#ffffff",
+            "tintAlpha": 0.04,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 10,
+                "type": "fog"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {}
+            }
+        },
+        {
+            "t": "l",
+            "x": 9758,
+            "y": 4641,
+            "rotation": 0,
+            "dim": 8,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#ffffff",
+            "tintAlpha": 0.04,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 10,
+                "type": "fog"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {}
+            }
+        },
+        {
+            "t": "l",
+            "x": 10055.5,
+            "y": 4581.5,
+            "rotation": 0,
+            "dim": 8,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#ffffff",
+            "tintAlpha": 0.04,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 10,
+                "type": "fog"
             },
             "darknessThreshold": 0,
             "darkness": {
