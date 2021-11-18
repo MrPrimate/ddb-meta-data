@@ -1,3 +1,7 @@
+# 0.1.26
+
+* HotDQ: Castle Nærytar updates, Hunting Lodge,Village of Parnast (Thanks Pariah Zero#9919 )
+
 # 0.1.25
 
 * HotDQ: Castle Naerytar (4 maps!) (Thanks Pariah Zero#9919 )
