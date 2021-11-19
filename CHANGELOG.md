@@ -1,3 +1,7 @@
+# 0.1.28
+
+* Tile support for Skyreach Castle
+
 # 0.1.27
 
 * HotDQ: Skyreach Castle (Thanks Pariah Zero#9919 )
