@@ -1,7 +1,10 @@
+# 0.1.31
+
+* SACoC: Initial support for notes.
+
 # 0.1.30
 
 * FoF: The Mountain Door Improvements (Tiles) (Thanks @MaxPat#7936 )
-
 
 # 0.1.29
 
