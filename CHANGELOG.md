@@ -1,3 +1,7 @@
+# 0.1.32
+
+* AI Map improvements (Thanks Pariah Zero#9919 )
+
 # 0.1.31
 
 * SACoC: Initial support for notes.
