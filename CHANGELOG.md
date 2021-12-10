@@ -1,3 +1,7 @@
+# 0.1.33
+
+* Missing RoT pin detection for Sstckal.
+
 # 0.1.32
 
 * AI Map improvements (Thanks Pariah Zero#9919 )
