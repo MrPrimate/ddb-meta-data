@@ -87,7 +87,8 @@
                             "note": true,
                             "img": false,
                             "parentId": 710,
-                            "linkId": "AvaXC3yhi1RYURyE"
+                            "linkId": "z9uWkbyeANNnJFez",
+                            "pin": "3958.53139.5"
                         }
                     },
                     "positions": [
@@ -98,7 +99,7 @@
                     ],
                     "iconSize": 40,
                     "iconTint": null,
-                    "textColor": "#FFFFFF",
+                    "textColor": null,
                     "textAnchor": 1
                 }
             ],
@@ -108,11 +109,11 @@
                     "name": "The Fissure 1 Area 02",
                     "bookCode": "ai",
                     "contentChunkId": "ddb-missing-ai-103028",
-                    "lastUpdate": "0.0.14",
-                    "notes": "0.1.32",
+                    "lastUpdate": "0.1.32",
+                    "notes": "0.1.33",
                     "tokens": "0.0.14",
-                    "walls": "0.0.14",
-                    "lights": "0.0.14",
+                    "walls": "0.1.33",
+                    "lights": "0.1.33",
                     "drawings": "0.0.14"
                 }
             }
@@ -122,14 +123,15 @@
             "sightLimit": null,
             "daylightColor": "",
             "darknessColor": "",
-            "forceSaturation": false,
-            "saturation": 0
+            "saturation": null
         },
         "dynamic-illumination": {
             "_animating": false,
             "darknessColor": "#3c3351"
         },
-        "ddbimporter": {}
+        "ddbimporter": {
+            "version": "2.6.23"
+        }
     },
     "globalLight": false,
     "globalLightThreshold": null,
@@ -143,9 +145,111 @@
         "y": 3273,
         "scale": 0.95
     },
-    "lights": [],
+    "lights": [
+        {
+            "t": "l",
+            "x": 3639,
+            "y": 3006,
+            "rotation": 0,
+            "dim": 5,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#0006a8",
+            "tintAlpha": 0.25,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5,
+                "type": "ghost"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {}
+            }
+        },
+        {
+            "t": "l",
+            "x": 4458,
+            "y": 3007,
+            "rotation": 0,
+            "dim": 5,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#068104",
+            "tintAlpha": 0.25,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5,
+                "type": "ghost"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {}
+            }
+        },
+        {
+            "t": "l",
+            "x": 3639,
+            "y": 3367,
+            "rotation": 0,
+            "dim": 5,
+            "bright": 0,
+            "angle": 0,
+            "tintColor": "#ffffff",
+            "tintAlpha": 0.2,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5,
+                "type": "ghost"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {}
+            }
+        },
+        {
+            "t": "l",
+            "x": 4457,
+            "y": 3364,
+            "rotation": 0,
+            "dim": 5,
+            "bright": 1,
+            "angle": 0,
+            "tintColor": "#ffffff",
+            "tintAlpha": 0,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 7,
+                "type": "roiling"
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {}
+            }
+        }
+    ],
     "name": "The Fissure 1 Area 02",
-    "navName": "The Fissure 1",
+    "navName": "The Fissure 1 Area 02",
+    "padding": 0.25,
     "shiftX": -9,
     "shiftY": 9,
     "tokenVision": true,
@@ -157,10 +261,13 @@
                 1691,
                 1443
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -169,10 +276,13 @@
                 2374,
                 1442
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -181,10 +291,13 @@
                 1783,
                 1903
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -193,10 +306,13 @@
                 1784,
                 2034
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -205,10 +321,13 @@
                 1691,
                 2035
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -217,10 +336,13 @@
                 2375,
                 1629
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -229,10 +351,13 @@
                 2372,
                 1904
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -241,10 +366,13 @@
                 2374,
                 1713
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -253,10 +381,13 @@
                 1788,
                 1730
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -265,10 +396,13 @@
                 1823,
                 1716
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -277,10 +411,13 @@
                 1858,
                 1729
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -289,10 +426,13 @@
                 1869,
                 1760
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -301,10 +441,13 @@
                 1856,
                 1795
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -313,10 +456,13 @@
                 1823,
                 1809
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -325,10 +471,13 @@
                 1793,
                 1799
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -337,10 +486,13 @@
                 1772,
                 1761
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -349,10 +501,13 @@
                 1874,
                 1582
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -361,10 +516,13 @@
                 1861,
                 1617
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -373,10 +531,13 @@
                 1828,
                 1631
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -385,10 +546,13 @@
                 1798,
                 1621
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -397,10 +561,13 @@
                 1777,
                 1583
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -409,10 +576,13 @@
                 1793,
                 1552
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -421,10 +591,13 @@
                 1863,
                 1551
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -433,10 +606,13 @@
                 1828,
                 1538
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -445,10 +621,13 @@
                 2282,
                 1582
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -457,10 +636,13 @@
                 2269,
                 1617
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -469,10 +651,13 @@
                 2236,
                 1631
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -481,10 +666,13 @@
                 2206,
                 1621
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -493,10 +681,13 @@
                 2185,
                 1583
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -505,10 +696,13 @@
                 2201,
                 1552
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -517,10 +711,13 @@
                 2271,
                 1551
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -529,10 +726,13 @@
                 2236,
                 1538
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -541,10 +741,13 @@
                 2284,
                 1759
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -553,10 +756,13 @@
                 2271,
                 1794
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -565,10 +771,13 @@
                 2238,
                 1808
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -577,10 +786,13 @@
                 2208,
                 1798
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -589,10 +801,13 @@
                 2187,
                 1760
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -601,10 +816,13 @@
                 2203,
                 1729
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -613,10 +831,13 @@
                 2273,
                 1728
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -625,10 +846,13 @@
                 2238,
                 1715
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -637,10 +861,13 @@
                 2060,
                 1650
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -649,10 +876,13 @@
                 2071,
                 1663
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -661,10 +891,13 @@
                 2084,
                 1651
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -673,10 +906,13 @@
                 2072,
                 1639
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -685,10 +921,13 @@
                 1980,
                 1663
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -697,10 +936,13 @@
                 1969,
                 1650
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -709,10 +951,13 @@
                 1993,
                 1651
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -721,10 +966,13 @@
                 1981,
                 1639
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -733,10 +981,13 @@
                 1982,
                 1754
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -745,10 +996,13 @@
                 1971,
                 1741
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -757,10 +1011,13 @@
                 1995,
                 1742
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -769,10 +1026,13 @@
                 1983,
                 1730
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -781,10 +1041,13 @@
                 2071,
                 1756
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -793,10 +1056,13 @@
                 2060,
                 1743
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -805,10 +1071,13 @@
                 2084,
                 1744
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -817,10 +1086,13 @@
                 2072,
                 1732
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -829,10 +1101,13 @@
                 1982,
                 1572
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -841,10 +1116,13 @@
                 1971,
                 1559
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -853,10 +1131,13 @@
                 1995,
                 1560
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -865,10 +1146,13 @@
                 1983,
                 1548
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -877,10 +1161,13 @@
                 2072,
                 1573
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -889,10 +1176,13 @@
                 2061,
                 1560
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -901,10 +1191,13 @@
                 2085,
                 1561
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -913,10 +1206,13 @@
                 2073,
                 1549
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -925,10 +1221,13 @@
                 2208,
                 2183
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -937,10 +1236,13 @@
                 2255,
                 2172
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -949,10 +1251,13 @@
                 2268,
                 2158
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -961,10 +1266,13 @@
                 2585,
                 1883
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -973,10 +1281,13 @@
                 2708,
                 1883
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -985,10 +1296,13 @@
                 2791,
                 2035
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -997,10 +1311,13 @@
                 2860,
                 2062
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1009,10 +1326,13 @@
                 3011,
                 1870
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1021,10 +1341,13 @@
                 3135,
                 1801
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1033,10 +1356,13 @@
                 3272,
                 1787
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1045,10 +1371,13 @@
                 3382,
                 1801
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1057,10 +1386,13 @@
                 3437,
                 1842
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1069,10 +1401,13 @@
                 3588,
                 1801
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1081,10 +1416,13 @@
                 3657,
                 1801
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1093,10 +1431,13 @@
                 3616,
                 1925
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1105,10 +1446,13 @@
                 3547,
                 1952
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1117,10 +1461,13 @@
                 3465,
                 1952
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1129,10 +1476,13 @@
                 3410,
                 2021
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1141,10 +1491,13 @@
                 3341,
                 2076
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1153,10 +1506,13 @@
                 3313,
                 2103
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1165,10 +1521,13 @@
                 3313,
                 2172
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1177,10 +1536,13 @@
                 3258,
                 2227
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1189,10 +1551,13 @@
                 3245,
                 2282
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1201,10 +1566,13 @@
                 3203,
                 2337
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1213,10 +1581,13 @@
                 3121,
                 2378
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1225,10 +1596,13 @@
                 3052,
                 2323
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1237,10 +1611,13 @@
                 3025,
                 2282
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1249,10 +1626,13 @@
                 2970,
                 2282
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1261,10 +1641,13 @@
                 2915,
                 2351
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1273,10 +1656,13 @@
                 2832,
                 2365
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1285,10 +1671,13 @@
                 2681,
                 2337
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1297,10 +1686,13 @@
                 2640,
                 2310
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1309,10 +1701,13 @@
                 2598,
                 2282
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1321,10 +1716,13 @@
                 2543,
                 2227
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1333,10 +1731,13 @@
                 2502,
                 2227
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1345,10 +1746,13 @@
                 2461,
                 2268
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1357,10 +1761,13 @@
                 2323,
                 2296
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1369,10 +1776,13 @@
                 2282,
                 2268
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1381,10 +1791,13 @@
                 2200,
                 2282
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1393,10 +1806,13 @@
                 2145,
                 2282
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1405,10 +1821,13 @@
                 2145,
                 2145
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1417,10 +1836,13 @@
                 2172,
                 2158
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1429,10 +1851,13 @@
                 3657,
                 1911
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1441,10 +1866,13 @@
                 2200,
                 1031
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1453,10 +1881,13 @@
                 2337,
                 935
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1465,10 +1896,13 @@
                 2447,
                 921
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1477,10 +1911,13 @@
                 3176,
                 921
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1489,10 +1926,13 @@
                 3183,
                 1044
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1501,10 +1941,13 @@
                 3184,
                 1159
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1513,10 +1956,13 @@
                 3182,
                 1282
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1525,10 +1971,13 @@
                 2433,
                 1278
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1537,10 +1986,13 @@
                 2310,
                 1237
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1549,10 +2001,13 @@
                 2200,
                 1168
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1561,10 +2016,13 @@
                 1980,
                 1168
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1573,10 +2031,13 @@
                 1980,
                 1031
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1585,10 +2046,13 @@
                 3423,
                 921
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1597,10 +2061,13 @@
                 3423,
                 1141
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1609,10 +2076,13 @@
                 3657,
                 1141
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1621,10 +2091,13 @@
                 3657,
                 1278
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1633,10 +2106,13 @@
                 3181,
                 1282
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1645,10 +2121,13 @@
                 1278,
                 907
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1657,10 +2136,13 @@
                 1265,
                 1100
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1669,10 +2151,13 @@
                 1223,
                 1168
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1681,10 +2166,13 @@
                 1223,
                 1210
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1693,10 +2181,13 @@
                 1127,
                 1265
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1705,10 +2196,13 @@
                 1113,
                 1306
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1717,10 +2211,13 @@
                 1086,
                 1375
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1729,10 +2226,13 @@
                 1086,
                 1457
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1741,10 +2241,13 @@
                 1027,
                 1529
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1753,10 +2256,13 @@
                 1028,
                 1605
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1765,10 +2271,13 @@
                 991,
                 1675
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1777,10 +2286,13 @@
                 990,
                 1856
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1789,10 +2301,13 @@
                 1021,
                 1933
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1801,10 +2316,13 @@
                 1039,
                 2122
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1813,10 +2331,13 @@
                 1039,
                 2295
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1825,10 +2346,13 @@
                 1179,
                 2293
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1837,10 +2361,13 @@
                 1174,
                 2130
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1849,10 +2376,13 @@
                 1213,
                 1889
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1861,10 +2391,13 @@
                 1251,
                 1820
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1873,10 +2406,13 @@
                 1252,
                 1781
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1885,10 +2421,13 @@
                 1367,
                 1615
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1897,10 +2436,13 @@
                 1372,
                 1547
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1909,10 +2451,13 @@
                 1410,
                 1490
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1921,10 +2466,13 @@
                 1394,
                 1234
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1933,10 +2481,13 @@
                 1417,
                 1161
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1945,10 +2496,13 @@
                 1416,
                 824
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1957,10 +2511,13 @@
                 1321,
                 824
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1969,10 +2526,13 @@
                 3594,
                 3913
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1981,10 +2541,13 @@
                 3594,
                 3674
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1993,10 +2556,13 @@
                 4754,
                 3674
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2005,10 +2571,13 @@
                 4754,
                 2684
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2017,10 +2586,13 @@
                 3344,
                 2695
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2029,10 +2601,13 @@
                 3344,
                 3913
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2041,10 +2616,13 @@
                 4117,
                 3128
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2053,10 +2631,13 @@
                 4117,
                 3150
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2065,10 +2646,13 @@
                 4140,
                 3173
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2077,10 +2661,13 @@
                 4163,
                 3150
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2089,10 +2676,13 @@
                 4163,
                 3128
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2101,10 +2691,13 @@
                 4140,
                 3116
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2113,10 +2706,13 @@
                 3934,
                 3149
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2125,10 +2721,13 @@
                 3957,
                 3172
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2137,10 +2736,13 @@
                 3980,
                 3127
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2149,10 +2751,13 @@
                 3957,
                 3115
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2161,10 +2766,13 @@
                 3934,
                 3127
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2173,10 +2781,13 @@
                 3980,
                 3149
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2185,10 +2796,13 @@
                 3934,
                 3331
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2197,10 +2811,13 @@
                 3957,
                 3354
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2209,10 +2826,13 @@
                 3980,
                 3309
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2221,10 +2841,13 @@
                 3957,
                 3297
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2233,10 +2856,13 @@
                 3934,
                 3309
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2245,10 +2871,13 @@
                 3980,
                 3331
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2257,10 +2886,13 @@
                 4116,
                 3333
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2269,10 +2901,13 @@
                 4139,
                 3356
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2281,10 +2916,13 @@
                 4162,
                 3311
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2293,10 +2931,13 @@
                 4139,
                 3299
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2305,10 +2946,13 @@
                 4116,
                 3311
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2317,10 +2961,13 @@
                 4162,
                 3333
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2329,10 +2976,13 @@
                 4115,
                 2966
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2341,10 +2991,13 @@
                 4138,
                 2989
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2353,10 +3006,13 @@
                 4161,
                 2944
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2365,10 +3021,13 @@
                 4138,
                 2932
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2377,10 +3036,13 @@
                 4115,
                 2944
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2389,10 +3051,13 @@
                 4161,
                 2966
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2401,10 +3066,13 @@
                 3935,
                 2967
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2413,10 +3081,13 @@
                 3958,
                 2990
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2425,10 +3096,13 @@
                 3981,
                 2945
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2437,10 +3111,13 @@
                 3958,
                 2933
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2449,10 +3126,13 @@
                 3935,
                 2945
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -2461,10 +3141,13 @@
                 3981,
                 2967
             ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 2
+            "flags": {}
         }
     ],
     "weather": "",

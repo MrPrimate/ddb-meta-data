@@ -19,13 +19,11 @@
                             "bookCode": "ai",
                             "slug": "right-place-wrong-heroes#TheFissure",
                             "contentChunkId": "2e68d930-e3cb-42f3-8a37-19e04497bc20",
-                            "userData": {
-                                "userDisplayName": "Pariah_Zero"
-                            },
                             "note": true,
                             "img": false,
                             "parentId": 710,
-                            "linkId": "Qz77LTbFnt1chVf5"
+                            "linkId": "PQ8CMQqyCmDEMlE5",
+                            "pin": "6419.0298295454543097.3515625"
                         }
                     },
                     "positions": [
@@ -36,7 +34,7 @@
                     ],
                     "iconSize": 40,
                     "iconTint": null,
-                    "textColor": "#FFFFFF",
+                    "textColor": null,
                     "textAnchor": 1
                 }
             ],
@@ -56,6 +54,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -89,6 +89,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -122,6 +124,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -155,6 +159,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -188,6 +194,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -221,6 +229,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -254,6 +264,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -287,6 +299,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -320,6 +334,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -353,6 +369,8 @@
                             "entityTypeId": 779871897,
                             "creatureGroup": null,
                             "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.23",
                             "name": "Stomping Foot"
                         }
                     },
@@ -378,9 +396,9 @@
                     "bookCode": "ai",
                     "contentChunkId": "ddb-missing-ai-103033",
                     "lastUpdate": "0.0.14",
-                    "notes": "0.0.14",
-                    "tokens": "0.0.14",
-                    "walls": "0.0.14",
+                    "notes": "0.1.33",
+                    "tokens": "0.1.33",
+                    "walls": "0.1.33",
                     "lights": "0.0.14",
                     "drawings": "0.0.14"
                 }
@@ -391,12 +409,14 @@
             "sightLimit": null,
             "daylightColor": "",
             "darknessColor": "",
-            "forceSaturation": false,
-            "saturation": 0
+            "saturation": null
         },
         "dynamic-illumination": {
             "_animating": false,
             "darknessColor": "#110033"
+        },
+        "ddbimporter": {
+            "version": "2.6.23"
         }
     },
     "globalLight": false,
@@ -406,10 +426,15 @@
     "gridType": 1,
     "gridUnits": "ft",
     "height": 5500,
-    "initial": null,
+    "initial": {
+        "x": 6583,
+        "y": 3034,
+        "scale": 1
+    },
     "lights": [],
     "name": "The Fissure 2 Area 07",
-    "navName": "The Fissure 2",
+    "navName": "The Fissure 2 Area 07",
+    "padding": 0.25,
     "shiftX": 1,
     "shiftY": 42,
     "tokenVision": true,
@@ -421,10 +446,13 @@
                 5243,
                 3210
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -433,10 +461,13 @@
                 5564,
                 3210
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -445,10 +476,13 @@
                 5657,
                 3477
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -457,10 +491,13 @@
                 6018,
                 3798
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -469,10 +506,13 @@
                 6540,
                 3838
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -481,10 +521,13 @@
                 6901,
                 3785
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -493,10 +536,13 @@
                 7128,
                 3597
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -505,10 +551,13 @@
                 7222,
                 3290
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -517,10 +566,13 @@
                 7342,
                 3250
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -529,10 +581,13 @@
                 7597,
                 3263
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -541,10 +596,13 @@
                 7597,
                 2889
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -553,10 +611,13 @@
                 7276,
                 2889
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -565,10 +626,13 @@
                 7115,
                 2634
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -577,10 +641,13 @@
                 6848,
                 2407
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -589,10 +656,13 @@
                 6593,
                 2313
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -601,10 +671,13 @@
                 6366,
                 2313
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -613,10 +686,13 @@
                 6192,
                 2313
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -625,10 +701,13 @@
                 5951,
                 2474
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -637,10 +716,13 @@
                 5671,
                 2808
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -649,10 +731,13 @@
                 5243,
                 2822
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         }
     ],
     "weather": "",

@@ -1,10 +1,12 @@
 # 0.1.33
 
 * Missing RoT pin detection for Sstckal.
+* Loads of AI Map improvements (Thanks @Pariah Zero#9919 )
+* Some RoT additions (Thanks @Pariah Zero#9919 )
 
 # 0.1.32
 
-* AI Map improvements (Thanks Pariah Zero#9919 )
+* AI Map improvements (Thanks @Pariah Zero#9919 )
 
 # 0.1.31
 
@@ -24,15 +26,15 @@
 
 # 0.1.27
 
-* HotDQ: Skyreach Castle (Thanks Pariah Zero#9919 )
+* HotDQ: Skyreach Castle (Thanks @Pariah Zero#9919 )
 
 # 0.1.26
 
-* HotDQ: Castle Nærytar updates, Hunting Lodge,Village of Parnast (Thanks Pariah Zero#9919 )
+* HotDQ: Castle Nærytar updates, Hunting Lodge,Village of Parnast (Thanks @Pariah Zero#9919 )
 
 # 0.1.25
 
-* HotDQ: Castle Naerytar (4 maps!) (Thanks Pariah Zero#9919 )
+* HotDQ: Castle Naerytar (4 maps!) (Thanks @Pariah Zero#9919 )
 * TWBtW: Bavlornas Cottage (Thanks @JacksonBockus#1378 )
 
 # 0.1.24
