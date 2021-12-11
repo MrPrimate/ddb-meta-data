@@ -1,3 +1,7 @@
+# 0.1.34
+
+* More RoT scenes (Thanks @Pariah Zero#9919 )
+
 # 0.1.33
 
 * Missing RoT pin detection for Sstckal.
