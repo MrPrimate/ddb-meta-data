@@ -1,3 +1,7 @@
+# 0.1.36
+
+* More RoT scenes (Thanks @Pariah Zero#9919 )
+
 # 0.1.35
 
 * WDotMM: Halasters Tower : Pin detection
