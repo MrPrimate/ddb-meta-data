@@ -1,3 +1,7 @@
+# 0.1.37
+
+* Add a second scene for The Well of Dragons at the Caldera with tiles (Thanks @Pariah Zero#9919 )
+
 # 0.1.36
 
 * More RoT scenes (Thanks @Pariah Zero#9919 )
