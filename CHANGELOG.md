@@ -1,3 +1,7 @@
+# 0.1.38
+
+* First walled scene for Strixhaven! Thanks @kid2407 / Tobias#6450
+
 # 0.1.37
 
 * Add a second scene for The Well of Dragons at the Caldera with tiles (Thanks @Pariah Zero#9919 )
