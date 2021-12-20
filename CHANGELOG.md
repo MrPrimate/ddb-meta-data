@@ -1,3 +1,8 @@
+# 0.1.39
+
+* Add missing pins for OotA
+* Loads of OotA maps from the non-stop, amazing @Pariah Zero#9919
+
 # 0.1.38
 
 * First walled scene for Strixhaven! Thanks @kid2407 / Tobias#6450

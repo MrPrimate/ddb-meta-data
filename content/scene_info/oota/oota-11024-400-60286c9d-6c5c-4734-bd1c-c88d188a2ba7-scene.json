@@ -1,5 +1,7 @@
 {
     "backgroundColor": "#000000",
+    "darkness": 1,
+    "drawings": [],
     "flags": {
         "ddb": {
             "bookCode": "oota",
@@ -7,35 +9,384 @@
             "cobaltId": null,
             "parentId": 400,
             "contentChunkId": "60286c9d-6c5c-4734-bd1c-c88d188a2ba7",
-            "tokens": [],
+            "notes": [
+                {
+                    "label": "01. Entrance Room",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2027,
+                            "bookCode": "oota",
+                            "slug": "into-darkness#LostTombofKhaem",
+                            "contentChunkId": "ec2dd488-8140-4065-9bae-d89c7ba9041f",
+                            "note": true,
+                            "img": false,
+                            "parentId": 400,
+                            "linkId": "xT70EWkujC3WYmTx"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 1125,
+                            "y": 1050
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "02. Shrine",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2030,
+                            "bookCode": "oota",
+                            "slug": "into-darkness#LostTombofKhaem",
+                            "contentChunkId": "f6e14009-78fe-4f60-81f3-902061245a8f",
+                            "note": true,
+                            "img": false,
+                            "parentId": 400,
+                            "linkId": "puPrt4V0Gaok9wEz"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 2175,
+                            "y": 1575
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "03. Servants’ Sarcophagi",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2040,
+                            "bookCode": "oota",
+                            "slug": "into-darkness#LostTombofKhaem",
+                            "contentChunkId": "7e111dd3-301e-4393-9971-787bf056fde9",
+                            "note": true,
+                            "img": false,
+                            "parentId": 400,
+                            "linkId": "hRF9hVZXn3fTMvvA"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 2700,
+                            "y": 1650
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "04. False Tomb",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2046,
+                            "bookCode": "oota",
+                            "slug": "into-darkness#LostTombofKhaem",
+                            "contentChunkId": "cf98ec7e-9c90-484c-aaa5-c26dc4f8d86c",
+                            "note": true,
+                            "img": false,
+                            "parentId": 400,
+                            "linkId": "zMqwfzFrDT46ziSg"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 2175,
+                            "y": 2250
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "05. True Tomb",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2054,
+                            "bookCode": "oota",
+                            "slug": "into-darkness#LostTombofKhaem",
+                            "contentChunkId": "080186a1-b99e-4103-b9b0-d3e8ca9ee404",
+                            "note": true,
+                            "img": false,
+                            "parentId": 400,
+                            "linkId": "epnSDvtTQQTNf2Qs"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 3150,
+                            "y": 2250
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [
+                {
+                    "_id": "fFUYtMSwp6XKMCds",
+                    "name": "Specter",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 2550,
+                    "y": 1800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17017,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.26",
+                            "name": "Specter"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": null,
+                    "actorData": {}
+                },
+                {
+                    "_id": "SSUWPLOIJzMvi688",
+                    "name": "Specter",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 2550,
+                    "y": 1425,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17017,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.26",
+                            "name": "Specter"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": null,
+                    "actorData": {}
+                },
+                {
+                    "_id": "YX5CYxaNgJsyQb4b",
+                    "name": "Specter",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 2775,
+                    "y": 1425,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17017,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.26",
+                            "name": "Specter"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": null,
+                    "actorData": {}
+                },
+                {
+                    "_id": "se2m8zeQcOajKwU4",
+                    "name": "Specter",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 2775,
+                    "y": 1800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17017,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.26",
+                            "name": "Specter"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": null,
+                    "actorData": {}
+                },
+                {
+                    "_id": "8Gln3rH8NTcOrIvg",
+                    "name": "Wraith",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 3225,
+                    "y": 2175,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17064,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.6.26",
+                            "name": "Wraith"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "lightAlpha": 1,
+                    "lightAngle": 360,
+                    "lightAnimation": {
+                        "speed": 5,
+                        "intensity": 5
+                    },
+                    "tint": null,
+                    "actorData": {}
+                }
+            ],
+            "originalLink": "ddb://image/oota/the-lost-tomb-player-version.jpg",
+            "foundryVersion": "0.8.9",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 2.4: The Lost Tomb",
                     "bookCode": "oota",
                     "contentChunkId": "60286c9d-6c5c-4734-bd1c-c88d188a2ba7",
                     "lastUpdate": "0.0.14",
-                    "notes": "0.0.14",
-                    "tokens": "0.0.14",
-                    "walls": "0.0.14",
+                    "notes": "0.1.39",
+                    "tokens": "0.1.39",
+                    "walls": "0.1.39",
                     "lights": "0.0.14",
-                    "drawings": "0.0.14"
+                    "drawings": "0.1.39"
                 }
             }
         },
-        "stairways": [],
-        "perfect-vision": [],
-        "dynamic-illumination": []
+        "stairways": [
+            {
+                "_id": "57qqnwkow1wpcbkk",
+                "scene": null,
+                "name": "sw-m0ursum8",
+                "x": 2812.5,
+                "y": 1837.5,
+                "disabled": false,
+                "hidden": true,
+                "animate": false,
+                "icon": null,
+                "label": "",
+                "fontFamily": null,
+                "fontSize": null,
+                "textColor": null
+            },
+            {
+                "_id": "lx0tjn3gcviuxvfy",
+                "scene": null,
+                "name": "sw-m0ursum8",
+                "x": 3038,
+                "y": 2100,
+                "disabled": false,
+                "hidden": false,
+                "animate": false
+            }
+        ],
+        "perfect-vision": {
+            "sightLimit": null,
+            "daylightColor": "",
+            "darknessColor": "",
+            "saturation": null
+        },
+        "dynamic-illumination": [],
+        "ddbimporter": {
+            "version": "2.7.2"
+        }
     },
+    "globalLight": false,
+    "globalLightThreshold": null,
     "grid": 75,
     "gridDistance": 5,
     "gridType": 1,
     "gridUnits": "ft",
     "height": 2222,
+    "initial": null,
     "lights": [],
     "name": "Map 2.4: The Lost Tomb",
     "navName": "The Lost Tomb",
+    "padding": 0.25,
     "shiftX": 9,
     "shiftY": 22,
+    "tokenVision": true,
     "walls": [
         {
             "c": [
@@ -44,10 +395,13 @@
                 900,
                 975
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -56,10 +410,13 @@
                 900,
                 1050
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -68,10 +425,13 @@
                 900,
                 1125
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -80,10 +440,13 @@
                 900,
                 1284
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -92,10 +455,13 @@
                 1359,
                 1284
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -104,10 +470,13 @@
                 1359,
                 1125
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -116,10 +485,13 @@
                 1490,
                 1125
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -128,10 +500,13 @@
                 1359,
                 815
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -140,10 +515,13 @@
                 1359,
                 965
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -152,10 +530,13 @@
                 1631,
                 965
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -164,10 +545,13 @@
                 1809,
                 1284
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -176,10 +560,13 @@
                 1359,
                 1284
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -188,10 +575,13 @@
                 1631,
                 1125
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -200,10 +590,13 @@
                 1940,
                 1556
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -212,10 +605,13 @@
                 1940,
                 1265
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -224,10 +620,13 @@
                 2409,
                 1265
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -236,10 +635,13 @@
                 2409,
                 1565
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -248,10 +650,13 @@
                 2540,
                 1565
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -260,10 +665,13 @@
                 2540,
                 1415
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -272,10 +680,13 @@
                 2859,
                 1415
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -284,10 +695,13 @@
                 2859,
                 1884
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -296,10 +710,13 @@
                 2540,
                 1884
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -308,10 +725,13 @@
                 2540,
                 1734
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -320,10 +740,13 @@
                 2409,
                 1734
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -332,10 +755,13 @@
                 2409,
                 1884
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -344,10 +770,13 @@
                 2259,
                 1884
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -356,10 +785,13 @@
                 2259,
                 2015
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -368,10 +800,13 @@
                 2559,
                 2015
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -380,10 +815,13 @@
                 2559,
                 2484
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -392,10 +830,13 @@
                 1940,
                 2484
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -404,10 +845,13 @@
                 1940,
                 2015
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -416,10 +860,13 @@
                 2090,
                 2015
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -428,10 +875,13 @@
                 2090,
                 1884
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -440,10 +890,13 @@
                 1940,
                 1884
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -452,10 +905,13 @@
                 1940,
                 1734
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -464,10 +920,13 @@
                 1650,
                 1734
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -476,10 +935,13 @@
                 1650,
                 1556
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -488,10 +950,13 @@
                 2990,
                 2015
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -500,10 +965,13 @@
                 3309,
                 2015
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -512,10 +980,13 @@
                 3309,
                 2484
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -524,10 +995,13 @@
                 2990,
                 2484
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -536,10 +1010,13 @@
                 2175,
                 2015
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -548,10 +1025,13 @@
                 2259,
                 2015
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -560,10 +1040,13 @@
                 2175,
                 1884
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -572,10 +1055,13 @@
                 2090,
                 1884
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -584,10 +1070,13 @@
                 2409,
                 1650
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -596,10 +1085,13 @@
                 2409,
                 1565
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -608,10 +1100,13 @@
                 1359,
                 1125
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         },
         {
             "c": [
@@ -620,10 +1115,13 @@
                 1809,
                 965
             ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -632,11 +1130,15 @@
                 1631,
                 1125
             ],
+            "move": 0,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 0,
-            "sense": 2
+            "flags": {}
         }
     ],
+    "weather": "",
     "width": 2728
 }
