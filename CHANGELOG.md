@@ -1,3 +1,7 @@
+# 0.1.41
+
+* DiA: Some scene corrections (@Pariah Zero#9919) (Some scenes require Foundry v9)
+
 # 0.1.40
 
 * IDRotF: Complete! Completionist award goes to @Pariah Zero#9919 (Some scenes require Foundry v9)
