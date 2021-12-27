@@ -1,3 +1,7 @@
+# 0.1.42
+
+* ToA: Scene tweaks. (Thanks @Zac#3720)
+
 # 0.1.41
 
 * DiA: Some scene corrections (@Pariah Zero#9919) (Some scenes require Foundry v9)

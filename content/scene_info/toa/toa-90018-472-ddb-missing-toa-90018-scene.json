@@ -1,5 +1,5 @@
 {
-    "backgroundColor": "#999999",
+    "backgroundColor": "#333333",
     "darkness": 0,
     "drawings": [],
     "flags": {
@@ -11,6 +11,7 @@
             "contentChunkId": "ddb-missing-toa-90018",
             "notes": [],
             "tokens": [],
+            "foundryVersion": "0.8.9",
             "versions": {
                 "ddbMetaData": {
                     "name": "Ataaz Muhahah",
@@ -19,31 +20,213 @@
                     "lastUpdate": "0.0.14",
                     "notes": "0.0.14",
                     "tokens": "0.0.14",
-                    "walls": "0.0.14",
-                    "lights": "0.0.14",
+                    "walls": "0.1.42",
+                    "lights": "0.1.42",
                     "drawings": "0.0.14"
                 }
             }
         },
         "stairways": [],
         "perfect-vision": [],
-        "dynamic-illumination": []
+        "dynamic-illumination": [],
+        "ddbimporter": {
+            "version": "2.7.2"
+        }
     },
-    "globalLight": false,
+    "globalLight": true,
     "globalLightThreshold": null,
     "grid": 65,
     "gridDistance": 5,
     "gridType": 1,
     "gridUnits": "ft",
     "height": 1900,
-    "initial": null,
-    "lights": [],
+    "initial": {
+        "x": 1806,
+        "y": 1660,
+        "scale": 0.88
+    },
+    "lights": [
+        {
+            "t": "g",
+            "x": 2990,
+            "y": 878,
+            "rotation": 0,
+            "dim": 95.69,
+            "bright": 47.84,
+            "angle": 0,
+            "tintColor": null,
+            "tintAlpha": 0.25,
+            "lightAnimation": {
+                "speed": 5,
+                "intensity": 5
+            },
+            "darknessThreshold": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            },
+            "hidden": false,
+            "flags": {}
+        }
+    ],
     "name": "Ataaz Muhahah",
     "navName": "Ataaz Muhahah",
+    "padding": 0.25,
     "shiftX": 13,
     "shiftY": 7,
     "tokenVision": true,
-    "walls": [],
+    "walls": [
+        {
+            "c": [
+                2608,
+                585,
+                3388,
+                585
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                3388,
+                585,
+                3388,
+                1243
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                3388,
+                1243,
+                2608,
+                1243
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2608,
+                1243,
+                2608,
+                585
+            ],
+            "move": 1,
+            "sense": 1,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                975,
+                1495,
+                2356,
+                1495
+            ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                975,
+                1746,
+                2340,
+                1755
+            ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1795,
+                1592,
+                1844,
+                1592
+            ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1844,
+                1592,
+                1844,
+                1657
+            ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1844,
+                1657,
+                1795,
+                1657
+            ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1795,
+                1657,
+                1795,
+                1592
+            ],
+            "move": 1,
+            "sense": 2,
+            "sound": 1,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        }
+    ],
     "weather": "",
     "width": 2750
 }
