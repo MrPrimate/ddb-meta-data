@@ -1,3 +1,7 @@
+# 0.1.44
+
+* DiA: New Scenes (@Pariah Zero#9919) (Some scenes require Foundry v9)
+
 # 0.1.43
 
 * DiA: New Scenes (@Pariah Zero#9919) (Some scenes require Foundry v9)
