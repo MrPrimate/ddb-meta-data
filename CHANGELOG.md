@@ -1,14 +1,19 @@
 # 0.1.45
 
-* DiA: New Scenes (@Pariah Zero#9919) (Some scenes require Foundry v9)
+* BGDiA: New Scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
+* BG:DiA now complete! All hail @Pariah Zero#9919!
+* SACoC: Missing pins for Central Campus. 
+* SACoC: Grids for all maps. (@Pariah Zero#9919)
+* SACoC: Some scenes are now lit. (@Pariah Zero#9919) (Scene lights require Foundry v9)
+* RoT: updates for a couple of scenes. (@Pariah Zero#9919)
 
 # 0.1.44
 
-* DiA: New Scenes (@Pariah Zero#9919) (Some scenes require Foundry v9)
+* DiA: New Scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
 
 # 0.1.43
 
-* DiA: New Scenes (@Pariah Zero#9919) (Some scenes require Foundry v9)
+* DiA: New Scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
 
 # 0.1.42
 
@@ -16,12 +21,12 @@
 
 # 0.1.41
 
-* DiA: Some scene corrections (@Pariah Zero#9919) (Some scenes require Foundry v9)
+* DiA: Some scene corrections (@Pariah Zero#9919) (Scene lights require Foundry v9)
 
 # 0.1.40
 
-* IDRotF: Complete! Completionist award goes to @Pariah Zero#9919 (Some scenes require Foundry v9)
-* DiA: Some scene corrections (@Pariah Zero#9919) (Some scenes require Foundry v9)
+* IDRotF: Complete! Completionist award goes to @Pariah Zero#9919 (Scene lights require Foundry v9)
+* DiA: Some scene corrections (@Pariah Zero#9919) (Scene lights require Foundry v9)
 
 # 0.1.39
 
