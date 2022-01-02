@@ -11,25 +11,29 @@
             "contentChunkId": "1b020d7e-0471-47cf-9a97-14a3d0fa6998",
             "notes": [],
             "tokens": [],
-            "foundryVersion": "0.8.9",
+            "originalLink": "ddb://image/bgdia/q2wdo-map-1-1-player.jpg",
+            "foundryVersion": "9.238",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 1.1: Baldur’s Gate",
                     "bookCode": "bgdia",
                     "contentChunkId": "1b020d7e-0471-47cf-9a97-14a3d0fa6998",
-                    "lastUpdate": "0.0.14",
+                    "lastUpdate": "0.1.40",
                     "notes": "0.0.14",
                     "tokens": "0.0.14",
                     "walls": "0.0.14",
-                    "lights": "0.0.14",
-                    "drawings": "0.0.14"
+                    "lights": "0.1.46",
+                    "drawings": "0.0.14",
+                    "foundry": "9.238"
                 }
             }
         },
         "stairways": [],
         "perfect-vision": [],
         "dynamic-illumination": [],
-        "ddbimporter": {}
+        "ddbimporter": {
+            "version": "2.7.7"
+        }
     },
     "globalLight": false,
     "globalLightThreshold": null,
@@ -45,25 +49,41 @@
     },
     "lights": [
         {
-            "angle": 360,
-            "bright": 19.13,
-            "darknessThreshold": 0,
-            "dim": 38.27,
-            "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.06,
             "x": 1750,
             "y": 1700,
-            "lightAnimation": {
-                "type": "wave",
-                "speed": 5,
-                "intensity": 1
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "dim": 38.27,
+                "bright": 19.13,
+                "angle": 0,
+                "alpha": 0.05,
+                "animation": {
+                    "type": "energy",
+                    "speed": 5,
+                    "intensity": 9,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "gradual": true,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "color": "#00ccff"
             },
-            "hidden": false
+            "hidden": false,
+            "flags": {}
         }
     ],
     "name": "Map 1.1: Baldur’s Gate",
     "navName": "Baldur’s Gate",
+    "padding": 0.25,
     "shiftX": 0,
     "shiftY": 0,
     "tokenVision": false,
