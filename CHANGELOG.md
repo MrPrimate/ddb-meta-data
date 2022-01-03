@@ -1,3 +1,8 @@
+# 0.1.47
+
+* DDvRaM: scene update (@Pariah Zero#9919) (Scene lights require Foundry v9)
+* CM: New scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
+
 # 0.1.46
 
 * SACoC: Complete! All hail @Pariah Zero#9919!
