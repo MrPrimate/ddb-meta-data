@@ -1,3 +1,7 @@
+# 0.1.46
+
+* SACoC: Complete! All hail @Pariah Zero#9919!
+
 # 0.1.45
 
 * BGDiA: New Scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
