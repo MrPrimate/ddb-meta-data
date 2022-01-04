@@ -1,3 +1,7 @@
+# 0.1.48
+
+* CM: New scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
+
 # 0.1.47
 
 * DDvRaM: scene update (@Pariah Zero#9919) (Scene lights require Foundry v9)

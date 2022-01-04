@@ -20,7 +20,7 @@
             "strokeWidth": 8,
             "strokeColor": "#28cc9c",
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "DC15",
             "fontFamily": "Signika",
             "fontSize": 48,
@@ -432,47 +432,6 @@
             ],
             "tokens": [
                 {
-                    "_id": "zXSdtCxchauxn2gA",
-                    "name": "Sæth",
-                    "width": 1,
-                    "height": 1,
-                    "scale": 1,
-                    "x": 1951.23291015625,
-                    "y": 4806.060791015625,
-                    "disposition": 0,
-                    "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
-                        "ddbActorFlags": {
-                            "id": 17137,
-                            "entityTypeId": 779871897,
-                            "creatureGroup": null,
-                            "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
-                            "name": "Cambion"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "tint": "",
-                    "actorData": {
-                        "data": {
-                            "resources": {
-                                "lair": {
-                                    "value": false
-                                }
-                            }
-                        },
-                        "oldHpVal": 82
-                    }
-                },
-                {
                     "_id": "c5cs2U1WLvm6HJPi",
                     "name": "Awakened Tree",
                     "width": 3,
@@ -530,7 +489,7 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
+                    "tint": null,
                     "actorData": {}
                 },
                 {
@@ -562,7 +521,7 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
+                    "tint": null,
                     "actorData": {
                         "data": {
                             "resources": {
@@ -603,7 +562,7 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
+                    "tint": null,
                     "actorData": {
                         "data": {
                             "resources": {
@@ -644,7 +603,7 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
+                    "tint": null,
                     "actorData": {
                         "data": {
                             "resources": {
@@ -685,7 +644,7 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": "",
+                    "tint": null,
                     "actorData": {}
                 },
                 {
@@ -717,7 +676,7 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
+                    "tint": null,
                     "actorData": {
                         "data": {
                             "resources": {
@@ -787,7 +746,7 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": "",
+                    "tint": null,
                     "actorData": {
                         "data": {
                             "resources": {
@@ -828,7 +787,7 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": "",
+                    "tint": null,
                     "actorData": {
                         "data": {
                             "resources": {
@@ -838,6 +797,50 @@
                             }
                         },
                         "oldHpVal": 27
+                    }
+                },
+                {
+                    "_id": "iYdbCFZUavZATDMG",
+                    "name": "Gorba Daardenrian",
+                    "width": 1,
+                    "height": 1,
+                    "scale": 1,
+                    "x": 3600,
+                    "y": 2400,
+                    "disposition": 0,
+                    "flags": {
+                        "splatter": {
+                            "bloodColor": ""
+                        },
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.7.7",
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "tint": "",
+                    "actorData": {
+                        "data": {
+                            "details": {
+                                "cr": "0"
+                            },
+                            "resources": {
+                                "lair": {
+                                    "value": false
+                                }
+                            }
+                        },
+                        "oldHpVal": 4
                     }
                 }
             ],
@@ -850,15 +853,42 @@
                     "contentChunkId": "MapMap701templeoftherestfullily-player",
                     "lastUpdate": "0.1.47",
                     "notes": "0.1.47",
-                    "tokens": "0.1.47",
+                    "tokens": "0.1.48",
                     "walls": "0.1.47",
                     "lights": "0.1.47",
-                    "drawings": "0.1.47",
+                    "drawings": "0.1.48",
                     "foundry": "9.238"
                 }
             }
         },
-        "stairways": {},
+        "stairways": [
+            {
+                "_id": "8mot6gx98p6lhd4f",
+                "scene": "yHavfUdFbIyQadfW",
+                "name": "sw-mv64jiti",
+                "x": 3550,
+                "y": 2300,
+                "width": null,
+                "height": null,
+                "disabled": false,
+                "hidden": false,
+                "animate": false,
+                "partnerSceneLabel": false
+            },
+            {
+                "_id": "9ucxngc9wvl77ylk",
+                "scene": "yHavfUdFbIyQadfW",
+                "name": "sw-nlld8rul",
+                "x": 2050,
+                "y": 1950,
+                "width": null,
+                "height": null,
+                "disabled": false,
+                "hidden": false,
+                "animate": false,
+                "partnerSceneLabel": false
+            }
+        ],
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
