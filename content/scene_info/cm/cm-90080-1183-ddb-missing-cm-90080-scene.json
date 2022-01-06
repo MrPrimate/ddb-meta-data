@@ -1,0 +1,535 @@
+{
+    "backgroundColor": "#999999",
+    "darkness": 0,
+    "drawings": [],
+    "flags": {
+        "ddb": {
+            "bookCode": "cm",
+            "ddbId": 90080,
+            "cobaltId": null,
+            "parentId": 1183,
+            "contentChunkId": "ddb-missing-cm-90080",
+            "notes": [
+                {
+                    "label": "C06. Second Floor Bedroom",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2108,
+                            "bookCode": "cm",
+                            "slug": "zikrans-zephyrean-tome#CloudGiantsKeep",
+                            "contentChunkId": "c4a3fba1-9a3a-49c7-9bea-6b5cc4a6a814",
+                            "note": true,
+                            "img": false,
+                            "parentId": 1183,
+                            "linkId": "uflUAXBOGiRAdhWg"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 2550,
+                            "y": 2650
+                        },
+                        {
+                            "x": 2550,
+                            "y": 2650
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [
+                {
+                    "_id": "rXKOfwOcx0EXZhmx",
+                    "name": "Cloud Giant Ghost",
+                    "width": 3,
+                    "height": 3,
+                    "scale": 1,
+                    "x": 2000,
+                    "y": 2100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 1528958,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "flatAC": true,
+                            "version": "2.7.7",
+                            "name": "Cloud Giant Ghost"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "tint": null,
+                    "actorData": {}
+                }
+            ],
+            "originalLink": "ddb://image/cm/map-12.02-cloud-giants-keep-player.jpg",
+            "foundryVersion": "9.238",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Cloud Giants Keep (2nd Floor)",
+                    "bookCode": "cm",
+                    "contentChunkId": "ddb-missing-cm-90080",
+                    "lastUpdate": "0.1.48",
+                    "notes": "0.1.48",
+                    "tokens": "0.1.48",
+                    "walls": "0.1.48",
+                    "lights": "0.1.48",
+                    "drawings": "0.1.48",
+                    "foundry": "9.238"
+                }
+            }
+        },
+        "stairways": [
+            {
+                "_id": "nugvrh0vxok9s3vt",
+                "scene": "MtAynHHK3Q5ksiJV",
+                "name": "sw-gub90zzd",
+                "x": 3800,
+                "y": 2150,
+                "width": null,
+                "height": null,
+                "disabled": false,
+                "hidden": false,
+                "animate": false,
+                "partnerSceneLabel": false
+            }
+        ],
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "2.7.7"
+        }
+    },
+    "globalLight": false,
+    "globalLightThreshold": null,
+    "grid": 100,
+    "gridDistance": 5,
+    "gridType": 1,
+    "gridUnits": "ft",
+    "height": 10561,
+    "initial": {
+        "x": 2974,
+        "y": 2856,
+        "scale": 1
+    },
+    "lights": [
+        {
+            "x": 2750,
+            "y": 2950,
+            "rotation": 0,
+            "walls": false,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 0,
+                "bright": 85,
+                "coloration": 1,
+                "dim": 0,
+                "gradual": false,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.7
+                },
+                "color": null
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1900,
+            "y": 1700,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 0,
+                "bright": 40,
+                "coloration": 1,
+                "dim": 80,
+                "gradual": true,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.7
+                },
+                "color": null
+            },
+            "hidden": false,
+            "flags": {}
+        }
+    ],
+    "name": "Cloud Giants Keep (2nd Floor)",
+    "navName": "Cloud Giants Keep (2nd Floor)",
+    "padding": 0.15,
+    "shiftX": -23,
+    "shiftY": -9,
+    "tokenVision": true,
+    "walls": [
+        {
+            "c": [
+                1600,
+                1987,
+                1800,
+                1987
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1800,
+                1987,
+                2187,
+                1987
+            ],
+            "light": 0,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2187,
+                1987,
+                2800,
+                1987
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2800,
+                1987,
+                3600,
+                1987
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                3600,
+                1987,
+                4000,
+                1987
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                4000,
+                1987,
+                4000,
+                3300
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                4000,
+                3300,
+                3200,
+                3700
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                3200,
+                3700,
+                2700,
+                3900
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2700,
+                3900,
+                2000,
+                4100
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2000,
+                4100,
+                1800,
+                4100
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1800,
+                4100,
+                1600,
+                4100
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1600,
+                4100,
+                1587,
+                4000
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1587,
+                4000,
+                1587,
+                3200
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1587,
+                3200,
+                1600,
+                1987
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2800,
+                1987,
+                2800,
+                2600
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2800,
+                2600,
+                2800,
+                2787
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2800,
+                2787,
+                2800,
+                3200
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2800,
+                3200,
+                2175,
+                3200
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2175,
+                3200,
+                2012,
+                3200
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2012,
+                3200,
+                1587,
+                3200
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                3600,
+                1987,
+                3600,
+                2800
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        }
+    ],
+    "weather": "",
+    "width": 7794
+}
