@@ -1,6 +1,8 @@
-# 0.1.48
+# 0.1.49
 
-* CM: New scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
+* CM: Complete (All hail @Pariah Zero#9919) (Scene lights require Foundry v9)
+* CoS: new scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
+* IDRotF: scene tweaks (@Pariah Zero#9919) (Scene lights require Foundry v9)
 
 # 0.1.47
 

@@ -1074,59 +1074,6 @@
                     }
                 },
                 {
-                    "_id": "CyQM2EeleCAbNuwy",
-                    "name": "Valin Sarnaster",
-                    "width": 1,
-                    "height": 1,
-                    "scale": 1,
-                    "x": 4542.143110795454,
-                    "y": 1747.469815340909,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 1528986,
-                            "entityTypeId": 779871897,
-                            "creatureGroup": null,
-                            "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
-                            "name": "Valin Sarnaster"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "tint": null,
-                    "actorData": {
-                        "data": {
-                            "spells": {
-                                "spell1": {
-                                    "value": 4
-                                },
-                                "spell2": {
-                                    "value": 3
-                                },
-                                "spell3": {
-                                    "value": 3
-                                },
-                                "spell4": {
-                                    "value": 3
-                                },
-                                "spell5": {
-                                    "value": 2
-                                },
-                                "spell6": {
-                                    "value": 1
-                                }
-                            }
-                        },
-                        "oldHpVal": 97
-                    }
-                },
-                {
                     "_id": "OGPMQNdkIr6qDIfv",
                     "name": "Mayastan Sadaar",
                     "width": 1,
@@ -1174,7 +1121,7 @@
                 }
             ],
             "originalLink": "ddb://image/cm/map-15.01-tomb-of-valin-sarnaster-player.jpg",
-            "foundryVersion": "9.241",
+            "foundryVersion": "9.242",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 15.1: Tomb of Valin Sarnaster",
@@ -1182,15 +1129,52 @@
                     "contentChunkId": "MapMap1501tombofvalinsarnaster-player",
                     "lastUpdate": "0.1.48",
                     "notes": "0.1.48",
-                    "tokens": "0.1.48",
+                    "tokens": "0.1.49",
                     "walls": "0.1.48",
                     "lights": "0.1.48",
                     "drawings": "0.1.48",
-                    "foundry": "9.241"
+                    "foundry": "9.242"
                 }
             }
         },
-        "stairways": {},
+        "stairways": [
+            {
+                "_id": "1kyhe4kzec8i1227",
+                "scene": null,
+                "name": "sw-c8f4t3f8",
+                "x": 4700,
+                "y": 4500,
+                "label": "",
+                "fontFamily": null,
+                "fontSize": null,
+                "textColor": null,
+                "icon": "icons/svg/cave.svg",
+                "width": null,
+                "height": null,
+                "disabled": false,
+                "hidden": false,
+                "animate": false,
+                "partnerSceneLabel": false
+            },
+            {
+                "_id": "mjevvv3kccdpya8o",
+                "scene": null,
+                "name": "sw-c8f4t3f8",
+                "x": 4100,
+                "y": 4500,
+                "width": null,
+                "height": null,
+                "disabled": false,
+                "hidden": false,
+                "animate": false,
+                "partnerSceneLabel": false,
+                "icon": "icons/svg/cave.svg",
+                "label": "",
+                "fontFamily": null,
+                "fontSize": null,
+                "textColor": null
+            }
+        ],
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
