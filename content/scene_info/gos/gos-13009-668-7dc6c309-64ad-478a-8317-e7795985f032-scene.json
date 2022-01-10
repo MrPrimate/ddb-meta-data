@@ -9,16 +9,96 @@
             "cobaltId": null,
             "parentId": 668,
             "contentChunkId": "7dc6c309-64ad-478a-8317-e7795985f032",
-            "notes": [],
+            "notes": [
+                {
+                    "label": "Drowned Forest",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2033,
+                            "bookCode": "gos",
+                            "slug": "saltmarsh#SaltmarshRegion",
+                            "contentChunkId": "8e309dd1-2a4d-4a05-bb8c-0504cb0f7c9a",
+                            "note": true,
+                            "img": false,
+                            "parentId": 668,
+                            "linkId": "wIDznkPrXQEHQtV6"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 4330.127018922193,
+                            "y": 2300
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "Hool Marshes",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2039,
+                            "bookCode": "gos",
+                            "slug": "saltmarsh#SaltmarshRegion",
+                            "contentChunkId": "45749f79-5b8d-4d44-bfde-15bdb21c2474",
+                            "note": true,
+                            "img": false,
+                            "parentId": 668,
+                            "linkId": "Jn02ZFW7l5cWNFsN"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 2771.28,
+                            "y": 2300
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "Silverstand",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2049,
+                            "bookCode": "gos",
+                            "slug": "saltmarsh#SaltmarshRegion",
+                            "contentChunkId": "abd151fb-3399-4729-86a3-39686e9aa4cd",
+                            "note": true,
+                            "img": false,
+                            "parentId": 668,
+                            "linkId": "2KCoSfzPNb2wwZpf"
+                        }
+                    },
+                    "positions": [
+                        {
+                            "x": 4503.332099679081,
+                            "y": 3600
+                        }
+                    ],
+                    "iconSize": 40,
+                    "iconTint": null,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                }
+            ],
             "tokens": [],
             "originalLink": "ddb://image/gos/02-pc.png",
+            "foundryVersion": "9.242",
             "versions": {
                 "ddbMetaData": {
                     "name": "Local Region",
                     "bookCode": "gos",
                     "contentChunkId": "7dc6c309-64ad-478a-8317-e7795985f032",
                     "lastUpdate": "0.1.8",
-                    "notes": "0.1.8",
+                    "notes": "0.1.50",
                     "tokens": "0.1.8",
                     "walls": "0.1.8",
                     "lights": "0.1.8",
@@ -28,28 +108,31 @@
         },
         "stairways": [],
         "perfect-vision": [],
-        "dynamic-illumination": []
+        "dynamic-illumination": [],
+        "ddbimporter": {
+            "version": "2.7.7"
+        }
     },
     "globalLight": true,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
-    "height": 5700,
+    "grid": 400,
+    "gridDistance": 7500,
+    "gridType": 3,
+    "gridUnits": "yd",
+    "height": 5648,
     "initial": {
-        "x": 3222,
-        "y": 4373,
-        "scale": 0.16
+        "x": 4372,
+        "y": 4783,
+        "scale": 0.15
     },
     "lights": [],
     "name": "Local Region",
     "navName": "Local Region",
     "padding": 0.25,
-    "shiftX": 0,
-    "shiftY": 0,
+    "shiftX": -123,
+    "shiftY": 12,
     "tokenVision": false,
     "walls": [],
     "weather": "",
-    "width": 4200
+    "width": 4162
 }
