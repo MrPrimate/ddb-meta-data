@@ -1,3 +1,7 @@
+# 0.1.51
+
+* GoS Scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
+
 # 0.1.50
 
 * Saltmarsh Pin tweaks
