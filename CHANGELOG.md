@@ -1,3 +1,7 @@
+# 0.1.52
+
+* TFoF: Map scene updates (@Pariah Zero#9919)
+
 # 0.1.51
 
 * GoS Scenes Complete  (All hail @Pariah Zero#9919) (Scene lights require Foundry v9)
