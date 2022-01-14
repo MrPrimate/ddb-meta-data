@@ -1,10 +1,11 @@
 # 0.1.52
 
 * TFoF: Map scene updates (@Pariah Zero#9919)
+* DoIP: Scene updates (@Pariah Zero#9919) (Scene lights require Foundry v9)
 
 # 0.1.51
 
-* GoS Scenes Complete  (All hail @Pariah Zero#9919) (Scene lights require Foundry v9)
+* GoS Scenes Complete (All hail @Pariah Zero#9919) (Scene lights require Foundry v9)
 * TFoF: Scene tweaks and missing map scene (@Pariah Zero#9919) (Scene lights require Foundry v9)
 * TTP: : Scene tweaks (@Pariah Zero#9919) (Scene lights require Foundry v9)
 * THSoT: Scene tweaks (@Pariah Zero#9919) (Scene lights require Foundry v9)
