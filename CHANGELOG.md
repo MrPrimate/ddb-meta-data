@@ -1,8 +1,12 @@
+# 0.1.54
+
+* OotA: Missing Scenes for Gracklstugh! (@Pariah Zero#9919)
+
 # 0.1.53
 
 * DoIP Scenes Complete (All hail @Pariah Zero#9919) (Scene lights require Foundry v9)
 * WPM: Map scene updates (@Pariah Zero#9919)
-* TSC: Map scene updates (@Pariah Zero#9919)
+* TSC: Map scene updates
 
 # 0.1.52
 
