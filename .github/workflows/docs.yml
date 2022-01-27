@@ -1,8 +1,5 @@
 name: Deploy documentation updates
-on:
-  push:
-    tags: 
-      - v*
+on: [push]
 
 jobs:
   run:
