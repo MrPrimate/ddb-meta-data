@@ -15,7 +15,7 @@ jobs:
           working-directory: docs
 
         - name: Build
-          run: npm deploy
+          run: npm run deploy
           working-directory: docs
 
         - name: Deploy
