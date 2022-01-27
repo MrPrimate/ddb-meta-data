@@ -1,0 +1,37 @@
+{
+  "name": "ddb-show",
+  "version": "1.0.0",
+  "description": "A tool to generate a DDB Adventure Parsing Status page",
+  "main": "index.js",
+  "author": "MrPrimate",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bulma": "^0.9.3",
+    "lodash": "^4.17.21",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0"
+  },
+  "scripts": {
+    "mkdir": "mkdir -p dist/fonts/js dist/css dist/lib",
+    "fa-copy": "cp node_modules/@fortawesome/fontawesome-free/js/* dist/fonts/js/",
+    "prep": "rm -rf dist/ && npm run mkdir && npm run fa-copy",
+    "css-build": "node-sass _sass/main.scss dist/css/main.css",
+    "css-deploy": "npm run prep && npm run css-build && npm run css-postcss",
+    "css-postcss": "postcss --use autoprefixer --output dist/css/main.css dist/css/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "js-build": "babel _javascript --out-dir dist/lib",
+    "js-watch": "npm run js-build -- --watch",
+    "start": "npm run prep && npm-run-all --parallel css-watch js-watch",
+    "html": "node status.js generate-html",
+    "docs-data": "node status.js generate-data",
+    "docs-build": "npm run docs-data && npm run html",
+    "deploy": "npm run css-deploy && npm run js-build && npm run docs-build"
+  }
+}
