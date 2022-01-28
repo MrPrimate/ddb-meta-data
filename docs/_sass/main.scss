@@ -15,4 +15,18 @@ $primary: $black;
 $primary-invert: $red;
 $modal-content-width: 75%;
 
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.columns button {
+    margin-top: auto;
+}
+
+.columns span {
+    margin-top: auto;
+}
+
 @import "../node_modules/bulma/bulma";

@@ -216,25 +216,25 @@ function generateBookTile(bookData) {
   //     : "Poor";
 
   const status = bookData.status?.complete
-    ? `<span class="tag is-success is-light">Status: Complete!</span>`
+    ? `<span class="tag is-medium is-success is-light">Status: Complete!</span>`
     : bookData.status?.score > 1
-      ? `<span class="tag is-warning is-light">Status: Partial</span>`
-      : `<span class="tag is-danger is-light">Status: Poor</span>`;
+      ? `<span class="tag is-medium is-warning is-light">Status: Partial</span>`
+      : `<span class="tag is-medium is-danger is-light">Status: Poor</span>`;
 
   const thirdParty = bookData.status?.third
-    ? `<span class="tag is-danger is-light">Third Party Scenes</span>`
+    ? `<span class="tag is-medium is-link is-light">Third Party Scenes Available!</span>`
     : "";
 
   const details = bookData.scenes.length > 0
   ? `
-              <div class="column buttons">
+              <div class="column buttons item">
                 <button class="button is-info js-modal-trigger" data-target="${bookData.bookCode}">Details</button>
               </div>
 `
   : "";
   const adjustedScenes = bookData.scenes.length > 0
-  ? `<span class="tag is-info is-light">${scenes} Scenes Submitted</span>`
-  : `<span class="tag is-danger is-light">No submissions</span>`;
+    ? `<span class="tag is-medium is-info is-light">${scenes} Scenes Submitted</span>`
+    : `<span class="tag is-medium is-danger is-light">No submissions</span>`;
 
   const title = bookData.description;
 
@@ -244,7 +244,7 @@ function generateBookTile(bookData) {
               <p class="title">${title}</p>
               <p class="subtitle"><i>${bookData.bookCode}</i></p>
               <div class="columns is-vcentered">
-                <div class="column content is-three-quarters">
+                <div class="column content is-three-quarters item">
                   ${adjustedScenes}
                   ${status}
                   ${thirdParty}
