@@ -4,11 +4,15 @@
 
 $fa-font-path: "../fonts";
 
+$black: #000000;
+$red: #c73032;
 $blue: #06bcef;
 $pink: #ff8080;
 $pink-invert: #fff;
+$red-invert: #000000;
 $family-sans-serif: "Helvetica", "Arial", sans-serif;
-$primary: $pink;
-$primary-invert: $pink-invert;
+$primary: $black;
+$primary-invert: $red;
+$modal-content-width: 75%;
 
 @import "../node_modules/bulma/bulma";

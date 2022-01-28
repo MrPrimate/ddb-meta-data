@@ -104,190 +104,6 @@ if (process.argv[2] === "generate-status") {
 }
 
 
-// const tickIcon = `<span class="icon has-text-info"><i class="fas fa-check-circle" style="color: green"></i></span>`;
-// const crossIcon = `<span class="icon has-text-info"><i class="fas fa-times-circle" style="color: red"></i></span>`;
-
-// HTML generation functions
-function generateBookTile(bookData) {
-  const colourTag = bookData.status?.complete
-    ? "is-info"
-    : bookData.status?.score === 0
-      ? "is-danger"
-      : "is-warning";
-  const scenes = bookData.scenes.length;
-
-  const status = bookData.status?.complete
-    ? "Complete!"
-    : bookData.status?.score > 1
-      ? "Partial"
-      : "Poor";
-
-  const thirdParty = bookData.status?.third
-    ? `<li><b>Third Party Scenes Available</b></li>`
-    : "";
-
-  const title = bookData.scenes.length > 0
-    ? `<a href="#${bookData.bookCode}">${bookData.description}</a>`
-    : `${bookData.description}`;
-
-  const template = `
-            <article class="tile is-child notification ${colourTag}" bookCode="${bookData.bookCode}">
-              <p class="title">${title}</p>
-              <p class="subtitle"><i>${bookData.bookCode}</i></p>
-              <div class="content">
-                <ul>
-                  <li><b>Scenes Adjusted:</b> ${scenes}</li>
-                  <li><b>Overall Status:</b> ${status}</li>
-                  ${thirdParty}
-                </ul>
-              </div>
-            </article>
-`;
-  return template;
-}
-
-function generateBooksOverview(jsonData) {
-  const columnBreak = Math.ceil(Object.keys(jsonData).length / 3);
-  let content = `
-    <section class="section">
-      <div class="container">
-        <div class="content">
-          <h1>Overview</h1>
-        </div>
-        <div class="tile is-ancestor">
-          <div class="tile is-4 is-vertical is-parent">
-`;
-  const columnHeader = `
-          <div class="tile is-4 is-vertical is-parent">`;
-  let column = 1;
-  let i = 0;
-  for (const bookData of Object.values(jsonData)) {
-    if (i === columnBreak * column) {
-      content += `</div>`;
-      content += columnHeader;
-      column ++;
-    }
-    content += generateBookTile(bookData);
-    i ++;
-  }
-
-  content += `        </div>
-        </div>
-      </div>
-    </section>
-`;
-  return content;
-}
-
-function generateSceneTile(sceneData) {
-  const tiles = sceneData.tiles.length > 0
-    ? `<li><i>Helper tiles placed</i></li>`
-    : "";
-  const stairways = sceneData.stairways > 0
-    ? `<li><i>Stairways Support</i></li>`
-    : "";
-  const perfectVision = sceneData.perfectVision
-    ? `<li><i>Perfect Vision Support</i></li>`
-    : "";
-  const template = `
-            <article class="tile is-child box is-outlined">
-              <p class="title">${sceneData.name}</p>
-              <p class="subtitle is-italic">Foundry v${sceneData.foundryVersion}</p>
-              <div class="content">
-                <ul>
-                  <li><b>Tokens:</b> ${sceneData.tokens}</li>
-                  <li><b>Walls:</b> ${sceneData.walls}</li>
-                  <li><b>Lights:</b> ${sceneData.lights}</li>
-                  <li><b>Pins:</b> ${sceneData.notes}</li>
-                  ${tiles}
-                  ${stairways}
-                  ${perfectVision}
-                </ul>
-              </div>
-            </article>
-`;
-  return template;
-
-}
-
-function generateBookDetailSectionTiles(bookData) {
-  let content = `
-    <section class="section">
-      <div class="container">
-        <div class="content">
-          <h2>${bookData.description}</h2>
-        </div>
-        <div class="tile is-ancestor">
-`;
-  let columnHeader = `
-          <div class="tile is-3 is-vertical is-parent">`;
-  let column = 0;
-  let columnContent = [
-    columnHeader,
-    columnHeader,
-    columnHeader,
-    columnHeader,
-  ];
-
-  const maxColumns = columnContent.length;
-  for (const scene of bookData.scenes) {
-    columnContent[column] += generateSceneTile(scene);
-    column ++;
-    if (column === maxColumns) column = 0;
-  }
-
-  columnContent = columnContent.map((c) => {
-    c += `
-          </div>
-`;
-    return c;
-  }).join("");
-  content += columnContent;
-  content += `
-        </div>
-      </div>
-    </section>
-`;
-  return content;
-}
-
-
-function generateSceneRow(sceneData) {
-  let otherNoteContent = "";
-  if (sceneData.tiles.length > 0) otherNoteContent += "<li><i>Helper tiles placed</i></li>";
-  if (sceneData.stairways > 0) otherNoteContent += "<li><i>Stairways Support</i></li>";
-  if (sceneData.perfectVision) otherNoteContent += "<li><i>Perfect Vision Support</i></li>";
-
-  const otherNotes = (otherNoteContent !== "") 
-    ? `
-                <ul>
-                  ${otherNoteContent}
-                </ul>
-`
-  : "";
-
-  // name
-  // tokens
-  // walls
-  // lights
-  // pins
-  // foundry version
-  // other notes
-  const template = `
-            <tr>
-              <th>${sceneData.name}</th>
-              <td>${sceneData.tokens}</td>
-              <td>${sceneData.walls}</td>
-              <td>${sceneData.lights}</td>
-              <td>${sceneData.notes}</td>
-              <td>${sceneData.foundryVersion}</td>
-              <td class="is-italic">${otherNotes}</td>
-            </tr>
-`;
-  return template;
-
-}
-
 function generateBookDetailSectionTable(bookData) {
   let content = `
     <section class="section">
@@ -362,15 +178,164 @@ function generateBooksDetails(jsonData, tiles=false) {
 }
 
 
+function generateDetailModal(bookData) {
+  let content = `
+<div class="modal" id="${bookData.bookCode}">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">${bookData.description}</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      ${generateBookDetailSectionTable(bookData)}
+    </section>
+  </div>
+</div>
+`;
+return content;
+}
+
+// const tickIcon = `<span class="icon has-text-info"><i class="fas fa-check-circle" style="color: green"></i></span>`;
+// const crossIcon = `<span class="icon has-text-info"><i class="fas fa-times-circle" style="color: red"></i></span>`;
+
+// HTML generation functions
+function generateBookTile(bookData) {
+  // const colourTag = bookData.status?.complete
+  //   ? "is-info"
+  //   : bookData.status?.score === 0
+  //     ? "is-danger"
+  //     : "is-warning";
+  const colourTag = "";
+  const scenes = bookData.scenes.length;
+
+  // const status = bookData.status?.complete
+  //   ? "Complete!"
+  //   : bookData.status?.score > 1
+  //     ? "Partial"
+  //     : "Poor";
+
+  const status = bookData.status?.complete
+    ? `<span class="tag is-success is-light">Status: Complete!</span>`
+    : bookData.status?.score > 1
+      ? `<span class="tag is-warning is-light">Status: Partial</span>`
+      : `<span class="tag is-danger is-light">Status: Poor</span>`;
+
+  const thirdParty = bookData.status?.third
+    ? `<span class="tag is-danger is-light">Third Party Scenes</span>`
+    : "";
+
+  const details = bookData.scenes.length > 0
+  ? `
+              <div class="column buttons">
+                <button class="button is-info js-modal-trigger" data-target="${bookData.bookCode}">Details</button>
+              </div>
+`
+  : "";
+  const adjustedScenes = bookData.scenes.length > 0
+  ? `<span class="tag is-info is-light">${scenes} Scenes Submitted</span>`
+  : `<span class="tag is-danger is-light">No submissions</span>`;
+
+  const title = bookData.description;
+
+  const template = `
+          <div class="tile is-4 is-parent">
+            <article class="tile is-child box notification ${colourTag}" bookCode="${bookData.bookCode}">
+              <p class="title">${title}</p>
+              <p class="subtitle"><i>${bookData.bookCode}</i></p>
+              <div class="columns is-vcentered">
+                <div class="column content is-three-quarters">
+                  ${adjustedScenes}
+                  ${status}
+                  ${thirdParty}
+                </div>
+                ${details}
+              </div>
+            </article>
+          </div>
+          ${generateDetailModal(bookData)}
+`;
+  return template;
+}
+
+function generateBooksOverview(jsonData) {
+  let content = `
+    <section class="section">
+      <div class="container">
+`;
+  const rowHeader = `
+        <div class="tile is-ancestor">
+`;
+  const rowFooter = `
+        </div>
+`;
+  const maxColumns = 3;
+  let column = 0;
+  for (const bookData of Object.values(jsonData)) {
+    if (column === maxColumns) {
+      content += rowFooter;
+      column = 0;
+    }
+    if (column === 0) content += rowHeader
+    content += generateBookTile(bookData);
+    column ++;
+  }
+
+  content += `
+          </div>
+        </div>
+      </div>
+    </section>
+`;
+  return content;
+}
+
+function generateSceneRow(sceneData) {
+  let otherNoteContent = "";
+  if (sceneData.tiles.length > 0) otherNoteContent += "<li><i>Helper tiles placed</i></li>";
+  if (sceneData.stairways > 0) otherNoteContent += "<li><i>Stairways Support</i></li>";
+  if (sceneData.perfectVision) otherNoteContent += "<li><i>Perfect Vision Support</i></li>";
+
+  const otherNotes = (otherNoteContent !== "") 
+    ? `
+                <ul>
+                  ${otherNoteContent}
+                </ul>
+`
+  : "";
+
+  // name
+  // tokens
+  // walls
+  // lights
+  // pins
+  // foundry version
+  // other notes
+  const template = `
+            <tr>
+              <th>${sceneData.name}</th>
+              <td>${sceneData.tokens}</td>
+              <td>${sceneData.walls}</td>
+              <td>${sceneData.lights}</td>
+              <td>${sceneData.notes}</td>
+              <td>${sceneData.foundryVersion}</td>
+              <td class="is-italic">${otherNotes}</td>
+            </tr>
+`;
+  return template;
+
+}
+
+
 
 
 // generate a status page html
 if (process.argv[2] === "generate-html") {
   const jsonData = utils.loadJSONFile(path.join(dataDir, "ddb-data.json"));
   const overviewHtml = generateBooksOverview(jsonData);
-  const detailsHtml = generateBooksDetails(jsonData, false);
+  // const detailsHtml = generateBooksDetails(jsonData, false);
   const headerHtml = utils.loadFile(path.join(__dirname, "_html/header.html"));
   const footerHtml = utils.loadFile(path.join(__dirname, "_html/footer.html"));
-  const htmlData = `${headerHtml}${overviewHtml}${detailsHtml}${footerHtml}`;
+  const htmlData = `${headerHtml}${overviewHtml}${footerHtml}`;
   utils.saveFile(htmlData, path.join(outputDir, "status.html"));
 }
