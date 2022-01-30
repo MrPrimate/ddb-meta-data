@@ -1,3 +1,7 @@
+# 0.1.55
+
+* FtoD: Lots of Dragon Lairs! (Thanks @Pariah Zero#9919)
+
 # 0.1.54
 
 * OotA: Missing Scenes for Gracklstugh! (@Pariah Zero#9919)
