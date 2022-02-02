@@ -1,6 +1,7 @@
 # 0.1.56
 
 * FtoD: Lair improvements (Thanks @Pariah Zero#9919)
+* CoS: Fix missing notes.
 
 # 0.1.55
 
