@@ -1,3 +1,8 @@
+# 0.1.58
+
+* Remove Token Mold names from ToA
+* FtoD: Complete (All hail @Pariah Zero#9919)
+
 # 0.1.57
 
 * FtoD: Lair improvements (Thanks @Pariah Zero#9919)
