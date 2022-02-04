@@ -1,3 +1,7 @@
+# 0.1.59
+
+* ToA: Tiles for Tomb of the Nine Gods (All hail @Pariah Zero#9919)
+
 # 0.1.58
 
 * Remove Token Mold names from ToA
