@@ -1,3 +1,8 @@
+# 0.1.60
+
+* CM: Remove errant drawing. (Thanks @Pariah Zero#9919)
+* MOoT: Scene improvements. (Thanks @Pariah Zero#9919)
+
 # 0.1.59
 
 * ToA: Tiles for Tomb of the Nine Gods (All hail @Pariah Zero#9919)
