@@ -2,6 +2,7 @@
 
 * CM: Improvements. (Thanks @Pariah Zero#9919)
 * MOoT: Scene improvements. (Thanks @Pariah Zero#9919)
+* MOoT: Missing pins added.
 
 # 0.1.60
 
