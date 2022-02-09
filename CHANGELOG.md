@@ -1,5 +1,9 @@
 # 0.1.61
 
+* SLW: Completion (All hail @Pariah Zero#9919)
+
+# 0.1.61
+
 * CM: Improvements. (Thanks @Pariah Zero#9919)
 * MOoT: Scene improvements. (Thanks @Pariah Zero#9919)
 * MOoT: Missing pins added.
