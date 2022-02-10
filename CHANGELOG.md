@@ -1,3 +1,7 @@
+# 0.1.63
+
+* SDW: Scenes (Thanks @Pariah Zero#9919)
+
 # 0.1.62
 
 * SLW: Completion (All hail @Pariah Zero#9919)
