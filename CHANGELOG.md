@@ -1,6 +1,7 @@
 # 0.1.63
 
 * SDW: Scenes (Thanks @Pariah Zero#9919)
+* SDW Note parsing: added Salt Cave.
 
 # 0.1.62
 
