@@ -2,6 +2,9 @@
 
 * SDW: Scenes (Thanks @Pariah Zero#9919)
 * SDW Note parsing: added Salt Cave.
+* MOoT: Scene tweak (Thanks @Pariah Zero#9919)
+* DC: Scene tweak (Thanks @Pariah Zero#9919)
+* Many fixes for new formatting.
 
 # 0.1.62
 
