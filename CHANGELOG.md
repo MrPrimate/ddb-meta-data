@@ -1,6 +1,8 @@
 # 0.2.0
 
 * LMoP: fix missing pins.
+* DC: updates (Thanks @Pariah Zero#9919)
+* EGTW: new scenes (Thanks @Pariah Zero#9919)
 
 # 0.1.63
 
