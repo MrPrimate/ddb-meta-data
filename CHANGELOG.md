@@ -1,3 +1,7 @@
+# 0.2.0
+
+* LMoP: fix missing pins.
+
 # 0.1.63
 
 * SDW: Scenes (Thanks @Pariah Zero#9919)
