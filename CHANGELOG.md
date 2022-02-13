@@ -1,3 +1,8 @@
+# 0.2.1
+
+* EGTW: new scenes (Thanks @Pariah Zero#9919)
+* PotA: scene improvements (Thanks @Pariah Zero#9919)
+
 # 0.2.0
 
 * LMoP: fix missing pins.
