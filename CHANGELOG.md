@@ -1,6 +1,7 @@
 # 0.2.2
 
 * PotA: scene improvements (Thanks @Pariah Zero#9919)
+* TSC: fix missing pins.
 
 # 0.2.1
 
