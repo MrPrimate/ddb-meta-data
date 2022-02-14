@@ -93,6 +93,7 @@ if (process.argv[2] === "generate-status") {
   for (let i = 0; i < booksData.length; i++) {
     let book = booksData[i];
     statusInfo[book.bookCode] = {
+      scenes: currentStatusInfo[book.bookCode] && currentStatusInfo[book.bookCode].scenes !== undefined? currentStatusInfo[book.bookCode].scenes : true,
       complete: currentStatusInfo[book.bookCode] ? currentStatusInfo[book.bookCode].complete : false,
       checked: currentStatusInfo[book.bookCode] ? currentStatusInfo[book.bookCode].checked : false,
       score: currentStatusInfo[book.bookCode] ? currentStatusInfo[book.bookCode].score : 0,
@@ -215,6 +216,8 @@ function generateBookTile(bookData) {
   //     ? "Partial"
   //     : "Poor";
 
+  const hasScenes = bookData.status?.scenes;
+
   const status = bookData.status?.complete
     ? `<span class="tag is-medium is-success is-light">Status: Complete!</span>`
     : bookData.status?.score > 1
@@ -234,7 +237,9 @@ function generateBookTile(bookData) {
   : "";
   const adjustedScenes = bookData.scenes.length > 0
     ? `<span class="tag is-medium is-info is-light">${scenes} Scenes Submitted</span>`
-    : `<span class="tag is-medium is-danger is-light">No submissions</span>`;
+      : hasScenes
+      ? `<span class="tag is-medium is-danger is-light">No submissions</span>`
+    : `<span class="tag is-medium is-info is-light">No scenes in book</span>`
 
   const title = bookData.description;
 
