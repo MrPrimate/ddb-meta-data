@@ -1,3 +1,7 @@
+# 0.2.3/4
+
+* PotA: scene improvements (Mostly complete) (Thanks @Pariah Zero#9919)
+
 # 0.2.2
 
 * PotA: scene improvements (Thanks @Pariah Zero#9919)
