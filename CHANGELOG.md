@@ -1,3 +1,7 @@
+# 0.2.5
+
+* MOoT map had random walls.
+
 # 0.2.3/4
 
 * PotA: scene improvements (Mostly complete) (Thanks @Pariah Zero#9919)
