@@ -1,6 +1,7 @@
 # 0.2.5
 
 * MOoT map had random walls.
+* ERftLW: scene additions (Thanks @Pariah Zero#9919)
 
 # 0.2.3/4
 
