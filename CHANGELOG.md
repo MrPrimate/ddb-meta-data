@@ -1,6 +1,7 @@
 # 0.2.6
 
 * ERftLW: scene additions (Thanks @Pariah Zero#9919)
+* ToA Scenes were missing some monsters.
 
 # 0.2.5
 
