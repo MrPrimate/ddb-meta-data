@@ -1,3 +1,8 @@
+# 0.2.7
+
+* ERftLW: scene additions (Thanks @Pariah Zero#9919)
+* ERftLW: missing pins for Terminus
+
 # 0.2.6
 
 * ERftLW: scene additions (Thanks @Pariah Zero#9919)
