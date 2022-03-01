@@ -1,3 +1,8 @@
+# 0.2.9
+
+* BGDiA: Tavern maps did not import with data. @SEGApostle#3490
+* ERftLW: Complete (All hail @Pariah Zero#9919)
+
 # 0.2.8
 
 * AtG: Scenes updated for new DDB Format.
