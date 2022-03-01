@@ -1,3 +1,7 @@
+# 0.2.8
+
+* AtG: Scenes updated for new DDB Format.
+
 # 0.2.7
 
 * ERftLW: scene additions (Thanks @Pariah Zero#9919)
