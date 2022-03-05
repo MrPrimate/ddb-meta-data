@@ -1,3 +1,9 @@
+# 0.2.10
+
+* IMR: Complete (All hail @Pariah Zero#9919)
+* Locathah Rising: Complete (All hail @Pariah Zero#9919)
+* TWBtW: New scenes (Thanks @Pariah Zero#9919)f
+
 # 0.2.9
 
 * BGDiA: Tavern maps did not import with data. @SEGApostle#3490
