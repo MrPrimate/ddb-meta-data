@@ -2,7 +2,7 @@
 
 * IMR: Complete (All hail @Pariah Zero#9919)
 * Locathah Rising: Complete (All hail @Pariah Zero#9919)
-* TWBtW: New scenes (Thanks @Pariah Zero#9919)f
+* TWBtW: New scenes (Thanks @Pariah Zero#9919)
 
 # 0.2.9
 
