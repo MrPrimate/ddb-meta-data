@@ -1,3 +1,7 @@
+# 0.2.11
+
+* TWBtW: New scenes (Thanks @Pariah Zero#9919)
+
 # 0.2.10
 
 * IMR: Complete (All hail @Pariah Zero#9919)
