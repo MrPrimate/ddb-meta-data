@@ -1,3 +1,8 @@
+# 0.2.12
+
+* TWBtW: New scenes (Thanks @Pariah Zero#9919)
+
+
 # 0.2.11
 
 * TWBtW: New scenes (Thanks @Pariah Zero#9919)
