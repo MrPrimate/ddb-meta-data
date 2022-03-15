@@ -1,6 +1,8 @@
 # 0.2.13
 
-* LLOK: Scenes
+* LLOK: Scenes (Thanks @Pariah Zero#9919)
+* Missing WDDotMM Pins
+* Basic Support for CR: CotN (Requires new Adventure Muncher)
 
 # 0.2.12
 
