@@ -1,4 +1,9 @@
-# 0.2.13-15
+# 0.2.16
+
+* Missing WDDotMM Pins
+* Fixed some missing pins in CotN
+
+# 0.2.15
 
 * CotN: Grid settings (All hail @Pariah Zero#9919)
 
