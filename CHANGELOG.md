@@ -1,13 +1,13 @@
 # 0.2.13
 
-* LLOK: Scenes (Thanks @Pariah Zero#9919)
-* Missing WDDotMM Pins
-* Basic Support for CR: CotN (Requires new Adventure Muncher)
+* CotN: Grid settings (All hail @Pariah Zero#9919)
 
 # 0.2.12
 
-* TWBtW: New scenes (Thanks @Pariah Zero#9919)
-
+* TWBtW: Complete! (All hail @Pariah Zero#9919)
+* LLOK: Scenes (Thanks @Pariah Zero#9919)
+* Missing WDDotMM Pins
+* Basic Support for CR: CotN (Requires new Adventure Muncher)
 
 # 0.2.11
 
@@ -16,7 +16,7 @@
 # 0.2.10
 
 * IMR: Complete (All hail @Pariah Zero#9919)
-* Locathah Rising: Complete (All hail @Pariah Zero#9919)
+* Locathah Rising: Complete 364688
 * TWBtW: New scenes (Thanks @Pariah Zero#9919)
 
 # 0.2.9
