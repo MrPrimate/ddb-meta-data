@@ -1,3 +1,8 @@
+# 0.2.17
+
+* CotN: Scene adjustments (All hail @Pariah Zero#9919)
+* Curse of Strahd - a couple of token updates for Thorn and Rose. No major change.
+
 # 0.2.16
 
 * Missing WDDotMM Pins
