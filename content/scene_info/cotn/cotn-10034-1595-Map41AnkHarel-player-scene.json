@@ -264,10 +264,15 @@
             }
         },
         "stairways": {},
-        "perfect-vision": {},
+        "perfect-vision": {
+            "sightLimit": null,
+            "daylightColor": "",
+            "darknessColor": "",
+            "saturation": null
+        },
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.9.16"
+            "version": "2.9.17"
         }
     },
     "globalLight": false,
@@ -288,7 +293,7 @@
     "padding": 0.25,
     "shiftX": -1,
     "shiftY": 0,
-    "tokenVision": true,
+    "tokenVision": false,
     "walls": [],
     "weather": "",
     "width": 9017
