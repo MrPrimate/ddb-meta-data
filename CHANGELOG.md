@@ -1,3 +1,7 @@
+# 0.2.18
+
+* CotN: Scene adjustments (All hail @Pariah Zero#9919)
+
 # 0.2.17
 
 * CotN: Scene adjustments (All hail @Pariah Zero#9919)
