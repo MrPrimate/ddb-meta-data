@@ -1,6 +1,6 @@
 {
     "backgroundColor": "#999999",
-    "darkness": 1,
+    "darkness": 0,
     "drawings": [
         {
             "_id": "1RqeF619bkZavnAk",
@@ -15,12 +15,12 @@
             "points": [],
             "bezierFactor": 0,
             "fillType": 0,
-            "fillColor": "",
+            "fillColor": null,
             "fillAlpha": 0,
             "strokeWidth": 0,
-            "strokeColor": "",
+            "strokeColor": null,
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "Turn off light after clearing the room",
             "fontFamily": "Signika",
             "fontSize": 36,
@@ -131,7 +131,7 @@
             "strokeWidth": 8,
             "strokeColor": "#ff0000",
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "If secret opened - skeletal bloodfins animate",
             "fontFamily": "Signika",
             "fontSize": 18,
@@ -163,12 +163,12 @@
             "points": [],
             "bezierFactor": 0,
             "fillType": 0,
-            "fillColor": "",
+            "fillColor": null,
             "fillAlpha": 0,
             "strokeWidth": 0,
-            "strokeColor": "",
+            "strokeColor": null,
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "Avandra (Purple)",
             "fontFamily": "Signika",
             "fontSize": 48,
@@ -200,12 +200,12 @@
             "points": [],
             "bezierFactor": 0,
             "fillType": 0,
-            "fillColor": "",
+            "fillColor": null,
             "fillAlpha": 0,
             "strokeWidth": 0,
-            "strokeColor": "",
+            "strokeColor": null,
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "Corellon (Maroon)",
             "fontFamily": "Signika",
             "fontSize": 48,
@@ -237,12 +237,12 @@
             "points": [],
             "bezierFactor": 0,
             "fillType": 0,
-            "fillColor": "",
+            "fillColor": null,
             "fillAlpha": 0,
             "strokeWidth": 0,
-            "strokeColor": "",
+            "strokeColor": null,
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "Sehanine (Vermilion)",
             "fontFamily": "Signika",
             "fontSize": 48,
@@ -279,7 +279,7 @@
             "strokeWidth": 8,
             "strokeColor": "#8000ff",
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "4D6 Lightning in Radius @ Beginning of Turn",
             "fontFamily": "Signika",
             "fontSize": 48,
@@ -316,8 +316,7 @@
             "strokeWidth": 8,
             "strokeColor": "#660000",
             "strokeAlpha": 1,
-            "texture": "",
-            "text": "",
+            "texture": null,
             "fontFamily": "Signika",
             "fontSize": 48,
             "textColor": "#FFFFFF",
@@ -404,12 +403,12 @@
             "points": [],
             "bezierFactor": 0,
             "fillType": 0,
-            "fillColor": "",
+            "fillColor": null,
             "fillAlpha": 0,
             "strokeWidth": 0,
-            "strokeColor": "",
+            "strokeColor": null,
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "2D6[Necrotic] To Every Creature",
             "fontFamily": "Signika",
             "fontSize": 36,
@@ -441,12 +440,12 @@
             "points": [],
             "bezierFactor": 0,
             "fillType": 0,
-            "fillColor": "",
+            "fillColor": null,
             "fillAlpha": 0,
             "strokeWidth": 0,
-            "strokeColor": "",
+            "strokeColor": null,
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "every time Effigy takes damage.",
             "fontFamily": "Signika",
             "fontSize": 36,
@@ -516,10 +515,84 @@
             "strokeWidth": 8,
             "strokeColor": "#ff0000",
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "DC19 Wis Saving Throw",
             "fontFamily": "Signika",
             "fontSize": 48,
+            "textColor": "#FFFFFF",
+            "textAlpha": 1,
+            "hidden": true,
+            "locked": true,
+            "flags": {
+                "perfect-vision": {
+                    "active": false,
+                    "parent": "",
+                    "origin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    }
+                }
+            }
+        },
+        {
+            "_id": "ZBlG0b1uQSldVljD",
+            "author": "pRMRhdeZEsQfpWkd",
+            "type": "r",
+            "x": 4750,
+            "y": 10950,
+            "width": 509,
+            "height": 137,
+            "rotation": 0,
+            "z": 0,
+            "points": [],
+            "bezierFactor": 0,
+            "fillType": 0,
+            "fillColor": "#28cc9c",
+            "fillAlpha": 0.5,
+            "strokeWidth": 8,
+            "strokeColor": "#28cc9c",
+            "strokeAlpha": 1,
+            "texture": "",
+            "text": "Secret Door Opens after vision; Hide tile as well.",
+            "fontFamily": "Signika",
+            "fontSize": 24,
+            "textColor": "#FFFFFF",
+            "textAlpha": 1,
+            "hidden": true,
+            "locked": true,
+            "flags": {
+                "perfect-vision": {
+                    "active": false,
+                    "parent": "",
+                    "origin": {
+                        "x": 0.5,
+                        "y": 0.5
+                    }
+                }
+            }
+        },
+        {
+            "_id": "vtKTc8tfgYuQSAhz",
+            "author": "pRMRhdeZEsQfpWkd",
+            "type": "t",
+            "x": 6200,
+            "y": 10363,
+            "width": 681,
+            "height": 51,
+            "rotation": 0,
+            "z": 0,
+            "points": [],
+            "bezierFactor": 0,
+            "fillType": 0,
+            "fillColor": "",
+            "fillAlpha": 0,
+            "strokeWidth": 0,
+            "strokeColor": "",
+            "strokeAlpha": 1,
+            "texture": "",
+            "text": "Turn off the two N7 Lights after clearing N7",
+            "fontFamily": "Signika",
+            "fontSize": 36,
             "textColor": "#FFFFFF",
             "textAlpha": 1,
             "hidden": true,
@@ -774,7 +847,7 @@
                         }
                     ],
                     "iconSize": 80,
-                    "iconTint": "",
+                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -1016,7 +1089,7 @@
                         }
                     ],
                     "iconSize": 80,
-                    "iconTint": "",
+                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -1987,7 +2060,16 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "actorData": {},
+                    "actorData": {
+                        "data": {
+                            "resources": {
+                                "lair": {
+                                    "value": false
+                                }
+                            }
+                        },
+                        "oldHpVal": 65
+                    },
                     "light": {
                         "alpha": 0.5,
                         "angle": 0,
@@ -2363,129 +2445,6 @@
                     }
                 },
                 {
-                    "_id": "OD0OMUcgTiyb6XI7",
-                    "name": "Theo Nathope",
-                    "width": 1,
-                    "height": 1,
-                    "scale": 1,
-                    "x": 8500,
-                    "y": 5800,
-                    "disposition": 1,
-                    "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
-                        "perfect-vision": {
-                            "visionRules": "default",
-                            "monoVisionColor": "",
-                            "sightLimit": null,
-                            "light": {}
-                        },
-                        "core": {},
-                        "ddbActorFlags": {
-                            "id": 16871,
-                            "entityTypeId": 779871897,
-                            "creatureGroup": null,
-                            "creatureFlags": [],
-                            "version": "2.9.16",
-                            "flatAC": true,
-                            "name": "Ghost"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": true,
-                    "tint": "",
-                    "actorData": {
-                        "data": {
-                            "details": {
-                                "type": {
-                                    "subtype": "Apparition"
-                                }
-                            },
-                            "traits": {
-                                "di": {
-                                    "value": [
-                                        "acid",
-                                        "bludgeoning",
-                                        "cold",
-                                        "fire",
-                                        "force",
-                                        "lightning",
-                                        "necrotic",
-                                        "physical",
-                                        "piercing",
-                                        "poison",
-                                        "psychic",
-                                        "radiant",
-                                        "slashing",
-                                        "thunder",
-                                        "silver",
-                                        "adamant",
-                                        "spell",
-                                        "healing",
-                                        "temphp"
-                                    ]
-                                },
-                                "ci": {
-                                    "value": [
-                                        "blinded",
-                                        "charmed",
-                                        "deafened",
-                                        "diseased",
-                                        "exhaustion",
-                                        "frightened",
-                                        "grappled",
-                                        "incapacitated",
-                                        "invisible",
-                                        "paralyzed",
-                                        "petrified",
-                                        "poisoned",
-                                        "prone",
-                                        "restrained",
-                                        "stunned",
-                                        "unconscious"
-                                    ]
-                                },
-                                "dr": {
-                                    "value": []
-                                }
-                            },
-                            "resources": {
-                                "lair": {
-                                    "value": false
-                                }
-                            }
-                        },
-                        "oldHpVal": 45
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 0,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "gradual": true,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
                     "_id": "GumoYMw382vJoMaL",
                     "name": "Perigee",
                     "width": 1,
@@ -2521,7 +2480,7 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
+                    "tint": null,
                     "actorData": {
                         "data": {
                             "resources": {
@@ -2656,12 +2615,768 @@
             ],
             "originalLink": "ddb://image/cotn/map-6.1-The-Netherdeep-player.jpg",
             "foundryVersion": "9.255",
+            "tiles": [
+                {
+                    "_id": "q1QIN8iScpg1HWbA",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Tile0.webp",
+                    "width": 120,
+                    "height": 120,
+                    "x": 5960,
+                    "y": 11418,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "0Eo6jPQPmaOpqY5W",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Tile1.webp",
+                    "width": 131,
+                    "height": 122,
+                    "x": 4507,
+                    "y": 10836,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "AVu3pyezdu1x8RmD",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Tile2.webp",
+                    "width": 1009,
+                    "height": 437,
+                    "x": 6328,
+                    "y": 9786,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "opOpQNCsdU9ItKxB",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Tile3.webp",
+                    "width": 274,
+                    "height": 70,
+                    "x": 3637,
+                    "y": 6791,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "aN43mfZ4vPOAHT61",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Tile4.webp",
+                    "width": 254,
+                    "height": 144,
+                    "x": 5583,
+                    "y": 5018,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "5a6ld0LHOvvCwaeR",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Tile5.webp",
+                    "width": 183,
+                    "height": 50,
+                    "x": 6446,
+                    "y": 8960,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "Jo61PHKw7zny0mxh",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Tile6.webp",
+                    "width": 246,
+                    "height": 161,
+                    "x": 3396,
+                    "y": 8633,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "EAFrtliEFDe6xS6S",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Tile7.webp",
+                    "width": 113,
+                    "height": 163,
+                    "x": 4226,
+                    "y": 5847,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "Ix2v6hcOCv7D4VUy",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret0.webp",
+                    "width": 209,
+                    "height": 72,
+                    "x": 5651,
+                    "y": 11866,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "q7l2E6lDUzF10oht",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret1.webp",
+                    "width": 128,
+                    "height": 150,
+                    "x": 6180,
+                    "y": 11281,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "qCbEflVbtbA9s0nZ",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret2.webp",
+                    "width": 107,
+                    "height": 126,
+                    "x": 4895,
+                    "y": 10966,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "TuqnQfXfKEOyEZ5H",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret3.webp",
+                    "width": 131,
+                    "height": 29,
+                    "x": 4127,
+                    "y": 9794,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "2mbc3u7mtyplIjzz",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret4.webp",
+                    "width": 161,
+                    "height": 43,
+                    "x": 3494,
+                    "y": 9620,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "Q6iNdHCrs5Lc6XJT",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret5.webp",
+                    "width": 537,
+                    "height": 443,
+                    "x": 4874,
+                    "y": 8940,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "VpEx1Qw4zu9Bpjo4",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret6.webp",
+                    "width": 204,
+                    "height": 69,
+                    "x": 3790,
+                    "y": 7290,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "GgvTMw4oXFibMoHB",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret7.webp",
+                    "width": 122,
+                    "height": 120,
+                    "x": 4153,
+                    "y": 7161,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "wyZJcWTXvRRXF3IV",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret8.webp",
+                    "width": 180,
+                    "height": 185,
+                    "x": 3254,
+                    "y": 5769,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "OaRKpMYSC3HuHL36",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret9.webp",
+                    "width": 131,
+                    "height": 109,
+                    "x": 4791,
+                    "y": 5859,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "qgRos6eJZHIewzj9",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret10.webp",
+                    "width": 200,
+                    "height": 122,
+                    "x": 6100,
+                    "y": 4750,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "OKDs9a1XZWFY9g4Z",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret11.webp",
+                    "width": 161,
+                    "height": 54,
+                    "x": 6411,
+                    "y": 8357,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "VVccWXA7YmbnU0gD",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret12.webp",
+                    "width": 98,
+                    "height": 113,
+                    "x": 7863,
+                    "y": 8272,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "kvCAxIwH7BuWLjpU",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret13.webp",
+                    "width": 131,
+                    "height": 154,
+                    "x": 7895,
+                    "y": 8579,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "GwturnJixCaOcdFG",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret15.webp",
+                    "width": 61,
+                    "height": 130,
+                    "x": 7743,
+                    "y": 9567,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "JZssot59F8flv7QV",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret16.webp",
+                    "width": 183,
+                    "height": 154,
+                    "x": 7325,
+                    "y": 10157,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "QdqUyk6c6Pz3Ysbl",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret17.webp",
+                    "width": 169,
+                    "height": 70,
+                    "x": 6479,
+                    "y": 9953,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                },
+                {
+                    "_id": "BPjcAFZPMdKBr2lM",
+                    "img": "assets/map-6.1-The-Netherdeep-player-Secret14.webp",
+                    "width": 61,
+                    "height": 130,
+                    "x": 8192,
+                    "y": 8946,
+                    "z": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "hidden": false,
+                    "locked": true,
+                    "overhead": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "flags": {
+                        "perfect-vision": {
+                            "lighting": ""
+                        }
+                    },
+                    "tint": null
+                }
+            ],
             "versions": {
                 "ddbMetaData": {
                     "name": "The Netherdeep",
                     "bookCode": "cotn",
                     "contentChunkId": "Map61TheNetherdeep-player",
-                    "lastUpdate": "0.2.13",
+                    "lastUpdate": "0.2.19",
                     "notes": "0.2.19",
                     "tokens": "0.2.19",
                     "walls": "0.2.19",
@@ -2678,9 +3393,6 @@
                 "name": "sw-cu8bbrj6",
                 "x": 4190.433372641509,
                 "y": 5989.283608490566,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2696,9 +3408,6 @@
                 "name": "sw-cu8bbrj6",
                 "x": 4377.469044811321,
                 "y": 5868.769654088051,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2714,9 +3423,6 @@
                 "name": "sw-s6om71ux",
                 "x": 6100,
                 "y": 11550,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2732,9 +3438,6 @@
                 "name": "sw-s6om71ux",
                 "x": 5922,
                 "y": 11409,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2750,9 +3453,6 @@
                 "name": "sw-u7ukr2hq",
                 "x": 4581,
                 "y": 11026,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2768,9 +3468,6 @@
                 "name": "sw-u7ukr2hq",
                 "x": 4547.867398648648,
                 "y": 10747.994087837837,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2786,9 +3483,6 @@
                 "name": "sw-sc070sxa",
                 "x": 6300,
                 "y": 10100,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2804,9 +3498,6 @@
                 "name": "sw-sc070sxa",
                 "x": 6850,
                 "y": 10050,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2822,9 +3513,6 @@
                 "name": "sw-x35do8mu",
                 "x": 7150,
                 "y": 9900,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2840,9 +3528,6 @@
                 "name": "sw-x35do8mu",
                 "x": 7400,
                 "y": 9850,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2858,9 +3543,6 @@
                 "name": "sw-yfha8os1",
                 "x": 3500,
                 "y": 8850,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2876,9 +3558,6 @@
                 "name": "sw-yfha8os1",
                 "x": 3550,
                 "y": 8550,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2894,9 +3573,6 @@
                 "name": "sw-4fkmuadb",
                 "x": 6500,
                 "y": 8700,
-                "label": "",
-                "fontFamily": null,
-                "fontSize": null,
                 "textColor": null,
                 "icon": "icons/svg/cave.svg",
                 "width": null,
@@ -2912,6 +3588,39 @@
                 "name": "sw-4fkmuadb",
                 "x": 6300,
                 "y": 13200,
+                "textColor": null,
+                "icon": "icons/svg/cave.svg",
+                "width": null,
+                "height": null,
+                "disabled": false,
+                "hidden": true,
+                "animate": false,
+                "partnerSceneLabel": false
+            },
+            {
+                "_id": "nr6g7s4daehdc1cu",
+                "scene": null,
+                "name": "sw-4npir2pe",
+                "x": 4350,
+                "y": 6050,
+                "label": "",
+                "fontFamily": null,
+                "fontSize": null,
+                "textColor": null,
+                "icon": "icons/svg/cave.svg",
+                "width": null,
+                "height": null,
+                "disabled": true,
+                "hidden": false,
+                "animate": false,
+                "partnerSceneLabel": false
+            },
+            {
+                "_id": "lxwzxcrnpijlvbhb",
+                "scene": null,
+                "name": "sw-4npir2pe",
+                "x": 4150,
+                "y": 5800,
                 "label": "",
                 "fontFamily": null,
                 "fontSize": null,
@@ -2920,7 +3629,7 @@
                 "width": null,
                 "height": null,
                 "disabled": false,
-                "hidden": true,
+                "hidden": false,
                 "animate": false,
                 "partnerSceneLabel": false
             }
@@ -3324,8 +4033,8 @@
             }
         },
         {
-            "x": 7100,
-            "y": 10300,
+            "x": 7250,
+            "y": 10350,
             "rotation": 0,
             "walls": true,
             "vision": false,
@@ -3334,9 +4043,9 @@
                 "angle": 0,
                 "bright": 0,
                 "coloration": 1,
-                "dim": 20,
+                "dim": 30,
                 "gradual": true,
-                "luminosity": 0.5,
+                "luminosity": 0.35,
                 "saturation": 0,
                 "contrast": 0,
                 "shadows": 0,
@@ -3349,7 +4058,7 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": null
+                "color": "#420000"
             },
             "hidden": false,
             "flags": {
@@ -3368,9 +4077,9 @@
                 "angle": 0,
                 "bright": 0,
                 "coloration": 1,
-                "dim": 20,
+                "dim": 30,
                 "gradual": true,
-                "luminosity": 0.5,
+                "luminosity": 0.35,
                 "saturation": 0,
                 "contrast": 0,
                 "shadows": 0,
@@ -3383,7 +4092,7 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": null
+                "color": "#570000"
             },
             "hidden": false,
             "flags": {
@@ -4276,14 +4985,14 @@
             "x": 6450,
             "y": 6950,
             "rotation": 0,
-            "walls": false,
+            "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.1,
                 "angle": 0,
                 "bright": 0,
                 "coloration": 1,
-                "dim": 4080,
+                "dim": 80,
                 "gradual": true,
                 "luminosity": 0.55,
                 "saturation": 0,
@@ -4367,6 +5076,41 @@
                     "max": 1
                 },
                 "color": null
+            },
+            "hidden": false,
+            "flags": {
+                "core": {},
+                "perfect-vision": {}
+            }
+        },
+        {
+            "x": 6561,
+            "y": 10632,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.4,
+                "angle": 180,
+                "bright": 3,
+                "coloration": 1,
+                "dim": 0,
+                "gradual": true,
+                "luminosity": 0,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "speed": 6,
+                    "intensity": 1,
+                    "reverse": false,
+                    "type": "energy"
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "color": "#ff0000"
             },
             "hidden": false,
             "flags": {
@@ -5728,8 +6472,8 @@
         },
         {
             "c": [
-                6037,
-                11550,
+                6012,
+                11425,
                 5950,
                 11487
             ],
@@ -5894,7 +6638,7 @@
                 11800
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -6166,7 +6910,7 @@
                 11262
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -6182,7 +6926,7 @@
                 11262
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -6224,22 +6968,6 @@
         },
         {
             "c": [
-                6437,
-                11400,
-                6425,
-                11537
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
                 6250,
                 11412,
                 6425,
@@ -6262,23 +6990,7 @@
                 11537
             ],
             "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                6875,
-                10912,
-                7250,
-                11062
-            ],
-            "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -6738,8 +7450,8 @@
             "c": [
                 4550,
                 10250,
-                4337,
-                10475
+                4475,
+                10500
             ],
             "light": 20,
             "move": 20,
@@ -8112,8 +8824,8 @@
         },
         {
             "c": [
-                9212,
-                5437,
+                9150,
+                5262,
                 8450,
                 5112
             ],
@@ -8560,40 +9272,8 @@
         },
         {
             "c": [
-                8862,
-                8850,
-                9062,
-                9150
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9062,
-                9150,
-                8950,
-                9387
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                8950,
-                9387,
+                9362,
+                9262,
                 8737,
                 9687
             ],
@@ -8768,8 +9448,8 @@
         },
         {
             "c": [
-                9062,
-                9150,
+                9362,
+                9262,
                 9362,
                 8875
             ],
@@ -8786,8 +9466,8 @@
             "c": [
                 9362,
                 8875,
-                9700,
-                8925
+                9687,
+                9087
             ],
             "light": 20,
             "move": 20,
@@ -8960,22 +9640,6 @@
         },
         {
             "c": [
-                4300,
-                11012,
-                4487,
-                11012
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
                 4525,
                 11125,
                 4487,
@@ -9024,22 +9688,6 @@
         },
         {
             "c": [
-                4200,
-                11150,
-                4250,
-                11225
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
                 3762,
                 11200,
                 3775,
@@ -9062,7 +9710,7 @@
                 11037
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9078,7 +9726,7 @@
                 10750
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9110,7 +9758,7 @@
                 11037
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9126,23 +9774,7 @@
                 10750
             ],
             "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                3887,
-                11025,
-                3775,
-                11037
-            ],
-            "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9158,7 +9790,7 @@
                 10812
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9190,7 +9822,7 @@
                 10487
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9206,7 +9838,7 @@
                 10237
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9270,7 +9902,7 @@
                 9750
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9302,7 +9934,7 @@
                 9712
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9318,7 +9950,7 @@
                 9712
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9414,7 +10046,7 @@
                 9987
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9430,7 +10062,7 @@
                 9987
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -9728,13 +10360,13 @@
         },
         {
             "c": [
-                7462,
-                9412,
+                7437,
+                9400,
                 7650,
                 9450
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -10128,54 +10760,6 @@
         },
         {
             "c": [
-                8812,
-                9150,
-                9062,
-                9150
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9062,
-                9150,
-                9125,
-                9475
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9412,
-                9287,
-                9062,
-                9150
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
                 9100,
                 6100,
                 9212,
@@ -10192,10 +10776,10 @@
         },
         {
             "c": [
-                9712,
-                10750,
-                9700,
-                8925
+                9587,
+                10362,
+                9687,
+                9087
             ],
             "light": 20,
             "move": 20,
@@ -10208,8 +10792,8 @@
         },
         {
             "c": [
-                9212,
-                5437,
+                9150,
+                5262,
                 9550,
                 6262
             ],
@@ -10340,22 +10924,6 @@
                 7650,
                 7925,
                 7525
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9125,
-                8637,
-                9362,
-                8875
             ],
             "light": 20,
             "move": 20,
@@ -10822,7 +11390,7 @@
                 5487
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -10883,7 +11451,7 @@
                 4287,
                 5512,
                 4300,
-                5812
+                5850
             ],
             "light": 20,
             "move": 20,
@@ -10902,7 +11470,7 @@
                 5625
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -10918,7 +11486,7 @@
                 5812
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -11366,7 +11934,7 @@
                 9687
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -11382,7 +11950,7 @@
                 9687
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -11475,7 +12043,7 @@
                 3812,
                 8662,
                 3662,
-                8637
+                8662
             ],
             "light": 20,
             "move": 20,
@@ -11488,10 +12056,10 @@
         },
         {
             "c": [
-                3450,
-                8637,
-                3675,
-                8637
+                3425,
+                8625,
+                3662,
+                8662
             ],
             "light": 20,
             "move": 20,
@@ -11654,7 +12222,7 @@
                 5287
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -11670,7 +12238,7 @@
                 4637
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -11702,7 +12270,7 @@
                 4625
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -11718,7 +12286,7 @@
                 4900
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -11734,7 +12302,7 @@
                 5075
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -11750,7 +12318,7 @@
                 5237
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -12082,8 +12650,8 @@
             "c": [
                 8150,
                 3450,
-                9362,
-                3600
+                9262,
+                3800
             ],
             "light": 20,
             "move": 20,
@@ -12096,10 +12664,10 @@
         },
         {
             "c": [
-                9362,
-                3600,
-                9987,
-                4125
+                9262,
+                3800,
+                9800,
+                4400
             ],
             "light": 20,
             "move": 20,
@@ -12112,10 +12680,10 @@
         },
         {
             "c": [
-                9987,
-                4125,
-                9212,
-                5437
+                9800,
+                4400,
+                9150,
+                5262
             ],
             "light": 20,
             "move": 20,
@@ -12130,8 +12698,8 @@
             "c": [
                 9550,
                 6262,
-                9925,
-                7525
+                9850,
+                7287
             ],
             "light": 20,
             "move": 20,
@@ -12144,24 +12712,8 @@
         },
         {
             "c": [
-                9925,
-                7525,
-                9362,
-                8875
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9712,
-                10750,
+                9587,
+                10362,
                 8275,
                 10612
             ],
@@ -12470,7 +13022,7 @@
                 5987
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -12502,7 +13054,7 @@
                 5287
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -12756,38 +13308,6 @@
                 5112,
                 6862,
                 5075
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                6462,
-                5175,
-                6737,
-                5287
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                6375,
-                5187,
-                6387,
-                5575
             ],
             "light": 20,
             "move": 20,
@@ -13136,38 +13656,6 @@
         },
         {
             "c": [
-                9437,
-                8087,
-                9650,
-                8175
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9637,
-                7650,
-                9925,
-                7525
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
                 9487,
                 6987,
                 9762,
@@ -13186,8 +13674,8 @@
             "c": [
                 8962,
                 5650,
-                9212,
-                5437
+                9150,
+                5262
             ],
             "light": 20,
             "move": 20,
@@ -13218,72 +13706,8 @@
             "c": [
                 9112,
                 5162,
-                9212,
-                5437
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9550,
-                4362,
-                9975,
-                4125
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9162,
-                3812,
-                9362,
-                3600
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                8750,
-                3800,
-                8825,
-                3537
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9450,
-                4087,
-                9712,
-                3900
+                9150,
+                5262
             ],
             "light": 20,
             "move": 20,
@@ -13376,38 +13800,6 @@
         },
         {
             "c": [
-                8412,
-                3662,
-                8500,
-                3487
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9387,
-                4825,
-                9475,
-                5000
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
                 8287,
                 8787,
                 8400,
@@ -13440,26 +13832,10 @@
         },
         {
             "c": [
-                9275,
-                8462,
-                9487,
-                8587
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
                 9112,
                 10325,
-                9087,
-                10737
+                9112,
+                10450
             ],
             "light": 20,
             "move": 20,
@@ -13506,24 +13882,8 @@
             "c": [
                 9487,
                 9912,
-                9700,
+                9625,
                 9887
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9375,
-                10237,
-                9712,
-                10750
             ],
             "light": 20,
             "move": 20,
@@ -13556,54 +13916,6 @@
                 10462,
                 6775,
                 10537
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                6775,
-                10725,
-                6775,
-                10625
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                6775,
-                11250,
-                6837,
-                11400
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                6587,
-                11387,
-                6600,
-                11475
             ],
             "light": 20,
             "move": 20,
@@ -13808,8 +14120,8 @@
         },
         {
             "c": [
-                6012,
-                11425,
+                6037,
+                11550,
                 6087,
                 11475
             ],
@@ -13990,7 +14302,7 @@
                 10787
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -14118,7 +14430,7 @@
                 9987
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -14134,7 +14446,7 @@
                 9987
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -14150,7 +14462,7 @@
                 10237
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -15078,7 +15390,7 @@
                 5987
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -15126,7 +15438,7 @@
                 5950
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -15398,7 +15710,7 @@
                 9250
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -15766,7 +16078,7 @@
                 10475
             ],
             "light": 20,
-            "move": 20,
+            "move": 0,
             "sight": 20,
             "sound": 20,
             "dir": 0,
@@ -17392,38 +17704,6 @@
         },
         {
             "c": [
-                9412,
-                9075,
-                9362,
-                8875
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                9537,
-                9000,
-                9362,
-                8875
-            ],
-            "light": 20,
-            "move": 20,
-            "sight": 20,
-            "sound": 20,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
                 5575,
                 5012,
                 5700,
@@ -17493,9 +17773,9 @@
                 9125,
                 8212
             ],
-            "light": 10,
+            "light": 0,
             "move": 20,
-            "sight": 20,
+            "sight": 10,
             "sound": 20,
             "dir": 0,
             "door": 0,
@@ -17509,9 +17789,9 @@
                 8500,
                 8250
             ],
-            "light": 10,
+            "light": 0,
             "move": 20,
-            "sight": 20,
+            "sight": 10,
             "sound": 20,
             "dir": 0,
             "door": 0,
@@ -17525,9 +17805,9 @@
                 9212,
                 7912
             ],
-            "light": 10,
+            "light": 0,
             "move": 20,
-            "sight": 20,
+            "sight": 10,
             "sound": 20,
             "dir": 0,
             "door": 0,
@@ -17541,13 +17821,221 @@
                 8812,
                 8375
             ],
-            "light": 10,
+            "light": 0,
+            "move": 20,
+            "sight": 10,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                7337,
+                9375,
+                7212,
+                9337
+            ],
+            "light": 20,
             "move": 20,
             "sight": 20,
             "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                9237,
+                8775,
+                9850,
+                7287
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                9012,
+                8937,
+                9237,
+                8775
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                9012,
+                8937,
+                8862,
+                8850
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                8862,
+                8850,
+                8887,
+                9300
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                8887,
+                9300,
+                8737,
+                9687
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                6025,
+                5450,
+                6137,
+                5337
+            ],
+            "light": 20,
+            "move": 0,
+            "sight": 20,
+            "sound": 0,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                7075,
+                5287,
+                7050,
+                5237
+            ],
+            "light": 20,
+            "move": 0,
+            "sight": 20,
+            "sound": 0,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                7137,
+                5362,
+                7200,
+                5437
+            ],
+            "light": 20,
+            "move": 0,
+            "sight": 20,
+            "sound": 0,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                6987,
+                5425,
+                6950,
+                5487
+            ],
+            "light": 20,
+            "move": 0,
+            "sight": 20,
+            "sound": 0,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                7837,
+                8312,
+                7887,
+                8150
+            ],
+            "light": 20,
+            "move": 0,
+            "sight": 20,
+            "sound": 0,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                4300,
+                11012,
+                4487,
+                11012
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                6500,
+                10625,
+                6637,
+                10625
+            ],
+            "light": 0,
+            "move": 20,
+            "sight": 0,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 2,
             "flags": {}
         }
     ],
