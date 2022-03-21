@@ -1,3 +1,9 @@
+# 0.2.19
+
+* WDotMM: First level contribution by @Essarielle#9980
+* CotN: First pass complete! (All hail @Pariah Zero#9919)
+* CotN: Lair actions for Netherdeep parsed (Pin)
+
 # 0.2.18
 
 * CotN: Scene adjustments (All hail @Pariah Zero#9919)
