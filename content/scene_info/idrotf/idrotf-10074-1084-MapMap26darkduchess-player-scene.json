@@ -1044,7 +1044,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "RuF52iE6J3asWWVm",
+                            "linkId": "i7NfN9lAthRDb0FJ",
                             "pin": "32762756"
                         }
                     },
@@ -1071,7 +1071,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "Z6fPhF4mKDQXowQm",
+                            "linkId": "vKtSWwB4tPYe0LnP",
                             "pin": "19241924"
                         }
                     },
@@ -1098,7 +1098,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "KFecplV10QvIgP2J",
+                            "linkId": "nlP1FgsVDvRGxSgL",
                             "pin": "20283276"
                         }
                     },
@@ -1125,7 +1125,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "wBNT0lSP3282FtlF",
+                            "linkId": "feKbWFFYMTTQejUj",
                             "pin": "29641820"
                         }
                     },
@@ -1152,7 +1152,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "UkA6PjD09qnEEwYq",
+                            "linkId": "CGnbIryANhijjJ85",
                             "pin": "31721924"
                         }
                     },
@@ -1179,7 +1179,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "Q50Zu8CuBqG4LMr5",
+                            "linkId": "pi0nIDGxKDndpybd",
                             "pin": "31721820"
                         }
                     },
@@ -1206,7 +1206,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "mtMENDOFYCt3Lqsf",
+                            "linkId": "1Grz6DWFANwZLtx3",
                             "pin": "30681612"
                         }
                     },
@@ -1233,7 +1233,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "BcU6fy5bZgb3Ixfm",
+                            "linkId": "K1fhEo9boa1uw1Oe",
                             "pin": "31723276"
                         }
                     },
@@ -1260,7 +1260,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "IkDWjBo1ZqT4h5RH",
+                            "linkId": "SgW6u6AlPi7236So",
                             "pin": "44202652"
                         }
                     },
@@ -1287,7 +1287,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "7FmcV8cwQvEDLkWr",
+                            "linkId": "9ouPXo7aUT3R972G",
                             "pin": "43161924"
                         }
                     },
@@ -1314,7 +1314,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "CrgnOLAuHHJWcVl9",
+                            "linkId": "OsqUpsNatoq1frkK",
                             "pin": "43161612"
                         }
                     },
@@ -1341,7 +1341,7 @@
                             "note": true,
                             "img": false,
                             "parentId": 1084,
-                            "linkId": "v3zxMOmr6maMrU2p",
+                            "linkId": "4cOAyo9fkI76zGfg",
                             "pin": "44203172"
                         }
                     },
@@ -1360,12 +1360,12 @@
             "tokens": [
                 {
                     "_id": "GzPLighFFFQAjdse",
-                    "name": "Ice Troll(1)",
+                    "name": "Ice Troll",
                     "width": 2,
                     "height": 2,
                     "scale": 1,
                     "x": 4264,
-                    "y": 2496,
+                    "y": 2912,
                     "disposition": 0,
                     "flags": {
                         "ddbActorFlags": {
@@ -1382,19 +1382,34 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
                     "actorData": {
-                        "name": "Ice Troll(1)"
+                        "name": "Ice Troll"
+                    },
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 0,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "gradual": true,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
                     "_id": "SJlZK3pABrx3GskO",
-                    "name": "Icewind Kobold(1)",
+                    "name": "Gur",
                     "width": 1,
                     "height": 1,
                     "scale": 0.8,
@@ -1416,19 +1431,34 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
                     "actorData": {
-                        "name": "Icewind Kobold(1)"
+                        "name": "Gur"
+                    },
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 0,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "gradual": true,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
                     "_id": "iDJGIRpZJM0Wzl5S",
-                    "name": "Goat(1)",
+                    "name": "Goat",
                     "width": 1,
                     "height": 1,
                     "scale": 1,
@@ -1450,19 +1480,34 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
                     "actorData": {
-                        "name": "Goat(1)"
+                        "name": "Goat"
+                    },
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 0,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "gradual": true,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
                     "_id": "aCiO9Pf0jx0GjqP0",
-                    "name": "Ancient White Dragon(1)",
+                    "name": "Arveiaturace",
                     "width": 4,
                     "height": 4,
                     "scale": 1,
@@ -1476,7 +1521,36 @@
                             "creatureGroup": null,
                             "creatureFlags": [],
                             "name": "Ancient White Dragon"
-                        }
+                        },
+                        "monks-tokenbar": {
+                            "include": "default"
+                        },
+                        "monks-little-details": {
+                            "bloodsplat-colour": ""
+                        },
+                        "perfect-vision": {
+                            "visionRules": "default",
+                            "monoVisionColor": "",
+                            "sightLimit": null,
+                            "light": {}
+                        },
+                        "token-auras": {
+                            "aura1": {
+                                "permission": "all",
+                                "colour": "#ffffff",
+                                "opacity": 0.5,
+                                "distance": null,
+                                "square": false
+                            },
+                            "aura2": {
+                                "permission": "all",
+                                "colour": "#ffffff",
+                                "opacity": 0.5,
+                                "distance": null,
+                                "square": false
+                            }
+                        },
+                        "core": {}
                     },
                     "actorLink": false,
                     "bar1": {
@@ -1484,19 +1558,65 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
+                    "tint": "",
                     "actorData": {
-                        "name": "Ancient White Dragon(1)"
+                        "name": "Arveiaturace",
+                        "data": {
+                            "traits": {
+                                "dv": {
+                                    "custom": null
+                                },
+                                "dr": {
+                                    "custom": null
+                                },
+                                "di": {
+                                    "custom": null
+                                },
+                                "ci": {
+                                    "custom": null
+                                },
+                                "languages": {
+                                    "custom": null
+                                }
+                            },
+                            "attributes": {
+                                "senses": {
+                                    "tremorsense": null,
+                                    "truesight": null
+                                }
+                            },
+                            "uses": {
+                                "value": 3,
+                                "max": 3
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 0,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "gradual": true,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
                     "_id": "ErNIo3lNkzEJb0uG",
-                    "name": "Verbeeg Longstrider(1)",
+                    "name": "Tinjong",
                     "width": 2,
                     "height": 2,
                     "scale": 1,
@@ -1510,7 +1630,36 @@
                             "creatureGroup": null,
                             "creatureFlags": [],
                             "name": "Verbeeg Longstrider"
-                        }
+                        },
+                        "monks-tokenbar": {
+                            "include": "default"
+                        },
+                        "monks-little-details": {
+                            "bloodsplat-colour": ""
+                        },
+                        "perfect-vision": {
+                            "visionRules": "default",
+                            "monoVisionColor": "",
+                            "sightLimit": null,
+                            "light": {}
+                        },
+                        "token-auras": {
+                            "aura1": {
+                                "permission": "all",
+                                "colour": "#ffffff",
+                                "opacity": 0.5,
+                                "distance": null,
+                                "square": false
+                            },
+                            "aura2": {
+                                "permission": "all",
+                                "colour": "#ffffff",
+                                "opacity": 0.5,
+                                "distance": null,
+                                "square": false
+                            }
+                        },
+                        "core": {}
                     },
                     "actorLink": false,
                     "bar1": {
@@ -1518,19 +1667,67 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
+                    "tint": "",
                     "actorData": {
-                        "name": "Verbeeg Longstrider(1)"
+                        "name": "Verbeeg Tinjong",
+                        "data": {
+                            "traits": {
+                                "dv": {
+                                    "custom": null
+                                },
+                                "dr": {
+                                    "custom": null
+                                },
+                                "di": {
+                                    "custom": null
+                                },
+                                "ci": {
+                                    "custom": null
+                                },
+                                "languages": {
+                                    "custom": null
+                                }
+                            },
+                            "attributes": {
+                                "senses": {
+                                    "blindsight": null,
+                                    "darkvision": null,
+                                    "tremorsense": null,
+                                    "truesight": null
+                                },
+                                "spellcasting": "int"
+                            },
+                            "uses": {
+                                "value": 1
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 0,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "gradual": true,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
                     "_id": "Y27oB5godwU8TRJm",
-                    "name": "Icewind Kobold(2)",
+                    "name": "Nek",
                     "width": 1,
                     "height": 1,
                     "scale": 0.8,
@@ -1552,19 +1749,34 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
                     "actorData": {
-                        "name": "Icewind Kobold(2)"
+                        "name": "Nek"
+                    },
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 0,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "gradual": true,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
                     "_id": "I7AG0JqOpgOsq94Q",
-                    "name": "Icewind Kobold(3)",
+                    "name": "Zurn",
                     "width": 1,
                     "height": 1,
                     "scale": 0.8,
@@ -1586,19 +1798,34 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
                     "actorData": {
-                        "name": "Icewind Kobold(3)"
+                        "name": "Zurn"
+                    },
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 0,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "gradual": true,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
                     "_id": "XBe3XXE8bgvm9Hfj",
-                    "name": "Icewind Kobold(4)",
+                    "name": "Snog",
                     "width": 1,
                     "height": 1,
                     "scale": 0.8,
@@ -1620,29 +1847,46 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
                     "actorData": {
-                        "name": "Icewind Kobold(4)"
+                        "name": "Snog"
+                    },
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 0,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "gradual": true,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 }
             ],
-            "foundryVersion": "0.8.9",
+            "originalLink": "ddb://image/idrotf/map-2.6-dark-duchess-player.jpg",
+            "foundryVersion": "9.255",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 2.6: Dark Duchess",
                     "bookCode": "idrotf",
                     "contentChunkId": "MapMap26darkduchess-player",
-                    "lastUpdate": "0.1.22",
-                    "notes": "0.1.22",
-                    "tokens": "0.0.14",
-                    "walls": "0.0.14",
+                    "lastUpdate": "0.1.40",
+                    "notes": "0.2.20",
+                    "tokens": "0.2.20",
+                    "walls": "0.2.20",
                     "lights": "0.0.14",
-                    "drawings": "0.0.14"
+                    "drawings": "0.0.14",
+                    "foundry": "9.255"
                 }
             }
         },
@@ -1688,9 +1932,16 @@
                 "_id": "icl1uo1010dm1uey"
             }
         ],
-        "perfect-vision": [],
+        "perfect-vision": {
+            "sightLimit": null,
+            "daylightColor": "",
+            "darknessColor": "",
+            "saturation": null
+        },
         "dynamic-illumination": [],
-        "ddbimporter": {}
+        "ddbimporter": {
+            "version": "2.9.20"
+        }
     },
     "globalLight": false,
     "globalLightThreshold": null,
@@ -1715,10 +1966,14 @@
                 3120,
                 1456
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1727,10 +1982,14 @@
                 3159,
                 1495
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1739,10 +1998,14 @@
                 3211,
                 1573
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1751,10 +2014,14 @@
                 3237,
                 1651
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1763,10 +2030,14 @@
                 3276,
                 1716
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1775,10 +2046,14 @@
                 3276,
                 1742
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1787,10 +2062,14 @@
                 3328,
                 1924
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1799,10 +2078,14 @@
                 3341,
                 1963
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1811,10 +2094,14 @@
                 3380,
                 2093
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1823,10 +2110,14 @@
                 3419,
                 2236
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1835,10 +2126,14 @@
                 3445,
                 2379
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1847,10 +2142,14 @@
                 3471,
                 2548
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1859,10 +2158,14 @@
                 3471,
                 2743
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1871,10 +2174,14 @@
                 3458,
                 2912
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1883,10 +2190,14 @@
                 3419,
                 3068
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1895,10 +2206,14 @@
                 3380,
                 3198
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1907,10 +2222,14 @@
                 3315,
                 3328
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1919,10 +2238,14 @@
                 3263,
                 3419
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1931,10 +2254,14 @@
                 3185,
                 3445
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1943,10 +2270,14 @@
                 2964,
                 3445
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1955,10 +2286,14 @@
                 2886,
                 3406
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1967,10 +2302,14 @@
                 2808,
                 3289
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1979,10 +2318,14 @@
                 2756,
                 3185
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -1991,10 +2334,14 @@
                 2717,
                 3068
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2003,10 +2350,14 @@
                 2691,
                 2925
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2015,10 +2366,14 @@
                 2678,
                 2756
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2027,10 +2382,14 @@
                 2691,
                 2548
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2039,10 +2398,14 @@
                 2717,
                 2379
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2051,10 +2414,14 @@
                 2730,
                 2236
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2063,10 +2430,14 @@
                 2808,
                 1950
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2075,10 +2446,14 @@
                 2873,
                 1742
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2087,10 +2462,14 @@
                 2912,
                 1612
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2099,10 +2478,14 @@
                 2964,
                 1534
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2111,10 +2494,14 @@
                 3016,
                 1482
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2123,10 +2510,14 @@
                 3068,
                 1443
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2135,10 +2526,14 @@
                 2977,
                 1651
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2147,10 +2542,14 @@
                 3237,
                 1651
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2159,10 +2558,14 @@
                 2977,
                 1651
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2171,10 +2574,14 @@
                 3068,
                 1651
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2183,10 +2590,14 @@
                 3068,
                 1846
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2195,10 +2606,14 @@
                 3068,
                 1872
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2207,10 +2622,14 @@
                 3068,
                 1963
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2219,10 +2638,14 @@
                 3081,
                 2093
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2231,10 +2654,14 @@
                 3237,
                 2093
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2243,10 +2670,14 @@
                 3276,
                 2236
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2255,10 +2686,14 @@
                 3419,
                 2236
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2267,10 +2702,14 @@
                 2977,
                 2093
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2279,10 +2718,14 @@
                 2925,
                 2093
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2291,10 +2734,14 @@
                 2886,
                 2249
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2303,10 +2750,14 @@
                 2730,
                 2249
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2315,10 +2766,14 @@
                 2730,
                 2236
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2327,10 +2782,14 @@
                 2873,
                 3068
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2339,10 +2798,14 @@
                 2912,
                 3224
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2351,10 +2814,14 @@
                 3107,
                 3224
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2363,10 +2830,14 @@
                 3224,
                 3211
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2375,10 +2846,14 @@
                 3263,
                 3068
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2387,10 +2862,14 @@
                 3419,
                 3068
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2399,10 +2878,14 @@
                 3172,
                 3211
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 1,
             "ds": 2,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2411,10 +2894,14 @@
                 3081,
                 2093
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2423,10 +2910,14 @@
                 3068,
                 1898
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2435,10 +2926,14 @@
                 3068,
                 1781
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2447,10 +2942,14 @@
                 3068,
                 1651
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2459,10 +2958,14 @@
                 2977,
                 1963
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2471,10 +2974,14 @@
                 4238,
                 1755
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2483,10 +2990,14 @@
                 4134,
                 2080
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2495,10 +3006,14 @@
                 4537,
                 2080
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2507,10 +3022,14 @@
                 4446,
                 1755
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2519,10 +3038,14 @@
                 4329,
                 1534
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2531,10 +3054,14 @@
                 4264,
                 1508
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2543,10 +3070,14 @@
                 4186,
                 1547
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2555,10 +3086,14 @@
                 4121,
                 1664
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2567,10 +3102,14 @@
                 4082,
                 1768
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2579,10 +3118,14 @@
                 3978,
                 2093
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2591,10 +3134,14 @@
                 3913,
                 2405
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2603,10 +3150,14 @@
                 3874,
                 2665
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2615,10 +3166,14 @@
                 3887,
                 2873
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2627,10 +3182,14 @@
                 3913,
                 3042
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2639,10 +3198,14 @@
                 3939,
                 3120
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2651,10 +3214,14 @@
                 4290,
                 3133
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2663,10 +3230,14 @@
                 4576,
                 3133
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2675,10 +3246,14 @@
                 4537,
                 3224
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2687,10 +3262,14 @@
                 4485,
                 3315
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2699,10 +3278,14 @@
                 4433,
                 3393
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2711,10 +3294,14 @@
                 4407,
                 3406
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2723,10 +3310,14 @@
                 4264,
                 3406
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2735,10 +3326,14 @@
                 4134,
                 3406
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2747,10 +3342,14 @@
                 4082,
                 3393
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2759,10 +3358,14 @@
                 4017,
                 3302
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2771,10 +3374,14 @@
                 3939,
                 3120
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2783,10 +3390,14 @@
                 4615,
                 2964
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2795,10 +3406,14 @@
                 4641,
                 2795
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2807,10 +3422,14 @@
                 4641,
                 2717
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2819,10 +3438,14 @@
                 4628,
                 2613
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2831,10 +3454,14 @@
                 4602,
                 2431
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2843,10 +3470,14 @@
                 4576,
                 2236
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2855,10 +3486,14 @@
                 4537,
                 2080
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2867,10 +3502,14 @@
                 3978,
                 2080
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2879,10 +3518,14 @@
                 2522,
                 3536
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2891,10 +3534,14 @@
                 3679,
                 3536
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2903,10 +3550,14 @@
                 5044,
                 3536
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2915,10 +3566,14 @@
                 5044,
                 819
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2927,10 +3582,14 @@
                 1079,
                 845
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2939,10 +3598,14 @@
                 1092,
                 3523
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         },
         {
             "c": [
@@ -2951,10 +3614,14 @@
                 4355,
                 3133
             ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "flags": {}
         }
     ],
     "weather": "",
