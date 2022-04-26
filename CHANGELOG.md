@@ -1,3 +1,9 @@
+# 0.2.20
+
+* IDRotFM: fix up some token names.
+* CotN: v2.
+* DoIP: Improvements to DoIP: Dwarven Excavation --  Fixes to hidden doors, adding tiles, adding notes, drawings, dc's, DM notes. (Thanks @Pariah Zero#9919 )
+
 # 0.2.19
 
 * WDotMM: First level contribution by @Essarielle#9980
