@@ -1,3 +1,7 @@
+# 0.2.21
+
+* OotA: Scene name correction
+
 # 0.2.20
 
 * IDRotFM: fix up some token names.
