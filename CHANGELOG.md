@@ -1,3 +1,8 @@
+# 0.2.23
+
+* WPM pins broken due to formatting change (requires Adventure Muncher v0.6.9).
+* Bump some supported adventure versions.
+
 # 0.2.22
 
 * THSoT pins had failed to parse due to data change.
