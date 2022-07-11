@@ -1,3 +1,8 @@
+# 0.2.24
+
+* Support for Spell Jammer Academy (requires Adventure Muncher v0.6.10).
+* Support for The Radiant Citadel chapter 1 excerpt (requires Adventure Muncher v0.6.10).
+
 # 0.2.23
 
 * WPM pins broken due to formatting change (requires Adventure Muncher v0.6.9).
