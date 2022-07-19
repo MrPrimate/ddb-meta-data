@@ -1,3 +1,7 @@
+# 0.2.25
+
+* Initial support for Journeys Through the Radiant Citadel
+
 # 0.2.24
 
 * Support for Spell Jammer Academy (requires Adventure Muncher v0.6.10).
