@@ -1,3 +1,7 @@
+# 0.2.25
+
+* SDW: Small fixes for @dinnydorf#6300 on Deadknight-Dreadnaught
+
 # 0.2.24
 
 * Support for Spell Jammer Academy (requires Adventure Muncher v0.6.10).
