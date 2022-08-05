@@ -1,6 +1,6 @@
 # 0.2.25
 
-* SDW: Small fixes for @dinnydorf#6300 on Deadknight-Dreadnaught
+* SDW: Small fixes for @dinnydorf#6300 on Deadknight-Dreadnaught and Iniarv's Tower
 
 # 0.2.24
 
