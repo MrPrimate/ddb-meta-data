@@ -1,6 +1,7 @@
 # 0.2.25
 
 * SDW: Small fixes for @dinnydorf#6300 on Deadknight-Dreadnaught and Iniarv's Tower
+* VrgtR did not generate pins in v0.7.*
 
 # 0.2.24
 
