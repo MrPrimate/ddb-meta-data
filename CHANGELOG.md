@@ -1,3 +1,7 @@
+# 0.2.26
+
+* Intitial support for Spelljammer Adventures In Space
+
 # 0.2.25
 
 * SDW: Small fixes for @dinnydorf#6300 on Deadknight-Dreadnaught and Iniarv's Tower
