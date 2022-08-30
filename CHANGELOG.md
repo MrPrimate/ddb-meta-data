@@ -1,3 +1,7 @@
+# 0.2.27
+
+* SKT Scene provided by @ZEE-Zardya#0284
+
 # 0.2.26
 
 * Intitial support for Spelljammer Adventures In Space
