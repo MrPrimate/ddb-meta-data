@@ -1,10 +1,16 @@
+# 0.2.29
+
+* DC Scene updates for version bump.
+* JttRC: Small scene alignment @Pariah Zero#9919
+* SAiS: Many ship grid alignments @Pariah Zero#9919
+
 # 0.2.28
 
 * SKT Scene provided by @ZEE-Zardya#0284
 
 # 0.2.26
 
-* Intitial support for Spelljammer Adventures In Space
+* Initial support for Spelljammer Adventures In Space
 
 # 0.2.25
 
