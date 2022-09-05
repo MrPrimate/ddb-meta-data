@@ -12,7 +12,7 @@
             "notes": [],
             "tokens": [],
             "originalLink": "ddb://image/jttrc/map-1.1-radiant-citadel-player.jpg",
-            "foundryVersion": "9.269",
+            "foundryVersion": "9.280",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 1.1: Radiant Citadel",
@@ -24,33 +24,43 @@
                     "walls": "0.2.25",
                     "lights": "0.2.25",
                     "drawings": "0.2.25",
-                    "foundry": "9.269"
+                    "foundry": "9.280"
                 }
             }
         },
         "stairways": {},
-        "perfect-vision": {},
+        "perfect-vision": {
+            "revealed": false,
+            "sightLimit": null,
+            "daylightColor": "",
+            "darknessColor": "",
+            "saturation": null
+        },
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "999.0.0"
+            "version": "2.9.65"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
+    "grid": 50,
+    "gridDistance": 25,
+    "gridType": 4,
     "gridUnits": "ft",
-    "height": 2850,
-    "initial": null,
+    "height": 13540,
+    "initial": {
+        "x": 8199,
+        "y": 6483,
+        "scale": 0.13
+    },
     "lights": [],
     "name": "Map 1.1: Radiant Citadel",
     "navName": "Radiant Citadel",
     "padding": 0.25,
-    "shiftX": 0,
+    "shiftX": 28,
     "shiftY": 0,
     "tokenVision": true,
     "walls": [],
     "weather": "",
-    "width": 2100
+    "width": 9977
 }
