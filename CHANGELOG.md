@@ -3,6 +3,7 @@
 * DC Scene updates for version bump.
 * JttRC: Small scene alignment @Pariah Zero#9919
 * SAiS: Many ship grid alignments @Pariah Zero#9919
+* TWBtW: Scene updates for version bump. @HisMessengerDAB#2579
 
 # 0.2.28
 
