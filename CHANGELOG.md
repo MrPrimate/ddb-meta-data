@@ -1,3 +1,7 @@
+# 0.2.30
+
+* Fix notes for DC, TWBtW, WDotMM.
+
 # 0.2.29
 
 * DC Scene updates for version bump.
