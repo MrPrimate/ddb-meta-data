@@ -1,3 +1,7 @@
+# 0.2.31
+
+* SAiS: More ship grid alignments from the wondrous @Pariah Zero#9919
+
 # 0.2.30
 
 * Fix notes for DC, TWBtW, WDotMM.
