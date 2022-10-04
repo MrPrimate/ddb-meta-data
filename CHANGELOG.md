@@ -1,3 +1,8 @@
+# 0.2.32
+
+* LMoP: Fixes due to DDB Changes
+* DoSI: Initial Support.
+
 # 0.2.31
 
 * SAiS: More ship grid alignments from the wondrous @Pariah Zero#9919
