@@ -1,3 +1,8 @@
+# 0.2.33
+
+* SaiS: More ship alignments, thanks @Pariah Zero#9919
+* CM: Missing Scene, thanks @Pariah Zero#9919
+
 # 0.2.32
 
 * LMoP: Fixes due to DDB Changes
