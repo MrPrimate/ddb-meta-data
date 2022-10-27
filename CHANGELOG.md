@@ -1,3 +1,7 @@
+# 0.2.34
+
+* PotA: Fixes for formatting upgrade.
+
 # 0.2.33
 
 * SaiS: More ship alignments, thanks @Pariah Zero#9919
