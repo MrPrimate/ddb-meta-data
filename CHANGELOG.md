@@ -1,3 +1,7 @@
+# 0.2.35
+
+* Fix pin generation for TSC.
+
 # 0.2.34
 
 * PotA: Fixes for formatting upgrade.
