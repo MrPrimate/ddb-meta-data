@@ -1,3 +1,8 @@
+# 0.2.36
+
+* SaiS: All Scenes are now scaled to grids, thanks @Pariah Zero#9919
+* JttRC: Night Market Scene, thanks @Pariah Zero#9919
+
 # 0.2.35
 
 * Fix pin generation for TSC.
