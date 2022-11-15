@@ -1,3 +1,21 @@
+# 0.2.35
+
+* Fix pin generation for TSC.
+
+# 0.2.34
+
+* PotA: Fixes for formatting upgrade.
+
+# 0.2.33
+
+* SaiS: More ship alignments, thanks @Pariah Zero#9919
+* CM: Missing Scene, thanks @Pariah Zero#9919
+
+# 0.2.32
+
+* LMoP: Fixes due to DDB Changes
+* DoSI: Initial Support.
+
 # 0.2.31
 
 * SAiS: More ship grid alignments from the wondrous @Pariah Zero#9919
