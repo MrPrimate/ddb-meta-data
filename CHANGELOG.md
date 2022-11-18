@@ -1,3 +1,7 @@
+# 0.2.37
+
+* IDRotF: Some token name improvements.
+
 # 0.2.36
 
 * SaiS: All Scenes are now scaled to grids, thanks @Pariah Zero#9919
