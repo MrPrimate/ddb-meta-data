@@ -1,3 +1,8 @@
+# 0.3.1
+
+* Correct DoSI missing scene offsets.
+* Correct JttRC missing scene offset.
+
 # 0.3.0
 
 * Some scenes are now v10 only.
