@@ -1,3 +1,8 @@
+# 0.3.0
+
+* Some scenes are now v10 only.
+* DoSI: Dragons Rest, thanks @korokoro#1667 
+
 # 0.2.37
 
 * IDRotF: Some token name improvements.
