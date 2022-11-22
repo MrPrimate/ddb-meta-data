@@ -1,3 +1,7 @@
+# 0.3.2
+
+* SotDQ: Initial support (Dragonlance)
+
 # 0.3.1
 
 * Correct DoSI missing scene offsets.
