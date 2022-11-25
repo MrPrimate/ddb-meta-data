@@ -1,6 +1,11 @@
+# 0.3.3
+
+- CotN: Betrayer's rise corrections (Thanks @Muizz#2978)
+- DoSI: fix broken Notes.
+
 # 0.3.2
 
-* SotDQ: Initial support (Dragonlance)
+* SotDQ: Initial support (Dragonlance) requires Adventure Muncher v1.2.1
 
 # 0.3.1
 
