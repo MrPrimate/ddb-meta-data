@@ -1,3 +1,8 @@
+# 0.3.4
+
+* SotDQ: Missing scene alignments.
+
+
 # 0.3.3
 
 - CotN: Betrayer's rise corrections (Thanks @Muizz#2978)
