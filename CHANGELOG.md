@@ -1,12 +1,15 @@
+# 0.3.5
+
+* DoSI: Seagrow Caves Scene
+
 # 0.3.4
 
 * SotDQ: Missing scene alignments.
 
-
 # 0.3.3
 
-- CotN: Betrayer's rise corrections (Thanks @Muizz#2978)
-- DoSI: fix broken Notes.
+* CotN: Betrayer's rise corrections (Thanks @Muizz#2978)
+* DoSI: fix broken Notes.
 
 # 0.3.2
 
