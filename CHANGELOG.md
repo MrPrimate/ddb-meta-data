@@ -1,3 +1,39 @@
+# 0.3.5
+
+* DoSI: Seagrow Caves Scene
+
+# 0.3.4
+
+* SotDQ: Missing scene alignments.
+
+# 0.3.3
+
+* CotN: Betrayer's rise corrections (Thanks @Muizz#2978)
+* DoSI: fix broken Notes.
+
+# 0.3.2
+
+* SotDQ: Initial support (Dragonlance) requires Adventure Muncher v1.2.1
+
+# 0.3.1
+
+* Correct DoSI missing scene offsets.
+* Correct JttRC missing scene offset.
+
+# 0.3.0
+
+* Some scenes are now v10 only.
+* DoSI: Dragons Rest, thanks @korokoro#1667 
+
+# 0.2.37
+
+* IDRotF: Some token name improvements.
+
+# 0.2.36
+
+* SaiS: All Scenes are now scaled to grids, thanks @Pariah Zero#9919
+* JttRC: Night Market Scene, thanks @Pariah Zero#9919
+
 # 0.2.35
 
 * Fix pin generation for TSC.
