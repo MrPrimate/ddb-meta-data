@@ -12,7 +12,7 @@ async function main() {
 
     parser.add_argument("-a", "--book", { help: "Book abbreviation" });
     parser.add_argument("-c", "--converted", { help: "Converted book path (output of `dndbconverter`)" });
-    parser.add_argument("-o", "--output", { help: "Output directory", default: path.resolve(__dirname, "../modules") });
+    parser.add_argument("-o", "--output", { help: "Output directory", default: path.resolve(__dirname, "../../modules") });
     parser.add_argument("action", { help: "Action to perform: assemble" });
     const args = parser.parse_args();
 
@@ -106,7 +106,7 @@ async function assemble(args) {
     
     await fs.ensureDir(path.resolve(args.output, args.book));
     
-    const contentPath = path.resolve(__dirname, "../modules");
+    const contentPath = path.resolve(__dirname, "../../modules");
 
     const jsonPath = path.resolve(args.converted, `${args.book}.json`);
     if (!fs.existsSync(jsonPath)) throw new Error(`JSON file not found: ${jsonPath}`);

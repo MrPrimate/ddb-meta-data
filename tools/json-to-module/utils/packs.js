@@ -3,6 +3,8 @@
 const fs = require("fs-extra");
 const path = require("path");
 
+const modulesPath = path.resolve(__dirname, "../../../modules");
+
 const TYPES = new Map([
     ["actors", "Actor"],
     ["cards", "Cards"],
@@ -16,14 +18,14 @@ const TYPES = new Map([
 ]);
 
 (async () => {
-    const books = await fs.readdir(path.resolve("../../modules"));
+    const books = await fs.readdir(modulesPath);
 
     for (const book of books) {
-        const manifestPath = path.resolve("../../modules", book, "module.json");
+        const manifestPath = path.resolve(modulesPath, book, "module.json");
         if (!(await fs.pathExists(manifestPath))) continue;
         const manifest = await fs.readJSON(manifestPath);
-        
-        const dbPath = path.resolve("../../modules", book, "packs");
+
+        const dbPath = path.resolve(modulesPath, book, "packs");
         if (!(await fs.pathExists(dbPath))) continue;
         const dbFiles = await fs.readdir(dbPath);
 
