@@ -1,3 +1,8 @@
+# 0.3.6
+
+* DoSI: Wreck of the Compass Rose
+* DoSI: Clifftop Observatory
+
 # 0.3.5
 
 * DoSI: Seagrow Caves Scene
