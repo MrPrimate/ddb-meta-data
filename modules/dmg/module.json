@@ -1,0 +1,60 @@
+{
+	"name": "dmg",
+	"title": "Dungeon Master's Guide",
+	"description": "<h2>Entertain and Inspire Your Players</h2>\n<p>The Dungeon Master's Guide provides the inspiration and guidance you need to spark your imagination and create worlds of adventure for your players to explore and enjoy. This core D&amp;D book gives Dungeon Masters the world building advice, tips, tricks, and tools to create your own dungeons and adventures.</p>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/DMG",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "9",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [
+		{
+			"name": "tables",
+			"label": "DMG RollTables",
+			"path": "packs/tables.db",
+			"entity": "RollTable",
+			"type": "RollTable",
+			"system": "dnd5e"
+		}
+	],
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/dmg/listing_images/637245347063211867.jpeg"
+		}
+	]
+}
