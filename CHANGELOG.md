@@ -277,7 +277,7 @@
 
 * BGDiA: New Scenes (@Pariah Zero#9919) (Scene lights require Foundry v9)
 * BG:DiA now complete! All hail @Pariah Zero#9919!
-* SACoC: Missing pins for Central Campus. 
+* SACoC: Missing pins for Central Campus.
 * SACoC: Grids for all maps. (@Pariah Zero#9919)
 * SACoC: Some scenes are now lit. (@Pariah Zero#9919) (Scene lights require Foundry v9)
 * RoT: updates for a couple of scenes. (@Pariah Zero#9919)
