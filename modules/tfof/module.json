@@ -1,4 +1,5 @@
 {
+	"id": "tfof",
 	"name": "tfof",
 	"title": "The Forge of Fury",
 	"description": "<blockquote>\n  <p>Adventure for Levels 3-5</p>\n</blockquote>\n<p>The Forge of Fury, by Richard Baker, was originally published in 2000 as an adventure for the third edition of the D&amp;D game. The adventure was published shortly after The Sunless Citadel and was designed as a follow-up to it. Characters who succeeded in that mission and advanced to 3rd level were now ready to take on the challenges of a ruined dwarven fortress.</p>",
@@ -34,8 +35,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -50,6 +55,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

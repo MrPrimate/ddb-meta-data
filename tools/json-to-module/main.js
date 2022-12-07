@@ -219,6 +219,7 @@ async function assembleTables(args, contentPath) {
 async function assembleManifest(args, json) {
     const manifestPath = path.resolve(args.output, args.book, `module.json`);
     const manifest = {
+        id: args.book,
         name: args.book,
         title: json.Description,
         description: json.ProductBlurb,
@@ -240,8 +241,12 @@ async function assembleManifest(args, json) {
         flags: {},
 
         version: "0.0.0",
+        compatibility: {
+            minimum: "0.7.9",
+            verified: "10",
+        },
         minimumCoreVersion: "0.7.9",
-        compatibleCoreVersion: "9",
+        compatibleCoreVersion: "10",
 
         scripts: [],
         esmodules: [],
@@ -249,6 +254,18 @@ async function assembleManifest(args, json) {
         languages: [],
         packs: [],
 
+        relationships: {
+            systems: [
+                {
+                    id: "dnd5e",
+                    type: "system",
+                    manifest: "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+                    compatibility: {
+                        verified: "2.0.3",
+                    },
+                },
+            ],
+        },
         system: ["dnd5e"],
         dependencies: [],
         socket: false,

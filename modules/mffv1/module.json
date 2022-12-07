@@ -1,4 +1,5 @@
 {
+	"id": "mffv1",
 	"name": "mffv1",
 	"title": "Mordenkainen's Fiendish Folio Volume 1",
 	"description": "<p>Crawling from the darkest recesses of D&amp;D's history comes a ferocious menagerie of monsters malevolent and benign! These creatures first appeared in the <em>Fiend Folio</em> for first edition AD&amp;D.</p>",
@@ -26,13 +27,29 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
 	"languages": [],
 	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

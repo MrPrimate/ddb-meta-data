@@ -1,4 +1,5 @@
 {
+	"id": "idrotf",
 	"name": "idrotf",
 	"title": "Icewind Dale: Rime of the Frostmaiden",
 	"description": "<blockquote>\n  <p>Icewind Dale: Rime of the Frostmaiden equips Dungeon Masters with everything you need to run an adventure for characters level 1 to 12</p>\n</blockquote>\n<p>Beneath the unyielding night sky, you stand before a towering glacier and recite an ancient rhyme, causing a crack to form in the great wall of ice. Beyond this yawning fissure, the Caves of Hunger await.</p>\n<p>What fantastic secrets and treasures are entombed in the sunless heart of the glacier, and what will their discovery mean for the denizens of Icewind Dale?</p>",
@@ -42,8 +43,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -58,6 +63,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

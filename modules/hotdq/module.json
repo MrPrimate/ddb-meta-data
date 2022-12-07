@@ -1,4 +1,5 @@
 {
+	"id": "hotdq",
 	"name": "hotdq",
 	"title": "Hoard of the Dragon Queen",
 	"description": "<blockquote>\n  <p>A draconic adventure for levels 1-8</p>\n</blockquote>\n<p>In an audacious bid for power, the Cult of the Dragon, along with its dragon allies and the Red Wizards of Thay seeks to free Tiamat from her prison in the Nine Hells and bring her to the Forgotten Realms. The threat is so dire, factions are banding together to battle the cult. Never before has the need for heroes been as desperate.</p>",
@@ -34,8 +35,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -50,6 +55,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

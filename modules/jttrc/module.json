@@ -1,4 +1,5 @@
 {
+	"id": "jttrc",
 	"name": "jttrc",
 	"title": "Journeys through the Radiant Citadel",
 	"description": "<h2>Light Your Path To Adventure</h2>\n<p>Through the mists of the Ethereal Plane shines the Radiant Citadel. Travelers from across the multiverse flock to this mysterious bastion to share their traditions, stories, and calls for heroes. A crossroads of wonders and adventures, the Radiant Citadel is the first step on the path to legend. Where will your journeys take you?</p>\n<p>Each of the 13 adventures can be run by themselves or dropped in as part of an ongoing campaign. Explore this rich and varied collection of adventures in magical lands including</p>",
@@ -26,8 +27,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -42,6 +47,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

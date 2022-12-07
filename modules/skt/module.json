@@ -1,4 +1,5 @@
 {
+	"id": "skt",
 	"name": "skt",
 	"title": "Storm King's Thunder",
 	"description": "<blockquote>\n  <p>A Gigantic Adventure for Levels 1-10**</p>\n</blockquote>\n<p>Ages ago, giants and dragons waged war across the Savage Frontier. These battles are long forgotten by the human civilizations of today, but ancient relics remain. And now, the land shudders once more with the thunder of giant footsteps. Puny adventurers must rise to the challenge, gather their strength, unlock the power of ancient runes, and take the fight to the giants' doorsteps. Only then can they forge an alliance to end the war before it begins.</p>",
@@ -34,8 +35,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -50,6 +55,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

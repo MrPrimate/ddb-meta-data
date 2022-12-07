@@ -1,4 +1,5 @@
 {
+	"id": "ttp",
 	"name": "ttp",
 	"title": "The Tortle Package",
 	"description": "<p>This supplement also introduces a new playable character race, the tortle, and a new adventure location: Dangwaru, the Typhoon Palace. All of this is permissible for play within the D&amp;D Adventurers League.</p>\n<p>The Snout of Omgar is a geographical region described briefly in <em>Tomb of Annihilation</em>.</p>\n<p>Not much is revealed about the location or its inhabitants in that adventure, however. <em>The Tortle Package</em> is written for Dungeon Masters who want to know more about the Snout of Omgar.</p>",
@@ -30,8 +31,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -46,6 +51,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

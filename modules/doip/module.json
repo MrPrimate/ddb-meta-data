@@ -1,4 +1,5 @@
 {
+	"id": "doip",
 	"name": "doip",
 	"title": "Dragon of Icespire Peak",
 	"description": "<blockquote>\n  <p>A Introductionary Adventure for Levels 1-7</p>\n</blockquote>\n<p>The Beginning adventure to the Essentials Kit Bundle. A D&amp;D adventure is a collection of locations, quests, and challenges that inspires you to tell a story. The outcome of that story is determined by the actions and decisions of the adventurers — and, of course, the luck of the dice. You can run Dragon of Icespire Peak for as few as one player or as many as five players. Each player starts with a 1st-level character.</p>",
@@ -34,8 +35,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -50,6 +55,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

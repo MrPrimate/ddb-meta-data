@@ -1,4 +1,5 @@
 {
+	"id": "toa",
 	"name": "toa",
 	"title": "Tomb of Annihilation",
 	"description": "<blockquote>\n  <p>A Death-Defying Adventure for Levels 1-11</p>\n</blockquote>\n<p>The talk of the streets and taverns has all been about the so-called death curse: a wasting disease afflicting everyone who's ever been raised from the dead. Victims grow thinner and weaker each day, slowly but steadily sliding toward the death they once denied. When they finally succumb, they can't be raised — and neither can anyone else. Discover what's behind this curse and secrets that lie in the Jungles of Chult in the adventure</p>",
@@ -38,8 +39,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -54,6 +59,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

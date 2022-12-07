@@ -1,4 +1,5 @@
 {
+	"id": "atg",
 	"name": "atg",
 	"title": "Against the Giants",
 	"description": "<blockquote>\n  <p>Adventure for Level 11</p>\n</blockquote>\n<p>Against the Giants, by Gary Gygax, was originally produced in 1981 as a compilation of three adventures written in the earliest days of the game. Those adventures were created and originally released in 1978, during the time when Gary Gygax was still writing the Player's Handbook for the original AD&amp;D game. Despite being (in a sense) older than the game itself, these adventures continue to hold a special place in the hearts and memories of D&amp;D players of all ages.</p>",
@@ -30,8 +31,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -46,6 +51,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

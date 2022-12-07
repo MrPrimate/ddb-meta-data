@@ -1,4 +1,5 @@
 {
+	"id": "egtw",
 	"name": "egtw",
 	"title": "Explorer's Guide to Wildemount",
 	"description": "<p>Explore the war-torn continent of Wildemount in this sourcebook from the second season of the hit series Critical Role. As war brews between the Dwendalian Empire and the Kryn Dynasty, somewhere in the far corners of this landscape are secrets that could end this conflict and usher in a new age of peace—or burn the world to a cinder.</p>",
@@ -34,8 +35,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -50,6 +55,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

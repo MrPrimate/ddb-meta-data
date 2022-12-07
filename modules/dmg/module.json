@@ -1,4 +1,5 @@
 {
+	"id": "dmg",
 	"name": "dmg",
 	"title": "Dungeon Master's Guide",
 	"description": "<h2>Entertain and Inspire Your Players</h2>\n<p>The Dungeon Master's Guide provides the inspiration and guidance you need to spark your imagination and create worlds of adventure for your players to explore and enjoy. This core D&amp;D book gives Dungeon Masters the world building advice, tips, tricks, and tools to create your own dungeons and adventures.</p>",
@@ -26,8 +27,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -42,6 +47,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

@@ -1,4 +1,5 @@
 {
+	"id": "lr",
 	"name": "lr",
 	"title": "Locathah Rising",
 	"description": "<blockquote>\n  <p>Adventure for characters of 9th level</p>\n</blockquote>\n<p>Locathah Rising is a story about what happens when a normally peaceful species is pushed to the point of open conflict. As elemental forces threaten the safety of the nearby locathah communities, heroes rise from among their numbers to strike back and defend their homes and families.</p>",
@@ -26,8 +27,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -42,6 +47,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

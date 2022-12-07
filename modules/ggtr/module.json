@@ -1,4 +1,5 @@
 {
+	"id": "ggtr",
 	"name": "ggtr",
 	"title": "Guildmasters' Guide to Ravnica",
 	"description": "<p>The world of Dungeons &amp; Dragons meets the world of Magic: The Gathering in this sourcebook for the plane of Ravnica. Explore the web of wars, intrigue, and lore as the Ten Guilds vie for power, wealth, influence, and control over the plane.</p>",
@@ -26,13 +27,29 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
 	"languages": [],
 	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

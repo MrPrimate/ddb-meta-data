@@ -1,4 +1,5 @@
 {
+	"id": "llok",
 	"name": "llok",
 	"title": "Lost Laboratory of Kwalish",
 	"description": "<blockquote>\n  <p>An adventure for levels 5-10</p>\n</blockquote>\n<p>Laboratory of Kwalish explores an alternate expedition into the Barrier Peaks as players search for the lost lab of the legendary artificer. He disappeared in the peaks eons ago… as it turns out, finding a crashed planar ship and studying its technology to fuel his own research.</p>",
@@ -30,8 +31,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -46,6 +51,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

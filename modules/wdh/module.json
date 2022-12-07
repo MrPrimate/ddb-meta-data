@@ -1,4 +1,5 @@
 {
+	"id": "wdh",
 	"name": "wdh",
 	"title": "Waterdeep: Dragon Heist",
 	"description": "<blockquote>\n  <p>A Treasure Hunting Adventure for Levels 1-5</p>\n</blockquote>\n<p>Take a mad romp through the wards of Waterdeep as you uncover a villainous plot involving some of the city's most influential figures. A grand urban caper awaits you. Pit your skill and bravado against villains the likes of which you've never faced before, and let the dragon hunt begin!</p>",
@@ -26,8 +27,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -42,6 +47,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

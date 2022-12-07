@@ -1,4 +1,5 @@
 {
+	"id": "hftt",
 	"name": "hftt",
 	"title": "Hunt for the Thessalhydra",
 	"description": "<p>Unleash your imagination and live out the dream of exploring the upside down from the Netflix original series, Stranger Things. Everything you need to embark on a Stranger Things adventure! Mike Wheeler from Hawkins, Indiana, has created an awesome Dungeons &amp; Dragons adventure… and now you get to play it!</p>",
@@ -26,13 +27,29 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
 	"languages": [],
 	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

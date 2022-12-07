@@ -1,4 +1,5 @@
 {
+	"id": "sacoc",
 	"name": "sacoc",
 	"title": "Strixhaven: A Curriculum of Chaos",
 	"description": "<h2>THE SCHOOL OF MAGIC IS IN SESSION</h2>\n<p>The greatest minds in the multiverse meet at Strixhaven University. Professors convey fantastic secrets to eager students, and life on campus is frenetic. But danger lurks even here. Campus hijinks mix with mishaps and sinister plots, and it's up to you to save the day.</p>\n<p><em>Strixhaven™: A Curriculum of Chaos</em> introduces the fantastical setting of Strixhaven University, drawn from the multiverse of MAGIC: THE GATHERING, and provides rules for creating characters who are students in one of its five colleges. Characters can explore the setting over the course of four adventures, which can be played together or on their own. Each adventure describes an academic year filled with scholarly pursuits, campus shenanigans, exciting friendships, hidden dangers, and perhaps even romance. This book includes a poster map that shows Strixhaven's campuses on one side and location maps on the other.</p>",
@@ -34,8 +35,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -50,6 +55,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

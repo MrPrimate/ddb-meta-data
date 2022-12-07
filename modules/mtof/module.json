@@ -1,4 +1,5 @@
 {
+	"id": "mtof",
 	"name": "mtof",
 	"title": "Mordenkainen's Tome of Foes",
 	"description": "<blockquote>\n  <p>Reveal the truth about the great conflicts of the D&amp;D multiverse in this supplement</p>\n</blockquote>\n<p>Discover a tome full of research from the legendary mage Mordenkainen as he explores the multiverse and sheds light on dozens of new monsters and creatures from new planes of existence. This Sourcebook helps any dungeon master understand the history of races, devils, demons, and more to help run any creature for their game.</p>",
@@ -26,13 +27,29 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
 	"languages": [],
 	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

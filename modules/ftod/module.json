@@ -1,4 +1,5 @@
 {
+	"id": "ftod",
 	"name": "ftod",
 	"title": "Fizban's Treasury of Dragons",
 	"description": "<h2>STRAIGHT FROM THE DRAGON'S MOUTH</h2>\n<p>Meet Fizban the Fabulous: doddering archmage, unlikely hero of the War of the Lance, divine avatar of a dragon-god—and your guide to the mysteries of dragonkind in the worlds of Dungeons &amp; Dragons.</p>\n<p>What is the difference between a red dragon and a gold dragon? What is dragonsight? How does the magic that suffuses dragons impact the world around them? Here is your comprehensive guide to dragons, filled with the tips and tools <strong>Dungeon Masters</strong> and <strong>players</strong> need for their encounters with these dangerous magical creatures.</p>\n<p>Dragonslayers and dragon scholars alike will appreciate the new dragon-themed options for players eager to harness the power of dragon magic and create unique and memorable <strong>draconic characters</strong>. Discover a host of <strong>new dragons</strong> and other creatures. Learn about the lairs and hoards of each type of dragon, and how hoards focus the magic that suffuses dragons and connects them to the myriad worlds of the Material Plane. Discover everything there is to know about the most iconic monsters of Dungeons &amp; Dragons with help from <strong>Fizban</strong>, your expert advisor on dragonkind!</p>",
@@ -30,8 +31,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -46,6 +51,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],

@@ -1,4 +1,5 @@
 {
+	"id": "thsot",
 	"name": "thsot",
 	"title": "The Hidden Shrine of Tamoachan",
 	"description": "<blockquote>\n  <p>Adventure for Level 5</p>\n</blockquote>\n<p>The Hidden Shrine of Tamoachan, by Harold Johnson and Jeff R. Leason, was originally published in 1980 as an adventure for the first edition of the D&amp;D game.</p>\n<p>The design of the temple draws heavily on Mayan and Aztec/Toltec mythology and society. In the original publication, Dungeon Masters were encouraged to research these real-world background elements to add depth and realism to the characters' experience.</p>",
@@ -30,8 +31,12 @@
 	"changelog": "",
 	"flags": {},
 	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
 	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "9",
+	"compatibleCoreVersion": "10",
 	"scripts": [],
 	"esmodules": [],
 	"styles": [],
@@ -46,6 +51,18 @@
 			"system": "dnd5e"
 		}
 	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
 	"system": [
 		"dnd5e"
 	],
