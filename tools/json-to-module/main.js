@@ -259,7 +259,7 @@ async function assembleManifest(args, json) {
                 {
                     id: "dnd5e",
                     type: "system",
-                    manifest: "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/system.json",
+                    manifest: "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
                     compatibility: {
                         verified: "2.0.3",
                     },
