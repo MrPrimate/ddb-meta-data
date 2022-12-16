@@ -1,3 +1,7 @@
+# 0.3.7
+
+* SotDQ: Vogler, Battle of High Hill maps/scenes.
+
 # 0.3.6
 
 * DoSI: Wreck of the Compass Rose
