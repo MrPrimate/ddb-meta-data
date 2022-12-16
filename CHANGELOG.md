@@ -1,6 +1,6 @@
 # 0.3.7
 
-* SotDQ: Vogler, Battle of High Hill maps/scenes.
+* SotDQ: Vogler, Battle of High Hill, Escape from Vogler maps/scenes.
 
 # 0.3.6
 
