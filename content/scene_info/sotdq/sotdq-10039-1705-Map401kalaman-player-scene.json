@@ -345,7 +345,9 @@
                 {
                     "label": "Wanderer's Rest",
                     "flags": {
-                        "ddb": {}
+                        "ddb": {
+                            "noLink": true
+                        }
                     },
                     "texture": {
                         "src": "icons/svg/hanging-sign.svg",
@@ -369,7 +371,9 @@
                 {
                     "label": "Trade Gate",
                     "flags": {
-                        "ddb": {}
+                        "ddb": {
+                            "noLink": true
+                        }
                     },
                     "texture": {
                         "src": "icons/svg/bridge.svg",
@@ -393,7 +397,9 @@
                 {
                     "label": "Hetch Warehouse",
                     "flags": {
-                        "ddb": {}
+                        "ddb": {
+                            "noLink": true
+                        }
                     },
                     "texture": {
                         "src": "icons/svg/barrel.svg",
@@ -417,7 +423,9 @@
                 {
                     "label": "Warrior's Gate",
                     "flags": {
-                        "ddb": {}
+                        "ddb": {
+                            "noLink": true
+                        }
                     },
                     "texture": {
                         "src": "icons/svg/bridge.svg",
@@ -437,6 +445,32 @@
                     "iconSize": 40,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
+                },
+                {
+                    "label": "Fisher's Gate",
+                    "flags": {
+                        "ddb": {
+                            "noLink": true
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/bridge.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 4800,
+                            "y": 2100
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
                 }
             ],
             "tokens": [],
@@ -447,12 +481,12 @@
                     "name": "Map 4.1: Kalaman",
                     "bookCode": "sotdq",
                     "contentChunkId": "Map401kalaman-player",
-                    "lastUpdate": "0.3.7",
-                    "notes": "0.3.7",
-                    "tokens": "0.3.7",
-                    "walls": "0.3.7",
-                    "lights": "0.3.7",
-                    "drawings": "0.3.7",
+                    "lastUpdate": "0.3.8",
+                    "notes": "0.3.8",
+                    "tokens": "0.3.8",
+                    "walls": "0.3.8",
+                    "lights": "0.3.8",
+                    "drawings": "0.3.8",
                     "foundry": "10.291"
                 }
             }
