@@ -1,6 +1,9 @@
 # 0.3.7
 
-* SotDQ: Vogler, Battle of High Hill, Escape from Vogler maps/scenes.
+* SotDQ: Chapter 3 complete: Vogler, Battle of High Hill, Escape from Vogler maps/scenes.
+* SotDQ: Chapter 4 complete: Kalaman, Wheelhouse Outpiost, Retreat, Raided Catacombs.
+* SotDQ: Chapter 5 complete: Northern Wastes map, Blue Phoenix Shrine, Sunward Fortress, Wakenreth, Bluemaw Cave, Heart's Hollow, Camp Carrionclay, Attack on Wind's End.
+* SotDQ: Chapter 6: Path of Memories, City of Lost Names, Occupied Mansion.
 
 # 0.3.6
 
