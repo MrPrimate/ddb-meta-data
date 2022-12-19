@@ -18,9 +18,170 @@
             "parentId": 1707,
             "contentChunkId": "Map705clashoffallenflames-player",
             "notes": [],
-            "tokens": [],
+            "tokens": [
+                {
+                    "_id": "pqzN4eEByspZqcV6",
+                    "name": "Ignia",
+                    "width": 2,
+                    "height": 2,
+                    "x": 1400,
+                    "y": 2000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17074,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Young Red Dragon"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "name": "Ignia",
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Y5kJSOOX3o7hnGsy",
+                    "name": "Kansaldi Fire-Eyes",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1600,
+                    "y": 2000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 3081112,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Kansaldi Fire-Eyes"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "PtPXKqowbhwnKNTB",
+                    "name": "Bozak Draconian",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2900,
+                    "y": 1900,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 3081101,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Bozak Draconian"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
             "originalLink": "assets/map-7.05-clash-of-fallen-flames-player.png",
-            "foundryVersion": "10.290",
+            "foundryVersion": "10.291",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 7.5: Clash of Fallen Flames",
@@ -28,28 +189,53 @@
                     "contentChunkId": "Map705clashoffallenflames-player",
                     "lastUpdate": "0.3.1",
                     "notes": "0.3.1",
-                    "tokens": "0.3.1",
+                    "tokens": "0.3.9",
                     "walls": "0.3.1",
-                    "lights": "0.3.1",
+                    "lights": "0.3.9",
                     "drawings": "0.3.1",
-                    "foundry": "10.290"
+                    "foundry": "10.291"
                 }
             }
         },
         "stairways": {},
-        "perfect-vision": {},
+        "perfect-vision": {
+            "fogRevealed": false,
+            "daylightColor": "",
+            "darknessColor": "",
+            "globalLight": {
+                "x": 526,
+                "y": 825,
+                "bright": false,
+                "color": null,
+                "alpha": 0.5,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "reverse": false,
+                    "intensity": 5
+                },
+                "resolution": 1,
+                "vision": false,
+                "coloration": 1,
+                "luminosity": 0,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "z": null
+            }
+        },
         "dynamic-illumination": {},
         "ddbimporter": {
             "version": "999.0.0"
         }
     },
-    "globalLight": false,
+    "globalLight": true,
     "globalLightThreshold": null,
     "grid": {
         "type": 1,
         "size": 100,
         "color": "#000000",
-        "alpha": 0.2,
+        "alpha": 0,
         "distance": 5,
         "units": "ft"
     },
@@ -59,11 +245,1650 @@
         "y": null,
         "scale": null
     },
-    "lights": [],
+    "lights": [
+        {
+            "x": 1700,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2150,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 1400,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 1800,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 2200,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 2600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 3000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 3400,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2200,
+            "y": 3600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1800,
+            "y": 3600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1350,
+            "y": 3600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 900,
+            "y": 3600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 3300,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 2850,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 2400,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 2000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 1600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 1200,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 850,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1300,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#eedc81",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1100,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1500,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1950,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2300,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 1200,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 1600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 2000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 2400,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 2800,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2500,
+            "y": 3200,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2400,
+            "y": 3600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2000,
+            "y": 3600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1650,
+            "y": 3650,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1200,
+            "y": 3600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 3600,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 3100,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 2650,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 2200,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 1800,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 700,
+            "y": 1400,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 650,
+            "y": 1000,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#b84c28",
+                "coloration": 0,
+                "dim": 10,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        }
+    ],
     "name": "Map 7.5: Clash of Fallen Flames",
     "navName": "Clash of Fallen Flames",
     "padding": 0.25,
-    "tokenVision": true,
+    "tokenVision": false,
     "walls": [],
     "weather": "",
     "width": 2159
