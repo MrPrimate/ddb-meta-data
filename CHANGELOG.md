@@ -1,3 +1,7 @@
+# 0.3.10
+
+* LMOP Redbrand hideout would not load on D&D 2.1.x system version.
+
 # 0.3.9
 
 * SotDQ: Chapter 7 complete: Flying Citadel Sub Levels, Bastion of Takhisis, The Flying Citadel, Clash of Fallen Flames.
