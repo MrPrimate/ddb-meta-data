@@ -1,3 +1,7 @@
+# 0.3.11
+
+* ToD will now parse as a unique adventure.
+
 # 0.3.10
 
 * LMOP Redbrand hideout would not load on D&D 2.1.x system version.
