@@ -1,3 +1,7 @@
+# 0.3.12
+
+* MooT: Scene updates for changed formatting.
+
 # 0.3.11
 
 * ToD will now parse as a unique adventure.
