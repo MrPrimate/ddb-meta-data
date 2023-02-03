@@ -1,6 +1,10 @@
+# 0.3.13
+
+* Prisoner 13 support.
+
 # 0.3.12
 
-* MooT: Scene updates for changed formatting.
+* MooT: Scene updates for changed formatting. @JC#1439
 
 # 0.3.11
 
