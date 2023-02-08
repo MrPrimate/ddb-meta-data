@@ -1,3 +1,8 @@
+# 0.3.14
+
+* Keys from the Golden Vault (KftGV) support.
+* KftGV: Prisoner 13, The Murkmire Malevolence, Reach for the Stars, and The Stygian Gambit complete.
+
 # 0.3.13
 
 * Prisoner 13 support.
