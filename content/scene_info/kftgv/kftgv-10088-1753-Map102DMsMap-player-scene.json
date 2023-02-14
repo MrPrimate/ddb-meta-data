@@ -1368,69 +1368,7 @@
                             "isLegacy": false,
                             "flatAC": true,
                             "name": "Smoke Mephit"
-                        },
-                        "ddbActorEffects": [
-                            {
-                                "label": "Restrained",
-                                "icon": "modules/dfreds-convenient-effects/images/restrained.svg",
-                                "tint": null,
-                                "duration": {
-                                    "startTime": 714,
-                                    "seconds": null,
-                                    "combat": null,
-                                    "rounds": null,
-                                    "turns": null,
-                                    "startRound": null,
-                                    "startTurn": null
-                                },
-                                "flags": {
-                                    "core": {
-                                        "statusId": "Convenient Effect: Restrained",
-                                        "overlay": false
-                                    },
-                                    "isConvenient": true,
-                                    "convenientDescription": "- A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.<br/>- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.<br/>- The creature has disadvantage on Dexterity saving throws.",
-                                    "dae": {
-                                        "transfer": false,
-                                        "specialDuration": [],
-                                        "stackable": "multi"
-                                    },
-                                    "times-up": {
-                                        "isPassive": false
-                                    }
-                                },
-                                "transfer": false,
-                                "changes": [
-                                    {
-                                        "key": "flags.midi-qol.disadvantage.ability.save.dex",
-                                        "value": "1",
-                                        "mode": 0,
-                                        "priority": null
-                                    },
-                                    {
-                                        "key": "flags.midi-qol.disadvantage.attack.all",
-                                        "value": "1",
-                                        "mode": 0,
-                                        "priority": null
-                                    },
-                                    {
-                                        "key": "flags.midi-qol.grants.advantage.attack.all",
-                                        "value": "1",
-                                        "mode": 0,
-                                        "priority": null
-                                    },
-                                    {
-                                        "key": "system.attributes.movement.all",
-                                        "value": "0",
-                                        "mode": 0,
-                                        "priority": 25
-                                    }
-                                ],
-                                "_id": "0TZYKZctZXAJkWD7",
-                                "disabled": false,
-                                "origin": null
-                            }
-                        ]
+                        }
                     },
                     "actorLink": false,
                     "bar1": {
