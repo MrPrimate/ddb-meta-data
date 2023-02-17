@@ -1,3 +1,7 @@
+# 0.3.15
+
+* Missing map tiles from Tyranny of Dragons. @Kynewulf#5645
+
 # 0.3.14
 
 * Keys from the Golden Vault (KftGV) support (and complete).
