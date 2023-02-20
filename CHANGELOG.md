@@ -1,6 +1,10 @@
+# 0.3.16
+
+* JttRC: Market Challenges, Siabsungkoh, Kianas Farm House, thanks @Pariah Zero#9919
+
 # 0.3.15
 
-* Missing map tiles from Tyranny of Dragons. @Kynewulf#5645
+* Missing map tiles from Tyranny of Dragons.
 
 # 0.3.14
 
