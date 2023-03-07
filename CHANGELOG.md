@@ -1,3 +1,7 @@
+# 0.3.17
+
+* JttRC: Hollow Mine, Abandoned Metalworks, Borderlands thanks @Pariah Zero#9919
+
 # 0.3.16
 
 * JttRC: Market Challenges, Siabsungkoh, Kianas Farm House, thanks @Pariah Zero#9919
