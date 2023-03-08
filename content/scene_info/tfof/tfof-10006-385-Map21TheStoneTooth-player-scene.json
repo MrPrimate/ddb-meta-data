@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [
@@ -146,49 +154,97 @@
     "flags": {
         "ddb": {
             "bookCode": "tfof",
-            "ddbId": 90005,
+            "ddbId": 10006,
             "cobaltId": null,
             "parentId": 385,
-            "contentChunkId": "ddb-missing-tfof-90005",
-            "notes": [],
+            "contentChunkId": "Map21TheStoneTooth-player",
+            "notes": [
+                {
+                    "label": "The Stone Tooth",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 5,
+                            "bookCode": "tfof",
+                            "slug": "the-forge-of-fury#ApproachingKhundrukar",
+                            "linkName": "Approaching Khundrukar",
+                            "slugLink": "TheStoneTooth",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 385
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 1573,
+                            "y": 773
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                }
+            ],
             "tokens": [],
-            "foundryVersion": "9.242",
+            "originalLink": "ddb://image/tfof/map-2-1-the-stone-tooth.png",
+            "foundryVersion": "10.291",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 2.1: The Stone Tooth",
                     "bookCode": "tfof",
-                    "contentChunkId": "ddb-missing-tfof-90005",
-                    "lastUpdate": "0.1.52",
-                    "notes": "0.1.52",
-                    "tokens": "0.1.52",
-                    "walls": "0.1.52",
-                    "lights": "0.1.52",
-                    "drawings": "0.1.52",
-                    "foundry": "9.242"
+                    "contentChunkId": "Map21TheStoneTooth-player",
+                    "lastUpdate": "0.3.18",
+                    "notes": "0.3.18",
+                    "tokens": "0.3.18",
+                    "walls": "0.3.18",
+                    "lights": "0.3.18",
+                    "drawings": "0.3.18",
+                    "foundry": "10.291"
                 }
             }
         },
         "stairways": {},
-        "perfect-vision": {},
+        "perfect-vision": {
+            "fogRevealed": false,
+            "daylightColor": "",
+            "darknessColor": ""
+        },
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.8.1"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 12.5,
-    "gridType": 4,
-    "gridUnits": "yd",
+    "grid": {
+        "type": 3,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 6356,
-    "initial": null,
+    "initial": {
+        "x": 4674,
+        "y": 4904,
+        "scale": 0.25
+    },
     "lights": [],
     "name": "Map 2.1: The Stone Tooth",
     "navName": "The Stone Tooth",
     "padding": 0.25,
-    "shiftX": 86,
-    "shiftY": -14,
     "tokenVision": false,
     "walls": [],
     "weather": "",
