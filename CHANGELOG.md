@@ -1,3 +1,7 @@
+# 0.3.18
+
+* The Forge of Fury: Scene updates for latest version.
+
 # 0.3.17
 
 * JttRC: Hollow Mine, Abandoned Metalworks, Borderlands thanks @Pariah Zero#9919
