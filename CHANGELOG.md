@@ -1,3 +1,7 @@
+# 0.3.19
+
+* IDRotF: Updates for latest version.
+
 # 0.3.18
 
 * The Forge of Fury: Scene updates for latest version.
