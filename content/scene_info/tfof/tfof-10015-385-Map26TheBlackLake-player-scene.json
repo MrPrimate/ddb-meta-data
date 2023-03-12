@@ -1,18 +1,22 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -1,
+        "offsetY": -16,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [
         {
             "_id": "sEsQ9Uu7PWQEEpiR",
             "author": "pRMRhdeZEsQfpWkd",
-            "type": "r",
             "x": 5100,
             "y": 1788,
-            "width": 337.5,
-            "height": 312,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": "#28cc9c",
@@ -20,7 +24,7 @@
             "strokeWidth": 8,
             "strokeColor": "#28cc9c",
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "Weak Bridge",
             "fontFamily": "Signika",
             "fontSize": 48,
@@ -28,27 +32,30 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": true,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 338,
+                "height": 312,
+                "points": [],
+                "radius": null
+            }
         },
         {
             "_id": "5hU9aEx9XKhu3nk4",
             "author": "pRMRhdeZEsQfpWkd",
-            "type": "t",
             "x": 5100,
             "y": 1975,
-            "width": 323,
-            "height": 65,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
-            "fillColor": "",
+            "fillColor": null,
             "fillAlpha": 0,
             "strokeWidth": 0,
-            "strokeColor": "",
+            "strokeColor": null,
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "DC10 Dex Save",
             "fontFamily": "Signika",
             "fontSize": 48,
@@ -56,27 +63,30 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": true,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 323,
+                "height": 65,
+                "points": [],
+                "radius": null
+            }
         },
         {
             "_id": "eclKxlbePirGpTtC",
             "author": "pRMRhdeZEsQfpWkd",
-            "type": "t",
             "x": 5100,
             "y": 1850,
-            "width": 365,
-            "height": 51,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
-            "fillColor": "",
+            "fillColor": null,
             "fillAlpha": 0,
             "strokeWidth": 0,
-            "strokeColor": "",
+            "strokeColor": null,
             "strokeAlpha": 1,
-            "texture": "",
+            "texture": null,
             "text": "DC10 Int Sees Damage",
             "fontFamily": "Signika",
             "fontSize": 36,
@@ -84,7 +94,14 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": true,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 365,
+                "height": 51,
+                "points": [],
+                "radius": null
+            }
         }
     ],
     "flags": {
@@ -100,15 +117,26 @@
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
-                            "ddbId": 2362,
+                            "ddbId": 14,
                             "bookCode": "tfof",
-                            "slug": "the-forge-of-fury#TheForgeofFury",
-                            "contentChunkId": "c77f4645-4673-404e-80c5-3fc96b38f67b",
-                            "note": true,
+                            "slug": "the-forge-of-fury#TheBlackLake5054",
+                            "linkName": "The Black Lake 50-54",
+                            "slugLink": "50TheCascade",
+                            "duplicate": false,
+                            "contentChunkId": null,
                             "img": false,
-                            "parentId": 385,
-                            "linkId": "JdMi7CEyT9a79uLs"
+                            "note": false,
+                            "parentId": 385
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -117,7 +145,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -126,15 +153,28 @@
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
-                            "ddbId": 2370,
+                            "ddbId": 14,
                             "bookCode": "tfof",
-                            "slug": "the-forge-of-fury#TheForgeofFury",
+                            "slug": "the-forge-of-fury#TheBlackLake5054",
+                            "linkName": "The Black Lake 50-54",
+                            "slugLink": "51DwarvenBridges",
+                            "duplicate": false,
                             "contentChunkId": "d8f250ad-616f-4bd8-adde-7d6cf9b36f59",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 385,
-                            "linkId": "giEJAlDRlwcdkxby"
+                            "linkId": "9QQmrAMpg9Xw6dBJ",
+                            "labelName": "51. Dwarven Bridges"
                         }
+                    },
+                    "texture": {
+                        "src": "assets/adventures/misc/assets/icons/51.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -143,7 +183,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -152,15 +191,28 @@
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
-                            "ddbId": 2377,
+                            "ddbId": 14,
                             "bookCode": "tfof",
-                            "slug": "the-forge-of-fury#TheForgeofFury",
+                            "slug": "the-forge-of-fury#TheBlackLake5054",
+                            "linkName": "The Black Lake 50-54",
+                            "slugLink": "52NightscalesLair",
+                            "duplicate": false,
                             "contentChunkId": "d3c696e4-95c7-4d78-8d30-983037a33db9",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 385,
-                            "linkId": "fuC9GxZhuHGI24rb"
+                            "linkId": "NIlStkHvIDFGBMNx",
+                            "labelName": "52. Nightscale’s Lair"
                         }
+                    },
+                    "texture": {
+                        "src": "assets/adventures/misc/assets/icons/52.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -169,7 +221,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -178,15 +229,28 @@
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
-                            "ddbId": 2382,
+                            "ddbId": 14,
                             "bookCode": "tfof",
-                            "slug": "the-forge-of-fury#TheForgeofFury",
+                            "slug": "the-forge-of-fury#TheBlackLake5054",
+                            "linkName": "The Black Lake 50-54",
+                            "slugLink": "53NightscalesHoard",
+                            "duplicate": false,
                             "contentChunkId": "dfaec0d0-aa27-413d-94e0-bbf6eab27c1b",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 385,
-                            "linkId": "SKO9hX8wQKlfIgCu"
+                            "linkId": "fr1EPHHLqpZVhHvj",
+                            "labelName": "53. Nightscale’s Hoard"
                         }
+                    },
+                    "texture": {
+                        "src": "assets/adventures/misc/assets/icons/53.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -195,7 +259,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -204,15 +267,28 @@
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
-                            "ddbId": 2384,
+                            "ddbId": 14,
                             "bookCode": "tfof",
-                            "slug": "the-forge-of-fury#TheForgeofFury",
+                            "slug": "the-forge-of-fury#TheBlackLake5054",
+                            "linkName": "The Black Lake 50-54",
+                            "slugLink": "54TheDragonsPassage",
+                            "duplicate": false,
                             "contentChunkId": "fad223d0-aa65-414c-af5e-a41785fd8410",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 385,
-                            "linkId": "gaiRg7sYtglsVWRj"
+                            "linkId": "f0sJns7zANxhTJs6",
+                            "labelName": "54. The Dragon’s Passage"
                         }
+                    },
+                    "texture": {
+                        "src": "assets/adventures/misc/assets/icons/54.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -221,7 +297,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
@@ -232,7 +307,6 @@
                     "name": "Young Black Dragon",
                     "width": 2,
                     "height": 2,
-                    "scale": 1,
                     "x": 5900,
                     "y": 2500,
                     "disposition": -1,
@@ -240,10 +314,11 @@
                         "ddbActorFlags": {
                             "id": 17067,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.8.1",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Young Black Dragon"
                         }
                     },
@@ -253,40 +328,70 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
             "originalLink": "ddb://image/tfof/tfof05.png",
-            "foundryVersion": "9.242",
+            "foundryVersion": "10.291",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 2.6: The Black Lake",
                     "bookCode": "tfof",
                     "contentChunkId": "Map26TheBlackLake-player",
-                    "lastUpdate": "0.1.63",
-                    "notes": "0.1.63",
-                    "tokens": "0.1.63",
-                    "walls": "0.1.63",
-                    "lights": "0.1.63",
-                    "drawings": "0.1.63",
+                    "lastUpdate": "0.3.18",
+                    "notes": "0.3.18",
+                    "tokens": "0.3.18",
+                    "walls": "0.3.18",
+                    "lights": "0.3.18",
+                    "drawings": "0.3.18",
                     "foundry": "9.242"
                 }
             }
         },
         "stairways": {},
-        "perfect-vision": {},
+        "perfect-vision": {
+            "fogRevealed": false,
+            "daylightColor": "",
+            "darknessColor": ""
+        },
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.8.1"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 2759,
     "initial": {
         "x": 4349,
@@ -297,8 +402,6 @@
     "name": "Map 2.6: The Black Lake",
     "navName": "The Black Lake",
     "padding": 0.25,
-    "shiftX": -1,
-    "shiftY": -16,
     "tokenVision": true,
     "walls": [
         {

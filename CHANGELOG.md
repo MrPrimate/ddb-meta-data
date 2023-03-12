@@ -1,3 +1,63 @@
+# 0.3.19
+
+* IDRotF: Updates for latest version.
+
+# 0.3.18
+
+* The Forge of Fury: Scene updates for latest version.
+
+# 0.3.17
+
+* JttRC: Hollow Mine, Abandoned Metalworks, Borderlands thanks @Pariah Zero#9919
+
+# 0.3.16
+
+* JttRC: Market Challenges, Siabsungkoh, Kianas Farm House, thanks @Pariah Zero#9919
+* Fix Prisoner 13 scene data.
+
+# 0.3.15
+
+* Missing map tiles from Tyranny of Dragons.
+
+# 0.3.14
+
+* Keys from the Golden Vault (KftGV) support (and complete).
+# 0.3.13
+
+* Prisoner 13 support.
+
+# 0.3.12
+
+* MooT: Scene updates for changed formatting. @JC#1439
+
+# 0.3.11
+
+* ToD will now parse as a unique adventure.
+
+# 0.3.10
+
+* LMOP Redbrand hideout would not load on D&D 2.1.x system version.
+
+# 0.3.9
+
+* SotDQ: Chapter 7 complete: Flying Citadel Sub Levels, Bastion of Takhisis, The Flying Citadel, Clash of Fallen Flames.
+
+# 0.3.8
+
+* SotDQ: Chapter 4 complete: Kalaman, Wheelhouse Outpost, Retreat, Raided Catacombs.
+* SotDQ: Chapter 5 complete: Northern Wastes map, Blue Phoenix Shrine, Sunward Fortress, Wakenreth, Bluemaw Cave, Heart's Hollow, Camp Carrionclay, Attack on Wind's End.
+* SotDQ: Chapter 6 complete: Path of Memories, City of Lost Names, Occupied Mansion, Temple of Paladine, Threshold of the Heavens.
+* SotDQ: Chapter 7: Assault on Hawkers Grove.
+
+# 0.3.7
+
+* SotDQ: Chapter 3 complete: Vogler, Battle of High Hill, Escape from Vogler maps/scenes.
+
+# 0.3.6
+
+* DoSI: Wreck of the Compass Rose
+* DoSI: Clifftop Observatory
+
 # 0.3.5
 
 * DoSI: Seagrow Caves Scene
