@@ -1,3 +1,7 @@
+# NEXT
+
+* P13: imported a Specter instead of a Spectator for the armory.
+
 # 0.3.20
 
 * IDRotF: Updates for latest version.
