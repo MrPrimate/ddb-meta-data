@@ -106,7 +106,7 @@ async function assemble(args) {
     
     await fs.ensureDir(path.resolve(args.output, args.book));
     
-    const contentPath = path.resolve(__dirname, "../../modules");
+    const contentPath = path.resolve(__dirname, "../../content");
 
     const jsonPath = path.resolve(args.converted, `${args.book}.json`);
     if (!fs.existsSync(jsonPath)) throw new Error(`JSON file not found: ${jsonPath}`);
