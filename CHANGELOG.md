@@ -1,4 +1,4 @@
-# NEXT
+# 0.3.21
 
 * P13: imported a Specter instead of a Spectator for the armory.
 * TWBtW: Missing pin on Downfall map.
