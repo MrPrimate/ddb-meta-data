@@ -2,6 +2,9 @@
 
 * P13: imported a Specter instead of a Spectator for the armory.
 * TWBtW: Missing pin on Downfall map.
+* WDH: Gralhund Villa. Thanks @Kurindal#3397
+* OoTA: Fixes from @Pariah Zero#9919
+* JTtRC: More scenes from @Pariah Zero#9919
 
 # 0.3.20
 
