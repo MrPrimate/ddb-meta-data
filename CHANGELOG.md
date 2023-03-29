@@ -1,6 +1,7 @@
 # 0.3.23
 
 * JTtRC: The Goldwarren and Sensa Empire from @Pariah Zero#9919
+* WDH: Scene improvements by @Kurindal#3397
 
 # 0.3.22
 
