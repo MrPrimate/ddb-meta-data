@@ -1,3 +1,7 @@
+# 0.3.23
+
+* JTtRC: The Goldwarren and Sensa Empire from @Pariah Zero#9919
+
 # 0.3.22
 
 * WDH: Gralhund Villa. Thanks @Kurindal#3397
