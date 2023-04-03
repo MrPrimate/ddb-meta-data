@@ -1,3 +1,7 @@
+# 0.3.24
+
+* THSoT: Pin corrections for new version.
+
 # 0.3.23
 
 * JTtRC: The Goldwarren and Sensa Empire from @Pariah Zero#9919
