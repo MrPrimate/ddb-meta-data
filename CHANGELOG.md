@@ -1,6 +1,8 @@
 # 0.3.24
 
 * THSoT: Pin corrections for new version.
+* JTtRC: Gate of Illumination and Tletepec from @Pariah Zero#9919
+* WDH: Many scenes from @Kurindal#3397
 
 # 0.3.23
 
