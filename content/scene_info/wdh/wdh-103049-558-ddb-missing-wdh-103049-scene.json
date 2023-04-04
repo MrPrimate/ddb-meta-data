@@ -143,7 +143,6 @@
             "_id": "f4t8EM1tIl2Is8iP"
         },
         {
-            "_id": "GhOznRQX1cD48QhF",
             "author": "ZWZhNTMzZTE2NzI3",
             "shape": {
                 "type": "r",
@@ -152,8 +151,8 @@
                 "radius": null,
                 "points": []
             },
-            "x": 3112.5,
-            "y": 4862.5,
+            "x": 3100,
+            "y": 4800,
             "z": 0,
             "rotation": 0,
             "bezierFactor": 0,
@@ -178,20 +177,21 @@
                     "fit": false,
                     "prototype": null
                 }
-            }
+            },
+            "_id": "b95PLZ71q4pMUZ5x"
         },
         {
-            "_id": "xxkEq9eJZqay9bTb",
+            "_id": "MINwSDDomfInywRS",
             "author": "ZWZhNTMzZTE2NzI3",
             "shape": {
                 "type": "r",
-                "width": 1140,
-                "height": 415,
+                "width": 720,
+                "height": 509,
                 "radius": null,
                 "points": []
             },
-            "x": 2488,
-            "y": 450,
+            "x": 513,
+            "y": 2313,
             "z": 0,
             "rotation": 0,
             "bezierFactor": 0,
@@ -202,7 +202,7 @@
             "strokeColor": "#FFFFFF",
             "strokeAlpha": 1,
             "texture": null,
-            "text": "As the characters leave Mistshore, a gazer (see appendix B) begins to follow them, staying at least 60 feet away. Xanathar uses it to spy on the characters. Characters who have a passive Perception score of 15 or higher can spot the gazer shortly after the party enters the City of the Dead. The gazer defends itself if attacked.",
+            "text": "As the characters leave the Fuoco residence, with or without Agorn as their prisoner, they are surrounded by nine Zhentarim thugs. The thugs fight to the death while Agorn tries to escape",
             "fontFamily": "Signika",
             "fontSize": 48,
             "textColor": "#FFFFFF",
@@ -217,15 +217,53 @@
                     "prototype": null
                 }
             }
+        },
+        {
+            "author": "ZWZhNTMzZTE2NzI3",
+            "shape": {
+                "type": "r",
+                "width": 813,
+                "height": 788,
+                "radius": null,
+                "points": []
+            },
+            "x": 425,
+            "y": 3350,
+            "z": 0,
+            "rotation": 0,
+            "bezierFactor": 0,
+            "fillType": 0,
+            "fillColor": "#FFFFFF",
+            "fillAlpha": 0.1,
+            "strokeWidth": 8,
+            "strokeColor": "#FFFFFF",
+            "strokeAlpha": 1,
+            "texture": null,
+            "text": "If the characters find themselves outmatched by the Zhents, help comes in two forms. Two Harper spies sent by Remallia Haventree (see appendix B) appear on the scene. Their names are Salazar Lorrance (CG male Tethyrian human) and Mavia Oxlander (NG female Chondathan human). If the battle doesn’t turn quickly in the party’s favor, Grinda Garloth (see area D2) appears and uses her magic to aid them.",
+            "fontFamily": "Signika",
+            "fontSize": 48,
+            "textColor": "#FFFFFF",
+            "textAlpha": 1,
+            "hidden": true,
+            "locked": false,
+            "flags": {
+                "tagger": {},
+                "perfect-vision": {
+                    "enabled": false,
+                    "fit": false,
+                    "prototype": null
+                }
+            },
+            "_id": "c9S6naQupU26QaIf"
         }
     ],
     "flags": {
         "ddb": {
             "bookCode": "wdh",
-            "ddbId": 13043,
+            "ddbId": 103049,
             "cobaltId": null,
             "parentId": 558,
-            "contentChunkId": "f9a869c9-cd1c-4b3f-8b3b-613624572508",
+            "contentChunkId": "ddb-missing-wdh-103049",
             "notes": [
                 {
                     "label": "D01. Kraken’s Folly",
@@ -1573,7 +1611,7 @@
                     "width": 1,
                     "height": 1,
                     "x": 5800,
-                    "y": 3200,
+                    "y": 3300,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
@@ -1677,331 +1715,23 @@
                     }
                 },
                 {
-                    "_id": "tlGyijcbd8mRqfpO",
-                    "name": "Bandit",
-                    "width": 1,
-                    "height": 1,
-                    "x": 5500,
-                    "y": 3200,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16798,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.14",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Bandit"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "name": "Bandit",
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "6diqgmIwI4sCWUUQ",
-                    "name": "Bandit",
-                    "width": 1,
-                    "height": 1,
-                    "x": 5500,
-                    "y": 3300,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16798,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.14",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Bandit"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "name": "Bandit",
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "qIVbmyrdC3dnZINI",
-                    "name": "Bandit",
-                    "width": 1,
-                    "height": 1,
-                    "x": 5800,
-                    "y": 3400,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16798,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.14",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Bandit"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "name": "Bandit",
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "dSY50nk9SF5iKjqT",
-                    "name": "Bandit",
-                    "width": 1,
-                    "height": 1,
-                    "x": 5900,
-                    "y": 3400,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16798,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.14",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Bandit"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "name": "Bandit",
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "QOfYVSzW9HkcQWim",
-                    "name": "Merrow",
+                    "_id": "BKrqo5Qmm75GQfmf",
+                    "name": "Draft Horse",
                     "width": 2,
                     "height": 2,
-                    "x": 6100,
-                    "y": 3200,
+                    "x": 1700,
+                    "y": 4100,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16956,
+                            "id": 16844,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.14",
                             "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Merrow"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "system": {
-                            "attributes": {
-                                "hp": {
-                                    "temp": null,
-                                    "tempmax": null
-                                },
-                                "init": {
-                                    "bonus": null
-                                }
-                            },
-                            "quantity": [
-                                "1",
-                                "1",
-                                "1",
-                                "1",
-                                "1",
-                                "1"
-                            ]
-                        },
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "osEolTnARwuegMgw",
-                    "name": "Noska Ur’gray",
-                    "width": 1,
-                    "height": 1,
-                    "x": 5600,
-                    "y": 3400,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 280407,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Noska Ur’gray"
+                            "flatAC": true,
+                            "name": "Draft Horse"
                         }
                     },
                     "actorLink": false,
@@ -2036,23 +1766,1391 @@
                     }
                 },
                 {
-                    "_id": "JxLrQxzhpEh7JLN5",
-                    "name": "Gazer",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2300,
-                    "y": 600,
+                    "_id": "PFhSJD5NaDL37jvm",
+                    "name": "Draft Horse",
+                    "width": 2,
+                    "height": 2,
+                    "x": 1900,
+                    "y": 4100,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 2560821,
+                            "id": 16844,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.14",
                             "isLegacy": false,
                             "flatAC": true,
-                            "name": "Gazer"
+                            "name": "Draft Horse"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "93ln2zKbEI9vqB65",
+                    "name": "Rowan Evenwood",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1700,
+                    "y": 4300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "name": "Rowan Evenwood",
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "rsF5HjdwgyIoNCye",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1700,
+                    "y": 3200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "sdtHuk4uNdndq5lk",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1800,
+                    "y": 3100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "rrllaB9d3frXtJ7J",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1600,
+                    "y": 2900,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "aAkD9iLJsMmXLabW",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3500,
+                    "y": 3200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "LVIysghlcUqWbGhX",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3600,
+                    "y": 3300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "YJDGmsxqCkjhL9T6",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3800,
+                    "y": 3300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "E7mvf8nDYYpUUjNx",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3900,
+                    "y": 3200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "gNdMbMuAwWhVdHoR",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5500,
+                    "y": 3500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "jfKuXnZDGR7AGzDA",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5600,
+                    "y": 3500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "bbA42yglNxGwbX6l",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5900,
+                    "y": 3500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "vj8NjqqBpUpRxAtp",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5900,
+                    "y": 3700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "ni3j3DDUwPHW4VqL",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 5600,
+                    "y": 3700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "1byDS8qnVY8uNjxa",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2700,
+                    "y": 1100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "5Bw1ONaeqNDl4IMY",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2700,
+                    "y": 1200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "VIvYudzHkqrBx754",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2500,
+                    "y": 1000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Eid0p0MYE9zVwwVs",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3200,
+                    "y": 1200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "2pNqtr89VWCnUJW0",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3400,
+                    "y": 1200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "i9qFk8Jhewfiu1rj",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3200,
+                    "y": 1300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Gj7lHFfRBWNgvZGb",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1400,
+                    "y": 3900,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "3nZzz71chLJHtzSP",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1400,
+                    "y": 3700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "sa3BUdGI5KDt3lGZ",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1900,
+                    "y": 3800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "g4UMVIoTeBFW7CEC",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1400,
+                    "y": 3800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Wthz54cRALBEiq22",
+                    "name": "Agorn Fuoco",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2100,
+                    "y": 2300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 2560735,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Bard"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "temp": null,
+                                    "tempmax": null
+                                },
+                                "init": {
+                                    "bonus": null
+                                }
+                            },
+                            "quantity": [
+                                "1",
+                                "1",
+                                "1"
+                            ],
+                            "uses": {
+                                "value": [
+                                    "1",
+                                    "1",
+                                    "1"
+                                ],
+                                "max": [
+                                    "1",
+                                    "1",
+                                    "1"
+                                ]
+                            }
+                        },
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        },
+                        "name": "Agorn Fuoco"
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "vSbVYUZEOEz6vK48",
+                    "name": "Commoner",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2100,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "DFXht9UCi5ZoLTVI",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 800,
+                    "y": 2000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Thug"
                         }
                     },
                     "actorLink": false,
@@ -2085,15 +3183,554 @@
                             "max": 1
                         }
                     }
+                },
+                {
+                    "_id": "0ZJWbgu61Q0b1N1G",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 900,
+                    "y": 2000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Thug"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "fAbCBvLSATMdl68E",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1000,
+                    "y": 2000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Thug"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "hstFTbXidbBhongH",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 800,
+                    "y": 2100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Thug"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "xzzQPld32BYYb75J",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 900,
+                    "y": 2100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Thug"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "SKJXYLO9oEyHW0H6",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1000,
+                    "y": 2100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Thug"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "daifHUtioP0sLeB1",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 800,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Thug"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Kjk1D1JuK3eHT2nB",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 900,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Thug"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "QVC66oOTOB3ycJaI",
+                    "name": "Thug",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1000,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17035,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Thug"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "0gofAsnjTUD5dhTK",
+                    "name": "Salazar Lorrance",
+                    "width": 1,
+                    "height": 1,
+                    "x": 700,
+                    "y": 3200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17021,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Spy"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "name": "Salazar Lorrance",
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "hA0CjEjWBTn0MI21",
+                    "name": "Mavia Oxlander",
+                    "width": 1,
+                    "height": 1,
+                    "x": 800,
+                    "y": 3200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17021,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.14",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Spy"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "temp": null,
+                                    "tempmax": null
+                                },
+                                "init": {
+                                    "bonus": null
+                                }
+                            },
+                            "quantity": [
+                                "1",
+                                "1"
+                            ]
+                        },
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        },
+                        "name": "Mavia Oxlander"
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
             "originalLink": "ddb://image/wdh/c4000a.jpg",
             "foundryVersion": "10.291",
             "versions": {
                 "ddbMetaData": {
-                    "name": "Warehouse",
+                    "name": "Mistshore (Winter)",
                     "bookCode": "wdh",
-                    "contentChunkId": "f9a869c9-cd1c-4b3f-8b3b-613624572508",
+                    "contentChunkId": "ddb-missing-wdh-103049",
                     "lastUpdate": "0.3.24",
                     "notes": "0.3.24",
                     "tokens": "0.3.24",
@@ -2121,7 +3758,7 @@
         "type": 1,
         "size": 100,
         "color": "#000000",
-        "alpha": 0,
+        "alpha": 0.2,
         "distance": 5,
         "units": "ft"
     },
@@ -2211,9 +3848,459 @@
                 },
                 "tagger": {}
             }
+        },
+        {
+            "x": 2550,
+            "y": 1250,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 5,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {},
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 3393,
+            "y": 1423,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 5,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {},
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1664,
+            "y": 3093,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 5,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {},
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 3750,
+            "y": 3200,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 5,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {},
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 5800,
+            "y": 3650,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 5,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {},
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1700,
+            "y": 3800,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 5,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {},
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 2550,
+            "y": 1250,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {},
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 3400,
+            "y": 1450,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {}
+            }
+        },
+        {
+            "x": 1668,
+            "y": 3088,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {}
+            }
+        },
+        {
+            "x": 1700,
+            "y": 3800,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {}
+            }
+        },
+        {
+            "x": 3750,
+            "y": 3200,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {}
+            }
+        },
+        {
+            "x": 5800,
+            "y": 3650,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {}
+            }
         }
     ],
-    "name": "Mistshore (Spring)",
+    "name": "Mistshore (Winter)",
     "navName": "Mistshore",
     "padding": 0.25,
     "tokenVision": true,
@@ -6648,21 +8735,7 @@
                 6791,
                 1015
             ],
-            "flags": {
-                "simbuls-cover-calculator": {
-                    "coverLevel": 3
-                },
-                "tagger": {},
-                "monks-active-tiles": {
-                    "entity": {},
-                    "open": false,
-                    "close": false,
-                    "lock": false,
-                    "checklock": false,
-                    "secret": false
-                },
-                "smartdoors": {}
-            }
+            "flags": {}
         },
         {
             "dir": 0,
@@ -6678,21 +8751,7 @@
                 6791,
                 4734
             ],
-            "flags": {
-                "simbuls-cover-calculator": {
-                    "coverLevel": 3
-                },
-                "tagger": {},
-                "monks-active-tiles": {
-                    "entity": {},
-                    "open": false,
-                    "close": false,
-                    "lock": false,
-                    "checklock": false,
-                    "secret": false
-                },
-                "smartdoors": {}
-            }
+            "flags": {}
         },
         {
             "dir": 0,
@@ -6708,21 +8767,7 @@
                 1407,
                 4734
             ],
-            "flags": {
-                "simbuls-cover-calculator": {
-                    "coverLevel": 3
-                },
-                "tagger": {},
-                "monks-active-tiles": {
-                    "entity": {},
-                    "open": false,
-                    "close": false,
-                    "lock": false,
-                    "checklock": false,
-                    "secret": false
-                },
-                "smartdoors": {}
-            }
+            "flags": {}
         },
         {
             "dir": 0,
@@ -6738,21 +8783,7 @@
                 1407,
                 1015
             ],
-            "flags": {
-                "simbuls-cover-calculator": {
-                    "coverLevel": 3
-                },
-                "tagger": {},
-                "monks-active-tiles": {
-                    "entity": {},
-                    "open": false,
-                    "close": false,
-                    "lock": false,
-                    "checklock": false,
-                    "secret": false
-                },
-                "smartdoors": {}
-            }
+            "flags": {}
         }
     ],
     "weather": "",
