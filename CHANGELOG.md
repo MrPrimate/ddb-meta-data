@@ -1,3 +1,7 @@
+# 0.3.25
+
+* WDH: Many scenes from @Kurindal#3397
+
 # 0.3.24
 
 * THSoT: Pin corrections for new version.
