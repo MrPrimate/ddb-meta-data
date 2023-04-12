@@ -12,7 +12,15 @@ async function main() {
 
     parser.add_argument("-a", "--book", { help: "Book abbreviation" });
     parser.add_argument("-c", "--converted", { help: "Converted book path (output of `dndbconverter`)" });
-    parser.add_argument("-o", "--output", { help: "Output directory", default: path.resolve(__dirname, "../../modules") });
+    parser.add_argument("-o", "--output", {
+        help: "Output directory",
+        default: path.resolve(__dirname, "../../modules"),
+    });
+    parser.add_argument("-f", "--force", {
+        help: "Force overwrite of existing files",
+        action: "store_true",
+        default: false,
+    });
     parser.add_argument("action", { help: "Action to perform: assemble" });
     const args = parser.parse_args();
 
@@ -97,15 +105,17 @@ class DatabaseInterface {
  * @param {object} args
  */
 async function assemble(args) {
-    if (await fs.pathExists(path.resolve(args.output, args.book))) {
+    if (!args.force && (await fs.pathExists(path.resolve(args.output, args.book)))) {
         console.info(`Skipping ${args.book} because it already exists`);
         return;
+    } else if (args.force && (await fs.pathExists(path.resolve(args.output, args.book)))) {
+        await fs.remove(path.resolve(args.output, args.book));
     }
     console.info(`Assembling meta data for ${args.book}`);
     console.time();
-    
+
     await fs.ensureDir(path.resolve(args.output, args.book));
-    
+
     const contentPath = path.resolve(__dirname, "../../content");
 
     const jsonPath = path.resolve(args.converted, `${args.book}.json`);
@@ -218,6 +228,10 @@ async function assembleTables(args, contentPath) {
  */
 async function assembleManifest(args, json) {
     const manifestPath = path.resolve(args.output, args.book, `module.json`);
+    if (!args.force && fs.existsSync(manifestPath)) {
+        console.info(`Skipping manifest for ${args.book} as it already exists`);
+        return;
+    }
     const manifest = {
         id: args.book,
         name: args.book,
@@ -295,7 +309,11 @@ async function assembleManifest(args, json) {
  */
 async function assembleREADME(args, json) {
     const readmePath = path.resolve(args.output, args.book, "README.md");
-    const description = utils.htmlToMarkdown(json.ProductBlurb);
+    if (!args.force && fs.existsSync(readmePath)) {
+        console.info(`Skipping README for ${args.book} as it already exists`);
+        return;
+    }
+    const description = utils.htmlToMarkdown(json.ProductBlurb ?? "");
     const readme = `# ${json.Description}\n\n${description}\n\n## License\n\nThis data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.\n`;
     await fs.writeFile(readmePath, readme);
     console.info(`Saved README file to ${readmePath}`);
