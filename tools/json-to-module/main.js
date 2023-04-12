@@ -228,6 +228,10 @@ async function assembleTables(args, contentPath) {
  */
 async function assembleManifest(args, json) {
     const manifestPath = path.resolve(args.output, args.book, `module.json`);
+    if (!args.force && fs.existsSync(manifestPath)) {
+        console.info(`Skipping manifest for ${args.book} as it already exists`);
+        return;
+    }
     const manifest = {
         id: args.book,
         name: args.book,
@@ -305,7 +309,11 @@ async function assembleManifest(args, json) {
  */
 async function assembleREADME(args, json) {
     const readmePath = path.resolve(args.output, args.book, "README.md");
-    const description = utils.htmlToMarkdown(json.ProductBlurb);
+    if (!args.force && fs.existsSync(readmePath)) {
+        console.info(`Skipping README for ${args.book} as it already exists`);
+        return;
+    }
+    const description = utils.htmlToMarkdown(json.ProductBlurb ?? "");
     const readme = `# ${json.Description}\n\n${description}\n\n## License\n\nThis data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.\n`;
     await fs.writeFile(readmePath, readme);
     console.info(`Saved README file to ${readmePath}`);
