@@ -1,7 +1,90 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -12,
+        "offsetY": -8,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
-    "darkness": 0,
-    "drawings": [],
+    "darkness": 1,
+    "drawings": [
+        {
+            "_id": "ojiKQsfRIea9oQKO",
+            "author": "pRMRhdeZEsQfpWkd",
+            "shape": {
+                "type": "r",
+                "width": 360,
+                "height": 158,
+                "radius": null,
+                "points": []
+            },
+            "x": 1425,
+            "y": 2325,
+            "z": 0,
+            "rotation": 0,
+            "bezierFactor": 0,
+            "fillType": 0,
+            "fillColor": "#FFFFFF",
+            "fillAlpha": 0.1,
+            "strokeWidth": 8,
+            "strokeColor": "#FFFFFF",
+            "strokeAlpha": 1,
+            "texture": null,
+            "text": "Statue of Young-Soo",
+            "fontFamily": "Signika",
+            "fontSize": 72,
+            "textColor": "#000000",
+            "textAlpha": 1,
+            "hidden": true,
+            "locked": true,
+            "flags": {
+                "perfect-vision": {
+                    "enabled": false,
+                    "fit": false,
+                    "prototype": null
+                }
+            }
+        },
+        {
+            "_id": "51yw0we4KObfnhD7",
+            "author": "pRMRhdeZEsQfpWkd",
+            "shape": {
+                "type": "r",
+                "width": 267,
+                "height": 55,
+                "radius": null,
+                "points": []
+            },
+            "x": 2188,
+            "y": 1350,
+            "z": 0,
+            "rotation": 0,
+            "bezierFactor": 0,
+            "fillType": 0,
+            "fillColor": "#FFFFFF",
+            "fillAlpha": 0.1,
+            "strokeWidth": 8,
+            "strokeColor": "#FFFFFF",
+            "strokeAlpha": 1,
+            "texture": null,
+            "text": "Gardens",
+            "fontFamily": "Signika",
+            "fontSize": 72,
+            "textColor": "#000000",
+            "textAlpha": 1,
+            "hidden": true,
+            "locked": true,
+            "flags": {
+                "perfect-vision": {
+                    "enabled": false,
+                    "fit": false,
+                    "prototype": null
+                }
+            }
+        }
+    ],
     "flags": {
         "ddb": {
             "bookCode": "jttrc",
@@ -9,48 +92,1131 @@
             "cobaltId": null,
             "parentId": 1654,
             "contentChunkId": "Map62parkoftheelders-player",
-            "notes": [],
-            "tokens": [],
+            "notes": [
+                {
+                    "label": "Conversing with the Gwishin",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 59,
+                            "bookCode": "jttrc",
+                            "slug": "sins-of-our-elders#SpiritofthePast",
+                            "linkName": "Spirit of the Past",
+                            "slugLink": "ConversingwiththeGwishin",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 1654
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 1600,
+                            "y": 2341
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [
+                {
+                    "_id": "Y7AruIvivxR0gHTT",
+                    "name": "Dae Won-Ha",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1550,
+                    "y": 2198,
+                    "disposition": -1,
+                    "flags": {
+                        "perfect-vision": {
+                            "light": {
+                                "resolution": 1
+                            },
+                            "sight": {
+                                "range": null
+                            }
+                        },
+                        "ddbActorFlags": {
+                            "id": 16871,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "version": "3.2.12",
+                            "flatAC": true,
+                            "creatureGroupId": null,
+                            "isLegacy": false,
+                            "name": "Ghost"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "temp": "",
+                                    "tempmax": ""
+                                }
+                            }
+                        },
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false,
+                            "type": null
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "attenuation": 0.5,
+                        "color": null
+                    }
+                },
+                {
+                    "_id": "gnCD3pvFlzfzs90E",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 800,
+                    "y": 1900,
+                    "disposition": -1,
+                    "flags": {
+                        "perfect-vision": {
+                            "light": {}
+                        },
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "version": "3.2.12",
+                            "flatAC": false,
+                            "creatureGroupId": null,
+                            "isLegacy": false,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "temp": "",
+                                    "tempmax": ""
+                                }
+                            }
+                        },
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false,
+                            "type": null
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "attenuation": 0.5,
+                        "color": null
+                    }
+                },
+                {
+                    "_id": "F2eYVb4twS6Skb1Q",
+                    "name": "Gargoyle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2200,
+                    "y": 2100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16868,
+                            "entityTypeId": 779871897,
+                            "creatureGroup": null,
+                            "creatureFlags": [],
+                            "version": "3.2.12",
+                            "flatAC": false,
+                            "creatureGroupId": null,
+                            "isLegacy": false,
+                            "name": "Gargoyle"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false,
+                            "type": null
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "attenuation": 0.5,
+                        "color": null
+                    }
+                }
+            ],
             "originalLink": "ddb://image/jttrc/map-6.2-park-of-the-elders-player.jpg",
-            "foundryVersion": "9.269",
+            "foundryVersion": "10.291",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 6.2: Park of the Elders",
                     "bookCode": "jttrc",
                     "contentChunkId": "Map62parkoftheelders-player",
                     "lastUpdate": "0.2.25",
-                    "notes": "0.2.25",
-                    "tokens": "0.2.25",
-                    "walls": "0.2.25",
-                    "lights": "0.2.25",
-                    "drawings": "0.2.25",
-                    "foundry": "9.269"
+                    "notes": "0.3.22",
+                    "tokens": "0.3.22",
+                    "walls": "0.3.22",
+                    "lights": "0.3.22",
+                    "drawings": "0.3.22",
+                    "foundry": "10.291"
                 }
             }
         },
         "stairways": {},
-        "perfect-vision": {},
+        "perfect-vision": {
+            "fogRevealed": false,
+            "daylightColor": "",
+            "darknessColor": ""
+        },
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "999.0.0"
+            "version": "3.4.5"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
-    "height": 1425,
-    "initial": null,
-    "lights": [],
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
+    "height": 2785,
+    "initial": {
+        "x": 1687,
+        "y": 2141,
+        "scale": 1
+    },
+    "lights": [
+        {
+            "x": 1600,
+            "y": 2100,
+            "rotation": 0,
+            "walls": false,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 100,
+                "color": null,
+                "coloration": 1,
+                "dim": 0,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "df-active-lights": {
+                    "anims": null
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1600,
+            "y": 2100,
+            "rotation": 0,
+            "walls": false,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": null,
+                "coloration": 1,
+                "dim": 100,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": null,
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 0.75
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "df-active-lights": {
+                    "anims": null
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1468,
+            "y": 2237,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 1,
+                "angle": 360,
+                "bright": 0.5,
+                "color": "#ff0000",
+                "coloration": 1,
+                "dim": 1,
+                "attenuation": 0.5,
+                "luminosity": 0,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "ghost",
+                    "speed": 10,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1.64
+                },
+                "df-active-lights": {
+                    "anims": null
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1729,
+            "y": 2235,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 1,
+                "angle": 360,
+                "bright": 0.5,
+                "color": "#ff0000",
+                "coloration": 1,
+                "dim": 1,
+                "attenuation": 0.5,
+                "luminosity": 0,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "ghost",
+                    "speed": 10,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1.64
+                },
+                "df-active-lights": {
+                    "anims": null
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1450,
+            "y": 2250,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 20,
+                "color": "#1f1c00",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 0.85,
+                "luminosity": 0.15,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 1,
+                    "intensity": 8,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "df-active-lights": {
+                    "anims": null
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1750,
+            "y": 2250,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 20,
+                "color": "#1f1c00",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 0.85,
+                "luminosity": 0.15,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 8,
+                    "reverse": true
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1
+                },
+                "df-active-lights": {
+                    "anims": null
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        },
+        {
+            "x": 1600,
+            "y": 2050,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 0,
+                "color": "#520000",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 1,
+                "luminosity": 0,
+                "saturation": -1,
+                "contrast": -1,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 2,
+                    "intensity": 10,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.75,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "perfect-vision": {
+                    "resolution": 1.94
+                },
+                "df-active-lights": {
+                    "anims": null
+                },
+                "core": {
+                    "priority": null
+                }
+            }
+        }
+    ],
     "name": "Map 6.2: Park of the Elders",
     "navName": "Park of the Elders",
     "padding": 0.25,
-    "shiftX": 0,
-    "shiftY": 0,
     "tokenVision": true,
-    "walls": [],
+    "walls": [
+        {
+            "c": [
+                1537,
+                2012,
+                1650,
+                2175
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1550,
+                2175,
+                1662,
+                2012
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1087,
+                2787,
+                1237,
+                2950
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1087,
+                2950,
+                1225,
+                2775
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                837,
+                2475,
+                950,
+                2625
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                837,
+                2625,
+                962,
+                2475
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                950,
+                2137,
+                775,
+                2350
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                737,
+                2162,
+                950,
+                2337
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1412,
+                1225,
+                1250,
+                1387
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1250,
+                1237,
+                1400,
+                1425
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1762,
+                1225,
+                1925,
+                1437
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1925,
+                1237,
+                1737,
+                1425
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2075,
+                2725,
+                1987,
+                2950
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                1950,
+                2800,
+                2150,
+                2912
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                837,
+                1087,
+                887,
+                1212
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                787,
+                1200,
+                912,
+                1125
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2275,
+                1237,
+                2450,
+                1350
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2437,
+                1300,
+                2375,
+                1400
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2362,
+                1212,
+                2325,
+                1275
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2325,
+                1162,
+                2412,
+                1162
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2325,
+                1700,
+                2275,
+                1850
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2275,
+                1862,
+                2325,
+                2025
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2412,
+                1812,
+                2412,
+                1912
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2362,
+                1862,
+                2450,
+                1875
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2387,
+                1725,
+                2462,
+                1737
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2450,
+                1700,
+                2437,
+                1775
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2412,
+                1425,
+                2412,
+                1537
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2350,
+                1487,
+                2450,
+                1500
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2075,
+                1325,
+                2150,
+                1525
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2075,
+                1462,
+                2225,
+                1412
+            ],
+            "light": 10,
+            "move": 20,
+            "sight": 10,
+            "sound": 10,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                687,
+                787,
+                2600,
+                787
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2600,
+                787,
+                2600,
+                3412
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                2600,
+                3412,
+                687,
+                3412
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                687,
+                3412,
+                687,
+                787
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        }
+    ],
     "weather": "",
-    "width": 1050
+    "width": 2069
 }

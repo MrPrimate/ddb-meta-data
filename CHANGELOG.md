@@ -1,4 +1,30 @@
-# 0.3.19
+# 0.3.25
+
+* WDH: Many scenes from @Kurindal#3397
+
+# 0.3.24
+
+* THSoT: Pin corrections for new version.
+* JTtRC: Gate of Illumination and Tletepec from @Pariah Zero#9919
+* WDH: Many scenes from @Kurindal#3397
+
+# 0.3.23
+
+* JTtRC: The Goldwarren and Sensa Empire from @Pariah Zero#9919
+* WDH: Scene improvements by @Kurindal#3397
+
+# 0.3.22
+
+* WDH: Gralhund Villa. Thanks @Kurindal#3397
+* OoTA: Fixes from @Pariah Zero#9919
+* JTtRC: More scenes from @Pariah Zero#9919
+
+# 0.3.21
+
+* P13: imported a Specter instead of a Spectator for the armory.
+* TWBtW: Missing pin on Downfall map.
+
+# 0.3.20
 
 * IDRotF: Updates for latest version.
 
