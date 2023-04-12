@@ -13,6 +13,7 @@ async function main() {
     parser.add_argument("-a", "--book", { help: "Book abbreviation" });
     parser.add_argument("-c", "--converted", { help: "Converted book path (output of `dndbconverter`)" });
     parser.add_argument("-o", "--output", { help: "Output directory", default: path.resolve(__dirname, "../../modules") });
+    parser.add_argument("-f", "--force", { help: "Force overwrite of existing files", action: "store_true", default: false });
     parser.add_argument("action", { help: "Action to perform: assemble" });
     const args = parser.parse_args();
 
@@ -97,9 +98,11 @@ class DatabaseInterface {
  * @param {object} args
  */
 async function assemble(args) {
-    if (await fs.pathExists(path.resolve(args.output, args.book))) {
+    if (!args.force && await fs.pathExists(path.resolve(args.output, args.book))) {
         console.info(`Skipping ${args.book} because it already exists`);
         return;
+    } else if (args.force && await fs.pathExists(path.resolve(args.output, args.book))) {
+        await fs.remove(path.resolve(args.output, args.book));
     }
     console.info(`Assembling meta data for ${args.book}`);
     console.time();
