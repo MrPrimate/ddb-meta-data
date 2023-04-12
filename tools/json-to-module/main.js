@@ -16,8 +16,13 @@ async function main() {
         help: "Output directory",
         default: path.resolve(__dirname, "../../modules"),
     });
+    parser.add_argument("--overwrite", {
+        help: "Overwrite output folder if it exists",
+        action: "store_true",
+        default: false,
+    });
     parser.add_argument("-f", "--force", {
-        help: "Force overwrite of existing files",
+        help: "Force overwrite of existing files (README, Manifest)",
         action: "store_true",
         default: false,
     });
@@ -105,7 +110,7 @@ class DatabaseInterface {
  * @param {object} args
  */
 async function assemble(args) {
-    if (!args.force && (await fs.pathExists(path.resolve(args.output, args.book)))) {
+    if (!args.overwrite && (await fs.pathExists(path.resolve(args.output, args.book)))) {
         console.info(`Skipping ${args.book} because it already exists`);
         return;
     } else if (args.force && (await fs.pathExists(path.resolve(args.output, args.book)))) {
