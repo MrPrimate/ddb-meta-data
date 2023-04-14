@@ -1,3 +1,8 @@
+# 0.3.26
+
+* JTtRC: Gate of Illumination fixes from @Pariah Zero#9919
+* WDH: Even more scenes! - many thanks to @Kurindal#3397
+
 # 0.3.25
 
 * WDH: Many scenes from @Kurindal#3397
