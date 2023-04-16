@@ -1,3 +1,7 @@
+# 0.3.27
+
+- Corrections for v6 of GoS.
+
 # 0.3.26
 
 * JTtRC: Gate of Illumination fixes from @Pariah Zero#9919
