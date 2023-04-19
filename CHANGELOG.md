@@ -1,3 +1,8 @@
+# 0.3.28
+
+- JTtRC: Several new scenes from @Pariah Zero#9919
+- WDH: Even more scenes! - many thanks to @Kurindal#3397 and @Pariah Zero#9919 for the tile assets.
+
 # 0.3.27
 
 - Corrections for v6 of GoS.
