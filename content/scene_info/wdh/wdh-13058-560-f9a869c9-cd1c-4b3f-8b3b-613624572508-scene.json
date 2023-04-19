@@ -7620,17 +7620,137 @@
             ],
             "originalLink": "ddb://image/wdh/c5004.jpg",
             "foundryVersion": "10.291",
+            "tiles": [
+                {
+                    "texture": {
+                        "src": "assets/c5004-Tile0.webp",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": null,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0
+                    },
+                    "x": 2489,
+                    "y": 4701,
+                    "z": 100,
+                    "width": 94.3,
+                    "height": 100,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "flags": {
+                        "tagger": {
+                            "tags": ""
+                        },
+                        "perfect-vision": {
+                            "lighting": ""
+                        },
+                        "monks-active-tiles": {
+                            "active": true,
+                            "record": false,
+                            "restriction": "all",
+                            "controlled": "all",
+                            "trigger": [
+                                "enter"
+                            ],
+                            "allowpaused": false,
+                            "usealpha": false,
+                            "pointer": false,
+                            "pertoken": false,
+                            "minrequired": 0,
+                            "chance": 100,
+                            "fileindex": 0,
+                            "actions": [],
+                            "files": []
+                        }
+                    },
+                    "overhead": false,
+                    "roof": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0,
+                        "radius": null
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "_id": "Sl7HjnGWIWesX6Ne",
+                    "hidden": false,
+                    "locked": false
+                },
+                {
+                    "texture": {
+                        "src": "assets/c5004-Tile1.webp",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "tint": null,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0
+                    },
+                    "x": 3556,
+                    "y": 5504,
+                    "z": 100,
+                    "width": 171,
+                    "height": 222,
+                    "rotation": 0,
+                    "alpha": 1,
+                    "flags": {
+                        "tagger": {
+                            "tags": ""
+                        },
+                        "perfect-vision": {
+                            "lighting": ""
+                        },
+                        "monks-active-tiles": {
+                            "active": true,
+                            "record": false,
+                            "restriction": "all",
+                            "controlled": "all",
+                            "trigger": [
+                                "enter"
+                            ],
+                            "allowpaused": false,
+                            "usealpha": false,
+                            "pointer": false,
+                            "pertoken": false,
+                            "minrequired": 0,
+                            "chance": 100,
+                            "fileindex": -1,
+                            "actions": [],
+                            "files": []
+                        }
+                    },
+                    "overhead": false,
+                    "roof": false,
+                    "occlusion": {
+                        "mode": 1,
+                        "alpha": 0,
+                        "radius": null
+                    },
+                    "video": {
+                        "loop": true,
+                        "autoplay": true,
+                        "volume": 0
+                    },
+                    "_id": "kGrcuOfw5fH9BfoK",
+                    "hidden": false,
+                    "locked": false
+                }
+            ],
             "versions": {
                 "ddbMetaData": {
                     "name": "Warehouse",
                     "bookCode": "wdh",
                     "contentChunkId": "f9a869c9-cd1c-4b3f-8b3b-613624572508",
-                    "lastUpdate": "0.3.26",
+                    "lastUpdate": "0.3.28",
                     "notes": "0.3.26",
                     "tokens": "0.3.26",
-                    "walls": "0.3.26",
-                    "lights": "0.3.26",
-                    "drawings": "0.3.26",
+                    "walls": "0.3.28",
+                    "lights": "0.3.28",
+                    "drawings": "0.3.28",
                     "foundry": "10.291"
                 }
             }
