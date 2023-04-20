@@ -347,9 +347,9 @@ async function alterScene(scene, noteInfo, contentPath, args) {
     // Handle images which aren't in the DDB schema format
     if (img && !img.includes("ddb://")) {
         // Remove the leading `./`
-        let normalized = path.normalize(img);
+        let normalized = path.posix.normalize(img);
         // Add the book name if it's not there
-        if (!normalized.startsWith(args.book)) normalized = path.join(args.book, normalized);
+        if (!normalized.startsWith(args.book)) normalized = path.posix.join(args.book, normalized);
         // Convert to the DDB schema format
         img = `ddb://image/${normalized}`;
         console.info(`Using converted image URI for ${scene.name}`, img);
