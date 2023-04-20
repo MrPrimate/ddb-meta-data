@@ -1,3 +1,17 @@
+# 0.3.28
+
+- JTtRC: Several new scenes from @Pariah Zero#9919
+- WDH: Even more scenes! - many thanks to @Kurindal#3397 and @Pariah Zero#9919 for the tile assets.
+
+# 0.3.27
+
+- Corrections for v6 of GoS.
+
+# 0.3.26
+
+* JTtRC: Gate of Illumination fixes from @Pariah Zero#9919
+* WDH: Even more scenes! - many thanks to @Kurindal#3397
+
 # 0.3.25
 
 * WDH: Many scenes from @Kurindal#3397
