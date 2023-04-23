@@ -1,3 +1,8 @@
+# 0.3.29
+
+- DoIP: Updates for latest DDB version
+- WDH: Now complete, thanks @Kurindal#3397!
+
 # 0.3.28
 
 - JTtRC: Several new scenes from @Pariah Zero#9919
