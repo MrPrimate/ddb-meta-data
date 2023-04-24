@@ -1,3 +1,7 @@
+# 0.3.30
+
+- DoIP: Note corrections.
+
 # 0.3.29
 
 - DoIP: Updates for latest DDB version
