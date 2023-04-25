@@ -1,6 +1,6 @@
 # Legendary Magic Items
 
-
+Legendary Magic Items.
 
 ## License
 

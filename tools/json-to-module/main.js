@@ -241,7 +241,7 @@ async function assembleManifest(args, json) {
         id: args.book,
         name: args.book,
         title: json.Description,
-        description: json.ProductBlurb,
+        description: json.ProductBlurb || json.Description,
         authors: [
             {
                 name: "The Forge",
