@@ -36,7 +36,8 @@ const TYPES = new Map([
                 if (!TYPES.get(name)) return;
                 return {
                     name: name,
-                    label: `${book.toUpperCase()} ${TYPES.get(name)}s`,
+                    label:
+                        manifest.packs.find(p => p.name === name)?.label ?? `${book.toUpperCase()} ${TYPES.get(name)}s`,
                     path: `packs/${file}`,
                     entity: TYPES.get(name),
                     type: TYPES.get(name),
