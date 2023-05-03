@@ -11,7 +11,7 @@ async function main() {
     });
 
     parser.add_argument("-a", "--book", { help: "Book abbreviation" });
-    parser.add_argument("-c", "--converted", { help: "Converted book path (output of `dndbconverter`)" });
+    parser.add_argument("-m", "--manifest", { help: "Path to the manifest JSON file" });
     parser.add_argument("-o", "--output", {
         help: "Output directory",
         default: path.resolve(__dirname, "../../modules"),
@@ -123,17 +123,13 @@ async function assemble(args) {
 
     const contentPath = path.resolve(__dirname, "../../content");
 
-    const jsonPath = path.resolve(args.converted, `${args.book}.json`);
-    if (!fs.existsSync(jsonPath)) throw new Error(`JSON file not found: ${jsonPath}`);
-    const [json] = await fs.readJSON(jsonPath);
-
     const outcomes = await Promise.allSettled([
         assembleScenes(args, contentPath),
         assembleTables(args, contentPath),
         // assembleActors(args),
         // assembleItems(args),
-        assembleManifest(args, json),
-        assembleREADME(args, json),
+        assembleManifest(args),
+        assembleREADME(args),
     ]);
     outcomes.filter(outcome => outcome.fulfilled).map(outcome => console.error("Error", outcome.reason));
     console.info(`Done assembling meta data for ${args.book}`);
@@ -228,15 +224,15 @@ async function assembleTables(args, contentPath) {
 /**
  * Assembles the manifest
  * @param {object} args - Command line arguments
- * @param {object} json - Converted JSON (from sqlite db3)
  * @returns {Promise<object>} - Promise of the manifest
  */
-async function assembleManifest(args, json) {
+async function assembleManifest(args) {
     const manifestPath = path.resolve(args.output, args.book, `module.json`);
     if (!args.force && fs.existsSync(manifestPath)) {
         console.info(`Skipping manifest for ${args.book} as it already exists`);
         return;
     }
+    const json = await fs.readJson(args.manifest);
     const manifest = {
         id: args.book,
         name: args.book,
@@ -309,15 +305,15 @@ async function assembleManifest(args, json) {
 /**
  * Assembles the README
  * @param {object} args - Command line arguments
- * @param {object} json - Converted JSON (from sqlite db3)
  * @returns {Promise<object>} - Promise of the README
  */
-async function assembleREADME(args, json) {
+async function assembleREADME(args) {
     const readmePath = path.resolve(args.output, args.book, "README.md");
     if (!args.force && fs.existsSync(readmePath)) {
         console.info(`Skipping README for ${args.book} as it already exists`);
         return;
     }
+    const json = await fs.readJson(args.manifest);
     const description = utils.htmlToMarkdown(json.ProductBlurb ?? "");
     const readme = `# ${json.Description}\n\n${description}\n\n## License\n\nThis data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.\n`;
     await fs.writeFile(readmePath, readme);
