@@ -22,6 +22,7 @@ const parser = new ArgumentParser({
     description: "D&D Beyond Description Update",
 });
 parser.add_argument("booksMetadataDirPath", { help: "Path to the books metadata directory" });
+parser.add_argument("-f", "--force", { help: "Force update", action: "store_true" });
 const args = parser.parse_args();
 
 (async () => {
@@ -31,7 +32,18 @@ const args = parser.parse_args();
     for (const book of books) {
         const manifestPath = path.resolve(args.booksMetadataDirPath, book, "module.json");
         const readmePath = path.resolve(args.booksMetadataDirPath, book, "README.md");
-        if (!(await fs.pathExists(manifestPath)) || !(await fs.pathExists(manifestPath))) continue;
+
+        // Skip if no README
+        if (!(await fs.pathExists(readmePath))) {
+            console.warn(`No README for ${book}`);
+            continue;
+        }
+
+        // Skip if manifest exists and not forcing
+        if (!args.force && (await fs.pathExists(manifestPath))) {
+            console.info(`Skipping ${book}'s description`);
+            continue;
+        }
 
         // Read manifest and README
         const manifest = await fs.readJSON(manifestPath);
