@@ -27,17 +27,22 @@ const args = parser.parse_args();
 (async () => {
     const books = await fs.readdir(args.booksMetadataDirPath);
 
+    console.groupCollapsed(`Updating ${books.length} descriptions`);
     for (const book of books) {
         const manifestPath = path.resolve(args.booksMetadataDirPath, book, "module.json");
         const readmePath = path.resolve(args.booksMetadataDirPath, book, "README.md");
         if (!(await fs.pathExists(manifestPath)) || !(await fs.pathExists(manifestPath))) continue;
 
+        // Read manifest and README
         const manifest = await fs.readJSON(manifestPath);
         const readme = await fs.readFile(readmePath, "utf8");
 
+        // Update manifest
         const description = readme.split("\n## License\n")[0].replace(/^[^\n]+\n\n/, "");
         manifest.description = converter.makeHtml(description);
         await fs.writeJSON(manifestPath, manifest, { spaces: "\t" });
-        console.info(`Updated ${book}`);
+
+        console.info(`Updated ${book}'s description`);
     }
+    console.groupEnd();
 })();

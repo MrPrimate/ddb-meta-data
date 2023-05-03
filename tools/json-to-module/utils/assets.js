@@ -14,7 +14,7 @@ parser.add_argument("assetsDir", { help: "Assets directory" });
 parser.add_argument("metadataAssetsDir", { help: "Metadata assets directory" });
 const args = parser.parse_args();
 
-ensureAssets(args.bookDir, args.assetsDir, args.metadataAssetsDir);
+downloadAssets(args.bookDir, args.assetsDir, args.metadataAssetsDir);
 
 const utils = {
     async downloadUrl(url, destination) {
@@ -31,8 +31,8 @@ const utils = {
     },
 };
 
-async function ensureAssets(bookDir, assetsDir, metadataAssetsDir) {
-    console.groupCollapsed("Ensure assets");
+async function downloadAssets(bookDir, assetsDir, metadataAssetsDir) {
+    console.groupCollapsed("Downloading assets");
     const filesTxt = path.resolve(bookDir, "files.txt");
     if (!(await fs.pathExists(filesTxt))) return;
     const filesJson = await fs.readJSON(filesTxt).catch(err => ({}));

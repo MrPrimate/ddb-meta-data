@@ -16,6 +16,7 @@ const args = parser.parse_args();
     const books = await fs.readdir(args.booksMetadataDirPath);
     const json = await fs.readJSON(args.jsonPath);
 
+    console.groupCollapsed(`Updating ${books.length} contributors`);
     for (const book of books) {
         const contributors = json[book] ?? [];
 
@@ -53,6 +54,7 @@ const args = parser.parse_args();
             },
         ];
         await fs.writeJSON(manifestPath, manifest, { spaces: "\t" });
-        console.info(`Updated ${book}`);
+        console.info(`Updated ${book} contributors`);
     }
+    console.groupEnd();
 })();

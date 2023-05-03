@@ -20,6 +20,7 @@ const TYPES = new Map([
 (async () => {
     const books = await fs.readdir(modulesPath);
 
+    console.groupCollapsed(`Updating ${books.length} packs`);
     for (const book of books) {
         const manifestPath = path.resolve(modulesPath, book, "module.json");
         if (!(await fs.pathExists(manifestPath))) continue;
@@ -46,6 +47,7 @@ const TYPES = new Map([
 
         manifest.packs = packs;
         await fs.writeJSON(manifestPath, manifest, { spaces: "\t" });
-        console.info(`Updated ${book}`);
+        console.info(`Updated ${book} packs`);
     }
+    console.groupEnd();
 })();
