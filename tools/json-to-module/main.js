@@ -186,7 +186,7 @@ async function assembleScenes(args, contentPath) {
 
     // Copy tiles into the book's directory
     const srcTiles = path.resolve(contentPath, "assets", args.book);
-    const destTiles = path.resolve(contentPath, args.book, "tiles");
+    const destTiles = path.resolve(args.output, args.book, "tiles");
     if (await fs.pathExists(srcTiles)) {
         try {
             await fs.remove(destTiles).catch(() => null);
