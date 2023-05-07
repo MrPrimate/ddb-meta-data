@@ -26,7 +26,13 @@ parser.add_argument("-f", "--force", { help: "Force update", action: "store_true
 const args = parser.parse_args();
 
 (async () => {
-    const books = (await fs.readdir(args.booksMetadataDirPath)).filter(dirent => dirent.isDirectory());
+    const books = (
+        await fs.readdir(args.booksMetadataDirPath, {
+            withFileTypes: true,
+        })
+    )
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
 
     console.groupCollapsed(`Updating ${books.length} descriptions`);
     for (const book of books) {
