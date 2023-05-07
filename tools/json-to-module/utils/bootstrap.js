@@ -84,7 +84,11 @@ if (!args.metadata) throw new Error("No metadata path specified");
 
     await Promise.all(
         newScenes.map(scene => {
-            return fs.writeJSON(`${args.metadata}/content/scene_info/${book}/${scene.name}.json`, scene, { spaces: 4 });
+            return fs.writeJSON(
+                `${args.metadata}/content/scene_info/${book}/${book}-${scene.flags.ddb.contentChunkId}-scene.json`,
+                scene,
+                { spaces: 4 }
+            );
         })
     );
 
