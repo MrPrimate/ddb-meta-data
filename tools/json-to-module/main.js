@@ -192,10 +192,10 @@ async function assembleScenes(args, contentPath) {
             await fs.remove(destTiles).catch(() => null);
             await fs.ensureDir(destTiles);
             await fs.copy(srcTiles, destTiles);
+            console.info(`Copied tiles for ${args.book}`);
         } catch (err) {
             console.error("Error", "Failed to copy tiles", err);
         }
-        console.info(`Copied tiles for ${args.book}`);
     }
 
     console.info(`Assembled ${sceneFilePaths.length} scenes for ${args.book}`);
@@ -232,11 +232,11 @@ async function assembleManifest(args) {
         console.info(`Skipping manifest for ${args.book} as it already exists`);
         return;
     }
-    const json = await fs.readJson(args.manifest);
+    const json = (await fs.readJson(args.manifest)).find(m => m.DirectoryName === args.book);
     const manifest = {
         id: args.book,
         name: args.book,
-        title: json.Description,
+        title: json.Title,
         description: json.ProductBlurb || json.Description,
         authors: [
             {
@@ -248,7 +248,7 @@ async function assembleManifest(args) {
                 twitter: "@ForgeVTT",
             },
         ],
-        url: `https://www.dndbeyond.com/sources/${json.Name}`,
+        url: json.MarketplaceUrl,
         license: "",
         readme: "",
         bugs: "",
@@ -313,9 +313,9 @@ async function assembleREADME(args) {
         console.info(`Skipping README for ${args.book} as it already exists`);
         return;
     }
-    const json = await fs.readJson(args.manifest);
+    const json = (await fs.readJson(args.manifest)).find(m => m.DirectoryName === args.book);
     const description = utils.htmlToMarkdown(json.ProductBlurb ?? "");
-    const readme = `# ${json.Description}\n\n${description}\n\n## License\n\nThis data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.\n`;
+    const readme = `# ${json.Title}\n\n${description}\n\n## License\n\nThis data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.\n`;
     await fs.writeFile(readmePath, readme);
     console.info(`Saved README file to ${readmePath}`);
     return readme;
