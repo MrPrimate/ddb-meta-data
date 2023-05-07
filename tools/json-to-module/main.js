@@ -180,6 +180,7 @@ async function assembleScenes(args, contentPath) {
                     // Add note to scene if one of the scene's parentIds matches the note's parentId
                     const newNoteInfos = noteInfo.filter(note => parentIds.some(p => p === note.parentId));
                     if (newNoteInfos.length) {
+                        scene.flags.ddb.noteInfos ??= [];
                         scene.flags.ddb.noteInfos.push(...newNoteInfos);
                         console.info(`Added \`note_info\` to flags for ${scene.name}`);
                     }
