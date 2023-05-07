@@ -439,12 +439,13 @@ async function alterScene(scene, noteInfo, contentPath, args) {
  * @returns {Promise<object[]>} - Promise of the altered tables
  */
 async function alterTables(tables, args) {
+    const alteredTables = [];
+    const folders = new Map();
     console.groupCollapsed(`Altering tables`);
 
     // Create folders
     try {
         const folderNames = [...new Set(tables.map(table => table.folderName).filter(Boolean))];
-        const folders = new Map();
         for (const folderName of folderNames) {
             folders.set(folderName, await createFolder(folderName, "RollTable", args));
         }
@@ -453,8 +454,9 @@ async function alterTables(tables, args) {
         console.error("Error", `Error creating folders`, err);
     }
 
+    // Create tables
     try {
-        tables = tables.map((table, i) => ({
+        tables.forEach((table, i) => alteredTables.push({
             name: table.tableName,
             img: "",
             results: [],
@@ -469,13 +471,13 @@ async function alterTables(tables, args) {
                 ),
             },
         }));
-        console.info(`Created ${tables.length} tables`);
+        console.info(`Created ${alteredTables.length} tables`);
     } catch (err) {
         console.error("Error", `Error creating tables`, err);
     }
 
     console.groupEnd();
-    return tables;
+    return alteredTables;
 }
 
 /**
