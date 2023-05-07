@@ -143,46 +143,53 @@ async function assemble(args) {
  * @returns {Promise<object>} - Promise of the scenes
  */
 async function assembleScenes(args, contentPath) {
-    const sceneInfoPath = path.resolve(contentPath, "scene_info", args.book);
-    if (!fs.existsSync(sceneInfoPath)) {
-        console.warn("Warning", `Scene info folder not found: ${sceneInfoPath}`);
-        return;
-    }
-    const sceneFilePaths = (await fs.readdir(sceneInfoPath)).map(file => path.resolve(sceneInfoPath, file));
-    const noteInfoPath = path.resolve(contentPath, "note_info", `${args.book}.json`);
-    let noteInfo = fs.existsSync(noteInfoPath) ? await fs.readJSON(noteInfoPath) : [];
-    const scenes = await new DatabaseInterface("scenes", args).save(
-        (
-            await Promise.allSettled(
-                sceneFilePaths
-                    .filter(file => fs.existsSync(file))
-                    .map(async file => alterScene(await fs.readJSON(file), noteInfo, contentPath, args))
-            )
-        )
-            .reduce((acc, cur) => {
-                if (cur.status === "fulfilled") acc.push(cur.value);
-                else console.error("Error", "Error processing scene file", cur.reason);
+    let scenes;
 
-                // Keep track of note info that wasn't inserted anywhere
-                if (cur.value.flags.ddb.noteInfos) {
-                    const remainingNoteInfo = noteInfo.filter(
-                        note => !cur.value.flags.ddb.noteInfos.some(n => n.slug === note.slug)
-                    );
-                    noteInfo = remainingNoteInfo;
-                }
-                return acc;
-            }, [])
-            .map(scene => {
-                const parentIds = [...new Set(scene.notes.map(n => n.flags.ddb.parentId))];
-                // Add note to scene if one of the scene's parentIds matches the note's parentId
-                const newNoteInfos = noteInfo.filter(note => parentIds.some(p => p === note.parentId));
-                if (newNoteInfos.length) {
-                    scene.flags.ddb.noteInfos.push(...newNoteInfos);
-                    console.info(`Added \`note_info\` to flags for ${scene.name}`);
-                }
-                return scene;
-            })
-    );
+    try {
+        const sceneInfoPath = path.resolve(contentPath, "scene_info", args.book);
+        if (!fs.existsSync(sceneInfoPath)) {
+            console.warn("Warning", `Scene info folder not found: ${sceneInfoPath}`);
+            return;
+        }
+        const sceneFilePaths = (await fs.readdir(sceneInfoPath)).map(file => path.resolve(sceneInfoPath, file));
+        const noteInfoPath = path.resolve(contentPath, "note_info", `${args.book}.json`);
+        let noteInfo = fs.existsSync(noteInfoPath) ? await fs.readJSON(noteInfoPath) : [];
+        scenes = await new DatabaseInterface("scenes", args).save(
+            (
+                await Promise.allSettled(
+                    sceneFilePaths
+                        .filter(file => fs.existsSync(file))
+                        .map(async file => alterScene(await fs.readJSON(file), noteInfo, contentPath, args))
+                )
+            )
+                .reduce((acc, cur) => {
+                    if (cur.status === "fulfilled") acc.push(cur.value);
+                    else console.error("Error", "Error processing scene file", cur.reason);
+
+                    // Keep track of note info that wasn't inserted anywhere
+                    if (cur.value.flags.ddb.noteInfos) {
+                        const remainingNoteInfo = noteInfo.filter(
+                            note => !cur.value.flags.ddb.noteInfos.some(n => n.slug === note.slug)
+                        );
+                        noteInfo = remainingNoteInfo;
+                    }
+                    return acc;
+                }, [])
+                .map(scene => {
+                    const parentIds = [...new Set(scene.notes.map(n => n.flags.ddb.parentId))];
+                    // Add note to scene if one of the scene's parentIds matches the note's parentId
+                    const newNoteInfos = noteInfo.filter(note => parentIds.some(p => p === note.parentId));
+                    if (newNoteInfos.length) {
+                        scene.flags.ddb.noteInfos.push(...newNoteInfos);
+                        console.info(`Added \`note_info\` to flags for ${scene.name}`);
+                    }
+                    return scene;
+                })
+        );
+        console.info(`Assembled ${sceneFilePaths.length} scenes for ${args.book}`);
+    } catch (err) {
+        console.error("Error", "Failed to assemble scenes", err);
+    }
 
     // Copy tiles into the book's directory
     const srcTiles = path.resolve(contentPath, "assets", args.book);
@@ -198,7 +205,6 @@ async function assembleScenes(args, contentPath) {
         }
     }
 
-    console.info(`Assembled ${sceneFilePaths.length} scenes for ${args.book}`);
     return scenes;
 }
 
@@ -209,15 +215,21 @@ async function assembleScenes(args, contentPath) {
  * @returns {Promise<object>} - Promise of the tables
  */
 async function assembleTables(args, contentPath) {
-    const tablesFilePath = path.resolve(contentPath, "table_info", `${args.book}.json`);
-    if (!fs.existsSync(tablesFilePath)) {
-        console.warn("Warning", `Table info file not found: ${tablesFilePath}`);
-        return;
+    let tables;
+
+    try {
+        const tablesFilePath = path.resolve(contentPath, "table_info", `${args.book}.json`);
+        if (!fs.existsSync(tablesFilePath)) {
+            console.warn("Warning", `Table info file not found: ${tablesFilePath}`);
+            return;
+        }
+        const tables = await new DatabaseInterface("tables", args).save(
+            await alterTables(await fs.readJSON(tablesFilePath), args)
+        );
+        console.info(`Assembled tables for ${args.book}`);
+    } catch (err) {
+        console.error("Error", "Failed to assemble tables", err);
     }
-    const tables = await new DatabaseInterface("tables", args).save(
-        await alterTables(await fs.readJSON(tablesFilePath), args)
-    );
-    console.info(`Assembled tables for ${args.book}`);
     return tables;
 }
 
@@ -332,84 +344,90 @@ async function assembleREADME(args) {
 async function alterScene(scene, noteInfo, contentPath, args) {
     console.groupCollapsed(`Altering scene ${scene.name}`);
 
-    // Pull data from flags
-    const flags = scene.flags.ddb ?? console.warn("Warning", `Scene ${scene.name} has no ddb meta data flags`) ?? {};
-    let img = flags?.originalLink ?? console.warn("Warning", `No original image link found for ${scene.name}`);
-    const [alternate] = flags?.alternateIds ?? []; // Doesn't handle multiple alternate ids, but that's never needed for now
-    const tokens = flags?.tokens ?? console.warn("Warning", `Scene ${scene.name} has no tokens`) ?? [];
-    const notes = flags?.notes ?? console.warn("Warning", `Scene ${scene.name} has no notes`) ?? [];
-    const tiles = flags?.tiles ?? console.warn("Warning", `Scene ${scene.name} has no tiles`) ?? [];
+    try {
+        // Pull data from flags
+        const flags =
+            scene.flags.ddb ?? console.warn("Warning", `Scene ${scene.name} has no ddb meta data flags`) ?? {};
+        let img = flags?.originalLink ?? console.warn("Warning", `No original image link found for ${scene.name}`);
+        const [alternate] = flags?.alternateIds ?? []; // Doesn't handle multiple alternate ids, but that's never needed for now
+        const tokens = flags?.tokens ?? console.warn("Warning", `Scene ${scene.name} has no tokens`) ?? [];
+        const notes = flags?.notes ?? console.warn("Warning", `Scene ${scene.name} has no notes`) ?? [];
+        const tiles = flags?.tiles ?? console.warn("Warning", `Scene ${scene.name} has no tiles`) ?? [];
 
-    // Handle images which aren't in the DDB schema format
-    if (img && !img.includes("ddb://")) {
-        // Remove the leading `./`
-        let normalized = path.posix.normalize(img);
-        // Add the book name if it's not there
-        if (!normalized.startsWith(args.book)) normalized = path.posix.join(args.book, normalized);
-        // Convert to the DDB schema format
-        img = `ddb://image/${normalized}`;
-        console.info(`Using converted image URI for ${scene.name}`, img);
-    }
-
-    // Use alternate image if it's available
-    if (alternate) {
-        // Remove leading `assets/` from URI
-        img = alternate.img.split("/").slice(1).join("/");
-        // Convert image URI to the DDB schema format
-        img = `ddb://image/${args.book}/${img}`;
-        console.info(`Using alternate image for ${scene.name}`, img);
-    }
-
-    // Add note_info to the scene flags
-    if (noteInfo) {
-        const slugs = [...new Set(notes.map(n => n.flags.ddb.slug))];
-        // Add note to scene if one of the scene's slugs matches the note's slug
-        const noteInfos = noteInfo.filter(note => slugs.some(s => note.slug.includes(s)));
-        if (noteInfos.length) {
-            scene.flags.ddb.noteInfos = noteInfos;
-            console.info(`Added \`note_info\` to flags for ${scene.name}`);
+        // Handle images which aren't in the DDB schema format
+        if (img && !img.includes("ddb://")) {
+            // Remove the leading `./`
+            let normalized = path.posix.normalize(img);
+            // Add the book name if it's not there
+            if (!normalized.startsWith(args.book)) normalized = path.posix.join(args.book, normalized);
+            // Convert to the DDB schema format
+            img = `ddb://image/${normalized}`;
+            console.info(`Using converted image URI for ${scene.name}`, img);
         }
+
+        // Use alternate image if it's available
+        if (alternate) {
+            // Remove leading `assets/` from URI
+            img = alternate.img.split("/").slice(1).join("/");
+            // Convert image URI to the DDB schema format
+            img = `ddb://image/${args.book}/${img}`;
+            console.info(`Using alternate image for ${scene.name}`, img);
+        }
+
+        // Add note_info to the scene flags
+        if (noteInfo) {
+            const slugs = [...new Set(notes.map(n => n.flags.ddb.slug))];
+            // Add note to scene if one of the scene's slugs matches the note's slug
+            const noteInfos = noteInfo.filter(note => slugs.some(s => note.slug.includes(s)));
+            if (noteInfos.length) {
+                scene.flags.ddb.noteInfos = noteInfos;
+                console.info(`Added \`note_info\` to flags for ${scene.name}`);
+            }
+        }
+
+        // Use flags in the scene
+        scene = Object.assign(scene, {
+            img,
+            tokens,
+            notes,
+            tiles,
+        });
+        console.info(`Used flags for ${scene.name}`);
+
+        // Delete used flags
+        delete flags.originalLink;
+        delete flags.alternateIds;
+        delete flags.tokens;
+        delete flags.notes;
+        delete flags.tiles;
+        console.info(`Deleted used flags for ${scene.name}`);
+
+        // Create a note at each position
+        scene.notes = scene.notes.reduce((acc, note) => {
+            acc.push(
+                ...note.positions.map(position =>
+                    Object.assign(note, {
+                        x: position.x,
+                        y: position.y,
+                    })
+                )
+            );
+            delete note.positions;
+            return acc;
+        }, []);
+        if (scene.notes.length) console.info(`Created notes for ${scene.name}`);
+
+        if (scene.tiles.length) {
+            // Rewrite tile links to use meta data schema
+            scene.tiles.map(tile => (tile.img = tile.img.replace(/^assets\//, `ddb-meta-data://${args.book}/tiles/`)));
+            console.info(`Rewrote tile links for ${scene.name}`);
+        }
+
+        console.groupEnd();
+    } catch (err) {
+        console.error("Error", `Error altering scene ${scene.name}`, err);
     }
 
-    // Use flags in the scene
-    scene = Object.assign(scene, {
-        img,
-        tokens,
-        notes,
-        tiles,
-    });
-    console.info(`Used flags for ${scene.name}`);
-
-    // Delete used flags
-    delete flags.originalLink;
-    delete flags.alternateIds;
-    delete flags.tokens;
-    delete flags.notes;
-    delete flags.tiles;
-    console.info(`Deleted used flags for ${scene.name}`);
-
-    // Create a note at each position
-    scene.notes = scene.notes.reduce((acc, note) => {
-        acc.push(
-            ...note.positions.map(position =>
-                Object.assign(note, {
-                    x: position.x,
-                    y: position.y,
-                })
-            )
-        );
-        delete note.positions;
-        return acc;
-    }, []);
-    if (scene.notes.length) console.info(`Created notes for ${scene.name}`);
-
-    if (scene.tiles.length) {
-        // Rewrite tile links to use meta data schema
-        scene.tiles.map(tile => (tile.img = tile.img.replace(/^assets\//, `ddb-meta-data://${args.book}/tiles/`)));
-        console.info(`Rewrote tile links for ${scene.name}`);
-    }
-
-    console.groupEnd();
     return scene;
 }
 
@@ -423,27 +441,37 @@ async function alterTables(tables, args) {
     console.groupCollapsed(`Altering tables`);
 
     // Create folders
-    const folderNames = [...new Set(tables.map(table => table.folderName).filter(Boolean))];
-    const folders = new Map();
-    for (const folderName of folderNames) {
-        folders.set(folderName, await createFolder(folderName, "RollTable", args));
+    try {
+        const folderNames = [...new Set(tables.map(table => table.folderName).filter(Boolean))];
+        const folders = new Map();
+        for (const folderName of folderNames) {
+            folders.set(folderName, await createFolder(folderName, "RollTable", args));
+        }
+        console.info(`Created ${folders.size} folders`);
+    } catch (err) {
+        console.error("Error", `Error creating folders`, err);
     }
 
-    tables = tables.map((table, i) => ({
-        name: table.tableName,
-        img: "",
-        results: [],
-        replacement: true,
-        displayRoll: true,
-        folder: folders.get(table.folderName)?._id ?? null,
-        sort: i * 1000,
-        permission: {},
-        flags: {
-            ddb: Object.fromEntries(
-                Object.entries(table).filter(([key]) => !["tableName", "folderName"].includes(key))
-            ),
-        },
-    }));
+    try {
+        tables = tables.map((table, i) => ({
+            name: table.tableName,
+            img: "",
+            results: [],
+            replacement: true,
+            displayRoll: true,
+            folder: folders.get(table.folderName)?._id ?? null,
+            sort: i * 1000,
+            permission: {},
+            flags: {
+                ddb: Object.fromEntries(
+                    Object.entries(table).filter(([key]) => !["tableName", "folderName"].includes(key))
+                ),
+            },
+        }));
+        console.info(`Created ${tables.length} tables`);
+    } catch (err) {
+        console.error("Error", `Error creating tables`, err);
+    }
 
     console.groupEnd();
     return tables;
