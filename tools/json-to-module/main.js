@@ -420,7 +420,7 @@ async function alterScene(scene, noteInfo, contentPath, args) {
 
         if (scene.tiles.length) {
             // Rewrite tile links to use meta data schema
-            scene.tiles.map(tile => (tile.img = tile.img.replace(/^assets\//, `ddb-meta-data://${args.book}/tiles/`)));
+            scene.tiles.map(tile => (tile.img = tile.img?.replace(/^assets\//, `ddb-meta-data://${args.book}/tiles/`)));
             console.info(`Rewrote tile links for ${scene.name}`);
         }
 
