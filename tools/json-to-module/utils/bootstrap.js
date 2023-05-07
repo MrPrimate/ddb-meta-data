@@ -65,6 +65,7 @@ if (!args.metadata) throw new Error("No metadata path specified");
                         flags: {
                             ddb: {
                                 bookCode: book,
+                                ddbId: 10000 + page.ID,
                                 parentId: page.ParentID,
                                 contentChunkId: node.dataset.contentChunkId,
                             },
@@ -84,8 +85,11 @@ if (!args.metadata) throw new Error("No metadata path specified");
 
     await Promise.all(
         newScenes.map(scene => {
+            const { ddbId, parentId, contentChunkId } = scene.flags.ddb;
             return fs.writeJSON(
-                `${args.metadata}/content/scene_info/${book}/${book}-${scene.flags.ddb.contentChunkId}-scene.json`,
+                `${args.metadata}/content/scene_info/${book}/${[book, ddbId, parentId, contentChunkId].join(
+                    "-"
+                )}-scene.json`,
                 scene,
                 { spaces: 4 }
             );
