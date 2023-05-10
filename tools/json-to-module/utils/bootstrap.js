@@ -86,10 +86,9 @@ if (!args.metadata) throw new Error("No metadata path specified");
     await Promise.all(
         newScenes.map(scene => {
             const { ddbId, parentId, contentChunkId } = scene.flags.ddb;
+            const basename = [book, ddbId, parentId, contentChunkId, "scene"].join("-");
             return fs.writeJSON(
-                `${args.metadata}/content/scene_info/${book}/${[book, ddbId, parentId, contentChunkId].join(
-                    "-"
-                )}-scene.json`,
+                `${args.metadata}/content/scene_info/${book}/${basename}.json`,
                 scene,
                 { spaces: 4 }
             );

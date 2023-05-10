@@ -261,7 +261,7 @@ async function assembleManifest(args) {
                 twitter: "@ForgeVTT",
             },
         ],
-        url: json.MarketplaceUrl,
+        url: `https://www.dndbeyond.com/sources/${json.Name}`,
         license: "",
         readme: "",
         bugs: "",
