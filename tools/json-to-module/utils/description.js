@@ -45,16 +45,15 @@ const args = parser.parse_args();
             continue;
         }
 
-        // Skip if manifest exists and not forcing
-        if (!args.force && (await fs.pathExists(manifestPath))) {
-            console.info(`Skipping ${book}'s description`);
-            continue;
-        }
-
         // Read manifest and README
         const manifest = await fs.readJSON(manifestPath);
         const readme = await fs.readFile(readmePath, "utf8");
 
+        // Skip if manifest has a description and not forcing
+        if (!args.force && manifest.description) {
+            console.info(`Skipping ${book}'s description`);
+            continue;
+        }
         // Update manifest
         const description = readme.split("\n## License\n")[0].replace(/^[^\n]+\n\n/, "");
         manifest.description = converter.makeHtml(description);
