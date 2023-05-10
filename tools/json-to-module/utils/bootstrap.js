@@ -3,7 +3,6 @@
 const { ArgumentParser } = require("argparse");
 const fs = require("fs-extra");
 const path = require("path");
-const Datastore = require("nedb");
 const { imageSize } = require("image-size");
 const { JSDOM } = require("jsdom");
 const { window } = new JSDOM("");
@@ -18,21 +17,26 @@ parser.add_argument("-m", "--metadata", { help: "Metadata path" });
 const args = parser.parse_args();
 const { book } = args;
 
-(async () => {
-    const [json] = await fs.readJSON(`${args.converted}/${book}.json`);
-    const { contents } = json;
+if (!args.book) throw new Error("No book specified");
+if (!args.converted) throw new Error("No converted path specified");
+if (!args.metadata) throw new Error("No metadata path specified");
 
-    const db = new Datastore({ filename: `${args.metadata}/packs/scenes.db`, autoload: true });
-    const scenes = await new Promise((resolve, reject) =>
-        db.find({}, (err, docs) => {
-            if (err) reject(err);
-            else resolve(docs);
+(async () => {
+    const [{ contents }] = await fs.readJSON(`${args.converted}/${book}/${book}.json`);
+    if (!contents) throw new Error("No contents found");
+
+    await fs.ensureDir(`${args.metadata}/content/scene_info/${book}`);
+    const sceneInfo = await fs.readdir(`${args.metadata}/content/scene_info/${book}`);
+    const currentScenes = await Promise.all(
+        sceneInfo.map(file => {
+            return fs.readJSON(`${args.metadata}/content/scene_info/${book}/${file}`);
         })
     );
+    const newScenes = [];
 
     let heading,
-        sort = Math.max(scenes.map(s => s.sort)),
-        navOrder = Math.max(scenes.map(s => s.navOrder));
+        sort = Math.max(currentScenes.map(s => s.sort)),
+        navOrder = Math.max(currentScenes.map(s => s.navOrder));
 
     pages: for (const page of contents) {
         try {
@@ -44,9 +48,9 @@ const { book } = args;
                 if (node.nodeName === "H1") heading = node.textContent;
                 const name = heading ?? page.Title;
 
-                if (scenes.find(s => [s.name, s.navName].includes(name))) continue pages;
+                if ([...currentScenes, ...newScenes].find(s => [s.name, s.navName].includes(name))) continue pages;
                 if (node.title === "View Player Version") {
-                    const imagePath = path.join(args.converted, node.href.slice(`ddb://image/${book}`.length));
+                    const imagePath = path.join(args.converted, book, node.href.slice(`ddb://image/${book}`.length));
                     if (!node.href.startsWith("ddb://image/") || !fs.pathExists(imagePath)) {
                         console.warn(`No image for ${name}`);
                         continue;
@@ -54,13 +58,14 @@ const { book } = args;
 
                     const { width, height } = imageSize(imagePath);
 
-                    db.insert({
+                    newScenes.push({
                         name,
                         img: node.href,
                         navName: name,
                         flags: {
                             ddb: {
                                 bookCode: book,
+                                ddbId: 10000 + page.ID,
                                 parentId: page.ParentID,
                                 contentChunkId: node.dataset.contentChunkId,
                             },
@@ -78,12 +83,17 @@ const { book } = args;
         }
     }
 
-    db.count({}, (_err, count) => {
-        console.info(`Bootstrapped ${count - scenes.length} scenes`);
-    });
+    await Promise.all(
+        newScenes.map(scene => {
+            const { ddbId, parentId, contentChunkId } = scene.flags.ddb;
+            const basename = [book, ddbId, parentId, contentChunkId, "scene"].join("-");
+            return fs.writeJSON(
+                `${args.metadata}/content/scene_info/${book}/${basename}.json`,
+                scene,
+                { spaces: 4 }
+            );
+        })
+    );
 
-    if ((await fs.readFile(`${args.metadata}/packs/scenes.db`, "utf8")).trim().length === 0) {
-        await fs.remove(`${args.metadata}/packs/scenes.db`);
-        console.info("Removed empty scenes.db");
-    }
+    console.info(`Bootstrapped ${newScenes.length} scenes`);
 })();

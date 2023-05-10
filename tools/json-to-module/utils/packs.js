@@ -20,6 +20,7 @@ const TYPES = new Map([
 (async () => {
     const books = await fs.readdir(modulesPath);
 
+    console.groupCollapsed(`Updating ${books.length} packs`);
     for (const book of books) {
         const manifestPath = path.resolve(modulesPath, book, "module.json");
         if (!(await fs.pathExists(manifestPath))) continue;
@@ -35,7 +36,8 @@ const TYPES = new Map([
                 if (!TYPES.get(name)) return;
                 return {
                     name: name,
-                    label: `${book.toUpperCase()} ${TYPES.get(name)}s`,
+                    label:
+                        manifest.packs.find(p => p.name === name)?.label ?? `${book.toUpperCase()} ${TYPES.get(name)}s`,
                     path: `packs/${file}`,
                     entity: TYPES.get(name),
                     type: TYPES.get(name),
@@ -46,6 +48,7 @@ const TYPES = new Map([
 
         manifest.packs = packs;
         await fs.writeJSON(manifestPath, manifest, { spaces: "\t" });
-        console.info(`Updated ${book}`);
+        console.info(`Updated ${book} packs`);
     }
+    console.groupEnd();
 })();

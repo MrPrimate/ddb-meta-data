@@ -22,22 +22,44 @@ const parser = new ArgumentParser({
     description: "D&D Beyond Description Update",
 });
 parser.add_argument("booksMetadataDirPath", { help: "Path to the books metadata directory" });
+parser.add_argument("-f", "--force", { help: "Force update", action: "store_true" });
 const args = parser.parse_args();
 
 (async () => {
-    const books = await fs.readdir(args.booksMetadataDirPath);
+    const books = (
+        await fs.readdir(args.booksMetadataDirPath, {
+            withFileTypes: true,
+        })
+    )
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
 
+    console.groupCollapsed(`Updating ${books.length} descriptions`);
     for (const book of books) {
         const manifestPath = path.resolve(args.booksMetadataDirPath, book, "module.json");
         const readmePath = path.resolve(args.booksMetadataDirPath, book, "README.md");
-        if (!(await fs.pathExists(manifestPath)) || !(await fs.pathExists(manifestPath))) continue;
 
+        // Skip if no README
+        if (!(await fs.pathExists(readmePath))) {
+            console.warn(`No README for ${book}`);
+            continue;
+        }
+
+        // Read manifest and README
         const manifest = await fs.readJSON(manifestPath);
         const readme = await fs.readFile(readmePath, "utf8");
 
+        // Skip if manifest has a description and not forcing
+        if (!args.force && manifest.description) {
+            console.info(`Skipping ${book}'s description`);
+            continue;
+        }
+        // Update manifest
         const description = readme.split("\n## License\n")[0].replace(/^[^\n]+\n\n/, "");
         manifest.description = converter.makeHtml(description);
         await fs.writeJSON(manifestPath, manifest, { spaces: "\t" });
-        console.info(`Updated ${book}`);
+
+        console.info(`Updated ${book}'s description`);
     }
+    console.groupEnd();
 })();
