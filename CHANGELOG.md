@@ -1,3 +1,8 @@
+# 0.3.31
+
+- Minor corrections for Forge DDB Compendium users.
+- JTtRC: Two new scenes from @Pariah Zero#9919
+
 # 0.3.30
 
 - DoIP: Note corrections.
