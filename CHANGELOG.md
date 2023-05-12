@@ -1,3 +1,6 @@
+# 0.3.32
+- Minor corrections for Forge DDB Compendium users.
+
 # 0.3.31
 
 - Minor corrections for Forge DDB Compendium users.
