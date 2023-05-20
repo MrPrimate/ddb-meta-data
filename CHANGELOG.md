@@ -1,4 +1,9 @@
+# 0.3.33
+
+-KFTGV: Prisoner 13 corrections.
+
 # 0.3.32
+
 - Minor corrections for Forge DDB Compendium users.
 
 # 0.3.31
