@@ -1,3 +1,7 @@
+# 0.3.34
+
+- HotDQ Updates for Forge Compendium Users.
+
 # 0.3.33
 
 -KFTGV: Prisoner 13 corrections.
