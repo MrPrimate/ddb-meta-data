@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 16,
+        "offsetY": 2,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#333333",
     "darkness": 0,
     "drawings": [],
@@ -11,19 +19,19 @@
             "contentChunkId": "ddb-missing-toa-90021",
             "notes": [],
             "tokens": [],
-            "foundryVersion": "0.8.9",
+            "foundryVersion": "10.291",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map: Locations in Chult (Player)",
                     "bookCode": "toa",
                     "contentChunkId": "ddb-missing-toa-90021",
-                    "lastUpdate": "0.1.42",
+                    "lastUpdate": "0.3.35",
                     "notes": "0.1.42",
                     "tokens": "0.1.42",
-                    "walls": "0.1.42",
-                    "lights": "0.1.42",
-                    "drawings": "0.1.42",
-                    "foundry": "0.8.9"
+                    "walls": "0.3.35",
+                    "lights": "0.3.35",
+                    "drawings": "0.3.35",
+                    "foundry": "10.291"
                 }
             }
         },
@@ -31,27 +39,29 @@
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.7.2"
+            "version": "999.0.0"
         }
     },
     "globalLight": true,
     "globalLightThreshold": null,
-    "grid": 111,
-    "gridDistance": 10,
-    "gridType": 5,
-    "gridUnits": "mi",
+    "grid": {
+        "type": 5,
+        "size": 111,
+        "color": "#000000",
+        "alpha": 0,
+        "distance": 10,
+        "units": "mi"
+    },
     "height": 8922,
     "initial": {
         "x": 5251,
         "y": 6790,
-        "scale": 0.2
+        "scale": 0.25
     },
     "lights": [],
     "name": "Map: Locations in Chult (Player)",
     "navName": "Map: Locations in Chult (Player)",
     "padding": 0.25,
-    "shiftX": 16,
-    "shiftY": 2,
     "tokenVision": false,
     "walls": [],
     "weather": "",

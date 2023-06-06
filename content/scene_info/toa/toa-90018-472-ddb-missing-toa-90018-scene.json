@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 13,
+        "offsetY": 7,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#333333",
     "darkness": 0,
     "drawings": [],
@@ -11,34 +19,39 @@
             "contentChunkId": "ddb-missing-toa-90018",
             "notes": [],
             "tokens": [],
-            "foundryVersion": "0.8.9",
+            "foundryVersion": "10.291",
             "versions": {
                 "ddbMetaData": {
                     "name": "Ataaz Muhahah",
                     "bookCode": "toa",
                     "contentChunkId": "ddb-missing-toa-90018",
-                    "lastUpdate": "0.0.14",
+                    "lastUpdate": "0.3.35",
                     "notes": "0.0.14",
                     "tokens": "0.0.14",
-                    "walls": "0.1.42",
-                    "lights": "0.1.42",
-                    "drawings": "0.0.14"
+                    "walls": "0.3.35",
+                    "lights": "0.3.35",
+                    "drawings": "0.3.35",
+                    "foundry": "10.291"
                 }
             }
         },
         "stairways": [],
-        "perfect-vision": [],
+        "perfect-vision": {},
         "dynamic-illumination": [],
         "ddbimporter": {
-            "version": "2.7.2"
+            "version": "999.0.0"
         }
     },
     "globalLight": true,
     "globalLightThreshold": null,
-    "grid": 65,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 65,
+        "color": "#000000",
+        "alpha": 0,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 1900,
     "initial": {
         "x": 1806,
@@ -47,33 +60,41 @@
     },
     "lights": [
         {
-            "t": "g",
             "x": 2990,
             "y": 878,
             "rotation": 0,
-            "dim": 95.69,
-            "bright": 47.84,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 95.69,
+                "bright": 47.84,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": true
         }
     ],
     "name": "Ataaz Muhahah",
     "navName": "Ataaz Muhahah",
     "padding": 0.25,
-    "shiftX": 13,
-    "shiftY": 7,
     "tokenVision": true,
     "walls": [
         {
@@ -83,13 +104,14 @@
                 3388,
                 585
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20
         },
         {
             "c": [
@@ -98,13 +120,14 @@
                 3388,
                 1243
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20
         },
         {
             "c": [
@@ -113,13 +136,14 @@
                 2608,
                 1243
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20
         },
         {
             "c": [
@@ -128,13 +152,14 @@
                 2608,
                 585
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20
         },
         {
             "c": [
@@ -143,13 +168,14 @@
                 2356,
                 1495
             ],
-            "move": 1,
-            "sense": 2,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 10,
+            "light": 10
         },
         {
             "c": [
@@ -158,13 +184,14 @@
                 2340,
                 1755
             ],
-            "move": 1,
-            "sense": 2,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 10,
+            "light": 10
         },
         {
             "c": [
@@ -173,13 +200,14 @@
                 1844,
                 1592
             ],
-            "move": 1,
-            "sense": 2,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 10,
+            "light": 10
         },
         {
             "c": [
@@ -188,13 +216,14 @@
                 1844,
                 1657
             ],
-            "move": 1,
-            "sense": 2,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 10,
+            "light": 10
         },
         {
             "c": [
@@ -203,13 +232,14 @@
                 1795,
                 1657
             ],
-            "move": 1,
-            "sense": 2,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 10,
+            "light": 10
         },
         {
             "c": [
@@ -218,13 +248,14 @@
                 1795,
                 1592
             ],
-            "move": 1,
-            "sense": 2,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 10,
+            "light": 10
         }
     ],
     "weather": "",
