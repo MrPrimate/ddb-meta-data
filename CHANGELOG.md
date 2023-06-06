@@ -1,3 +1,7 @@
+# 0.3.35
+
+- Changes for ToA v13.
+
 # 0.3.34
 
 - HotDQ Updates for Forge Compendium Users.
