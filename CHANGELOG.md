@@ -1,3 +1,7 @@
+# 0.3.36
+
+- Changes for RoT v13.
+
 # 0.3.35
 
 - Changes for ToA v13.
