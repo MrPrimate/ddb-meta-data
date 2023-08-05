@@ -1,3 +1,7 @@
+# 0.3.37
+
+- GotG: Initial grid alignments.
+
 # 0.3.36
 
 - Changes for RoT v13.
