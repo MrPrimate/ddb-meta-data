@@ -1,3 +1,7 @@
+# 0.3.38
+
+- Phandelver and Below, initial scene support (LMOP scenes).
+
 # 0.3.37
 
 - GotG: Initial grid alignments.
