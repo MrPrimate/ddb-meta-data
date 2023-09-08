@@ -37,7 +37,7 @@
                         }
                     },
                     "texture": {
-                        "src": "icons/svg/book.svg",
+                        "src": "modules/notelicker/storage/H1.svg",
                         "scaleX": 1,
                         "scaleY": 1,
                         "offsetX": 0,
@@ -74,7 +74,7 @@
                         }
                     },
                     "texture": {
-                        "src": "icons/svg/book.svg",
+                        "src": "modules/notelicker/storage/H2.svg",
                         "scaleX": 1,
                         "scaleY": 1,
                         "offsetX": 0,
@@ -111,7 +111,7 @@
                         }
                     },
                     "texture": {
-                        "src": "icons/svg/book.svg",
+                        "src": "modules/notelicker/storage/H3.svg",
                         "scaleX": 1,
                         "scaleY": 1,
                         "offsetX": 0,
@@ -148,7 +148,7 @@
                         }
                     },
                     "texture": {
-                        "src": "icons/svg/book.svg",
+                        "src": "modules/notelicker/storage/H4.svg",
                         "scaleX": 1,
                         "scaleY": 1,
                         "offsetX": 0,
@@ -185,7 +185,7 @@
                         }
                     },
                     "texture": {
-                        "src": "icons/svg/book.svg",
+                        "src": "modules/notelicker/storage/H5.svg",
                         "scaleX": 1,
                         "scaleY": 1,
                         "offsetX": 0,
@@ -222,7 +222,7 @@
                         }
                     },
                     "texture": {
-                        "src": "icons/svg/book.svg",
+                        "src": "modules/notelicker/storage/H6.svg",
                         "scaleX": 1,
                         "scaleY": 1,
                         "offsetX": 0,
@@ -259,7 +259,7 @@
                         }
                     },
                     "texture": {
-                        "src": "icons/svg/book.svg",
+                        "src": "modules/notelicker/storage/H7.svg",
                         "scaleX": 1,
                         "scaleY": 1,
                         "offsetX": 0,
@@ -296,7 +296,7 @@
                         }
                     },
                     "texture": {
-                        "src": "icons/svg/book.svg",
+                        "src": "modules/notelicker/storage/H8.svg",
                         "scaleX": 1,
                         "scaleY": 1,
                         "offsetX": 0,
@@ -316,116 +316,6 @@
                 }
             ],
             "tokens": [
-                {
-                    "_id": "ENa55RnZ9S9KhL7M",
-                    "name": "Wolf",
-                    "width": 1,
-                    "height": 1,
-                    "x": 4650,
-                    "y": 2550,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 17062,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "999.0.0",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Wolf"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "_id": "ENa55RnZ9S9KhL7M",
-                        "system": {},
-                        "flags": {}
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false,
-                            "type": null
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        },
-                        "attenuation": 0.5
-                    }
-                },
-                {
-                    "_id": "iRAeUbpP4SEMPJ4K",
-                    "name": "Yeemik",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2250,
-                    "y": 2100,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 266410,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "999.0.0",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Yeemik"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "_id": "iRAeUbpP4SEMPJ4K",
-                        "system": {},
-                        "flags": {}
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false,
-                            "type": null
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        },
-                        "attenuation": 0.5
-                    }
-                },
                 {
                     "_id": "FKKdkoRhX6jBl7El",
                     "name": "Sildar Hallwinter",
@@ -1398,6 +1288,170 @@
                             "max": 1
                         }
                     }
+                },
+                {
+                    "_id": "quuRR7dqdtrDTSKR",
+                    "name": "Yeemik",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2250,
+                    "y": 2100,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 3805745,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Goblin Boss (Variant)"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "quuRR7dqdtrDTSKR",
+                        "name": "Yeemik",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "WIqKefVJSeuOeIzt",
+                    "name": "Goblin Boss (Variant)",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1650,
+                    "y": 1350,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 3805745,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Goblin Boss (Variant)"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "4pNTgfa0NacBIB4L",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "N2HX9LHxmrvfmq1t",
+                    "name": "Ripper",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4800,
+                    "y": 2700,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17062,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Wolf"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "IJXAwT4q56ZnNjz6",
+                        "name": "Ripper",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
             "originalLink": "ddb://image/pbtso/map-1.02-Cragmaw-Hideout-player.png",
@@ -1407,12 +1461,12 @@
                     "name": "Map 1.2: Cragmaw Hideout",
                     "bookCode": "pbtso",
                     "contentChunkId": "Map102CragmawHideout-player",
-                    "lastUpdate": "0.3.38",
-                    "notes": "0.3.38",
-                    "tokens": "0.3.38",
-                    "walls": "0.3.38",
-                    "lights": "0.3.38",
-                    "drawings": "0.3.38",
+                    "lastUpdate": "0.3.39",
+                    "notes": "0.3.39",
+                    "tokens": "0.3.39",
+                    "walls": "0.3.39",
+                    "lights": "0.3.39",
+                    "drawings": "0.3.39",
                     "foundry": "11.308"
                 }
             }
