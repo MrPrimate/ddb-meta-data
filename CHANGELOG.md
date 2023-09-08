@@ -1,3 +1,7 @@
+# 0.3.39
+
+- Phandelver and Below, fix some broken actor links, add some scenes from Chapter 5.
+
 # 0.3.38
 
 - Phandelver and Below, initial scene support (LMOP scenes).
