@@ -10,7 +10,7 @@ This repo is intended to be used by other software products, such as [DDB Advent
 
 All books with Scenes should now have notes generated. Please highlight if you find missing Notes/Pins.
 
-You can see the state of scene support at [this spreadsheet](https://docs.google.com/spreadsheets/d/17b4jG2W521N_nFkE1jr2UGEjixHGjHGnEO9eSKhFmwo/edit?usp=sharing).
+You can see the state of scene support at [this website](https://docs.ddb.mrprimate.co.uk/status.html).
 
 If you wish to help improve the scene wall and lighting information, see the below section.
 
