@@ -410,6 +410,7 @@ async function alterScene(scene, noteInfo, contentPath, args) {
                     Object.assign(note, {
                         x: position.x,
                         y: position.y,
+                        _id: utils.randomId()
                     })
                 )
             );
@@ -420,8 +421,24 @@ async function alterScene(scene, noteInfo, contentPath, args) {
 
         if (scene.tiles.length) {
             // Rewrite tile links to use meta data schema
-            scene.tiles.map(tile => (tile.img = tile.img?.replace(/^assets\//, `ddb-meta-data://${args.book}/tiles/`)));
+            scene.tiles.forEach(tile => {
+                tile.img = tile.img?.replace(/^assets\//, `ddb-meta-data://${args.book}/tiles/`)
+                if (!tile._id) {
+                    tile._id = utils.randomId();
+                }
+            });
             console.info(`Rewrote tile links for ${scene.name}`);
+        }
+        // Ensure every scene embedded entity has an _id so it can migrate to leveldb (v11+) without issues
+        // tiles and notes are already handled above
+        const embeddedEntities = [/*"tiles", "notes", */"tokens", "lights", "templates", "sounds", "drawings", "walls"];
+        for (const entity of embeddedEntities) {
+            if (!scene[entity]) continue;
+            for (const item of scene[entity]) {
+                if (!item._id) {
+                    item._id = utils.randomId();
+                }
+            }
         }
 
         console.groupEnd();
