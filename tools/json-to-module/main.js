@@ -12,6 +12,7 @@ async function main() {
 
     parser.add_argument("-a", "--book", { help: "Book abbreviation" });
     parser.add_argument("-m", "--manifest", { help: "Path to the manifest JSON file" });
+    parser.add_argument("-c", "--converted", { help: "Path to the converted book JSON file (for module.json avatar)" });
     parser.add_argument("-o", "--output", {
         help: "Output directory",
         default: path.resolve(__dirname, "../../modules"),
@@ -261,7 +262,7 @@ async function assembleManifest(args) {
                 twitter: "@ForgeVTT",
             },
         ],
-        url: `https://www.dndbeyond.com/sources/${json.Name}`,
+        url: `https://www.dndbeyond.com/sources/${args.book}`,
         license: "",
         readme: "",
         bugs: "",
@@ -303,13 +304,18 @@ async function assembleManifest(args) {
         protected: false,
 
         manifestPlusVersion: "1.2.0",
-        media: [
-            {
-                type: "cover",
-                url: `ddb://image/${args.book}/listing_images/${json.Avatar}`,
-            },
-        ],
     };
+    if (args.converted) {
+        const source = (await fs.readJson(args.converted))[0]
+        if (source && source.Avatar) {  
+            manifest.media = [
+                {
+                    type: "cover",
+                    url: `ddb://image/${args.book}/listing_images/${source.Avatar}`,
+                },
+            ];
+        }
+    }
     await fs.writeJSON(manifestPath, manifest, { spaces: "\t" });
     console.info(`Saved manifest file to ${manifestPath}`);
     return manifest;
