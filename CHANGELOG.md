@@ -1,3 +1,7 @@
+# 0.3.40
+
+- Phandelver and below, finished Chapter 5 and 6.
+
 # 0.3.39
 
 - Phandelver and Below, fix some broken actor links, add some scenes from Chapter 5.
