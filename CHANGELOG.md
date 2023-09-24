@@ -1,3 +1,7 @@
+# 0.3.41
+
+- Phandelver and below, complete.
+
 # 0.3.40
 
 - Phandelver and below, finished Chapter 5 and 6.
