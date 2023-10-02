@@ -1,46 +1,22 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -47,
+        "offsetY": -2,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#333333",
     "darkness": 0,
     "drawings": [
         {
             "_id": "bgCEQufeWJlVWO4c",
             "author": "3UM1enwvyiMoXqqW",
-            "type": "t",
             "x": 1470,
             "y": 945,
-            "width": 185.125,
-            "height": 49.125,
             "rotation": 0,
             "z": 0,
-            "points": [],
-            "bezierFactor": 0,
-            "fillType": 0,
-            "fillColor": "#FFFFFF",
-            "fillAlpha": 0,
-            "strokeWidth": 8,
-            "strokeColor": "#FFFFFF",
-            "strokeAlpha": 0,
-            "texture": "",
-            "text": "Cairns",
-            "fontFamily": "Signika",
-            "fontSize": 42,
-            "textColor": "#750000",
-            "textAlpha": 1,
-            "hidden": true,
-            "locked": false,
-            "flags": {}
-        },
-        {
-            "_id": "D4njALhWTmG2a18O",
-            "author": "3UM1enwvyiMoXqqW",
-            "type": "t",
-            "x": 617,
-            "y": 1352,
-            "width": 185.125,
-            "height": 49.125,
-            "rotation": 0,
-            "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": "#FFFFFF",
@@ -56,19 +32,22 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": false,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 185,
+                "height": 49,
+                "points": [],
+                "radius": null
+            }
         },
         {
-            "_id": "ISEHkubGCdRd11YD",
+            "_id": "D4njALhWTmG2a18O",
             "author": "3UM1enwvyiMoXqqW",
-            "type": "t",
-            "x": 1234,
+            "x": 617,
             "y": 1352,
-            "width": 185.125,
-            "height": 49.125,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": "#FFFFFF",
@@ -76,7 +55,38 @@
             "strokeWidth": 8,
             "strokeColor": "#FFFFFF",
             "strokeAlpha": 0,
-            "texture": "",
+            "texture": null,
+            "text": "Cairns",
+            "fontFamily": "Signika",
+            "fontSize": 42,
+            "textColor": "#750000",
+            "textAlpha": 1,
+            "hidden": true,
+            "locked": false,
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 185,
+                "height": 49,
+                "points": [],
+                "radius": null
+            }
+        },
+        {
+            "_id": "ISEHkubGCdRd11YD",
+            "author": "3UM1enwvyiMoXqqW",
+            "x": 1234,
+            "y": 1352,
+            "rotation": 0,
+            "z": 0,
+            "bezierFactor": 0,
+            "fillType": 0,
+            "fillColor": "#FFFFFF",
+            "fillAlpha": 0,
+            "strokeWidth": 8,
+            "strokeColor": "#FFFFFF",
+            "strokeAlpha": 0,
+            "texture": null,
             "text": "Oak Tree",
             "fontFamily": "Signika",
             "fontSize": 42,
@@ -84,19 +94,22 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": false,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 185,
+                "height": 49,
+                "points": [],
+                "radius": null
+            }
         },
         {
             "_id": "7btvFWXmcssnKaPP",
             "author": "3UM1enwvyiMoXqqW",
-            "type": "t",
             "x": 1601,
             "y": 2559,
-            "width": 185.125,
-            "height": 49.125,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": "#FFFFFF",
@@ -112,16 +125,23 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": false,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 185,
+                "height": 49,
+                "points": [],
+                "radius": null
+            }
         }
     ],
     "flags": {
         "ddb": {
             "bookCode": "skt",
-            "ddbId": 11041,
+            "ddbId": 14042,
             "cobaltId": null,
             "parentId": 369,
-            "contentChunkId": "a77fb7e0-16ad-489a-97d2-e71bc7fdf1e4",
+            "contentChunkId": "807800f7-b579-4d4f-b58c-65be5526a062",
             "notes": [
                 {
                     "label": "Stone Stand",
@@ -131,12 +151,25 @@
                             "ddbId": 2637,
                             "bookCode": "skt",
                             "slug": "the-savage-frontier#LocationsoftheNorth",
+                            "linkName": "Chapter 3: The Savage Frontier",
+                            "slugLink": "StoneStand",
+                            "duplicate": false,
                             "contentChunkId": "e984bdf6-4b04-4051-a3c9-856533a2ff00",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 369,
-                            "linkId": "8jbiQmjULtSe0LUI"
+                            "linkId": "UYuP7MhNq3TJHWUs",
+                            "labelName": "Stone Stand"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -145,36 +178,45 @@
                         }
                     ],
                     "iconSize": 60,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [],
+            "originalLink": "ddb://image/skt/310.jpg",
+            "foundryVersion": "11.309",
             "versions": {
                 "ddbMetaData": {
-                    "name": "Map 3.12: Stone Stand",
+                    "name": "Locations of the North",
                     "bookCode": "skt",
-                    "contentChunkId": "a77fb7e0-16ad-489a-97d2-e71bc7fdf1e4",
-                    "lastUpdate": "0.0.14",
-                    "notes": "0.1.22",
-                    "tokens": "0.0.14",
-                    "walls": "0.0.14",
-                    "lights": "0.0.14",
-                    "drawings": "0.0.14"
+                    "contentChunkId": "807800f7-b579-4d4f-b58c-65be5526a062",
+                    "lastUpdate": "0.3.43",
+                    "notes": "0.3.43",
+                    "tokens": "0.3.43",
+                    "walls": "0.3.43",
+                    "lights": "0.3.43",
+                    "drawings": "0.3.43",
+                    "foundry": "11.309"
                 }
             }
         },
         "stairways": [],
-        "perfect-vision": [],
-        "dynamic-illumination": []
+        "perfect-vision": {},
+        "dynamic-illumination": [],
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
     },
     "globalLight": true,
     "globalLightThreshold": null,
-    "grid": 105,
-    "gridDistance": 50,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 105,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 50,
+        "units": "ft"
+    },
     "height": 2200,
     "initial": {
         "x": 1314,
@@ -182,10 +224,9 @@
         "scale": 0.45
     },
     "lights": [],
-    "name": "Map 3.12: Stone Stand",
-    "navName": "Stone Stand",
-    "shiftX": -47,
-    "shiftY": -2,
+    "name": "Locations of the North",
+    "navName": "Map 3.12: Stone Stand",
+    "padding": 0.25,
     "tokenVision": false,
     "walls": [],
     "weather": "",
