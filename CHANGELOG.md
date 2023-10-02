@@ -1,5 +1,7 @@
 # 0.3.42
 
+- STK: Corrections for v15
+
 # 0.3.41
 
 - Phandelver and below, complete.
