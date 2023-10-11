@@ -1,3 +1,7 @@
+# 0.3.44
+
+- Planescape Scenes: Chapter 1, partial chapter 2 (adventure)
+
 # 0.3.43
 
 - STK: Corrections for v15
