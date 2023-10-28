@@ -1,4 +1,9 @@
+# 0.3.47
+
+- Phandelver and Below scene fixes
+
 # 0.3.46
+
 - Planescape: AITM Complete
 
 # 0.3.44 / 0.3.45
