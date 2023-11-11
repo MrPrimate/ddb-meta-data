@@ -1,3 +1,7 @@
+# 0.3.48
+
+- The Book of Many Things Scene Support.
+
 # 0.3.47
 
 - Phandelver and Below scene fixes
