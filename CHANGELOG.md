@@ -1,3 +1,7 @@
+# 0.3.49
+
+- Support for Heroes' Feast: Saving the Children's Menu
+
 # 0.3.48
 
 - The Book of Many Things Scene Support.
