@@ -1,3 +1,7 @@
+# 0.3.50
+
+- LoE adventures 1-12
+
 # 0.3.49
 
 - Support for Heroes' Feast: Saving the Children's Menu
