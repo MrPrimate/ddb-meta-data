@@ -1,0 +1,197 @@
+{
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
+    "backgroundColor": "#999999",
+    "darkness": 0,
+    "drawings": [],
+    "flags": {
+        "ddb": {
+            "bookCode": "tbomt",
+            "ddbId": 10070,
+            "cobaltId": null,
+            "parentId": 1845,
+            "contentChunkId": "Map201Xulregg-player",
+            "notes": [
+                {
+                    "label": "Locations in Xulregg",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 68,
+                            "bookCode": "tbomt",
+                            "slug": "flames#AurnozcitheCagedWorm",
+                            "linkName": "Aurnozci, the Caged Worm",
+                            "slugLink": "LocationsinXulregg",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 1845,
+                            "labelName": "Locations in Xulregg"
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 2900,
+                            "y": 1300
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [],
+            "originalLink": "ddb://image/tbomt/map-19.01-xulregg-player-rev.png",
+            "foundryVersion": "11.315",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 20.1: Xulregg",
+                    "bookCode": "tbomt",
+                    "contentChunkId": "Map201Xulregg-player",
+                    "lastUpdate": "0.3.48",
+                    "notes": "0.3.48",
+                    "tokens": "0.3.48",
+                    "walls": "0.3.48",
+                    "lights": "0.3.48",
+                    "drawings": "0.3.48",
+                    "foundry": "11.315"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "globalLight": false,
+    "globalLightThreshold": null,
+    "grid": {
+        "type": 1,
+        "size": 200,
+        "color": "#000000",
+        "alpha": 0,
+        "distance": 5,
+        "units": "ft"
+    },
+    "height": 5736,
+    "initial": {
+        "x": 6148,
+        "y": 3708,
+        "scale": 0.25
+    },
+    "lights": [],
+    "name": "Map 20.1: Xulregg",
+    "navName": "Xulregg",
+    "padding": 0.1,
+    "tokenVision": true,
+    "walls": [
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1000,
+                600,
+                9152,
+                600
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                9152,
+                600,
+                9152,
+                6336
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                9152,
+                6336,
+                1000,
+                6336
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1000,
+                6336,
+                1000,
+                600
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        }
+    ],
+    "weather": "",
+    "width": 8152
+}
