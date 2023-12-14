@@ -6,10 +6,6 @@ Add new and unique creatures inspired by the *Wilds of Eldraine* to your campaig
 - **Detailed stat blocks** and descriptions to use the monsters in your campaigns
 - Useable in **D&D Beyond DM tools like Encounters and Maps**
 
-#### 2024 and Beyond
-
-The 2024 Core Rulebooks will provide new options for players and DMs along with updates and improvements to the classes, mechanics, items, and monsters of fifth edition. All updates are being done with care to make sure anything from fifth edition will **continue to be fully playable**.
-
 
 
 ## License

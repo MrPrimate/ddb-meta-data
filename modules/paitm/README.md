@@ -19,10 +19,6 @@ This 3 books set comprises:
 - **Turn of Fortune's* Wheel*: an adventure set in Sigil and the Outlands designed for character levels 3-10 with a jump to level 17
 - *Morte’s Planar Parade*: Follow Morte as he presents over 50 inhabitants of the Outer Plane, including incarnates, hierarch modrons, time dragons, and more with their stats and descriptions
 
-#### 2024 and Beyond
-
-The 2024 Core Rulebooks will provide new options for players and DMs along with updates and improvements to the classes, mechanics, items, and monsters of fifth edition. All updates are being done with care to make sure anything from fifth edition will **continue to be fully playable**.
-
 
 
 ## License

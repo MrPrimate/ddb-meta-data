@@ -9,10 +9,6 @@ Introduce more magical whimsy into your game with *The Book of Many Things*. Div
 - Uncover **50+ new magic items** inspired by the cards
 - Offers tools for DMs like **traps, location maps, & more**
 
-#### 2024 and Beyond
-
-The 2024 Core Rulebooks will provide new options for players and DMs along with updates and improvements to the classes, mechanics, items, and monsters of fifth edition. All updates are being done with care to make sure anything from fifth edition will **continue to be fully playable**.
-
 
 
 ## License

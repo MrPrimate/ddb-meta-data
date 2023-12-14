@@ -8,10 +8,6 @@ This creepy location can fit into any game and be explored in any campaign! Expl
 - Droppable location for any adventures or campaign
 - Detailed lore, faction information & locations within the Mortuary
 
-#### 2024 and Beyond
-
-The 2024 Core Rulebooks will provide new options for players and DMs along with updates and improvements to the classes, mechanics, items, and monsters of fifth edition. All updates are being done with care to make sure anything from fifth edition will **continue to be fully playable**.
-
 
 
 ## License
