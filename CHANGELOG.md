@@ -1,3 +1,7 @@
+# 0.3.51
+
+- LoE adventures 13-20
+
 # 0.3.50
 
 - LoE adventures 1-12
