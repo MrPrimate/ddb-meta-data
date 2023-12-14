@@ -1,3 +1,39 @@
+# 0.3.50
+
+- LoE adventures 1-12
+
+# 0.3.49
+
+- Support for Heroes' Feast: Saving the Children's Menu
+
+# 0.3.48
+
+- The Book of Many Things Scene Support.
+
+# 0.3.47
+
+- Phandelver and Below scene fixes
+
+# 0.3.46
+
+- Planescape: AITM Complete
+
+# 0.3.44 / 0.3.45
+
+- Planescape Scenes: Chapter 1, partial chapter 2 (adventure)
+
+# 0.3.43
+
+- STK: Corrections for v15
+
+# 0.3.41
+
+- Phandelver and below, complete.
+
+# 0.3.40
+
+- Phandelver and below, finished Chapter 5 and 6.
+
 # 0.3.39
 
 - Phandelver and Below, fix some broken actor links, add some scenes from Chapter 5.
