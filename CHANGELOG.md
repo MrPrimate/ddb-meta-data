@@ -1,3 +1,7 @@
+# 0.3.52
+
+- DoDr
+
 # 0.3.51
 
 - LoE adventures 13-20
