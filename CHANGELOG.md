@@ -1,3 +1,7 @@
+# 0.3.53
+
+- DoIP Sword Coast Map alignment
+
 # 0.3.52
 
 - DoDr
