@@ -1,3 +1,7 @@
+# 0.3.54
+
+- Humblewood support.
+
 # 0.3.53
 
 - DoIP Sword Coast Map alignment
