@@ -1,3 +1,7 @@
+# 1.0.0
+
+- Additions for more streamlined Journals for some books (PHB, XGTE, DMG, PAITM so far).
+
 # 0.3.54
 
 - Humblewood support.
