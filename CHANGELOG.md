@@ -1,3 +1,7 @@
+# 1.0.1
+
+- Descent into the Lost Caverns of Tsojcanth
+
 # 1.0.0
 
 - Additions for more streamlined Journals for some books (PHB, XGTE, DMG, PAITM so far).
