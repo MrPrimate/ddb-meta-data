@@ -1,3 +1,7 @@
+# 1.0.2
+
+- Vecna: Nest of the Eldritch Eye
+
 # 1.0.1
 
 - Descent into the Lost Caverns of Tsojcanth
