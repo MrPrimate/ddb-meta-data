@@ -1,3 +1,7 @@
+# 1.0.4
+
+- Vecna: Eve of Ruin Support.
+
 # 1.0.3
 
 - Tales from the Yawning Portal is now a single book rather than individual books for new purchases.
