@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -1,
+        "offsetY": 28,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [],
@@ -18,12 +26,25 @@
                             "ddbId": 2123,
                             "bookCode": "cm",
                             "slug": "zikrans-zephyrean-tome#CloudGiantsKeep",
+                            "linkName": "Zikran’s Zephyrean Tome",
+                            "slugLink": "C7ZikransBasementWorkshop",
+                            "duplicate": false,
                             "contentChunkId": "1ab736ef-757d-422c-a2f6-f169a4228dcb",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1183,
-                            "linkId": "BCKeLMRTK12Rxgpt"
+                            "linkId": "isQLIy32ZZq1ED1V",
+                            "labelName": "C07. Zikran’s Basement Workshop"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/C7.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -32,18 +53,16 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "Bnh6UEnFS9fu6olB",
+                    "_id": "LnvHJe4HNyJORNNX",
                     "name": "Water Elemental",
                     "width": 2,
                     "height": 2,
-                    "scale": 1,
                     "x": 8900,
                     "y": 9700,
                     "disposition": -1,
@@ -51,10 +70,11 @@
                         "ddbActorFlags": {
                             "id": 17051,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Water Elemental"
                         }
                     },
@@ -64,15 +84,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "uAZorqHFx8Ei5eSk",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "3Q9x1DHTCacZoLkp",
+                    "_id": "NeCGtr4dl1rzqwua",
                     "name": "Water Elemental",
                     "width": 2,
                     "height": 2,
-                    "scale": 1,
                     "x": 8900,
                     "y": 9500,
                     "disposition": -1,
@@ -80,10 +124,11 @@
                         "ddbActorFlags": {
                             "id": 17051,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Water Elemental"
                         }
                     },
@@ -93,15 +138,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "kSWgIjf77YjIavrE",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "pxM83xxaAElNJMTN",
+                    "_id": "i9vTrVE1oH3SyxLn",
                     "name": "Ice Mephit",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 9000,
                     "y": 9400,
                     "disposition": -1,
@@ -109,10 +178,11 @@
                         "ddbActorFlags": {
                             "id": 16932,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Ice Mephit"
                         }
                     },
@@ -122,15 +192,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "SEoOuaNlJhk2FEpi",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "bB3HQBinDlY2lRI2",
+                    "_id": "2nrHR2VdCLmeNnez",
                     "name": "Ice Mephit",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 9200,
                     "y": 9600,
                     "disposition": -1,
@@ -138,10 +232,11 @@
                         "ddbActorFlags": {
                             "id": 16932,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Ice Mephit"
                         }
                     },
@@ -151,15 +246,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "Ys4KSUCDhXzrSWJK",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "2h7T1mrixgOoj2gQ",
+                    "_id": "eBaV1gHPKyUVkZQ6",
                     "name": "Ice Mephit",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 9100,
                     "y": 9700,
                     "disposition": -1,
@@ -167,10 +286,11 @@
                         "ddbActorFlags": {
                             "id": 16932,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Ice Mephit"
                         }
                     },
@@ -180,15 +300,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "tOSRx4AMsd99pGNm",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "rpVkrhPbJLoCjpf6",
+                    "_id": "Grw4qAaFnFbP1XFH",
                     "name": "Ice Mephit",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 9100,
                     "y": 9800,
                     "disposition": -1,
@@ -196,10 +340,11 @@
                         "ddbActorFlags": {
                             "id": 16932,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Ice Mephit"
                         }
                     },
@@ -209,15 +354,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "D70OksA7ag5vCTiZ",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "YN0wSGlUt5dL1THL",
+                    "_id": "0JESV57jsOfGTsTa",
                     "name": "Ice Mephit",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 9100,
                     "y": 9500,
                     "disposition": -1,
@@ -225,10 +394,11 @@
                         "ddbActorFlags": {
                             "id": 16932,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Ice Mephit"
                         }
                     },
@@ -238,15 +408,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "ANyfnt6hiBb0kS9v",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "jcxCmJmxaqol6nXg",
+                    "_id": "Pt5XinCttGHscgsm",
                     "name": "Ice Mephit",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 9100,
                     "y": 9600,
                     "disposition": -1,
@@ -254,10 +448,11 @@
                         "ddbActorFlags": {
                             "id": 16932,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Ice Mephit"
                         }
                     },
@@ -267,15 +462,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "sjEuEd7fPnO3SV0I",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "sJFF4L02F9kpMyHA",
+                    "_id": "Y6GbDUDVXCf4Pxkg",
                     "name": "Zikran",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 8300,
                     "y": 10800,
                     "disposition": -1,
@@ -283,10 +502,11 @@
                         "ddbActorFlags": {
                             "id": 1528989,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Zikran"
                         }
                     },
@@ -296,15 +516,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "WyMQhMBYqSVA7MHP",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "gdjJ9ns0CBitqDXz",
+                    "_id": "EoIVkR0jMVyBfWNn",
                     "name": "Water Elemental",
                     "width": 2,
                     "height": 2,
-                    "scale": 1,
                     "x": 7800,
                     "y": 10900,
                     "disposition": -1,
@@ -312,10 +556,11 @@
                         "ddbActorFlags": {
                             "id": 17051,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Water Elemental"
                         }
                     },
@@ -325,15 +570,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "5NnipHlqeqZ9CuEz",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "rac279azEbwGcIGp",
+                    "_id": "yijwmd5VMwHsiJnq",
                     "name": "Air Elemental",
                     "width": 2,
                     "height": 2,
-                    "scale": 1,
                     "x": 8300,
                     "y": 11000,
                     "disposition": -1,
@@ -341,10 +610,11 @@
                         "ddbActorFlags": {
                             "id": 16774,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Air Elemental"
                         }
                     },
@@ -354,24 +624,49 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "wUSOgHeuFK1IVuWb",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
             "originalLink": "ddb://image/cm/map-12.02-cloud-giants-keep-player.jpg",
-            "foundryVersion": "9.238",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Cloud Giants Keep (Basement)",
                     "bookCode": "cm",
                     "contentChunkId": "ddb-missing-cm-90081",
                     "lastUpdate": "0.1.48",
-                    "notes": "0.1.48",
-                    "tokens": "0.1.48",
-                    "walls": "0.1.48",
-                    "lights": "0.1.48",
+                    "notes": "1.1.0",
+                    "tokens": "1.1.0",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
                     "drawings": "0.1.48",
-                    "foundry": "9.238"
+                    "foundry": "11.315"
                 }
             }
         },
@@ -393,15 +688,19 @@
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 10561,
     "initial": {
         "x": 8888,
@@ -417,11 +716,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.7,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 4,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.1,
                 "saturation": 0,
                 "contrast": 0,
@@ -436,7 +734,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -449,11 +748,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 4,
                 "dim": 20,
-                "gradual": true,
                 "luminosity": 0,
                 "saturation": 0,
                 "contrast": 0,
@@ -468,7 +766,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#5cabff"
+                "color": "#5cabff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -481,11 +780,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 5,
-                "gradual": true,
                 "luminosity": 0.05,
                 "saturation": 0,
                 "contrast": 0,
@@ -493,13 +791,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#0040ff"
+                "color": "#0040ff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -512,11 +812,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 131,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": false,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -524,13 +823,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.3
             },
             "hidden": false,
             "flags": {}
@@ -539,8 +840,6 @@
     "name": "Cloud Giants Keep (Basement)",
     "navName": "Cloud Giants Keep (Basement)",
     "padding": 0.25,
-    "shiftX": -1,
-    "shiftY": 28,
     "tokenVision": true,
     "walls": [
         {
@@ -557,7 +856,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -573,7 +878,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -589,7 +900,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -605,7 +922,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -621,7 +944,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -637,7 +966,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -653,7 +988,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -669,7 +1010,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -685,7 +1032,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -701,7 +1054,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -717,7 +1076,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -733,7 +1098,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -749,7 +1120,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -765,7 +1142,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -781,7 +1164,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -797,7 +1186,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -813,7 +1208,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -829,7 +1230,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -845,7 +1252,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -861,7 +1274,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -877,7 +1296,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -893,7 +1318,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -909,7 +1340,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -925,7 +1362,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -941,7 +1384,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -957,7 +1406,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -973,7 +1428,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -989,7 +1450,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1005,7 +1472,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1021,7 +1494,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1037,7 +1516,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1053,7 +1538,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1069,7 +1560,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1085,7 +1582,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1101,7 +1604,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1117,7 +1626,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1133,7 +1648,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1149,7 +1670,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1165,7 +1692,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1181,7 +1714,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1197,7 +1736,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1213,7 +1758,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1229,7 +1780,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1245,7 +1802,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",

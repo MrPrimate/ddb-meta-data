@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -57,
+        "offsetY": 2,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -12,18 +20,18 @@
             "notes": [],
             "tokens": [],
             "originalLink": "ddb://image/gos/05-pc.png",
-            "foundryVersion": "9.242",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Dunwater Caves (Surroundings)",
                     "bookCode": "gos",
                     "contentChunkId": "ddb-missing-gos-90030",
-                    "lastUpdate": "0.1.50",
+                    "lastUpdate": "0.3.27",
                     "notes": "0.1.50",
                     "tokens": "0.1.50",
-                    "walls": "0.3.27",
-                    "lights": "0.3.27",
-                    "drawings": "0.3.27",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.242"
                 }
             }
@@ -121,20 +129,24 @@
         },
         "dynamic-illumination": [],
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 25,
-    "gridType": 4,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 4,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 25,
+        "units": "ft"
+    },
     "height": 8152,
     "initial": {
         "x": 13880,
         "y": 8733,
-        "scale": 0.21
+        "scale": 0.25
     },
     "lights": [
         {
@@ -145,11 +157,10 @@
             "vision": true,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 700,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -157,13 +168,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {
@@ -171,11 +184,9 @@
             }
         }
     ],
-    "name": "Dunwater Caves (Surroundings)",
+    "name": "Dunwater Caves",
     "navName": "Dunwater Caves",
     "padding": 0.25,
-    "shiftX": -57,
-    "shiftY": 2,
     "tokenVision": true,
     "walls": [
         {
@@ -192,7 +203,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -208,7 +225,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -224,7 +247,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -240,7 +269,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",

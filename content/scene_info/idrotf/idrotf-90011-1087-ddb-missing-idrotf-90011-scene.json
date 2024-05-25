@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -11,18 +19,18 @@
             "contentChunkId": "ddb-missing-idrotf-90011",
             "notes": [],
             "tokens": [],
-            "foundryVersion": "0.8.9",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Poster Map (Ten Towns)",
                     "bookCode": "idrotf",
                     "contentChunkId": "ddb-missing-idrotf-90011",
-                    "lastUpdate": "0.1.40",
+                    "lastUpdate": "0.3.18",
                     "notes": "0.0.14",
                     "tokens": "0.0.14",
-                    "walls": "0.3.18",
-                    "lights": "0.3.18",
-                    "drawings": "0.3.18"
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0"
                 }
             }
         },
@@ -35,22 +43,26 @@
             "saturation": 0
         },
         "dynamic-illumination": [],
-        "ddbimporter": {}
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 0,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 0,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 1438,
-    "initial": null,
+    "initial": {},
     "lights": [],
     "name": "Poster Map (Ten Towns)",
     "navName": "Poster Map (Ten Towns)",
     "padding": 0.25,
-    "shiftX": 0,
-    "shiftY": 0,
     "tokenVision": true,
     "walls": [],
     "weather": "",

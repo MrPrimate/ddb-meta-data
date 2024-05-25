@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -123,
+        "offsetY": 12,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -18,21 +26,33 @@
                             "ddbId": 2033,
                             "bookCode": "gos",
                             "slug": "saltmarsh#SaltmarshRegion",
+                            "linkName": "Chapter 1: Saltmarsh",
+                            "slugLink": "DrownedForest",
+                            "duplicate": false,
                             "contentChunkId": "8e309dd1-2a4d-4a05-bb8c-0504cb0f7c9a",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 668,
-                            "linkId": "wIDznkPrXQEHQtV6"
+                            "linkId": "QE3jdPNG640mzxmm",
+                            "labelName": "Drowned Forest"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 4330.127018922193,
+                            "x": 4330,
                             "y": 2300
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -44,21 +64,33 @@
                             "ddbId": 2039,
                             "bookCode": "gos",
                             "slug": "saltmarsh#SaltmarshRegion",
+                            "linkName": "Chapter 1: Saltmarsh",
+                            "slugLink": "HoolMarshes",
+                            "duplicate": false,
                             "contentChunkId": "45749f79-5b8d-4d44-bfde-15bdb21c2474",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 668,
-                            "linkId": "Jn02ZFW7l5cWNFsN"
+                            "linkId": "cd2MwbfKMig3UWBp",
+                            "labelName": "Hool Marshes"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/Hool.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 2771.28,
+                            "x": 2771,
                             "y": 2300
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -70,28 +102,40 @@
                             "ddbId": 2049,
                             "bookCode": "gos",
                             "slug": "saltmarsh#SaltmarshRegion",
+                            "linkName": "Chapter 1: Saltmarsh",
+                            "slugLink": "Silverstand",
+                            "duplicate": false,
                             "contentChunkId": "abd151fb-3399-4729-86a3-39686e9aa4cd",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 668,
-                            "linkId": "2KCoSfzPNb2wwZpf"
+                            "linkId": "Jw0Zln0AnxfiLSoi",
+                            "labelName": "Silverstand"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 4503.332099679081,
+                            "x": 4503,
                             "y": 3600
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [],
             "originalLink": "ddb://image/gos/02-pc.png",
-            "foundryVersion": "9.242",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Local Region",
@@ -100,9 +144,9 @@
                     "lastUpdate": "0.3.27",
                     "notes": "0.3.27",
                     "tokens": "0.3.27",
-                    "walls": "0.3.27",
-                    "lights": "0.3.27",
-                    "drawings": "0.3.27",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.242"
                 }
             }
@@ -111,27 +155,29 @@
         "perfect-vision": {},
         "dynamic-illumination": [],
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": true,
     "globalLightThreshold": null,
-    "grid": 400,
-    "gridDistance": 7500,
-    "gridType": 3,
-    "gridUnits": "yd",
+    "grid": {
+        "type": 3,
+        "size": 400,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 7500,
+        "units": "yd"
+    },
     "height": 5648,
     "initial": {
         "x": 4372,
         "y": 4783,
-        "scale": 0.15
+        "scale": 0.25
     },
     "lights": [],
     "name": "Local Region",
     "navName": "Local Region",
     "padding": 0.25,
-    "shiftX": -123,
-    "shiftY": 12,
     "tokenVision": false,
     "walls": [],
     "weather": "",

@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 2,
+        "offsetY": -37,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -18,12 +26,25 @@
                             "ddbId": 60,
                             "bookCode": "ai",
                             "slug": "dran-enterprises#PortalEncounters",
+                            "linkName": "Episode 4: Dran Enterprises",
+                            "slugLink": "PortalEncounters",
+                            "duplicate": false,
                             "contentChunkId": null,
-                            "note": false,
                             "img": false,
+                            "note": false,
                             "parentId": 712,
-                            "linkId": "LgWYjjppGmXQceU2"
+                            "linkId": "WqL7QXDKrPMjNbh2",
+                            "labelName": "Portal Encounters"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -32,18 +53,16 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "KJirUbMfGMQIXQKt",
+                    "_id": "QcvynYXXY1lkgkov",
                     "name": "Cult Fanatic",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1800,
                     "y": 2100,
                     "disposition": -1,
@@ -51,10 +70,11 @@
                         "ddbActorFlags": {
                             "id": 16836,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cult Fanatic"
                         }
                     },
@@ -64,21 +84,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "jHCD8JIadeN6UJRF",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "8usq3M1i3a6tnahn",
+                    "_id": "77PMIaf8e3DBe47A",
                     "name": "Scout",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1700,
                     "y": 2200,
                     "disposition": -1,
@@ -86,8 +124,11 @@
                         "ddbActorFlags": {
                             "id": 17007,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Scout"
                         }
                     },
@@ -97,21 +138,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "Qg3lxA3XcoZhOXOq",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "ndMfYU8eYAAmnr7Q",
+                    "_id": "ky5XOmlIfRR5xcVN",
                     "name": "Scout",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1900,
                     "y": 2200,
                     "disposition": -1,
@@ -119,8 +178,11 @@
                         "ddbActorFlags": {
                             "id": 17007,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Scout"
                         }
                     },
@@ -130,21 +192,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "1VHCFZ4cMzxf6p1E",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "jMGPG8YObpsmzIzg",
+                    "_id": "KVz9qCJMZw8IhGcG",
                     "name": "Scout",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1900,
                     "y": 2500,
                     "disposition": -1,
@@ -152,8 +232,11 @@
                         "ddbActorFlags": {
                             "id": 17007,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Scout"
                         }
                     },
@@ -163,21 +246,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "zAMSdMcYL1RpBzNI",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "xEd6VbS0Y39r0JO0",
+                    "_id": "5u6GTFI8qBxlAOiw",
                     "name": "Scout",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1800,
                     "y": 2500,
                     "disposition": -1,
@@ -185,8 +286,11 @@
                         "ddbActorFlags": {
                             "id": 17007,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Scout"
                         }
                     },
@@ -196,28 +300,43 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "HpqT36gqnASjSwFh",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "OXQu8uCJlLfKgLMl",
+                    "_id": "Z4QCiUjocMADzLU6",
                     "name": "Merchant",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 800,
                     "y": 2300,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
@@ -226,8 +345,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -237,36 +359,48 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
+                        "_id": "26dAK6l5YMWt1SNf",
                         "name": "Merchant",
-                        "data": {
+                        "system": {
                             "details": {
                                 "cr": "0"
                             }
                         },
-                        "oldHpVal": 4
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "EYoGKDw66qPkJTNv",
+                    "_id": "sb9i4FjZaO07utBy",
                     "name": "Merchant",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1900,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
@@ -275,8 +409,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -286,36 +423,48 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
+                        "_id": "gqZ2JuN6TG7iNu7w",
                         "name": "Merchant",
-                        "data": {
+                        "system": {
                             "details": {
                                 "cr": "0"
                             }
                         },
-                        "oldHpVal": 4
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "pWuO9KUrjzZ30zkP",
+                    "_id": "sBGbXKuI3Kq0yRXA",
                     "name": "Merchant",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 800,
                     "y": 1700,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
@@ -324,8 +473,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -335,36 +487,48 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
+                        "_id": "6eO7YmWo8qFJE71g",
                         "name": "Merchant",
-                        "data": {
+                        "system": {
                             "details": {
                                 "cr": "0"
                             }
                         },
-                        "oldHpVal": 4
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "SsAU6EmdzYI32O0U",
+                    "_id": "Z6aq1TzCEFtFBk4N",
                     "name": "Merchant",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1900,
                     "y": 1400,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
@@ -373,8 +537,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -384,36 +551,48 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
+                        "_id": "frezCMvRzmnavrdK",
                         "name": "Merchant",
-                        "data": {
+                        "system": {
                             "details": {
                                 "cr": "0"
                             }
                         },
-                        "oldHpVal": 4
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "d9K8xVFuS1BCdzeo",
+                    "_id": "SfgeKCOzCEkzONgS",
                     "name": "Merchant",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1800,
                     "y": 1100,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
@@ -422,8 +601,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -433,36 +615,48 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
+                        "_id": "2ybV7K3Ir41jLVPZ",
                         "name": "Merchant",
-                        "data": {
+                        "system": {
                             "details": {
                                 "cr": "0"
                             }
                         },
-                        "oldHpVal": 4
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "pEO99TjC35tjsOa1",
+                    "_id": "B6XHQBjFwH792xVD",
                     "name": "Merchant",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1900,
                     "y": 1800,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
@@ -471,8 +665,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -482,36 +679,48 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
+                        "_id": "a7ChyB21d6thWsTL",
                         "name": "Merchant",
-                        "data": {
+                        "system": {
                             "details": {
                                 "cr": "0"
                             }
                         },
-                        "oldHpVal": 4
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "RtmMO6Vt7ubVpShB",
+                    "_id": "oD5dTAbggEfpR3L7",
                     "name": "Merchant",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1900,
                     "y": 2100,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
@@ -520,8 +729,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -531,36 +743,48 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
+                        "_id": "LvE6t3YHhPiO121b",
                         "name": "Merchant",
-                        "data": {
+                        "system": {
                             "details": {
                                 "cr": "0"
                             }
                         },
-                        "oldHpVal": 4
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "ZBzYimDJaKoqIUld",
+                    "_id": "PCztisWAux29C7ab",
                     "name": "Merchant",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1000,
                     "y": 1000,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
@@ -569,8 +793,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -580,29 +807,44 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
+                        "_id": "MWLi3B4y4gFEIaFF",
                         "name": "Merchant",
-                        "data": {
+                        "system": {
                             "details": {
                                 "cr": "0"
                             }
                         },
-                        "oldHpVal": 4
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "Cq0MCayV87S9IMNH",
+                    "_id": "EdIctsMvxnGgJAsu",
                     "name": "Giant Poisonous Snake",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 2200,
                     "disposition": -1,
@@ -610,10 +852,11 @@
                         "ddbActorFlags": {
                             "id": 16890,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Giant Poisonous Snake"
                         }
                     },
@@ -623,26 +866,46 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "R1dJTy7HUEiVWUbs",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "River Barge Crossings",
                     "bookCode": "ai",
                     "contentChunkId": "ddb-missing-ai-90077",
                     "lastUpdate": "0.1.33",
-                    "notes": "0.1.33",
-                    "tokens": "0.1.33",
+                    "notes": "1.1.0",
+                    "tokens": "1.1.0",
                     "walls": "0.1.33",
-                    "lights": "0.1.33",
+                    "lights": "1.1.0",
                     "drawings": "0.1.33"
                 }
             }
@@ -656,15 +919,19 @@
         },
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.6.25"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 2396,
     "initial": {
         "x": 1317,
@@ -673,35 +940,43 @@
     },
     "lights": [
         {
-            "t": "l",
             "x": 1448,
             "y": 1695,
             "rotation": 0,
-            "dim": 0,
-            "bright": 70,
-            "angle": 0,
-            "tintColor": "",
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0,
-                "max": 0.5
-            },
             "hidden": false,
             "flags": {
                 "perfect-vision": {}
-            }
+            },
+            "config": {
+                "dim": 0,
+                "bright": 70,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         }
     ],
     "name": "River Barge Crossings",
     "navName": "River Barge Crossings",
     "padding": 0.25,
-    "shiftX": 2,
-    "shiftY": -37,
     "tokenVision": true,
     "walls": [],
     "weather": "",

@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 23,
+        "offsetY": -82,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [],
@@ -18,24 +26,33 @@
                             "ddbId": 2055,
                             "bookCode": "ai",
                             "slug": "darkness-at-the-lighthouse#SilentSoundLighthouse",
+                            "linkName": "Episode 3: Darkness at the Lighthouse",
+                            "slugLink": "GroundFloor",
+                            "duplicate": false,
                             "contentChunkId": "4e4e9903-7103-4223-9f2c-a5a7aa3812e0",
-                            "userData": {
-                                "userDisplayName": "Pariah_Zero"
-                            },
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 711,
-                            "linkId": "oqPldE4LNeNOtDr9"
+                            "linkId": "oVQGrkgtQGNMjQMu",
+                            "labelName": "Ground Floor"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 2947.6153004227053,
-                            "y": 2205.963730374396
+                            "x": 2948,
+                            "y": 2206
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -47,35 +64,43 @@
                             "ddbId": 2092,
                             "bookCode": "ai",
                             "slug": "darkness-at-the-lighthouse#SilentSoundLighthouse",
+                            "linkName": "Episode 3: Darkness at the Lighthouse",
+                            "slugLink": "LighthouseTop",
+                            "duplicate": false,
                             "contentChunkId": "a8a787cb-1e60-43bd-b32a-2584827bd2dd",
-                            "userData": {
-                                "userDisplayName": "Pariah_Zero"
-                            },
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 711,
-                            "linkId": "WGvNK8mlKLqBbvFf"
+                            "linkId": "pcHoaRiXAuW0GqYv",
+                            "labelName": "Lighthouse Top"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 5656.756567028986,
-                            "y": 4059.128170289855
+                            "x": 5657,
+                            "y": 4059
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "b3LxuJ7UKdyDE3wR",
+                    "_id": "hX8CQDVhH7G2c5ay",
                     "name": "Patsy McRoyne",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2952,
                     "y": 2214,
                     "disposition": -1,
@@ -88,8 +113,11 @@
                         "ddbActorFlags": {
                             "id": 16871,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Ghost"
                         }
                     },
@@ -99,23 +127,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
-                        "name": "Patsy McRoyne"
+                        "_id": "umFTEPi0TPEdru7c",
+                        "name": "Patsy McRoyne",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "fLLX9AOgQTiA7KC8",
+                    "_id": "sukQTvvGNJ9eKB7L",
                     "name": "Shadow",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 5658,
                     "y": 3690,
                     "disposition": -1,
@@ -123,8 +168,11 @@
                         "ddbActorFlags": {
                             "id": 17010,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Shadow"
                         }
                     },
@@ -134,21 +182,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "pq5ThUiu2hCoiPCD",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "siPqif6LRpBa50TU",
+                    "_id": "WRMJGyumbBBRpUJL",
                     "name": "Shadow",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 5658,
                     "y": 3936,
                     "disposition": -1,
@@ -156,8 +222,11 @@
                         "ddbActorFlags": {
                             "id": 17010,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Shadow"
                         }
                     },
@@ -167,21 +236,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "zaYEI1GuCG6ylXTt",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "MESuWH8RjACSoK47",
+                    "_id": "rX7cFB4neNVI2ZCr",
                     "name": "Shadow",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 5043,
                     "y": 3813,
                     "disposition": -1,
@@ -189,8 +276,11 @@
                         "ddbActorFlags": {
                             "id": 17010,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Shadow"
                         }
                     },
@@ -200,21 +290,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "p4LhZT6kX4sYvS4f",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "JgJWlTjQ8QaXwXD3",
+                    "_id": "fCqM8Om0rCLQ2ivp",
                     "name": "Will-o'-Wisp",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 5166,
                     "y": 4059,
                     "disposition": -1,
@@ -222,8 +330,11 @@
                         "ddbActorFlags": {
                             "id": 17060,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Will-o'-Wisp"
                         }
                     },
@@ -233,26 +344,46 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "OXTTQo0SBY0dSV5V",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Silent Sound Lighthouse (5th)",
                     "bookCode": "ai",
                     "contentChunkId": "ddb-missing-ai-103062",
                     "lastUpdate": "0.0.14",
-                    "notes": "0.0.14",
-                    "tokens": "0.0.14",
-                    "walls": "0.0.14",
-                    "lights": "0.0.14",
+                    "notes": "1.1.0",
+                    "tokens": "1.1.0",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
                     "drawings": "0.0.14"
                 }
             }
@@ -268,14 +399,21 @@
         "dynamic-illumination": {
             "_animating": false,
             "darknessColor": "#110033"
+        },
+        "ddbimporter": {
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 123,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 123,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 3600,
     "initial": {
         "x": 5612,
@@ -284,467 +422,877 @@
     },
     "lights": [
         {
-            "angle": 360,
-            "bright": 30,
-            "darknessThreshold": 0,
-            "dim": 60,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 2091,
             "y": 1968,
-            "lightAnimation": {
-                "type": "torch",
-                "speed": 1,
-                "intensity": 1
+            "hidden": true,
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 1,
+                    "intensity": 1,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": true
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 30,
-            "darknessThreshold": 0,
-            "dim": 60,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 3075,
             "y": 1968,
-            "lightAnimation": {
-                "type": "torch",
-                "speed": 1,
-                "intensity": 1
+            "hidden": true,
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 1,
+                    "intensity": 1,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": true
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 2583,
             "y": 1415,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 2460,
             "y": 2768,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 1.61,
-            "darknessThreshold": 0,
-            "dim": 3.21,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 2522,
             "y": 1353,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 3.21,
+                "bright": 1.61,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 2460,
             "y": 4121,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 0,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 0,
             "y": 0,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 0,
+                "bright": 0,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 0,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 0,
             "y": 0,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 0,
+                "bright": 0,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 0,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 0,
             "y": 0,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 0,
+                "bright": 0,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 0,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 0,
             "y": 0,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 0,
+                "bright": 0,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 0,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 0,
             "y": 0,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 0,
+                "bright": 0,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 0,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 0,
             "y": 0,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 0,
+                "bright": 0,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 0,
-            "darknessThreshold": 0,
-            "dim": 0,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 0,
             "y": 0,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 0,
+                "bright": 0,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 30,
-            "darknessThreshold": 0,
-            "dim": 60,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 1968,
             "y": 3444,
-            "lightAnimation": {
-                "type": "torch",
-                "speed": 1,
-                "intensity": 1
+            "hidden": true,
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 1,
+                    "intensity": 1,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": true
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 30,
-            "darknessThreshold": 0,
-            "dim": 60,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 2952,
             "y": 3444,
-            "lightAnimation": {
-                "type": "torch",
-                "speed": 1,
-                "intensity": 1
+            "hidden": true,
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 1,
+                    "intensity": 1,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": true
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 3923,
             "y": 3183,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 3917,
             "y": 4428,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 30,
-            "darknessThreshold": 0,
-            "dim": 60,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 4367,
             "y": 3813,
-            "lightAnimation": {
-                "type": "torch",
-                "speed": 1,
-                "intensity": 1
+            "hidden": true,
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 1,
+                    "intensity": 1,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": true
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 30,
-            "darknessThreshold": 0,
-            "dim": 60,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 3444,
             "y": 3813,
-            "lightAnimation": {
-                "type": "torch",
-                "speed": 1,
-                "intensity": 1
+            "hidden": true,
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 1,
+                    "intensity": 1,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": true
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 4908,
             "y": 3218,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 0.11,
-            "darknessThreshold": 0,
-            "dim": 0.22,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 3813,
             "y": 2891,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 0.22,
+                "bright": 0.11,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 4908,
             "y": 1972,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 30,
-            "darknessThreshold": 0,
-            "dim": 60,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 4490,
             "y": 2583,
-            "lightAnimation": {
-                "type": "torch",
-                "speed": 1,
-                "intensity": 1
+            "hidden": true,
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 1,
+                    "intensity": 1,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": true
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 30,
-            "darknessThreshold": 0,
-            "dim": 60,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 0.25,
             "x": 5351,
             "y": 2583,
-            "lightAnimation": {
-                "type": "torch",
-                "speed": 1,
-                "intensity": 1
+            "hidden": true,
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 1,
+                    "intensity": 1,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": true
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 5412,
             "y": 3198,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 5412,
             "y": 4428,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 11,
-            "darknessThreshold": 0,
-            "dim": 20,
             "rotation": 0,
-            "t": "l",
-            "tintAlpha": 1,
             "x": 5412,
             "y": 3813,
-            "lightAnimation": {
-                "type": "roiling",
-                "speed": 2,
-                "intensity": 7
+            "hidden": false,
+            "config": {
+                "dim": 20,
+                "bright": 11,
+                "angle": 360,
+                "alpha": 1,
+                "animation": {
+                    "type": "roiling",
+                    "speed": 2,
+                    "intensity": 7,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": false,
+            "flags": {}
         },
         {
-            "angle": 360,
-            "bright": 50,
-            "darknessThreshold": 0,
-            "dim": 50,
             "rotation": 0,
-            "t": "g",
-            "tintAlpha": 0.25,
             "x": 6027,
             "y": 3813,
-            "lightAnimation": {
-                "speed": 5,
-                "intensity": 5
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 50,
+                "angle": 360,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 5,
+                    "intensity": 5,
+                    "type": null,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
             },
-            "hidden": false
+            "walls": true,
+            "vision": true,
+            "flags": {}
         }
     ],
-    "name": "Silent Sound Lighthouse (5th)",
+    "name": "Silent Sound Lighthouse",
     "navName": "Silent Sound Lighthouse",
-    "shiftX": 23,
-    "shiftY": -82,
+    "padding": 0.25,
     "tokenVision": true,
     "walls": [
         {
@@ -756,8 +1304,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -768,8 +1326,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -780,8 +1348,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -792,8 +1370,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -804,8 +1392,19 @@
             ],
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "doorSound": "woodBasic",
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -816,8 +1415,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -828,8 +1437,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -840,8 +1459,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -852,8 +1481,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -864,8 +1503,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -876,8 +1525,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -888,8 +1547,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -900,8 +1569,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -912,8 +1591,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -924,8 +1613,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -936,8 +1635,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -948,8 +1657,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -960,8 +1679,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -972,8 +1701,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -984,8 +1723,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -996,8 +1745,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1008,8 +1767,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1020,8 +1789,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1032,8 +1811,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1044,8 +1833,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1056,8 +1855,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1068,8 +1877,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1080,8 +1899,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1092,8 +1921,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1104,8 +1943,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1116,8 +1965,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1128,8 +1987,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1140,8 +2009,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1152,8 +2031,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1164,8 +2053,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1176,8 +2075,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1188,8 +2097,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1200,8 +2119,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1212,8 +2141,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1224,8 +2163,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1236,8 +2185,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1248,8 +2207,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1260,8 +2229,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1272,8 +2251,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1284,8 +2273,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1296,8 +2295,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1308,8 +2317,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1320,8 +2339,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1332,8 +2361,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1344,8 +2383,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1356,8 +2405,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1368,8 +2427,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1380,8 +2449,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1392,8 +2471,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1404,8 +2493,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1416,8 +2515,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1428,8 +2537,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1440,8 +2559,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1452,8 +2581,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1464,8 +2603,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1476,8 +2625,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1488,8 +2647,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1500,8 +2669,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1512,8 +2691,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1524,8 +2713,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1536,8 +2735,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1548,8 +2757,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1560,8 +2779,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1572,8 +2801,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1584,8 +2823,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1596,8 +2845,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1608,8 +2867,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1620,8 +2889,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1632,8 +2911,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1644,8 +2933,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1656,8 +2955,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1668,8 +2977,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1680,8 +2999,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1692,8 +3021,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1704,8 +3043,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1716,8 +3065,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1728,8 +3087,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1740,8 +3109,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1752,8 +3131,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1764,8 +3153,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1776,8 +3175,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1788,8 +3197,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1800,8 +3219,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1812,8 +3241,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1824,8 +3263,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1836,8 +3285,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1848,8 +3307,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1860,8 +3329,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1872,8 +3351,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1884,8 +3373,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1896,8 +3395,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1908,8 +3417,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1920,8 +3439,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1932,8 +3461,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1944,8 +3483,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1956,8 +3505,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1968,8 +3527,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1980,8 +3549,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -1992,8 +3571,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2004,8 +3593,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2016,8 +3615,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2028,8 +3637,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2040,8 +3659,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2052,8 +3681,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2064,8 +3703,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2076,8 +3725,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2088,8 +3747,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2100,8 +3769,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2112,8 +3791,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2124,8 +3813,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2136,8 +3835,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2148,8 +3857,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2160,8 +3879,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2172,8 +3901,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2184,8 +3923,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2196,8 +3945,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2208,8 +3967,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2220,8 +3989,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2232,8 +4011,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2244,8 +4033,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2256,8 +4055,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2268,8 +4077,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2280,8 +4099,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2292,8 +4121,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2304,8 +4143,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2316,8 +4165,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2328,8 +4187,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2340,8 +4209,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2352,8 +4231,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2364,8 +4253,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2376,8 +4275,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2388,8 +4297,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2400,8 +4319,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2412,8 +4341,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2424,8 +4363,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2436,8 +4385,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2448,8 +4407,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2460,8 +4429,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2472,8 +4451,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2484,8 +4473,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2496,8 +4495,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2508,8 +4517,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2520,8 +4539,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2532,8 +4561,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2544,8 +4583,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2556,8 +4605,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2568,8 +4627,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2580,8 +4649,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2592,8 +4671,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2604,8 +4693,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2616,8 +4715,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2628,8 +4737,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2640,8 +4759,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2652,8 +4781,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2664,8 +4803,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2676,8 +4825,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2688,8 +4847,19 @@
             ],
             "door": 1,
             "ds": 0,
-            "move": 1,
-            "sense": 0
+            "move": 20,
+            "doorSound": "woodBasic",
+            "sight": 0,
+            "light": 0,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2700,8 +4870,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2712,8 +4892,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2724,8 +4914,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2736,8 +4936,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2748,8 +4958,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2760,8 +4980,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2772,8 +5002,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2784,8 +5024,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2796,8 +5046,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2808,8 +5068,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2820,8 +5090,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2832,8 +5112,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2844,8 +5134,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2856,8 +5156,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2868,8 +5178,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2880,8 +5200,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2892,8 +5222,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2904,8 +5244,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2916,8 +5266,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2928,8 +5288,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2940,8 +5310,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2952,8 +5332,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2964,8 +5354,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2976,8 +5376,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -2988,8 +5398,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -3000,8 +5420,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -3012,8 +5442,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         }
     ],
     "weather": "",
