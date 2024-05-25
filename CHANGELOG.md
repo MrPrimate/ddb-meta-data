@@ -1,3 +1,7 @@
+# 1.1.0
+
+- Updates for Foundry v12. Existing adventure conversion.
+
 # 1.0.4
 
 - Vecna: Eve of Ruin Support.
