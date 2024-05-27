@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -18,21 +26,33 @@
                             "ddbId": 2016,
                             "bookCode": "sacoc",
                             "slug": "life-at-strixhaven#WitherbloomCollege",
+                            "linkName": "Life at Strixhaven",
+                            "slugLink": "Sedgemoor",
+                            "duplicate": false,
                             "contentChunkId": "38afdc07-d6cd-4a3d-9389-db490a0575fd",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1539,
-                            "linkId": "c6Uw15FztopVn6PS"
+                            "linkId": "m3hDY3nmvsOFRNHU",
+                            "labelName": "Sedgemoor"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 5525,
-                            "y": 2468.17
+                            "y": 2468
                         }
                     ],
                     "iconSize": 120,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -44,21 +64,33 @@
                             "ddbId": 2018,
                             "bookCode": "sacoc",
                             "slug": "life-at-strixhaven#WitherbloomCollege",
+                            "linkName": "Life at Strixhaven",
+                            "slugLink": "WiddershinsHall",
+                            "duplicate": false,
                             "contentChunkId": "4f131c7a-7792-47a9-8d2f-2fe7b8dc0d1a",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1539,
-                            "linkId": "YyCwjd6ZZBH4XpAl"
+                            "linkId": "lZ6igea8gMUPZaqQ",
+                            "labelName": "Widdershins Hall"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 4850,
-                            "y": 4416.73
+                            "y": 4417
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -70,28 +102,40 @@
                             "ddbId": 2021,
                             "bookCode": "sacoc",
                             "slug": "life-at-strixhaven#WitherbloomCollege",
+                            "linkName": "Life at Strixhaven",
+                            "slugLink": "DetentionBog",
+                            "duplicate": false,
                             "contentChunkId": "afbfe31f-fec1-47e0-8025-3e0c8e88beec",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1539,
-                            "linkId": "upovckBVUn3MUFfc"
+                            "linkId": "PGpIYXEeKzx71xF8",
+                            "labelName": "Detention Bog"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 8150,
-                            "y": 3377.5
+                            "y": 3378
                         }
                     ],
                     "iconSize": 120,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [],
             "originalLink": "ddb://image/sacoc/map-1.6-witherbloom-campus-player.jpg",
-            "foundryVersion": "9.238",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 1.6: Witherbloom Campus",
@@ -100,9 +144,9 @@
                     "lastUpdate": "0.1.45",
                     "notes": "0.1.45",
                     "tokens": "0.1.45",
-                    "walls": "0.1.45",
-                    "lights": "0.1.45",
-                    "drawings": "0.1.45",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.238"
                 }
             }
@@ -111,20 +155,24 @@
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 25,
-    "gridType": 4,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 4,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 25,
+        "units": "ft"
+    },
     "height": 5183,
     "initial": {
         "x": 5594,
         "y": 4045,
-        "scale": 0.19
+        "scale": 0.25
     },
     "lights": [
         {
@@ -135,11 +183,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
-                "bright": 289.04349265541197,
+                "angle": 360,
+                "bright": 289.04,
                 "coloration": 1,
-                "dim": 578.0869853108239,
-                "gradual": true,
+                "dim": 578.09,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -147,29 +194,30 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
-                }
+                },
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
             "x": 5625,
-            "y": 3723.909236273086,
+            "y": 3724,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 1000,
-                "gradual": true,
                 "luminosity": 0,
                 "saturation": 0,
                 "contrast": 0,
@@ -184,7 +232,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -193,8 +242,6 @@
     "name": "Map 1.6: Witherbloom Campus",
     "navName": "Witherbloom Campus",
     "padding": 0.25,
-    "shiftX": 0,
-    "shiftY": 0,
     "tokenVision": false,
     "walls": [],
     "weather": "",

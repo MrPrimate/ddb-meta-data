@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -18,21 +26,33 @@
                             "ddbId": 2014,
                             "bookCode": "sacoc",
                             "slug": "life-at-strixhaven#SilverquillCollege",
+                            "linkName": "Life at Strixhaven",
+                            "slugLink": "GrandloftHall",
+                            "duplicate": false,
                             "contentChunkId": "4f10181a-e93c-4fe0-8b8e-9d6001f0f21d",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1539,
-                            "linkId": "jOHX4xjnpElqXwDV"
+                            "linkId": "4kToc4JlAgrFs8PT",
+                            "labelName": "Grandloft Hall"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 6800,
-                            "y": 4589.93
+                            "y": 4590
                         }
                     ],
                     "iconSize": 120,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -44,21 +64,33 @@
                             "ddbId": 2016,
                             "bookCode": "sacoc",
                             "slug": "life-at-strixhaven#SilverquillCollege",
+                            "linkName": "Life at Strixhaven",
+                            "slugLink": "TheRoseStage",
+                            "duplicate": false,
                             "contentChunkId": "eaddf213-9003-4d13-bd44-3ecd97010a42",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1539,
-                            "linkId": "bEYOoKcmDDn85bL7"
+                            "linkId": "72WuLeYVudys0zHE",
+                            "labelName": "The Rose Stage"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 9125,
-                            "y": 5499.26
+                            "y": 5499
                         }
                     ],
                     "iconSize": 120,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -70,28 +102,40 @@
                             "ddbId": 2018,
                             "bookCode": "sacoc",
                             "slug": "life-at-strixhaven#SilverquillCollege",
+                            "linkName": "Life at Strixhaven",
+                            "slugLink": "TheDramarium",
+                            "duplicate": false,
                             "contentChunkId": "dabb5a03-54ee-4327-963b-c64de7db1073",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1539,
-                            "linkId": "VW2nUMpvtH1wB628"
+                            "linkId": "MFr2hRsmZAlYBPLj",
+                            "labelName": "The Dramarium"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 3800,
-                            "y": 4416.73
+                            "y": 4417
                         }
                     ],
                     "iconSize": 120,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [],
             "originalLink": "ddb://image/sacoc/map-1.5-silverquill-campus-player.jpg",
-            "foundryVersion": "9.238",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 1.5: Silverquill Campus",
@@ -100,9 +144,9 @@
                     "lastUpdate": "0.1.45",
                     "notes": "0.1.45",
                     "tokens": "0.1.45",
-                    "walls": "0.1.45",
-                    "lights": "0.1.45",
-                    "drawings": "0.1.45",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.238"
                 }
             }
@@ -111,15 +155,19 @@
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 10,
-    "gridType": 4,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 4,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 10,
+        "units": "ft"
+    },
     "height": 6219,
     "initial": {
         "x": 7250,
@@ -135,11 +183,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
-                "bright": 75.79216808924897,
+                "angle": 360,
+                "bright": 75.79,
                 "coloration": 1,
-                "dim": 151.58433617849795,
-                "gradual": true,
+                "dim": 151.58,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -147,12 +194,14 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
-                }
+                },
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -165,11 +214,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
-                "bright": 0.004356971153833911,
+                "angle": 360,
+                "bright": 0,
                 "coloration": 1,
-                "dim": 0.008713942307667822,
-                "gradual": true,
+                "dim": 0.01,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -177,12 +225,14 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
-                }
+                },
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -195,11 +245,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.8,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 20.5,
-                "gradual": true,
                 "luminosity": 0,
                 "saturation": 0,
                 "contrast": 0,
@@ -214,7 +263,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#00ffe1"
+                "color": "#00ffe1",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -227,11 +277,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.55,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0,
                 "saturation": 0,
                 "contrast": 0,
@@ -246,7 +295,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#00ffe1"
+                "color": "#00ffe1",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -259,11 +309,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 4,
                 "coloration": 1,
                 "dim": 8,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -278,7 +327,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -291,11 +341,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.8,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 9,
                 "dim": 120,
-                "gradual": true,
                 "luminosity": 0,
                 "saturation": 0.45,
                 "contrast": 0,
@@ -310,7 +359,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -323,11 +373,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.35,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 7,
                 "dim": 29.02,
-                "gradual": true,
                 "luminosity": 0.05,
                 "saturation": 0,
                 "contrast": 0,
@@ -342,7 +391,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff7b00"
+                "color": "#ff7b00",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -355,11 +405,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
-                "bright": 14.510505136302212,
+                "angle": 360,
+                "bright": 14.51,
                 "coloration": 1,
-                "dim": 29.021010272604425,
-                "gradual": true,
+                "dim": 29.02,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -367,29 +416,30 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
-                }
+                },
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 7763.846153846153,
-            "y": 3544.4194711538457,
+            "x": 7764,
+            "y": 3544,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 4,
                 "coloration": 1,
                 "dim": 8,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -404,24 +454,24 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 9788.485576923076,
-            "y": 2973.34375,
+            "x": 9788,
+            "y": 2973,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 4,
                 "coloration": 1,
                 "dim": 8,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -436,24 +486,24 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 9402.716346153846,
-            "y": 3434.307692307692,
+            "x": 9403,
+            "y": 3434,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 4,
                 "coloration": 1,
                 "dim": 8,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -468,24 +518,24 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 5771.3515625,
-            "y": 3548.6328125,
+            "x": 5771,
+            "y": 3549,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 4,
                 "coloration": 1,
                 "dim": 8,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -500,24 +550,24 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 6587.682711693548,
-            "y": 4442.787298387097,
+            "x": 6588,
+            "y": 4443,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 4,
                 "coloration": 1,
                 "dim": 8,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -532,24 +582,24 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 7042.269405241936,
-            "y": 4439.960685483871,
+            "x": 7042,
+            "y": 4440,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 4,
                 "coloration": 1,
                 "dim": 8,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -564,7 +614,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ffffff"
+                "color": "#ffffff",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -573,8 +624,6 @@
     "name": "Map 1.5: Silverquill Campus",
     "navName": "Silverquill Campus",
     "padding": 0.25,
-    "shiftX": 0,
-    "shiftY": 0,
     "tokenVision": true,
     "walls": [
         {
@@ -591,7 +640,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -607,7 +662,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -623,7 +684,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -639,7 +706,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -655,7 +728,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -671,7 +750,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -687,7 +772,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -703,7 +794,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -719,7 +816,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -735,7 +838,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -751,7 +860,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -767,7 +882,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -783,7 +904,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -799,7 +926,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -815,7 +948,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -831,7 +970,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -847,7 +992,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -863,7 +1014,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -879,7 +1036,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -895,7 +1058,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -911,7 +1080,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -927,7 +1102,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -943,7 +1124,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -959,7 +1146,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -975,7 +1168,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -991,7 +1190,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1007,7 +1212,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1023,7 +1234,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1039,7 +1256,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1055,7 +1278,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1071,7 +1300,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1087,7 +1322,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1103,7 +1344,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1119,7 +1366,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1135,7 +1388,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1151,7 +1410,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1167,7 +1432,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1183,7 +1454,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1199,7 +1476,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1215,7 +1498,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1231,7 +1520,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1247,7 +1542,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1263,7 +1564,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1279,7 +1586,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1295,7 +1608,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1311,7 +1630,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1327,7 +1652,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1343,7 +1674,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1359,7 +1696,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1375,7 +1718,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1391,7 +1740,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",
