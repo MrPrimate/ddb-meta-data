@@ -132,7 +132,7 @@ async function assemble(args) {
         assembleManifest(args),
         assembleREADME(args),
     ]);
-    outcomes.filter(outcome => outcome.fulfilled).map(outcome => console.error("Error", outcome.reason));
+    outcomes.filter(outcome => outcome.status !== "fulfilled").map(outcome => console.error("Error", outcome.reason));
     console.info(`Done assembling meta data for ${args.book}`);
     console.timeEnd();
 }
@@ -307,7 +307,7 @@ async function assembleManifest(args) {
     };
     if (args.converted) {
         const source = (await fs.readJson(args.converted))[0]
-        if (source && source.Avatar) {  
+        if (source && source.Avatar) {
             manifest.media = [
                 {
                     type: "cover",
