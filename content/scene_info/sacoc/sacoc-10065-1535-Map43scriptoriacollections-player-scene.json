@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -19,
+        "offsetY": -34,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [],
@@ -12,11 +20,10 @@
             "notes": [],
             "tokens": [
                 {
-                    "_id": "CnbDHa26z8orvZk9",
+                    "_id": "WS2eFRhZcSHeZyZB",
                     "name": "Grick Alpha",
                     "width": 2,
                     "height": 2,
-                    "scale": 1,
                     "x": 1200,
                     "y": 400,
                     "disposition": -1,
@@ -24,10 +31,11 @@
                         "ddbActorFlags": {
                             "id": 17158,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Grick Alpha"
                         }
                     },
@@ -37,23 +45,48 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "GSPEbfr8aNCQE7co",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
             "originalLink": "ddb://image/sacoc/map-4.3-scriptoria-collections-player.jpg",
-            "foundryVersion": "9.238",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 4.3: Scriptoria Collections",
                     "bookCode": "sacoc",
                     "contentChunkId": "Map43scriptoriacollections-player",
-                    "lastUpdate": "0.1.45",
+                    "lastUpdate": "0.1.46",
                     "notes": "0.1.45",
                     "tokens": "0.1.46",
-                    "walls": "0.1.46",
-                    "lights": "0.1.46",
-                    "drawings": "0.1.45",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.238"
                 }
             }
@@ -62,15 +95,19 @@
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 1171,
     "initial": {
         "x": 1312,
@@ -86,11 +123,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.25,
-                "angle": 0,
+                "angle": 360,
                 "bright": 15,
                 "coloration": 1,
                 "dim": 30,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -105,7 +141,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -118,11 +155,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 10,
                 "coloration": 1,
                 "dim": 20,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -130,13 +166,15 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -149,11 +187,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.3,
-                "angle": 0,
+                "angle": 360,
                 "bright": 10,
                 "coloration": 1,
                 "dim": 20,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -168,7 +205,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -181,11 +219,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 10,
                 "coloration": 1,
                 "dim": 20,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -193,30 +230,31 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 1746.8861607142853,
-            "y": 709.4977678571428,
+            "x": 1747,
+            "y": 709,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -224,30 +262,31 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 1726.2332589285716,
-            "y": 1086.1495535714284,
+            "x": 1726,
+            "y": 1086,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -255,30 +294,31 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 658.7220982142858,
-            "y": 995.5915178571428,
+            "x": 659,
+            "y": 996,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -286,30 +326,31 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 1237.103794642857,
-            "y": 851.4006696428571,
+            "x": 1237,
+            "y": 851,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -317,30 +358,31 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 1224.3638392857142,
-            "y": 1100.8816964285716,
+            "x": 1224,
+            "y": 1101,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -348,13 +390,15 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -367,11 +411,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -379,30 +422,31 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 540.1618303571428,
-            "y": 993.9453125,
+            "x": 540,
+            "y": 994,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -410,13 +454,15 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -429,11 +475,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.25,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -448,7 +493,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -461,11 +507,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -473,13 +518,15 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -492,11 +539,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -504,13 +550,15 @@
                 "animation": {
                     "speed": 1,
                     "intensity": 1,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff941a"
+                "color": "#ff941a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -519,8 +567,6 @@
     "name": "Map 4.3: Scriptoria Collections",
     "navName": "Scriptoria Collections",
     "padding": 0.25,
-    "shiftX": -19,
-    "shiftY": -34,
     "tokenVision": true,
     "walls": [
         {
@@ -537,7 +583,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -553,7 +605,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -569,7 +627,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -585,7 +649,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -601,7 +671,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -617,7 +693,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -633,7 +715,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -649,7 +737,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -665,7 +759,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -681,7 +781,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -697,7 +803,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -713,7 +825,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -729,7 +847,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -745,7 +869,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -761,7 +891,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -777,7 +913,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -793,7 +935,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -809,7 +957,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -825,7 +979,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -841,7 +1001,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -857,7 +1023,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -873,7 +1045,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -889,7 +1067,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -905,7 +1089,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -921,7 +1111,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -937,7 +1133,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -953,7 +1155,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -969,7 +1177,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -985,7 +1199,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1001,7 +1221,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1017,7 +1243,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1033,7 +1265,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1049,7 +1287,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1065,7 +1309,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1081,7 +1331,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1097,7 +1353,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1113,7 +1375,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1129,7 +1397,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1145,7 +1419,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1161,7 +1441,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1177,7 +1463,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1193,7 +1485,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1209,7 +1507,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1225,7 +1529,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1241,7 +1551,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1257,7 +1573,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1273,7 +1595,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1289,7 +1617,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1305,7 +1639,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1321,7 +1661,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1337,7 +1683,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",

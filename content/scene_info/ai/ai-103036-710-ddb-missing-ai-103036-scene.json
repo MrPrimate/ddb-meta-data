@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -6,
+        "offsetY": 22,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [],
@@ -18,15 +26,25 @@
                             "ddbId": 2144,
                             "bookCode": "ai",
                             "slug": "right-place-wrong-heroes#TheFissure",
+                            "linkName": "Episode 1: Right Place, Wrong Heroes",
+                            "slugLink": "10ShrineofDestruction",
+                            "duplicate": false,
                             "contentChunkId": "9168f6e7-d309-4aef-9d9f-bbb55b51eca4",
-                            "userData": {
-                                "userDisplayName": "Pariah_Zero"
-                            },
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 710,
-                            "linkId": "fuAk9kzUoPTJ3h3w"
+                            "linkId": "cjaZ2SF7nyU6FBD8",
+                            "labelName": "10. Shrine of Destruction"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/10.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -35,18 +53,16 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "rJL2heC2pt79vkYY",
+                    "_id": "yuLiXRNixgYPRVWT",
                     "name": "Sergeant Teeshe",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 5405,
                     "y": 5750,
                     "disposition": -1,
@@ -59,8 +75,11 @@
                         "ddbActorFlags": {
                             "id": 17035,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Thug"
                         }
                     },
@@ -70,27 +89,46 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
-                    },
-                    "tint": null,
                     "actorData": {
-                        "name": "Sergeant Teeshe"
+                        "_id": "1ZHZQ4m9HULAMpco",
+                        "name": "Sergeant Teeshe",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 }
             ],
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "The Fissure 2 Area 10",
                     "bookCode": "ai",
                     "contentChunkId": "ddb-missing-ai-103036",
                     "lastUpdate": "0.0.14",
-                    "notes": "0.0.14",
-                    "tokens": "0.0.14",
-                    "walls": "0.0.14",
+                    "notes": "1.1.0",
+                    "tokens": "1.1.0",
+                    "walls": "1.1.0",
                     "lights": "0.0.14",
                     "drawings": "0.0.14"
                 }
@@ -107,14 +145,21 @@
         "dynamic-illumination": {
             "_animating": false,
             "darknessColor": "#110033"
+        },
+        "ddbimporter": {
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 115,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 115,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 5500,
     "initial": {
         "x": 6467,
@@ -122,10 +167,9 @@
         "scale": 0.66
     },
     "lights": [],
-    "name": "The Fissure 2 Area 10",
+    "name": "The Fissure 2",
     "navName": "The Fissure 2",
-    "shiftX": -6,
-    "shiftY": 22,
+    "padding": 0.25,
     "tokenVision": true,
     "walls": [
         {
@@ -137,8 +181,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -149,8 +203,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -161,8 +225,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -173,8 +247,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -185,8 +269,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -197,8 +291,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         }
     ],
     "weather": "",

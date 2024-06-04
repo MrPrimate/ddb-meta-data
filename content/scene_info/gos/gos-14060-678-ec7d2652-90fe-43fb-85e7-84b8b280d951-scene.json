@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 76,
+        "offsetY": 68,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [],
@@ -18,13 +26,26 @@
                             "ddbId": 60,
                             "bookCode": "gos",
                             "slug": "tammerauts-fate#TheWreck",
+                            "linkName": "Chapter 7: Tammeraut’s Fate",
+                            "slugLink": "TheWreck",
+                            "duplicate": false,
                             "contentChunkId": null,
-                            "note": false,
                             "img": false,
+                            "note": false,
                             "parentId": 678,
-                            "linkId": "dC1RWLhdjlBc4BiO",
-                            "pin": "2850850"
+                            "linkId": "TL7CB7IwWTRdkl5v",
+                            "pin": "2850850",
+                            "labelName": "The Wreck"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -33,18 +54,16 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": null,
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "Tw2ta1fcjVkUu6Ly",
+                    "_id": "jkO9XKgTg96IYAcu",
                     "name": "Drowned Blade",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1700,
                     "y": 1600,
                     "disposition": -1,
@@ -52,10 +71,11 @@
                         "ddbActorFlags": {
                             "id": 309767,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Drowned Blade"
                         }
                     },
@@ -65,25 +85,47 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": null,
                     "actorData": {
+                        "_id": "MLImzLOVqxNarnQt",
                         "name": "Drowned Blade",
-                        "data": {
+                        "system": {
                             "attributes": {
                                 "hp": {
                                     "value": 50,
                                     "max": 50
                                 }
                             }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
                         }
                     }
                 },
                 {
-                    "_id": "tkLlirMt4bMSWHNv",
+                    "_id": "hnEN7bJYhtD4fslN",
                     "name": "Drowned Blade",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1600,
                     "y": 1700,
                     "disposition": -1,
@@ -91,10 +133,11 @@
                         "ddbActorFlags": {
                             "id": 309767,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Drowned Blade"
                         }
                     },
@@ -104,25 +147,47 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": null,
                     "actorData": {
+                        "_id": "33zqQRXbpbqOEsqZ",
                         "name": "Drowned Blade",
-                        "data": {
+                        "system": {
                             "attributes": {
                                 "hp": {
                                     "value": 50,
                                     "max": 50
                                 }
                             }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
                         }
                     }
                 },
                 {
-                    "_id": "mNDFZnnIzQU0z2MX",
+                    "_id": "qhbOImlXkJ0kcOqB",
                     "name": "Drowned Blade",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1700,
                     "y": 1700,
                     "disposition": -1,
@@ -130,10 +195,11 @@
                         "ddbActorFlags": {
                             "id": 309767,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Drowned Blade"
                         }
                     },
@@ -143,25 +209,47 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": null,
                     "actorData": {
+                        "_id": "wuJcIogpR34rs7Fp",
                         "name": "Drowned Blade",
-                        "data": {
+                        "system": {
                             "attributes": {
                                 "hp": {
                                     "value": 45,
                                     "max": 45
                                 }
                             }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
                         }
                     }
                 },
                 {
-                    "_id": "RqWCf5tz5K5Gw8aL",
+                    "_id": "oPKu0JV76HtbQa02",
                     "name": "Drowned Ascetic",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1800,
                     "y": 1700,
                     "disposition": -1,
@@ -169,10 +257,11 @@
                         "ddbActorFlags": {
                             "id": 309739,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Drowned Ascetic"
                         }
                     },
@@ -182,25 +271,47 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": null,
                     "actorData": {
+                        "_id": "j4U9cA2RzbEw7I8Y",
                         "name": "Drowned Ascetic",
-                        "data": {
+                        "system": {
                             "attributes": {
                                 "hp": {
                                     "value": 72,
                                     "max": 72
                                 }
                             }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
                         }
                     }
                 },
                 {
-                    "_id": "XwiaurKaklpKUVgR",
+                    "_id": "zEcUfnMHqkaZLyEA",
                     "name": "Drowned Assassin",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1800,
                     "y": 1600,
                     "disposition": -1,
@@ -208,10 +319,11 @@
                         "ddbActorFlags": {
                             "id": 309751,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Drowned Assassin"
                         }
                     },
@@ -221,22 +333,45 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": null,
                     "actorData": {
+                        "_id": "ThPduojOGddS0kSo",
                         "name": "Drowned Assassin",
-                        "data": {
+                        "system": {
                             "attributes": {
                                 "hp": {
                                     "value": 66,
                                     "max": 66
                                 }
                             }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
                         }
                     }
                 }
             ],
             "originalLink": "ddb://image/gos/16-pc.png",
-            "foundryVersion": "9.242",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Dagon's Maw",
@@ -245,9 +380,9 @@
                     "lastUpdate": "0.3.27",
                     "notes": "0.3.27",
                     "tokens": "0.3.27",
-                    "walls": "0.3.27",
-                    "lights": "0.3.27",
-                    "drawings": "0.3.27",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.242"
                 }
             }
@@ -256,15 +391,19 @@
         "perfect-vision": {},
         "dynamic-illumination": [],
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 2093,
     "initial": {
         "x": 2286,
@@ -281,24 +420,25 @@
             "config": {
                 "dim": 11,
                 "bright": 11.56,
-                "angle": 0,
+                "angle": 360,
                 "color": "#6698b7",
                 "alpha": 0.25,
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
                 "coloration": 4,
-                "gradual": true,
                 "luminosity": 0,
                 "saturation": 0,
                 "contrast": 0,
-                "shadows": 0
+                "shadows": 0,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -311,11 +451,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.35,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 4,
                 "dim": 50,
-                "gradual": true,
                 "luminosity": 0,
                 "saturation": 0,
                 "contrast": 0,
@@ -330,7 +469,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#00ff2a"
+                "color": "#00ff2a",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -343,11 +483,10 @@
             "vision": true,
             "config": {
                 "alpha": 0.2,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 4,
                 "dim": 35.09,
-                "gradual": true,
                 "luminosity": 0,
                 "saturation": 0,
                 "contrast": 0,
@@ -355,13 +494,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 1
                 },
-                "color": "#9e9e9e"
+                "color": "#9e9e9e",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -370,8 +511,6 @@
     "name": "Dagon's Maw",
     "navName": "Dagon's Maw",
     "padding": 0.25,
-    "shiftX": 76,
-    "shiftY": 68,
     "tokenVision": true,
     "walls": [
         {
@@ -388,7 +527,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -404,7 +549,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -420,7 +571,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -436,7 +593,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -452,7 +615,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -468,7 +637,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -484,7 +659,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -500,7 +681,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -516,7 +703,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -532,7 +725,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -548,7 +747,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -564,7 +769,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -580,7 +791,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -596,7 +813,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -612,7 +835,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -628,7 +857,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -644,7 +879,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -660,7 +901,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -676,7 +923,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -692,7 +945,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -708,7 +967,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -724,7 +989,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -740,7 +1011,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -756,7 +1033,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -772,7 +1055,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -788,7 +1077,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -804,7 +1099,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",

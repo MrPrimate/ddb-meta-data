@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 20,
+        "offsetY": 45,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -18,12 +26,26 @@
                             "ddbId": 75,
                             "bookCode": "gos",
                             "slug": "of-ships-and-the-sea#SampleShips",
+                            "linkName": "Appendix A: Of Ships and the Sea",
+                            "slugLink": "SampleShips",
+                            "duplicate": false,
                             "contentChunkId": null,
-                            "note": false,
                             "img": false,
+                            "note": false,
+                            "linkId": "J11UlSkL8QU01OKa",
+                            "pin": "20501450",
                             "parentId": 671,
-                            "linkId": "foykUDYA7R3rwajc"
+                            "labelName": "Sample Ships"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -32,18 +54,16 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "wAyoEpneCsbSJBF8",
+                    "_id": "FNkBmcu0GcaPJtRu",
                     "name": "Bandit Captain",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2700,
                     "y": 1100,
                     "disposition": -1,
@@ -51,10 +71,11 @@
                         "ddbActorFlags": {
                             "id": 16799,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Bandit Captain"
                         }
                     },
@@ -64,15 +85,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "9g9rP5AWkAopgeIB",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "uN7YwoDQeai0EB8B",
+                    "_id": "dOkc0JyhaWTSPph6",
                     "name": "Captain",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1900,
                     "disposition": 0,
@@ -80,10 +125,11 @@
                         "ddbActorFlags": {
                             "id": 16805,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Berserker"
                         }
                     },
@@ -93,24 +139,46 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
                     "actorData": {
-                        "data": {
+                        "_id": "BZ44U1cp6Vy3vX8I",
+                        "name": "Captain",
+                        "system": {
                             "resources": {
                                 "lair": {
                                     "value": false
                                 }
                             }
                         },
-                        "oldHpVal": 67
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "oEAXN9TRJMdj7Oki",
+                    "_id": "0W7aBiQr29v1DrlV",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1200,
                     "y": 1000,
                     "disposition": 0,
@@ -118,10 +186,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -131,15 +200,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "bCNP6VgguzqlHucU",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "ItG9zI6MRnrBuQnl",
+                    "_id": "5fkDaqEGGRuxTPO7",
                     "name": "First Mate",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 800,
                     "disposition": 0,
@@ -147,10 +241,11 @@
                         "ddbActorFlags": {
                             "id": 16805,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Berserker"
                         }
                     },
@@ -160,24 +255,46 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
                     "actorData": {
-                        "data": {
+                        "_id": "QlfUW9fc8MtMoGDS",
+                        "name": "First Mate",
+                        "system": {
                             "resources": {
                                 "lair": {
                                     "value": false
                                 }
                             }
                         },
-                        "oldHpVal": 67
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "1NeQDxHkKgjugDNc",
+                    "_id": "sZ07gWDLNxJSaHam",
                     "name": "Bosun",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 800,
                     "disposition": 0,
@@ -185,10 +302,11 @@
                         "ddbActorFlags": {
                             "id": 16805,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Berserker"
                         }
                     },
@@ -198,24 +316,46 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
                     "actorData": {
-                        "data": {
+                        "_id": "IlPGeyOq9acMtc4L",
+                        "name": "Bosun",
+                        "system": {
                             "resources": {
                                 "lair": {
                                     "value": false
                                 }
                             }
                         },
-                        "oldHpVal": 67
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "aKaNhg2NB2o0oD1H",
+                    "_id": "tszPzcW8fFcUN4TK",
                     "name": "Surgeon",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 1800,
                     "disposition": 0,
@@ -223,10 +363,11 @@
                         "ddbActorFlags": {
                             "id": 16805,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Berserker"
                         }
                     },
@@ -236,24 +377,46 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
                     "actorData": {
-                        "data": {
+                        "_id": "js9OdBbWWkZrX8Rw",
+                        "name": "Surgeon",
+                        "system": {
                             "resources": {
                                 "lair": {
                                     "value": false
                                 }
                             }
                         },
-                        "oldHpVal": 67
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "G5xCkYmucWT4xynd",
+                    "_id": "X4lIDj6UmnlhT55W",
                     "name": "Quartermaster",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1800,
                     "disposition": 0,
@@ -261,10 +424,11 @@
                         "ddbActorFlags": {
                             "id": 16805,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Berserker"
                         }
                     },
@@ -274,24 +438,46 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
                     "actorData": {
-                        "data": {
+                        "_id": "OetWZdUb96bEDdFi",
+                        "name": "Quartermaster",
+                        "system": {
                             "resources": {
                                 "lair": {
                                     "value": false
                                 }
                             }
                         },
-                        "oldHpVal": 67
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "VX1zSCTQnjEYoIw1",
+                    "_id": "E9FVSKlCSFhwIBDG",
                     "name": "Cook",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 900,
                     "disposition": 0,
@@ -299,10 +485,11 @@
                         "ddbActorFlags": {
                             "id": 16805,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Berserker"
                         }
                     },
@@ -312,24 +499,46 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": "",
                     "actorData": {
-                        "data": {
+                        "_id": "3zIiiq6JFMSngo4Y",
+                        "name": "Cook",
+                        "system": {
                             "resources": {
                                 "lair": {
                                     "value": false
                                 }
                             }
                         },
-                        "oldHpVal": 67
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "kePXHtFCJzCfQyYO",
+                    "_id": "UYEt0UeAEDZ4gEpP",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1200,
                     "y": 1100,
                     "disposition": 0,
@@ -337,10 +546,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -350,15 +560,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "JAg44aZKRfs4oKO0",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "ig7EbxsRGvq8V5kV",
+                    "_id": "1nOUcK3fZ5cFLgqg",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1200,
                     "y": 1200,
                     "disposition": 0,
@@ -366,10 +601,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -379,15 +615,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "4UcGY1dQqYlWhp7J",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "dwnO6JB1DuGSxtWh",
+                    "_id": "DdRodVAVvhyHJD8J",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1200,
                     "y": 1300,
                     "disposition": 0,
@@ -395,10 +656,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -408,15 +670,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "0i8MyOAOcXlJQOzK",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "RSy8scKh7RFruwVQ",
+                    "_id": "17Qi7hzUNV13VXtn",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1200,
                     "y": 1400,
                     "disposition": 0,
@@ -424,10 +711,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -437,15 +725,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "GvaaojvA1sTDg5IG",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "MvnN9o9g5PFNjOzO",
+                    "_id": "ZkUTnatsRm9Uvw73",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1200,
                     "y": 1500,
                     "disposition": 0,
@@ -453,10 +766,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -466,15 +780,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "GxcXhFFW33GDo2iy",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "KkIoJ8UI2kOWMeUW",
+                    "_id": "OnLDTHuN4KBrvO5X",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1200,
                     "y": 1600,
                     "disposition": 0,
@@ -482,10 +821,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -495,15 +835,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "bPBbQ92DsD4MYbBg",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "wKqT5dMu9lX9XKKl",
+                    "_id": "5b2jOea7P4zRilTO",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1200,
                     "y": 1700,
                     "disposition": 0,
@@ -511,10 +876,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -524,15 +890,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "OT7Q7PuPqQbEBIBr",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "9lEDYu2kF5n32rNU",
+                    "_id": "pB5cVR5Ip3g6YklB",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1500,
                     "y": 1700,
                     "disposition": 0,
@@ -540,10 +931,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -553,15 +945,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "Vh3ROv48n4fVxcGu",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "QJSqm7rLIXK25pJ8",
+                    "_id": "cepwxEEaav8Xc9U4",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1500,
                     "y": 1600,
                     "disposition": 0,
@@ -569,10 +986,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -582,15 +1000,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "MuKTCottQZFrtBXc",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "LF9432CClEyQO0zu",
+                    "_id": "PWQe8x8e0xAJlomn",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1500,
                     "y": 1500,
                     "disposition": 0,
@@ -598,10 +1041,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -611,15 +1055,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "Vrtj6fjbgrqixTgH",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "YMffGVwYZKSryOzp",
+                    "_id": "W7rQTHXpLqlUVCBn",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1500,
                     "y": 1400,
                     "disposition": 0,
@@ -627,10 +1096,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -640,15 +1110,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "2z4s2AVvrYWeeu1m",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "drZk1pUzOCFCxH56",
+                    "_id": "e7WVsgfrOy8Sp1ID",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1500,
                     "y": 1300,
                     "disposition": 0,
@@ -656,10 +1151,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -669,15 +1165,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "ccJoyZxazHSjRufC",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "umljmOAMIY2Jbi1G",
+                    "_id": "YOgRxpKfaGp8BtmX",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1500,
                     "y": 1200,
                     "disposition": 0,
@@ -685,10 +1206,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -698,15 +1220,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "2CJWGquWCXZRoVUT",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "prNAAWM5wARMPU58",
+                    "_id": "VqcjFb7HEdJXibYI",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1500,
                     "y": 1100,
                     "disposition": 0,
@@ -714,10 +1261,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -727,15 +1275,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "EunUh39eDCpbMhFG",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "Yg9VIFInJGnIWat9",
+                    "_id": "ZctuhJf1X1wqvahi",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1500,
                     "y": 1000,
                     "disposition": 0,
@@ -743,10 +1316,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -756,15 +1330,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "QvdwAtgCECE3iDYP",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "fWO9Jl02cuB9JHkO",
+                    "_id": "NEzrM2VWkb5I1Vil",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 1000,
                     "disposition": 0,
@@ -772,10 +1371,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -785,15 +1385,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "vqp2DC9odVIQzbLV",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "PvNHs9uAVWEyRr9M",
+                    "_id": "xGIdNluAGtqZJrAq",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 1100,
                     "disposition": 0,
@@ -801,10 +1426,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -814,15 +1440,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "HtCABR6Ec2M6njub",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "vPYgOZm10xhRP1iW",
+                    "_id": "NPFPgmkyP1nP1aPz",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 1200,
                     "disposition": 0,
@@ -830,10 +1481,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -843,15 +1495,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "b99IDPYsGlFuSOb4",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "vmi6MgGvIDUEMeRp",
+                    "_id": "5JgEQeExVeBSTM2R",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 1300,
                     "disposition": 0,
@@ -859,10 +1536,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -872,15 +1550,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "fdvh2aJHjXHh1Nfl",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "m5osatcFi2CweRyC",
+                    "_id": "A22ctN4l0qlBu83k",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 1400,
                     "disposition": 0,
@@ -888,10 +1591,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -901,15 +1605,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "pc5HcLI8DLP0bhZ1",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "WVIuS4xpsbE5PlIB",
+                    "_id": "VwRdGDjfsEj3efTH",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 1500,
                     "disposition": 0,
@@ -917,10 +1646,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -930,15 +1660,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "YBjUAbnYIiGvB5KQ",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "aEta2roPCcaUbvZj",
+                    "_id": "kC9kx2NY7nTLs9aA",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 1600,
                     "disposition": 0,
@@ -946,10 +1701,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -959,15 +1715,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "wHCSUSZ9eU8Ib79x",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "P76dAQXXI5wEuQSM",
+                    "_id": "mDK2rFfIY4lbvYZl",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1400,
                     "y": 1700,
                     "disposition": 0,
@@ -975,10 +1756,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -988,15 +1770,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "E7uPHTVJ448RfEhr",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "aAO6PgrglmpGKypM",
+                    "_id": "5Rwaev4BO7oEqHe3",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1700,
                     "disposition": 0,
@@ -1004,10 +1811,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -1017,15 +1825,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "r0zxF655V1j4CHWb",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "53jZKtRfjJ7g68MJ",
+                    "_id": "Inuw4appT6MCEXHd",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1400,
                     "disposition": 0,
@@ -1033,10 +1866,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -1046,15 +1880,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "qO2xa1qHFilfHO3g",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "9QSVBcBaDWeq2gWL",
+                    "_id": "e2Z344AUUIhyyFfe",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1300,
                     "disposition": 0,
@@ -1062,10 +1921,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -1075,15 +1935,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "ybKoDw8ZtLrYssOp",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "Cv4VZpyBjWwqXBsB",
+                    "_id": "rM0kvAK6ul3r252J",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1200,
                     "disposition": 0,
@@ -1091,10 +1976,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -1104,15 +1990,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "3ewUPZfHwDcn4FjS",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "GY31o0nt5MlwhtuJ",
+                    "_id": "N7rLtX7dy7RYUzCK",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1100,
                     "disposition": 0,
@@ -1120,10 +2031,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -1133,15 +2045,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "8jmBRz3La4sx7RC3",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "8ipmplLTCNGBbVah",
+                    "_id": "4oh0Pppcl5bNoRsT",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1000,
                     "disposition": 0,
@@ -1149,10 +2086,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -1162,15 +2100,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "vr8ipOHGBoY2G448",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "tpxqxjnrL7eex8hR",
+                    "_id": "7MhBBb1Y9HmK93iI",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1500,
                     "disposition": 0,
@@ -1178,10 +2141,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -1191,15 +2155,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "O1I8xrTOmxTyn2Hl",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "qazB72sdqdfs6Dvx",
+                    "_id": "icU3z3HFpOEhZhDi",
                     "name": "Crew",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 1600,
                     "disposition": 0,
@@ -1207,10 +2196,11 @@
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -1220,11 +2210,37 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "aWGIoKvFX1zBE5fD",
+                        "name": "Crew",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
-            "foundryVersion": "9.242",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Smaller Ships",
@@ -1233,9 +2249,9 @@
                     "lastUpdate": "0.3.27",
                     "notes": "0.1.51",
                     "tokens": "0.3.27",
-                    "walls": "0.3.27",
-                    "lights": "0.3.27",
-                    "drawings": "0.3.27",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.242"
                 }
             }
@@ -1244,15 +2260,19 @@
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 1890,
     "initial": {
         "x": 2366,
@@ -1268,11 +2288,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 200,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -1280,13 +2299,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0.5,
                     "max": 0.7
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1299,11 +2320,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 200,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -1311,13 +2331,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 0.5
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1330,11 +2352,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 200,
-                "gradual": true,
                 "luminosity": -0.1,
                 "saturation": 0,
                 "contrast": 0,
@@ -1349,7 +2370,8 @@
                     "min": 0.5,
                     "max": 0.7
                 },
-                "color": "#00ffee"
+                "color": "#00ffee",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1362,11 +2384,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 200,
-                "gradual": true,
                 "luminosity": -0.1,
                 "saturation": 0,
                 "contrast": 0,
@@ -1381,7 +2402,8 @@
                     "min": 0.5,
                     "max": 0.7
                 },
-                "color": "#00ffee"
+                "color": "#00ffee",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1394,11 +2416,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 200,
-                "gradual": true,
                 "luminosity": -0.1,
                 "saturation": 0,
                 "contrast": 0,
@@ -1413,7 +2434,8 @@
                     "min": 0.5,
                     "max": 0.7
                 },
-                "color": "#00ffee"
+                "color": "#00ffee",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1426,11 +2448,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.25,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 200,
-                "gradual": true,
                 "luminosity": -0.1,
                 "saturation": 0,
                 "contrast": 0,
@@ -1445,7 +2466,8 @@
                     "min": 0.5,
                     "max": 0.7
                 },
-                "color": "#00ffee"
+                "color": "#00ffee",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1458,11 +2480,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 200,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": true,
                 "luminosity": -0.05,
                 "saturation": 0,
                 "contrast": 0,
@@ -1477,7 +2498,8 @@
                     "min": 0,
                     "max": 0.5
                 },
-                "color": "#00ffee"
+                "color": "#00ffee",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1490,11 +2512,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 200,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": true,
                 "luminosity": -0.05,
                 "saturation": 0,
                 "contrast": 0,
@@ -1509,7 +2530,8 @@
                     "min": 0,
                     "max": 0.5
                 },
-                "color": "#00ffee"
+                "color": "#00ffee",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1522,11 +2544,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 200,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": true,
                 "luminosity": -0.05,
                 "saturation": 0,
                 "contrast": 0,
@@ -1541,7 +2562,8 @@
                     "min": 0,
                     "max": 0.5
                 },
-                "color": "#00ffee"
+                "color": "#00ffee",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1554,11 +2576,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 200,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": true,
                 "luminosity": -0.05,
                 "saturation": 0,
                 "contrast": 0,
@@ -1573,7 +2594,8 @@
                     "min": 0,
                     "max": 0.5
                 },
-                "color": "#00ffee"
+                "color": "#00ffee",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1582,16 +2604,14 @@
     "name": "Smaller Ships",
     "navName": "Smaller Ships",
     "padding": 0.25,
-    "shiftX": 20,
-    "shiftY": 45,
     "tokenVision": false,
     "walls": [
         {
             "c": [
                 1400,
                 700,
-                1330.802,
-                775.1910000000001
+                1331,
+                775
             ],
             "light": 20,
             "move": 20,
@@ -1600,14 +2620,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1330.802,
-                775.1910000000001,
-                1279.2560000000005,
-                844.8080000000002
+                1331,
+                775,
+                1279,
+                845
             ],
             "light": 20,
             "move": 20,
@@ -1616,14 +2642,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1279.2560000000005,
-                844.8080000000002,
-                1242.7339999999997,
-                910.7169999999999
+                1279,
+                845,
+                1243,
+                911
             ],
             "light": 20,
             "move": 20,
@@ -1632,14 +2664,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1242.7339999999997,
-                910.7169999999999,
-                1218.608,
-                974.7839999999999
+                1243,
+                911,
+                1219,
+                975
             ],
             "light": 20,
             "move": 20,
@@ -1648,14 +2686,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1218.608,
-                974.7839999999999,
-                1204.25,
-                1038.875
+                1219,
+                975,
+                1204,
+                1039
             ],
             "light": 20,
             "move": 20,
@@ -1664,14 +2708,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1204.25,
-                1038.875,
-                1197.032,
-                1104.856
+                1204,
+                1039,
+                1197,
+                1105
             ],
             "light": 20,
             "move": 20,
@@ -1680,14 +2730,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1197.032,
-                1104.856,
-                1194.326,
-                1174.5929999999998
+                1197,
+                1105,
+                1194,
+                1175
             ],
             "light": 20,
             "move": 20,
@@ -1696,14 +2752,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1194.326,
-                1174.5929999999998,
-                1193.5040000000001,
-                1249.9520000000002
+                1194,
+                1175,
+                1194,
+                1250
             ],
             "light": 20,
             "move": 20,
@@ -1712,14 +2774,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1193.5040000000001,
-                1249.9520000000002,
-                1191.938,
-                1332.799
+                1194,
+                1250,
+                1192,
+                1333
             ],
             "light": 20,
             "move": 20,
@@ -1728,12 +2796,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1191.938,
-                1332.799,
+                1192,
+                1333,
                 1187,
                 1425
             ],
@@ -1744,14 +2818,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 1187,
                 1425,
-                1187.5640000000003,
-                1508.527
+                1188,
+                1509
             ],
             "light": 20,
             "move": 20,
@@ -1760,14 +2840,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1187.5640000000003,
-                1508.527,
-                1189.9520000000005,
-                1587.0560000000005
+                1188,
+                1509,
+                1190,
+                1587
             ],
             "light": 20,
             "move": 20,
@@ -1776,14 +2862,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1189.9520000000005,
-                1587.0560000000005,
-                1195.2079999999996,
-                1660.8089999999997
+                1190,
+                1587,
+                1195,
+                1661
             ],
             "light": 20,
             "move": 20,
@@ -1792,14 +2884,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1195.2079999999996,
-                1660.8089999999997,
-                1204.3759999999997,
-                1730.008
+                1195,
+                1661,
+                1204,
+                1730
             ],
             "light": 20,
             "move": 20,
@@ -1808,14 +2906,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1204.3759999999997,
-                1730.008,
-                1218.5,
-                1794.875
+                1204,
+                1730,
+                1219,
+                1795
             ],
             "light": 20,
             "move": 20,
@@ -1824,14 +2928,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1218.5,
-                1794.875,
-                1238.624,
-                1855.632
+                1219,
+                1795,
+                1239,
+                1856
             ],
             "light": 20,
             "move": 20,
@@ -1840,14 +2950,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1238.624,
-                1855.632,
-                1265.792,
-                1912.501
+                1239,
+                1856,
+                1266,
+                1913
             ],
             "light": 20,
             "move": 20,
@@ -1856,14 +2972,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1265.792,
-                1912.501,
-                1301.0480000000002,
-                1965.7040000000002
+                1266,
+                1913,
+                1301,
+                1966
             ],
             "light": 20,
             "move": 20,
@@ -1872,14 +2994,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1301.0480000000002,
-                1965.7040000000002,
-                1345.4360000000001,
-                2015.463
+                1301,
+                1966,
+                1345,
+                2015
             ],
             "light": 20,
             "move": 20,
@@ -1888,12 +3016,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1345.4360000000001,
-                2015.463,
+                1345,
+                2015,
                 1400,
                 2062
             ],
@@ -1904,14 +3038,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 1400,
                 2062,
-                1457.4520000000005,
-                2011.623
+                1457,
+                2012
             ],
             "light": 20,
             "move": 20,
@@ -1920,14 +3060,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1457.4520000000005,
-                2011.623,
-                1503.4560000000004,
-                1958.1440000000005
+                1457,
+                2012,
+                1503,
+                1958
             ],
             "light": 20,
             "move": 20,
@@ -1936,14 +3082,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1503.4560000000004,
-                1958.1440000000005,
-                1539.2839999999997,
-                1902.2409999999998
+                1503,
+                1958,
+                1539,
+                1902
             ],
             "light": 20,
             "move": 20,
@@ -1952,14 +3104,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1539.2839999999997,
-                1902.2409999999998,
-                1566.208,
-                1844.5919999999999
+                1539,
+                1902,
+                1566,
+                1845
             ],
             "light": 20,
             "move": 20,
@@ -1968,14 +3126,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1566.208,
-                1844.5919999999999,
-                1585.5,
-                1785.875
+                1566,
+                1845,
+                1586,
+                1786
             ],
             "light": 20,
             "move": 20,
@@ -1984,14 +3148,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1585.5,
-                1785.875,
-                1598.4319999999998,
-                1726.768
+                1586,
+                1786,
+                1598,
+                1727
             ],
             "light": 20,
             "move": 20,
@@ -2000,14 +3170,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1598.4319999999998,
-                1726.768,
-                1606.2759999999998,
-                1667.949
+                1598,
+                1727,
+                1606,
+                1668
             ],
             "light": 20,
             "move": 20,
@@ -2016,14 +3192,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1606.2759999999998,
-                1667.949,
-                1610.304,
-                1610.0960000000002
+                1606,
+                1668,
+                1610,
+                1610
             ],
             "light": 20,
             "move": 20,
@@ -2032,14 +3214,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1610.304,
-                1610.0960000000002,
-                1611.788,
-                1553.8870000000002
+                1610,
+                1610,
+                1612,
+                1554
             ],
             "light": 20,
             "move": 20,
@@ -2048,12 +3236,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1611.788,
-                1553.8870000000002,
+                1612,
+                1554,
                 1612,
                 1500
             ],
@@ -2064,14 +3258,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1417.581475451951,
-                1392.918524548049,
-                1412.1629509039021,
-                1379.8370490960979
+                1418,
+                1393,
+                1412,
+                1380
             ],
             "light": 10,
             "move": 20,
@@ -2080,14 +3280,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1412.1629509039021,
-                1379.8370490960979,
-                1399.081475451951,
-                1374.418524548049
+                1412,
+                1380,
+                1399,
+                1374
             ],
             "light": 10,
             "move": 20,
@@ -2096,14 +3302,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1399.081475451951,
-                1374.418524548049,
+                1399,
+                1374,
                 1386,
-                1379.8370490960979
+                1380
             ],
             "light": 10,
             "move": 20,
@@ -2112,14 +3324,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 1386,
-                1379.8370490960979,
-                1380.581475451951,
-                1392.918524548049
+                1380,
+                1381,
+                1393
             ],
             "light": 10,
             "move": 20,
@@ -2128,12 +3346,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1380.581475451951,
-                1392.918524548049,
+                1381,
+                1393,
                 1386,
                 1406
             ],
@@ -2144,14 +3368,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 1386,
                 1406,
-                1399.081475451951,
-                1411.418524548049
+                1399,
+                1411
             ],
             "light": 10,
             "move": 20,
@@ -2160,13 +3390,19 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1399.081475451951,
-                1411.418524548049,
-                1412.1629509039021,
+                1399,
+                1411,
+                1412,
                 1406
             ],
             "light": 10,
@@ -2176,14 +3412,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1412.1629509039021,
+                1412,
                 1406,
-                1417.581475451951,
-                1392.918524548049
+                1418,
+                1393
             ],
             "light": 10,
             "move": 20,
@@ -2192,14 +3434,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2705.5,
-                1518.5,
-                2718.581475451951,
-                1513.081475451951
+                2706,
+                1519,
+                2719,
+                1513
             ],
             "light": 20,
             "move": 20,
@@ -2208,14 +3456,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2692.418524548049,
-                1513.081475451951,
-                2705.5,
-                1518.5
+                2692,
+                1513,
+                2706,
+                1519
             ],
             "light": 20,
             "move": 20,
@@ -2224,12 +3478,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2718.581475451951,
-                1513.081475451951,
+                2719,
+                1513,
                 2724,
                 1500
             ],
@@ -2240,14 +3500,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 2687,
                 1500,
-                2692.418524548049,
-                1513.081475451951
+                2692,
+                1513
             ],
             "light": 20,
             "move": 20,
@@ -2256,14 +3522,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 2724,
                 1500,
-                2718.581475451951,
-                1486.918524548049
+                2719,
+                1487
             ],
             "light": 20,
             "move": 20,
@@ -2272,12 +3544,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2692.418524548049,
-                1486.918524548049,
+                2692,
+                1487,
                 2687,
                 1500
             ],
@@ -2288,14 +3566,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2718.581475451951,
-                1486.918524548049,
-                2705.5,
-                1481.5
+                2719,
+                1487,
+                2706,
+                1482
             ],
             "light": 20,
             "move": 20,
@@ -2304,14 +3588,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2705.5,
-                1481.5,
-                2692.418524548049,
-                1486.918524548049
+                2706,
+                1482,
+                2692,
+                1487
             ],
             "light": 20,
             "move": 20,
@@ -2320,14 +3610,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 2700,
                 825,
-                2664.7000000000007,
-                863.3530000000002
+                2665,
+                863
             ],
             "light": 20,
             "move": 20,
@@ -2336,14 +3632,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2664.7000000000007,
-                863.3530000000002,
-                2633.600000000001,
-                897.1040000000003
+                2665,
+                863,
+                2634,
+                897
             ],
             "light": 20,
             "move": 20,
@@ -2352,14 +3654,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2633.600000000001,
-                897.1040000000003,
-                2606.3999999999996,
-                927.5909999999999
+                2634,
+                897,
+                2606,
+                928
             ],
             "light": 20,
             "move": 20,
@@ -2368,14 +3676,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2606.3999999999996,
-                927.5909999999999,
-                2582.8,
-                956.1519999999999
+                2606,
+                928,
+                2583,
+                956
             ],
             "light": 20,
             "move": 20,
@@ -2384,14 +3698,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2582.8,
-                956.1519999999999,
-                2562.5,
-                984.125
+                2583,
+                956,
+                2563,
+                984
             ],
             "light": 20,
             "move": 20,
@@ -2400,14 +3720,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2562.5,
-                984.125,
-                2545.2000000000003,
-                1012.848
+                2563,
+                984,
+                2545,
+                1013
             ],
             "light": 20,
             "move": 20,
@@ -2416,14 +3742,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2545.2000000000003,
-                1012.848,
-                2530.5999999999995,
-                1043.6589999999999
+                2545,
+                1013,
+                2531,
+                1044
             ],
             "light": 20,
             "move": 20,
@@ -2432,14 +3764,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2530.5999999999995,
-                1043.6589999999999,
-                2518.4,
-                1077.8960000000002
+                2531,
+                1044,
+                2518,
+                1078
             ],
             "light": 20,
             "move": 20,
@@ -2448,14 +3786,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2518.4,
-                1077.8960000000002,
-                2508.3,
-                1116.897
+                2518,
+                1078,
+                2508,
+                1117
             ],
             "light": 20,
             "move": 20,
@@ -2464,12 +3808,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2508.3,
-                1116.897,
+                2508,
+                1117,
                 2500,
                 1162
             ],
@@ -2480,14 +3830,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 2700,
                 825,
-                2719.9910000000004,
-                850.8520000000002
+                2720,
+                851
             ],
             "light": 20,
             "move": 20,
@@ -2496,14 +3852,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2719.9910000000004,
-                850.8520000000002,
-                2742.2080000000005,
-                876.6560000000003
+                2720,
+                851,
+                2742,
+                877
             ],
             "light": 20,
             "move": 20,
@@ -2512,14 +3874,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2742.2080000000005,
-                876.6560000000003,
-                2765.8169999999996,
-                903.0839999999998
+                2742,
+                877,
+                2766,
+                903
             ],
             "light": 20,
             "move": 20,
@@ -2528,14 +3896,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2765.8169999999996,
-                903.0839999999998,
-                2789.984,
-                930.8080000000001
+                2766,
+                903,
+                2790,
+                931
             ],
             "light": 20,
             "move": 20,
@@ -2544,14 +3918,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2789.984,
-                930.8080000000001,
-                2813.875,
-                960.5
+                2790,
+                931,
+                2814,
+                961
             ],
             "light": 20,
             "move": 20,
@@ -2560,14 +3940,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2813.875,
-                960.5,
-                2836.656,
-                992.8319999999999
+                2814,
+                961,
+                2837,
+                993
             ],
             "light": 20,
             "move": 20,
@@ -2576,14 +3962,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2836.656,
-                992.8319999999999,
-                2857.4929999999995,
-                1028.4759999999999
+                2837,
+                993,
+                2857,
+                1028
             ],
             "light": 20,
             "move": 20,
@@ -2592,14 +3984,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2857.4929999999995,
-                1028.4759999999999,
-                2875.5520000000006,
-                1068.1040000000003
+                2857,
+                1028,
+                2876,
+                1068
             ],
             "light": 20,
             "move": 20,
@@ -2608,14 +4006,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2875.5520000000006,
-                1068.1040000000003,
-                2889.9990000000003,
-                1112.388
+                2876,
+                1068,
+                2890,
+                1112
             ],
             "light": 20,
             "move": 20,
@@ -2624,12 +4028,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2889.9990000000003,
-                1112.388,
+                2890,
+                1112,
                 2900,
                 1162
             ],
@@ -2640,7 +4050,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2656,7 +4072,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2672,7 +4094,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2688,7 +4116,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2704,7 +4139,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2720,7 +4162,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2736,7 +4184,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2752,7 +4206,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2768,7 +4228,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2784,7 +4250,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2800,7 +4272,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2816,14 +4294,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 1400,
                 700,
-                1445.3020000000004,
-                739.2990000000001
+                1445,
+                739
             ],
             "light": 20,
             "move": 20,
@@ -2832,14 +4316,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1445.3020000000004,
-                739.2990000000001,
-                1484.2560000000003,
-                781.9520000000003
+                1445,
+                739,
+                1484,
+                782
             ],
             "light": 20,
             "move": 20,
@@ -2848,14 +4338,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1484.2560000000003,
-                781.9520000000003,
-                1517.2339999999995,
-                827.5929999999998
+                1484,
+                782,
+                1517,
+                828
             ],
             "light": 20,
             "move": 20,
@@ -2864,14 +4360,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1517.2339999999995,
-                827.5929999999998,
-                1544.608,
-                875.856
+                1517,
+                828,
+                1545,
+                876
             ],
             "light": 20,
             "move": 20,
@@ -2880,14 +4382,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1544.608,
-                875.856,
-                1566.75,
-                926.375
+                1545,
+                876,
+                1567,
+                926
             ],
             "light": 20,
             "move": 20,
@@ -2896,14 +4404,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1566.75,
-                926.375,
-                1584.0320000000002,
-                978.7839999999999
+                1567,
+                926,
+                1584,
+                979
             ],
             "light": 20,
             "move": 20,
@@ -2912,14 +4426,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1584.0320000000002,
-                978.7839999999999,
-                1596.826,
-                1032.7169999999999
+                1584,
+                979,
+                1597,
+                1033
             ],
             "light": 20,
             "move": 20,
@@ -2928,14 +4448,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1596.826,
-                1032.7169999999999,
-                1605.5040000000001,
-                1087.808
+                1597,
+                1033,
+                1606,
+                1088
             ],
             "light": 20,
             "move": 20,
@@ -2944,14 +4470,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1605.5040000000001,
-                1087.808,
-                1610.438,
-                1143.691
+                1606,
+                1088,
+                1610,
+                1144
             ],
             "light": 20,
             "move": 20,
@@ -2960,12 +4492,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1610.438,
-                1143.691,
+                1610,
+                1144,
                 1612,
                 1200
             ],
@@ -2976,7 +4514,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2992,7 +4536,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",

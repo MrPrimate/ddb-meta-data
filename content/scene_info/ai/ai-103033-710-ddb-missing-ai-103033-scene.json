@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 1,
+        "offsetY": 42,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [],
@@ -18,33 +26,44 @@
                             "ddbId": 2109,
                             "bookCode": "ai",
                             "slug": "right-place-wrong-heroes#TheFissure",
+                            "linkName": "Episode 1: Right Place, Wrong Heroes",
+                            "slugLink": "7Stomp",
+                            "duplicate": false,
                             "contentChunkId": "2e68d930-e3cb-42f3-8a37-19e04497bc20",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 710,
-                            "linkId": "PQ8CMQqyCmDEMlE5",
-                            "pin": "6419.0298295454543097.3515625"
+                            "linkId": "Dp2sKGBA6jXUA8xW",
+                            "pin": "6419.0298295454543097.3515625",
+                            "labelName": "07. Stomp"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/7.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 6419.029829545454,
-                            "y": 3097.3515625
+                            "x": 6419,
+                            "y": 3097
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": null,
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "g1FqK48VkpJdOzTf",
+                    "_id": "4sgctp6CE8NseYif",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 6099,
                     "y": 2568,
                     "disposition": -1,
@@ -52,10 +71,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -65,21 +85,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "tBfyWmBZVNpadtGN",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "loIDrgn3MKaMbVkg",
+                    "_id": "rSPGh7uK6G68T3vS",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 6634,
                     "y": 2568,
                     "disposition": -1,
@@ -87,10 +125,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -100,21 +139,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "jO2fM1bmRiEB3js1",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "AFkvz3PmeGP6RZeJ",
+                    "_id": "7xBxmirHkbCVXE4E",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 6955,
                     "y": 3317,
                     "disposition": -1,
@@ -122,10 +179,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -135,21 +193,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "pxj5fdWtTZ7yTZV9",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "oh1UG97tSrf3E4e0",
+                    "_id": "LUmNxIRD42odwkqh",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 6206,
                     "y": 2996,
                     "disposition": -1,
@@ -157,10 +233,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -170,21 +247,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "pZ0omYEIHRUAUyhb",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "yXZg8n0CgTehPAkf",
+                    "_id": "sAXydDLqKC9LIBXK",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 5992,
                     "y": 3103,
                     "disposition": -1,
@@ -192,10 +287,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -205,21 +301,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "uJlYilXKuZNaM1DJ",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "T0XpbROwNYXoW21G",
+                    "_id": "TNvjgJkxre8vt10k",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 6848,
                     "y": 2782,
                     "disposition": -1,
@@ -227,10 +341,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -240,21 +355,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "kFvC4lunLxhDhR37",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "rgkpKaQlNn0d2E9V",
+                    "_id": "bgniS7yo4Pu3jTWF",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 5992,
                     "y": 3531,
                     "disposition": -1,
@@ -262,10 +395,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -275,21 +409,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "XeyNSz2yxNgIcbTi",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "Z0mJUEOciEjqie2M",
+                    "_id": "bGtQq4k5s8eMuGnl",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 6634,
                     "y": 3317,
                     "disposition": -1,
@@ -297,10 +449,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -310,21 +463,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "82dZe4MBVN9ALBck",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "VPg8NYB3d4sHlQrb",
+                    "_id": "rVIi6AczzskgfVIq",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 6420,
                     "y": 2996,
                     "disposition": -1,
@@ -332,10 +503,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -345,21 +517,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "pOrm1Fl3aY6Jzgwi",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "hZQEMwtnmkRK0Xhh",
+                    "_id": "VsC0eFL949x0zvq0",
                     "name": "Stomping Foot",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 7062,
                     "y": 2996,
                     "disposition": -1,
@@ -367,10 +557,11 @@
                         "ddbActorFlags": {
                             "id": 360894,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.6.23",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Stomping Foot"
                         }
                     },
@@ -380,25 +571,45 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "B1c6sS7gDHMqf9Bm",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "The Fissure 2 Area 07",
                     "bookCode": "ai",
                     "contentChunkId": "ddb-missing-ai-103033",
-                    "lastUpdate": "0.0.14",
-                    "notes": "0.1.33",
-                    "tokens": "0.1.33",
-                    "walls": "0.1.33",
+                    "lastUpdate": "0.1.33",
+                    "notes": "1.1.0",
+                    "tokens": "1.1.0",
+                    "walls": "1.1.0",
                     "lights": "0.0.14",
                     "drawings": "0.0.14"
                 }
@@ -416,15 +627,19 @@
             "darknessColor": "#110033"
         },
         "ddbimporter": {
-            "version": "2.6.23"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 107,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 107,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 5500,
     "initial": {
         "x": 6583,
@@ -432,11 +647,9 @@
         "scale": 1
     },
     "lights": [],
-    "name": "The Fissure 2 Area 07",
-    "navName": "The Fissure 2 Area 07",
+    "name": "The Fissure 2",
+    "navName": "The Fissure 2",
     "padding": 0.25,
-    "shiftX": 1,
-    "shiftY": 42,
     "tokenVision": true,
     "walls": [
         {
@@ -446,13 +659,20 @@
                 5243,
                 3210
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -461,13 +681,20 @@
                 5564,
                 3210
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -476,13 +703,20 @@
                 5657,
                 3477
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -491,13 +725,20 @@
                 6018,
                 3798
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -506,13 +747,20 @@
                 6540,
                 3838
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -521,13 +769,20 @@
                 6901,
                 3785
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -536,13 +791,20 @@
                 7128,
                 3597
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -551,13 +813,20 @@
                 7222,
                 3290
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -566,13 +835,20 @@
                 7342,
                 3250
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -581,13 +857,20 @@
                 7597,
                 3263
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -596,13 +879,20 @@
                 7597,
                 2889
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -611,13 +901,20 @@
                 7276,
                 2889
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -626,13 +923,20 @@
                 7115,
                 2634
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -641,13 +945,20 @@
                 6848,
                 2407
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -656,13 +967,20 @@
                 6593,
                 2313
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -671,13 +989,20 @@
                 6366,
                 2313
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -686,13 +1011,20 @@
                 6192,
                 2313
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -701,13 +1033,20 @@
                 5951,
                 2474
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -716,13 +1055,20 @@
                 5671,
                 2808
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -731,13 +1077,20 @@
                 5243,
                 2822
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",

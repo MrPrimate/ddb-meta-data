@@ -1,18 +1,22 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 17,
+        "offsetY": 17,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [
         {
             "_id": "VSoA2isulSV7VG5U",
             "author": "pRMRhdeZEsQfpWkd",
-            "type": "r",
             "x": 3613,
             "y": 1000,
-            "width": 187,
-            "height": 75,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": "#28cc9c",
@@ -28,19 +32,22 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": false,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 187,
+                "height": 75,
+                "points": [],
+                "radius": null
+            }
         },
         {
             "_id": "Jn3Y9t38qy7hnDe0",
             "author": "pRMRhdeZEsQfpWkd",
-            "type": "r",
             "x": 1200,
             "y": 1000,
-            "width": 200,
-            "height": 87.5,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": "#28cc9c",
@@ -56,19 +63,22 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": false,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 200,
+                "height": 88,
+                "points": [],
+                "radius": null
+            }
         },
         {
             "_id": "454WnfPTmnrmS2rP",
             "author": "pRMRhdeZEsQfpWkd",
-            "type": "r",
             "x": 1463,
             "y": 1575,
-            "width": 287,
-            "height": 450,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": "#28cc9c",
@@ -84,7 +94,14 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": false,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 287,
+                "height": 450,
+                "points": [],
+                "radius": null
+            }
         }
     ],
     "flags": {
@@ -103,12 +120,25 @@
                             "ddbId": 2050,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R1GeneralSeating",
+                            "duplicate": false,
                             "contentChunkId": "cd5c907d-463a-4b14-bee7-7fc9a02f9a2f",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "OcqteNRjpgl36mmC"
+                            "linkId": "3BPXuNNO3etBlLu9",
+                            "labelName": "R01. General Seating"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R1.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -117,7 +147,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -129,12 +158,25 @@
                             "ddbId": 2052,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R2OrchestraPit",
+                            "duplicate": false,
                             "contentChunkId": "69211ab7-4f08-4ffa-91f2-f969c192fd71",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "fl3VwpUwDyQtcHYH"
+                            "linkId": "0tk4MetvbLvSwRBR",
+                            "labelName": "R02. Orchestra Pit"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R2.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -143,7 +185,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -155,12 +196,25 @@
                             "ddbId": 2055,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R3MainStage",
+                            "duplicate": false,
                             "contentChunkId": "98051779-90df-42d2-89e7-a6c238cd9412",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "06BZmHk9MTdcXp0i"
+                            "linkId": "jiYejYtu3l8fKDqO",
+                            "labelName": "R03. Main Stage"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R3.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -169,7 +223,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -181,12 +234,25 @@
                             "ddbId": 2058,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R4BackstageDoors",
+                            "duplicate": false,
                             "contentChunkId": "05c1caa5-4a1f-46e8-ad65-62bc14b08b0f",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "XE7c8KtEUqQLt0Xp"
+                            "linkId": "Kg00JSD9HJCQoGKy",
+                            "labelName": "R04. Backstage Doors"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R4.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -195,7 +261,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -207,25 +272,71 @@
                             "ddbId": 2060,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R5RoseRoom",
+                            "duplicate": false,
                             "contentChunkId": "b8f46f5d-1208-4f12-9ae9-757eb058db8a",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "3deg1HW6J7Y2erOM"
+                            "linkId": "O7SZGe0CK4X2AdTC",
+                            "labelName": "R05. Rose Room"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R5.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 2000,
                             "y": 1100
-                        },
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "R05. Rose Room",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2060,
+                            "bookCode": "sacoc",
+                            "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R5RoseRoom",
+                            "duplicate": false,
+                            "contentChunkId": "b8f46f5d-1208-4f12-9ae9-757eb058db8a",
+                            "img": false,
+                            "note": true,
+                            "parentId": 1529,
+                            "linkId": "O7SZGe0CK4X2AdTC",
+                            "labelName": "R05. Rose Room"
+                        }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R5.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
                         {
                             "x": 3000,
                             "y": 1100
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -237,25 +348,71 @@
                             "ddbId": 2062,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R6StorageHall",
+                            "duplicate": false,
                             "contentChunkId": "a0213372-ba66-4a10-9121-e306dfc676d9",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "AGumGcxo0DEQSlCp"
+                            "linkId": "enH9roh5z29mNbUz",
+                            "labelName": "R06. Storage Hall"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R6.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 3400,
                             "y": 950
-                        },
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "R06. Storage Hall",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2062,
+                            "bookCode": "sacoc",
+                            "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R6StorageHall",
+                            "duplicate": false,
+                            "contentChunkId": "a0213372-ba66-4a10-9121-e306dfc676d9",
+                            "img": false,
+                            "note": true,
+                            "parentId": 1529,
+                            "linkId": "enH9roh5z29mNbUz",
+                            "labelName": "R06. Storage Hall"
+                        }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R6.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
                         {
                             "x": 1600,
                             "y": 950
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -267,25 +424,71 @@
                             "ddbId": 2065,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R7StageStorageArea",
+                            "duplicate": false,
                             "contentChunkId": "1fa65d36-4fcd-457d-a9a5-c3c7d8b73219",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "ZREenjpO4okpxVWB"
+                            "linkId": "2MCJDF8117XTv9fe",
+                            "labelName": "R07. Stage Storage Area"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R7.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 1300,
                             "y": 1100
-                        },
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "R07. Stage Storage Area",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2065,
+                            "bookCode": "sacoc",
+                            "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "R7StageStorageArea",
+                            "duplicate": false,
+                            "contentChunkId": "1fa65d36-4fcd-457d-a9a5-c3c7d8b73219",
+                            "img": false,
+                            "note": true,
+                            "parentId": 1529,
+                            "linkId": "2MCJDF8117XTv9fe",
+                            "labelName": "R07. Stage Storage Area"
+                        }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/R7.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
                         {
                             "x": 3750,
                             "y": 1100
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -297,12 +500,25 @@
                             "ddbId": 2094,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "RoseStageFestival",
+                            "duplicate": false,
                             "contentChunkId": "96696f85-56f2-4e4c-965d-d2fab971c37d",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "JaLHGwgEx31G7czs"
+                            "linkId": "HFQUZU2PxsSRb2Re",
+                            "labelName": "Rose Stage Festival"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/Rose.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -311,7 +527,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -323,12 +538,25 @@
                             "ddbId": 2103,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "ExitPursuedbyanOwlbear",
+                            "duplicate": false,
                             "contentChunkId": "bd39a64a-7457-4be6-a0ee-5b6d2a599966",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "bHL4iTXyKq8Q433Z"
+                            "linkId": "72lrFSbKhUDqQA3J",
+                            "labelName": "Exit, Pursued by an Owlbear"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -337,7 +565,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -349,12 +576,25 @@
                             "ddbId": 2105,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "AProfessorsAppreciation",
+                            "duplicate": false,
                             "contentChunkId": "e7178a44-9d24-4daa-80ca-4e6fe20657a3",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "erYB3OlwfqWcGDyD"
+                            "linkId": "SnN0EalOJmcOSC4z",
+                            "labelName": "A Professor’s Appreciation"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/A.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -363,7 +603,6 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -375,12 +614,25 @@
                             "ddbId": 2110,
                             "bookCode": "sacoc",
                             "slug": "all-the-worlds-a-stage#TheRoseStage",
+                            "linkName": "All the World’s a Stage",
+                            "slugLink": "ExaminingtheOwlbear",
+                            "duplicate": false,
                             "contentChunkId": "4a85be69-8631-445a-8eb3-6bf9f4f0a1ea",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1529,
-                            "linkId": "GGxRjfpXmmSxZ1lK"
+                            "linkId": "6SLEv9lJwx66xPf5",
+                            "labelName": "Examining the Owlbear"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -389,18 +641,16 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "nV9AYz57JQ5nOUWQ",
+                    "_id": "nj8ITfdKTnyQ3ASi",
                     "name": "Owlbear",
                     "width": 2,
                     "height": 2,
-                    "scale": 1,
                     "x": 1500,
                     "y": 1600,
                     "disposition": -1,
@@ -408,10 +658,11 @@
                         "ddbActorFlags": {
                             "id": 16975,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Owlbear"
                         }
                     },
@@ -421,15 +672,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "0S1JKO7irBBbebZq",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "KgVrr7ZF7XSycmNn",
+                    "_id": "1jCY9wwwo3NXBfp4",
                     "name": "Silverquill Professor of Shadow",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1600,
                     "y": 1800,
                     "disposition": -1,
@@ -437,10 +712,11 @@
                         "ddbActorFlags": {
                             "id": 2160333,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "version": "2.7.7",
-                            "flatAC": true,
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Silverquill Professor of Shadow"
                         }
                     },
@@ -450,28 +726,51 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "6jFWS2EmCNwMp0AG",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "sajUGCYz1hXuF31T",
+                    "_id": "m5TiaYMN7X8TDgp1",
                     "name": "Quentillius Antiphiun Melentor III",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2400,
                     "y": 1700,
                     "disposition": 1,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 2160303,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "version": "2.7.7",
-                            "flatAC": true,
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "First-Year Student"
                         }
                     },
@@ -481,9 +780,10 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
                     "actorData": {
-                        "data": {
+                        "_id": "BULukrI7iTNKs6nN",
+                        "name": "Quentillius Antiphiun Melentor III",
+                        "system": {
                             "details": {
                                 "alignment": "Neutral"
                             },
@@ -493,29 +793,48 @@
                                 }
                             }
                         },
-                        "oldHpVal": 33
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "GpJU11C6SM7aiaB6",
+                    "_id": "nRXgVHWPxAHqqlyi",
                     "name": "Rubina Larkingdale",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1300,
                     "y": 2200,
                     "disposition": 1,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 2160303,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "version": "2.7.7",
-                            "flatAC": true,
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "First-Year Student"
                         }
                     },
@@ -525,9 +844,10 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
                     "actorData": {
-                        "data": {
+                        "_id": "g71cCPnkac6IIhEr",
+                        "name": "Rubina Larkingdale",
+                        "system": {
                             "details": {
                                 "alignment": "Lawful Neutral"
                             },
@@ -537,12 +857,34 @@
                                 }
                             }
                         },
-                        "oldHpVal": 33
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 }
             ],
             "originalLink": "ddb://image/sacoc/map-3.5-the-rose-stage-player.jpg",
-            "foundryVersion": "9.238",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 3.5: The Rose Stage",
@@ -551,9 +893,9 @@
                     "lastUpdate": "0.1.45",
                     "notes": "0.1.45",
                     "tokens": "0.1.45",
-                    "walls": "0.1.45",
-                    "lights": "0.1.45",
-                    "drawings": "0.1.45",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.238"
                 }
             }
@@ -562,15 +904,19 @@
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 2226,
     "initial": {
         "x": 2679,
@@ -586,11 +932,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 2.57,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -605,7 +950,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff0000"
+                "color": "#ff0000",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -618,11 +964,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 2.57,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -637,24 +982,24 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff0000"
+                "color": "#ff0000",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 1457.4273767605634,
-            "y": 1339.491637323944,
+            "x": 1457,
+            "y": 1339,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 2.57,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -669,24 +1014,24 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff0000"
+                "color": "#ff0000",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
         },
         {
-            "x": 3551.221390845071,
-            "y": 1350.1320422535211,
+            "x": 3551,
+            "y": 1350,
             "rotation": 0,
             "walls": true,
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 2.57,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -701,7 +1046,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff0000"
+                "color": "#ff0000",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -714,11 +1060,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 2.57,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -733,7 +1078,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff0000"
+                "color": "#ff0000",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -746,11 +1092,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 2.57,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -765,7 +1110,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff0000"
+                "color": "#ff0000",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -782,7 +1128,6 @@
                 "bright": 50,
                 "coloration": 1,
                 "dim": 59.64,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -790,13 +1135,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0.7,
                     "max": 1
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -813,7 +1160,6 @@
                 "bright": 50,
                 "coloration": 1,
                 "dim": 59.64,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -821,13 +1167,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0.7,
                     "max": 1
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -844,7 +1192,6 @@
                 "bright": 50,
                 "coloration": 1,
                 "dim": 59.64,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -852,13 +1199,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0.7,
                     "max": 1
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -871,11 +1220,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 15,
                 "coloration": 1,
                 "dim": 30,
-                "gradual": true,
                 "luminosity": 0.25,
                 "saturation": 0,
                 "contrast": 0,
@@ -883,13 +1231,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0.7,
                     "max": 1
                 },
-                "color": "#ff0000"
+                "color": "#ff0000",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -902,11 +1252,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.05,
-                "angle": 0,
+                "angle": 360,
                 "bright": 15,
                 "coloration": 1,
                 "dim": 30,
-                "gradual": true,
                 "luminosity": 0.25,
                 "saturation": 0,
                 "contrast": 0,
@@ -914,13 +1263,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0.7,
                     "max": 1
                 },
-                "color": "#ff0000"
+                "color": "#ff0000",
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -933,11 +1284,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 25,
                 "coloration": 9,
                 "dim": 25,
-                "gradual": false,
                 "luminosity": 0.1,
                 "saturation": 0,
                 "contrast": 0,
@@ -952,7 +1302,8 @@
                     "min": 0,
                     "max": 1
                 },
-                "color": "#ff0000"
+                "color": "#ff0000",
+                "attenuation": 0.3
             },
             "hidden": false,
             "flags": {}
@@ -965,11 +1316,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 100,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -977,13 +1327,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 0.5
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -996,11 +1348,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 100,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -1008,13 +1359,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 0.5
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1027,11 +1380,10 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 100,
                 "coloration": 1,
                 "dim": 0,
-                "gradual": true,
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
@@ -1039,13 +1391,15 @@
                 "animation": {
                     "speed": 5,
                     "intensity": 5,
-                    "reverse": false
+                    "reverse": false,
+                    "type": null
                 },
                 "darkness": {
                     "min": 0,
                     "max": 0.5
                 },
-                "color": null
+                "color": null,
+                "attenuation": 0.5
             },
             "hidden": false,
             "flags": {}
@@ -1054,8 +1408,6 @@
     "name": "Map 3.5: The Rose Stage",
     "navName": "The Rose Stage",
     "padding": 0.25,
-    "shiftX": 17,
-    "shiftY": 17,
     "tokenVision": true,
     "walls": [
         {
@@ -1072,7 +1424,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1088,7 +1446,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1104,7 +1468,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1120,7 +1490,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1136,7 +1512,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1152,7 +1534,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1168,7 +1556,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1184,7 +1578,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1200,7 +1601,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1216,7 +1623,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1232,7 +1645,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1248,7 +1668,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1264,7 +1690,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1280,7 +1712,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1296,7 +1734,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1312,7 +1757,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1328,7 +1780,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1344,7 +1802,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1360,7 +1824,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1376,7 +1846,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1392,7 +1869,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1408,7 +1891,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1424,7 +1914,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1440,7 +1936,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1456,7 +1958,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1472,7 +1981,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1488,7 +2003,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1504,7 +2025,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1520,7 +2047,14 @@
             "dir": 0,
             "door": 1,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "doorSound": "woodBasic",
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1536,7 +2070,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1552,7 +2092,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1568,7 +2114,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1584,7 +2136,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1600,7 +2158,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1616,7 +2180,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1632,7 +2202,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1648,7 +2224,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1664,7 +2246,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",
