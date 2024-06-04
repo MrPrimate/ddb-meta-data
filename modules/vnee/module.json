@@ -1,0 +1,77 @@
+{
+	"id": "vnee",
+	"name": "vnee",
+	"title": "Vecna: Nest of the Eldritch Eye",
+	"description": "<p>Something sinister lurks beneath Neverwinter. A dead militiaman. A desiccated eyeball. Whispers of a mysterious cult. What evil festers in the bowels of the city?</p>\r\n<p><em>Vecna: Nest of the Eldritch Eye</em> is an adventure for a party of four to six characters of level 3. Assemble your party and get ready to enter the catacombs of Neverwinter in this prelude to <em>Vecna: Eve of Ruin</em>. The return of one of D&amp;D's greatest villains begins here!</p>\r\n<ul>\r\n<li>A one-shot introductory adventure to a multiverse-spanning campaign, great for new and experienced players alike!</li>\r\n<li>A new playable map in D&amp;D Beyond&rsquo;s Maps.</li>\r\n<li>Continue the journey in <em>Vecna: Eve of Ruin</em>, where your characters will immediately jump to level 10 and advance all the way to level 20 over the course of the campaign!</li>\r\n</ul>\r\n<h4>2024 and Beyond</h4>\r\n<p>The 2024 Core Rulebooks will provide new options for players and DMs along with updates and improvements to the classes, mechanics, items, and monsters of fifth edition. All updates are being done with care to make sure anything from fifth edition will <strong style=\"text-decoration: underline;\">continue to be fully playable</strong>.</p>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/vnee",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [
+		{
+			"name": "scenes",
+			"label": "VNEE Scenes",
+			"path": "packs/scenes.db",
+			"entity": "Scene",
+			"type": "Scene",
+			"system": "dnd5e"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/vnee/listing_images/638465408127994219.jpeg"
+		}
+	]
+}
