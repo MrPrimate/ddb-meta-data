@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -18,21 +26,33 @@
                             "ddbId": 2011,
                             "bookCode": "sacoc",
                             "slug": "life-at-strixhaven#LoreholdCollege",
+                            "linkName": "Life at Strixhaven",
+                            "slugLink": "Pillardrop",
+                            "duplicate": false,
                             "contentChunkId": "67f5e6ed-84d4-4ea1-83df-b3a210c63e2c",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1539,
-                            "linkId": "siw32yUIQZGRAbry"
+                            "linkId": "xiOUnudCgJ2Gdxsg",
+                            "labelName": "Pillardrop"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 7325,
-                            "y": 4200.22
+                            "y": 4200
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -44,21 +64,33 @@
                             "ddbId": 2013,
                             "bookCode": "sacoc",
                             "slug": "life-at-strixhaven#LoreholdCollege",
+                            "linkName": "Life at Strixhaven",
+                            "slugLink": "EffigyRow",
+                            "duplicate": false,
                             "contentChunkId": "da14cf88-5463-4f28-80bc-8cbf5501d129",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1539,
-                            "linkId": "mvkPNqI5LfDG0Prs"
+                            "linkId": "uCQS1nS0gGRrshAG",
+                            "labelName": "Effigy Row"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 8925,
-                            "y": 5109.549882328188
+                            "y": 5110
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -70,28 +102,40 @@
                             "ddbId": 2016,
                             "bookCode": "sacoc",
                             "slug": "life-at-strixhaven#LoreholdCollege",
+                            "linkName": "Life at Strixhaven",
+                            "slugLink": "KollemaHall",
+                            "duplicate": false,
                             "contentChunkId": "c02b9c06-b0e2-4335-86a6-2b1f0d34b4ef",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 1539,
-                            "linkId": "75d5eblc6UgjMuvU"
+                            "linkId": "i44fI1DWy0BsmZ6v",
+                            "labelName": "Kollema Hall"
                         }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
                             "x": 6875,
-                            "y": 6278.68
+                            "y": 6279
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [],
             "originalLink": "ddb://image/sacoc/map-1.2-lorehold-campus-player.jpg",
-            "foundryVersion": "9.238",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 1.2: Lorehold Campus",
@@ -100,9 +144,9 @@
                     "lastUpdate": "0.1.45",
                     "notes": "0.1.45",
                     "tokens": "0.1.45",
-                    "walls": "0.1.45",
-                    "lights": "0.1.45",
-                    "drawings": "0.1.45",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.238"
                 }
             }
@@ -111,27 +155,29 @@
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 25,
-    "gridType": 4,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 4,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 25,
+        "units": "ft"
+    },
     "height": 8292,
     "initial": {
         "x": 8504,
         "y": 5948,
-        "scale": 0.24
+        "scale": 0.25
     },
     "lights": [],
     "name": "Map 1.2: Lorehold Campus",
     "navName": "Lorehold Campus",
     "padding": 0.25,
-    "shiftX": 0,
-    "shiftY": 0,
     "tokenVision": false,
     "walls": [],
     "weather": "",

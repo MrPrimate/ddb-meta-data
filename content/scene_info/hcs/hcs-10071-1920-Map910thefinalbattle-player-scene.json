@@ -1,0 +1,259 @@
+{
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
+    "backgroundColor": "#999999",
+    "darkness": 0,
+    "drawings": [],
+    "flags": {
+        "ddb": {
+            "bookCode": "hcs",
+            "ddbId": 10071,
+            "cobaltId": null,
+            "parentId": 1920,
+            "contentChunkId": "Map910thefinalbattle-player",
+            "notes": [
+                {
+                    "label": "Facing the Aspect",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 70,
+                            "bookCode": "hcs",
+                            "slug": "of-fate-and-flame#FacingtheAspect",
+                            "linkName": "Facing the Aspect",
+                            "slugLink": "FacingtheAspect",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 1920
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 1500,
+                            "y": 1200
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [
+                {
+                    "_id": "hJtSGqSiyQD5TVea",
+                    "name": "Aspect of Fire",
+                    "width": 4,
+                    "height": 4,
+                    "x": 1000,
+                    "y": 1000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 4237011,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Aspect of Fire"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "xtM3ByPMfupipjUk",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/hcs/map-4.10-the-final-battle-player-update.jpg",
+            "foundryVersion": "11.315",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Fig 5.1: The Final Battle",
+                    "bookCode": "hcs",
+                    "contentChunkId": "Map910thefinalbattle-player",
+                    "lastUpdate": "0.3.54",
+                    "notes": "0.3.54",
+                    "tokens": "0.3.54",
+                    "walls": "0.3.54",
+                    "lights": "0.3.54",
+                    "drawings": "0.3.54",
+                    "foundry": "11.315"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "globalLight": true,
+    "globalLightThreshold": 0.5,
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0,
+        "distance": 5,
+        "units": "ft"
+    },
+    "height": 2399,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "lights": [
+        {
+            "x": 1100,
+            "y": 1050,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 14.22,
+                "coloration": 1,
+                "dim": 28.44,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "smokepatch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "color": "#834820"
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 2650,
+            "y": 950,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 14.22,
+                "coloration": 1,
+                "dim": 28.44,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "smokepatch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "color": "#834820"
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 2050,
+            "y": 1350,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 14.22,
+                "coloration": 1,
+                "dim": 28.44,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "smokepatch",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "color": "#834820"
+            },
+            "hidden": false,
+            "flags": {}
+        }
+    ],
+    "name": "Fig 5.1: The Final Battle",
+    "navName": "The Final Battle",
+    "padding": 0.25,
+    "tokenVision": true,
+    "walls": [],
+    "weather": "",
+    "width": 2400
+}
