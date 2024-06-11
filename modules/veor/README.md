@@ -9,7 +9,6 @@ The notorious lich Vecna is weaving a ritual to eliminate good, obliterate the g
 - Defeat **over 30 menacing new monsters** in the **D&D Beyond Encounters tool**.
 - Explore **32 new maps** on the **Maps tool**.
 - Journey to **over 6 iconic D&D locations** across the Forgotten Realms, including Planescape, Spelljammer, Eberron, Ravenloft, Dragonlance, and Greyhawk.
-- Get *Vecna: Nest of the Eldritch Eye*, a D&D Beyond exclusive available with digital preorder only. This single-session adventure prepares you for the final confrontation in *Vecna: Eve of Ruin*.
 
 ---
 
