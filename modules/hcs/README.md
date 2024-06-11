@@ -8,15 +8,9 @@ Welcome to Humblewood, a campaign setting where you get to adventure as birds an
 - Empower your characters with **3 new backgrounds**, **7 new feats**, **10 new spells**, and** new magic items**
 - Expand your DM toolkit with more than **50 new monsters** in the **D&D Beyond Encounters tool** and **11 new maps** for use with **D&D Beyond Maps**
 
-<!-- -->
-
 ---
 
-
-
 This purchase will unlock the contents of this sourcebook for use with D&D Beyond upon release, including the book in digital format in the game compendium and access options from the book in the searchable listings, Encounters tool, Maps tool, and digital character sheet.
-
-
 
 ## License
 

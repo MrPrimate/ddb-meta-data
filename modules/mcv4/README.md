@@ -6,8 +6,6 @@ Add new and unique creatures inspired by the *Wilds of Eldraine* to your campaig
 - **Detailed stat blocks** and descriptions to use the monsters in your campaigns
 - Useable in **D&D Beyond DM tools like Encounters and Maps**
 
-
-
 ## License
 
 This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

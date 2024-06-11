@@ -15,10 +15,6 @@ Remember the first time you slew a dragon? What if all combat encounters could b
 - Rules for retainers that will satisfy players who want a little goblin buddy or another kind of follower
 - Maps and monsters that can be used with DDB's Encounters Tool and Maps tool
 
-<!-- -->
-
-
-
 ## License
 
 This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

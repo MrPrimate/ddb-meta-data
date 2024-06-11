@@ -8,13 +8,9 @@ These monsters have been designed so that GMs can use them in their favorite set
 - Updated with errata, streamlined mechanics, and new monster art from the original *Tome of Beasts*.
 - Expansive tables that organize creatures by challenge rating, creature type, and terrain.
 
-<!-- -->
-
 ---
 
 This purchase will unlock the contents of this sourcebook for use with D&D Beyond upon release, including the book in digital format in the game compendium and access options from the book in the searchable listings, Encounters tool, Maps tool, and digital character sheet.
-
-
 
 ## License
 

@@ -11,17 +11,11 @@ The notorious lich Vecna is weaving a ritual to eliminate good, obliterate the g
 - Journey to **over 6 iconic D&D locations** across the Forgotten Realms, including Planescape, Spelljammer, Eberron, Ravenloft, Dragonlance, and Greyhawk.
 - Get *Vecna: Nest of the Eldritch Eye*, a D&D Beyond exclusive available with digital preorder only. This single-session adventure prepares you for the final confrontation in *Vecna: Eve of Ruin*.
 
-<!-- -->
-
 ---
-
-This purchase unlocks the contents of this adventure for use with D&D Beyond, including the book in digital format in the game compendium and access options from the book in the searchable listings, Encounters tool, Maps tool, and digital character sheet.
 
 #### 2024 and Beyond
 
 The 2024 Core Rulebooks will provide new options for players and DMs along with updates and improvements to the classes, mechanics, items, and monsters of fifth edition. All updates are being done with care to make sure anything from fifth edition will **continue to be fully playable**.
-
-
 
 ## License
 

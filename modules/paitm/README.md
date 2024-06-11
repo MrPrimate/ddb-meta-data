@@ -11,15 +11,11 @@ Infinite realms of immortals and impossibilities, the Outer Planes brim with cel
 - Journey across the Outlands in an **adventure for characters levels 3-10 and 17**
 - Adds **adventure hooks, encounter tables, maps of Sigil and the Outlands & more** to your game
 
-<!-- -->
-
 This 3 books set comprises:
 
 - *Sigil and the Outlands*: a setting book full of planar character options with details on the fantastic City of Doors, descriptions of the Outlands, the gate-towns that lead to the Outer planes, and more
 - **Turn of Fortune's* Wheel*: an adventure set in Sigil and the Outlands designed for character levels 3-10 with a jump to level 17
 - *Morte’s Planar Parade*: Follow Morte as he presents over 50 inhabitants of the Outer Plane, including incarnates, hierarch modrons, time dragons, and more with their stats and descriptions
-
-
 
 ## License
 

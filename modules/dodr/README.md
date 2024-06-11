@@ -9,13 +9,9 @@ The city of Drakkenheim was destroyed by an Eldritch-fueled calamity… but it d
 - Explore **57****detailed maps** and battle Drakkenheim’s forces with **D&D Beyond Maps**
 - Frighten your players and build on your horror-fantasy campaign with **
 
-<!-- -->
-
 ---
 
 This purchase will unlock the contents of this adventure for use with D&D Beyond upon release, including the book in digital format in the game compendium and access options from the book in the searchable listings, Encounters tool, Maps tool, and digital character sheet.
-
-
 
 ## License
 

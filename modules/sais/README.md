@@ -20,9 +20,6 @@
 
 - <span>A space-faring adventure for characters <strong>levels 5–8</strong></span>
 
-
-<!-- -->
-
 <span>This 3-book set comprises:</span>
 
 - <span><em>The Astral Adventurer’s Guide</em>: Welcome to the Astral Plane—the starlit realm that surrounds the worlds of the D&amp;D multiverse. Hop aboard a spelljamming ship and set a course for adventure. In Wildspace, everyone can hear you scream. This book is for players and Dungeon Masters that presents the Astral Plane as a campaign setting</span>
@@ -31,22 +28,15 @@
 
 - <span><em>Light of Xaryxis</em>: An adventure for Dungeon Masters set in the Astral Plane. When a cosmic enemy threatens to destroy their world, brave heroes must do everything in their power to save it. This quest will take them across the teeming oceans of Wildspace to the silvery void of the Astral Sea and beyond. Along the way, they’ll make friends, encounter terrifying foes, and face one cliffhanger after another. Can they save their world before time runs out?</span>
 
-
-<!-- -->
-
 Complete the core Dungeons & Dragons collection:<br>
 
 \- <span><a>Tasha's Cauldron of Everything</a></span>
 
-<br>
-
-<span><span>-&nbsp;<span><a>Dungeon Master's Guide</a></span></span><span><br></span><span>-&nbsp;<span><a>Monster Manual</a></span></span><span><br></span><span>-<span><a>Xanathar's Guide To Everything</a></span></span></span>
+<span><span>-&nbsp;<span><a>Dungeon Master's Guide</a></span></span>
+<span>-&nbsp;<span><a>Monster Manual</a></span></span>
+<span>-<span><a>Xanathar's Guide To Everything</a></span></span></span>
 
 ---
-
-This purchase unlocks the contents of this adventure for use with D&D Beyond, including the book in digital format in the game compendium and access options from the book in the searchable listings, encounter builder, character builder, and digital sheet.
-
-
 
 ## License
 

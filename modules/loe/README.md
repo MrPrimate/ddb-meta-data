@@ -9,8 +9,6 @@ Each of the adventures contained within can be run by themselves or as part of a
 - A host of new player options available to use: **2 new feats**, **7 spells**, and **10 magic items** in the **D&D Beyond character builder**
 - **Contains both *Lairs of Etharis* Volume 1 & 2.**
 
-
-
 ## License
 
 This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
