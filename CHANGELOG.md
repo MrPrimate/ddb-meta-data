@@ -1,3 +1,39 @@
+# 1.1.0
+
+- Updates for Foundry v12. Existing adventure conversion.
+
+# 1.0.4
+
+- Vecna: Eve of Ruin Support.
+
+# 1.0.3
+
+- Tales from the Yawning Portal is now a single book rather than individual books for new purchases.
+
+# 1.0.2
+
+- Vecna: Nest of the Eldritch Eye
+
+# 1.0.1
+
+- Descent into the Lost Caverns of Tsojcanth
+
+# 1.0.0
+
+- Additions for more streamlined Journals for some books (PHB, XGTE, DMG, PAITM so far).
+
+# 0.3.54
+
+- Humblewood support.
+
+# 0.3.53
+
+- DoIP Sword Coast Map alignment
+
+# 0.3.52
+
+- DoDr
+
 # 0.3.51
 
 - LoE adventures 13-20

@@ -1,18 +1,22 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [
         {
             "_id": "zEcEOviZTrfAOcx8",
             "author": "FyzF9e0EPZ9QEa63",
-            "type": "t",
             "x": 2525,
             "y": 2225,
-            "width": 284.75,
-            "height": 99.25,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": null,
@@ -28,19 +32,22 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": true,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 285,
+                "height": 99,
+                "points": [],
+                "radius": null
+            }
         },
         {
             "_id": "VWZLEauvO5RLCz75",
             "author": "FyzF9e0EPZ9QEa63",
-            "type": "t",
             "x": 4300,
             "y": 3194,
-            "width": 284.75,
-            "height": 99.25,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": null,
@@ -56,19 +63,22 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": true,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 285,
+                "height": 99,
+                "points": [],
+                "radius": null
+            }
         },
         {
             "_id": "xJkyaADrwHSkqPXY",
             "author": "FyzF9e0EPZ9QEa63",
-            "type": "t",
             "x": 5106,
             "y": 1775,
-            "width": 284.75,
-            "height": 99.25,
             "rotation": 0,
             "z": 0,
-            "points": [],
             "bezierFactor": 0,
             "fillType": 0,
             "fillColor": null,
@@ -84,7 +94,14 @@
             "textAlpha": 1,
             "hidden": true,
             "locked": true,
-            "flags": {}
+            "flags": {},
+            "shape": {
+                "type": "r",
+                "width": 285,
+                "height": 99,
+                "points": [],
+                "radius": null
+            }
         }
     ],
     "flags": {
@@ -97,17 +114,22 @@
             "notes": [],
             "tokens": [
                 {
-                    "_id": "s0su3JrV2KQ8x3Zn",
+                    "_id": "cNGSoON9hFUGy57P",
                     "name": "Veteran",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4650,
                     "y": 2950,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 17045,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Veteran"
                         }
                     },
@@ -117,27 +139,51 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "WvwcS351kHObC0SA",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "aIpw0tMRJLKLbhRh",
+                    "_id": "0B3cl5EYsk15pHsm",
                     "name": "Veteran",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4600,
                     "y": 2850,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 17045,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Veteran"
                         }
                     },
@@ -147,27 +193,51 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "diVWnGTMLI4e3uOz",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "9r8GNhFMVun3mGoM",
+                    "_id": "ZMK9nGAk2eWsk1uh",
                     "name": "Veteran",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4600,
                     "y": 2750,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 17045,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Veteran"
                         }
                     },
@@ -177,27 +247,51 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "M4sZdFiuvOXvOI9p",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "bN3yyiaLceswijtz",
+                    "_id": "fLrH1DTxQUrU7IzE",
                     "name": "Veteran",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4650,
                     "y": 2650,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 17045,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Veteran"
                         }
                     },
@@ -207,21 +301,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "aeVauhReHE7vmkuR",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "G2wCgfTuiFAqneKa",
+                    "_id": "mkdFZicwFR7Hvwtk",
                     "name": "Guard Drake",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4800,
                     "y": 3000,
                     "disposition": -1,
@@ -229,9 +341,12 @@
                         "ddbActorFlags": {
                             "id": 17265,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "name": "Guard Drake"
+                            "version": "999.0.0",
+                            "isLegacy": true,
+                            "flatAC": false,
+                            "name": "Guard Drake (Legacy)"
                         }
                     },
                     "actorLink": false,
@@ -240,20 +355,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "W0biNOlPz7E1ZCs2",
+                        "name": "Guard Drake",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "g6DCX8ezBUHcWuf7",
+                    "_id": "Efsz5MtPRheCuWaG",
                     "name": "Guard Drake",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4900,
                     "y": 2950,
                     "disposition": -1,
@@ -261,9 +396,12 @@
                         "ddbActorFlags": {
                             "id": 17265,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "name": "Guard Drake"
+                            "version": "999.0.0",
+                            "isLegacy": true,
+                            "flatAC": false,
+                            "name": "Guard Drake (Legacy)"
                         }
                     },
                     "actorLink": false,
@@ -272,20 +410,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "vybZiB1MGSTxzDOL",
+                        "name": "Guard Drake",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "XIBZYuaQCYd9PYnU",
+                    "_id": "2Hm39D8xfZFGuLBS",
                     "name": "Guard Drake",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 5000,
                     "y": 2850,
                     "disposition": -1,
@@ -293,9 +451,12 @@
                         "ddbActorFlags": {
                             "id": 17265,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "name": "Guard Drake"
+                            "version": "999.0.0",
+                            "isLegacy": true,
+                            "flatAC": false,
+                            "name": "Guard Drake (Legacy)"
                         }
                     },
                     "actorLink": false,
@@ -304,20 +465,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "KtT3pqZ0LAkJCUQb",
+                        "name": "Guard Drake",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "aT4nvvfy7e2ImAm9",
+                    "_id": "ohMpZvuSDQnYDFJk",
                     "name": "Guard Drake",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4950,
                     "y": 2700,
                     "disposition": -1,
@@ -325,9 +506,12 @@
                         "ddbActorFlags": {
                             "id": 17265,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "name": "Guard Drake"
+                            "version": "999.0.0",
+                            "isLegacy": true,
+                            "flatAC": false,
+                            "name": "Guard Drake (Legacy)"
                         }
                     },
                     "actorLink": false,
@@ -336,20 +520,40 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "2A53NzXk2nL9vKbg",
+                        "name": "Guard Drake",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "abBKRE9So7ZnLEDK",
+                    "_id": "WKjaFaQVBJ8GlK4j",
                     "name": "Dragonclaw",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2600,
                     "y": 2450,
                     "disposition": -1,
@@ -357,8 +561,11 @@
                         "ddbActorFlags": {
                             "id": 17470,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Dragonclaw"
                         }
                     },
@@ -368,20 +575,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "NUkLsi7pgq7KWg8O",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "KYwMsKjb2pZQkxb8",
+                    "_id": "putWZSgYf4bqpZDK",
                     "name": "Dragonclaw",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2700,
                     "y": 2550,
                     "disposition": -1,
@@ -389,8 +615,11 @@
                         "ddbActorFlags": {
                             "id": 17470,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Dragonclaw"
                         }
                     },
@@ -400,20 +629,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "b3bOz7SUCqFAbBnm",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "idWZNnlojoAI8Pg7",
+                    "_id": "Pf6mump52zajVl1l",
                     "name": "Dragonclaw",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2400,
                     "y": 2500,
                     "disposition": -1,
@@ -421,8 +669,11 @@
                         "ddbActorFlags": {
                             "id": 17470,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Dragonclaw"
                         }
                     },
@@ -432,20 +683,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "Ml1FU4sXTjiPZ1Rl",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "TFP9dK3DmzKTKbqx",
+                    "_id": "ohOeFoTS9Ochye5h",
                     "name": "Dragonclaw",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2800,
                     "y": 2750,
                     "disposition": -1,
@@ -453,8 +723,11 @@
                         "ddbActorFlags": {
                             "id": 17470,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Dragonclaw"
                         }
                     },
@@ -464,26 +737,51 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "gBtTsrvAEkNUq9lO",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "p6sp78WbgWxdxdXj",
+                    "_id": "G4cGp05o4035DXhv",
                     "name": "Commoner",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2550,
                     "y": 2650,
                     "disposition": 0,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -493,27 +791,51 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "kYTcmoneWrv5tXdI",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "9Opb1Dj7kVN9Amz6",
+                    "_id": "a1ov7O8eqOw9n5NL",
                     "name": "Commoner",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2650,
                     "y": 2600,
                     "disposition": 0,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -523,27 +845,51 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "mPgqekXn0aiG56IN",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "Xbl8OrNo06TMHpK6",
+                    "_id": "AOueNeuO8zpwt6CM",
                     "name": "Commoner",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2500,
                     "y": 2600,
                     "disposition": 0,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -553,27 +899,51 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "WwM9tuNtS0AbYE9u",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "piQmIYvzIWgib1lU",
+                    "_id": "EKuxOr1204yRKnmN",
                     "name": "Commoner",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2550,
                     "y": 2550,
                     "disposition": 0,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -583,27 +953,51 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "DZ2nDhxmAOw4kFHQ",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "XuSUflbKOgevHFKb",
+                    "_id": "490Ke38qR0uqdDDh",
                     "name": "Commoner",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2700,
                     "y": 2800,
                     "disposition": 0,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -613,27 +1007,51 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "54saQLlTOCf6JL2d",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "wI59WwuOcUQx73kX",
+                    "_id": "n8chAVXasTA5DZ40",
                     "name": "Commoner",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2600,
                     "y": 2750,
                     "disposition": 0,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -643,27 +1061,51 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "xFdlpPPElbk4iUvj",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "dXZ1BI9D8kv3yfzn",
+                    "_id": "9BXmiA5LVldLbkP8",
                     "name": "Commoner",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2700,
                     "y": 2650,
                     "disposition": 0,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -673,27 +1115,51 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "c1DlFerPolEtrS0N",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "w1uzgcz9y8jYkDrM",
+                    "_id": "9uvqh0Gse83nVajt",
                     "name": "Commoner",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2500,
                     "y": 2750,
                     "disposition": 0,
                     "flags": {
                         "ddbActorFlags": {
                             "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Commoner"
                         }
                     },
@@ -703,21 +1169,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "JeKDJlGGNT53BBBF",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "OW7LfxcTojmypC81",
+                    "_id": "K1t8zhIw0CaX21GW",
                     "name": "Kobold",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 2250,
                     "y": 1450,
                     "disposition": -1,
@@ -725,8 +1209,11 @@
                         "ddbActorFlags": {
                             "id": 16939,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Kobold"
                         }
                     },
@@ -736,20 +1223,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "JkXxBoxWuFm8rwt9",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "onUqlMzrIx0Z56Hj",
+                    "_id": "7mbsy2NvPHWYjz6G",
                     "name": "Kobold",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 2300,
                     "y": 1450,
                     "disposition": -1,
@@ -757,8 +1263,11 @@
                         "ddbActorFlags": {
                             "id": 16939,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Kobold"
                         }
                     },
@@ -768,20 +1277,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "6z35QxO5XrQzRjrl",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "R87y9tSRO1SSgmJD",
+                    "_id": "FBiJlr0zBF8U9QaK",
                     "name": "Kobold",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 2300,
                     "y": 1500,
                     "disposition": -1,
@@ -789,8 +1317,11 @@
                         "ddbActorFlags": {
                             "id": 16939,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Kobold"
                         }
                     },
@@ -800,20 +1331,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "9cjR0hVDBGjj17uy",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "ikRhroH7OAG0ffMZ",
+                    "_id": "LIkOupBi3fR9mKZ2",
                     "name": "Kobold",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.8,
                     "x": 2250,
                     "y": 1500,
                     "disposition": -1,
@@ -821,8 +1371,11 @@
                         "ddbActorFlags": {
                             "id": 16939,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Kobold"
                         }
                     },
@@ -832,20 +1385,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "b0nOR3QVXzdqBJWl",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "RABxKwGTEz2Am8aW",
+                    "_id": "awkueTMhbIzmOMVz",
                     "name": "Cultist",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4800,
                     "y": 1900,
                     "disposition": -1,
@@ -853,8 +1425,11 @@
                         "ddbActorFlags": {
                             "id": 16835,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cultist"
                         }
                     },
@@ -864,20 +1439,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "bjrEW9xeeFDCuvkm",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "x7fQkKT8Zb1tSV5m",
+                    "_id": "JQqPv0CsoRe2E1vD",
                     "name": "Cultist",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4750,
                     "y": 1900,
                     "disposition": -1,
@@ -885,8 +1479,11 @@
                         "ddbActorFlags": {
                             "id": 16835,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cultist"
                         }
                     },
@@ -896,20 +1493,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "q8xt25x065zHUA7M",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "rjT0CtV6wa15wSIH",
+                    "_id": "44JKZloNLkpXx70X",
                     "name": "Cultist",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4750,
                     "y": 1950,
                     "disposition": -1,
@@ -917,8 +1533,11 @@
                         "ddbActorFlags": {
                             "id": 16835,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cultist"
                         }
                     },
@@ -928,20 +1547,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "YJ6dIkLHE3qjtdMt",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "uf8Q2oX2osrNID1M",
+                    "_id": "OxtJrZYpkSJbUy0b",
                     "name": "Cultist",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 4800,
                     "y": 1950,
                     "disposition": -1,
@@ -949,8 +1587,11 @@
                         "ddbActorFlags": {
                             "id": 16835,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cultist"
                         }
                     },
@@ -960,20 +1601,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "EGaoAAsczGg3boYN",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "2smaelxzhs9XwVAD",
+                    "_id": "cnwVo1KUUM8hGCbu",
                     "name": "Cultist",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2250,
                     "y": 1650,
                     "disposition": -1,
@@ -981,8 +1641,11 @@
                         "ddbActorFlags": {
                             "id": 16835,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cultist"
                         }
                     },
@@ -992,20 +1655,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "kOZ8NQ2BDxqF4Wxf",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "7dhlaiznYj0a5qna",
+                    "_id": "5UxibKXFUEXtT8mV",
                     "name": "Cultist",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2250,
                     "y": 1750,
                     "disposition": -1,
@@ -1013,8 +1695,11 @@
                         "ddbActorFlags": {
                             "id": 16835,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cultist"
                         }
                     },
@@ -1024,20 +1709,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "setwtaQU6aohd1vs",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "5wjts7MAJ0l2lJNW",
+                    "_id": "ybYGDuxxyki7WV3i",
                     "name": "Cultist",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 1950,
                     "y": 1800,
                     "disposition": -1,
@@ -1045,8 +1749,11 @@
                         "ddbActorFlags": {
                             "id": 16835,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cultist"
                         }
                     },
@@ -1056,20 +1763,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "opQRg7hJkcCfxm6p",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "922zibWONfDHOYKj",
+                    "_id": "PBznrPbiuUCibHyt",
                     "name": "Cultist",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2050,
                     "y": 1800,
                     "disposition": -1,
@@ -1077,8 +1803,11 @@
                         "ddbActorFlags": {
                             "id": 16835,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cultist"
                         }
                     },
@@ -1088,20 +1817,39 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "49IrMH99Gij9IyhG",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "pBdYUyPaW1cQkeFg",
+                    "_id": "GGUXjH7TuIcHCMdf",
                     "name": "Cultist",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2150,
                     "y": 1800,
                     "disposition": -1,
@@ -1109,8 +1857,11 @@
                         "ddbActorFlags": {
                             "id": 16835,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Cultist"
                         }
                     },
@@ -1120,42 +1871,69 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 0.25,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "USEy9Z12RJw0DiDK",
+                        "system": {},
+                        "flags": {}
                     },
-                    "actorData": {}
+                    "light": {
+                        "alpha": 0.25,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
             "originalLink": "ddb://image/hotdq/hotdq/map-2-1-raider-camp-player.jpg",
-            "foundryVersion": "0.8.9",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Raider Camp",
                     "bookCode": "hotdq",
                     "contentChunkId": "0ae8c597-7701-4752-9f67-7918d528da2d",
-                    "lastUpdate": "0.1.63",
+                    "lastUpdate": "0.3.34",
                     "notes": "0.0.14",
-                    "tokens": "0.0.14",
-                    "walls": "0.0.14",
-                    "lights": "0.0.14",
-                    "drawings": "0.0.14"
+                    "tokens": "1.1.0",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
+                    "foundry": "11.315"
                 }
             }
         },
         "stairways": [],
         "perfect-vision": {},
         "dynamic-illumination": [],
-        "ddbimporter": {}
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
     },
     "globalLight": true,
     "globalLightThreshold": null,
-    "grid": 50,
-    "gridDistance": 10,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 50,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 10,
+        "units": "ft"
+    },
     "height": 3538,
     "initial": {
         "x": 3485,
@@ -1164,724 +1942,1001 @@
     },
     "lights": [
         {
-            "t": "l",
             "x": 2725,
             "y": 1700,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 2900,
             "y": 1675,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 3100,
             "y": 1850,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 2900,
             "y": 1850,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 2300,
             "y": 1500,
             "rotation": 0,
-            "dim": 60,
-            "bright": 30,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4025,
             "y": 2075,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4225,
             "y": 2100,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4325,
             "y": 2300,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4075,
             "y": 2275,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4200,
             "y": 2425,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 3750,
             "y": 2525,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 3800,
             "y": 2650,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4000,
             "y": 2675,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4125,
             "y": 2850,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4050,
             "y": 2975,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4225,
             "y": 3025,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 3625,
             "y": 3325,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 3425,
             "y": 3400,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 3600,
             "y": 3575,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 3425,
             "y": 3575,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 3450,
             "y": 3700,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4050,
             "y": 3900,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4175,
             "y": 3800,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4150,
             "y": 3625,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4275,
             "y": 3525,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4450,
             "y": 3575,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4525,
             "y": 3725,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4825,
             "y": 2800,
             "rotation": 0,
-            "dim": 60,
-            "bright": 30,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 5425,
             "y": 3025,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 5425,
             "y": 3175,
             "rotation": 0,
-            "dim": 30,
-            "bright": 15,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 30,
+                "bright": 15,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         },
         {
-            "t": "l",
             "x": 4800,
             "y": 1950,
             "rotation": 0,
-            "dim": 60,
-            "bright": 30,
-            "angle": 0,
-            "tintColor": null,
-            "tintAlpha": 0.25,
-            "lightAnimation": {
-                "speed": 1,
-                "intensity": 1,
-                "type": "torch"
-            },
-            "darknessThreshold": 0,
-            "darkness": {
-                "min": 0.5,
-                "max": 1
-            },
             "hidden": false,
-            "flags": {}
+            "flags": {},
+            "config": {
+                "dim": 60,
+                "bright": 30,
+                "angle": 360,
+                "color": null,
+                "alpha": 0.25,
+                "animation": {
+                    "speed": 1,
+                    "intensity": 1,
+                    "type": "torch",
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0.5,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false
         }
     ],
     "name": "Raider Camp",
     "navName": "Raider Camp",
     "padding": 0.25,
-    "shiftX": 0,
-    "shiftY": 0,
     "tokenVision": true,
     "walls": [
         {
@@ -1891,13 +2946,20 @@
                 1312,
                 2300
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1906,13 +2968,20 @@
                 1575,
                 2825
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1921,13 +2990,20 @@
                 2175,
                 3087
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1936,13 +3012,20 @@
                 2837,
                 3125
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1951,13 +3034,20 @@
                 2925,
                 3150
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1966,13 +3056,20 @@
                 2987,
                 3225
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1981,13 +3078,20 @@
                 3062,
                 3937
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -1996,13 +3100,20 @@
                 3412,
                 4175
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2011,13 +3122,20 @@
                 4450,
                 4187
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2026,13 +3144,20 @@
                 5275,
                 3800
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2041,13 +3166,20 @@
                 5700,
                 3237
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2056,13 +3188,20 @@
                 5587,
                 2212
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2071,13 +3210,20 @@
                 5150,
                 1962
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2086,13 +3232,20 @@
                 5050,
                 1775
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2101,13 +3254,20 @@
                 5387,
                 1425
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2116,13 +3276,20 @@
                 4825,
                 1137
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2131,13 +3298,20 @@
                 3612,
                 1437
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2146,13 +3320,20 @@
                 3150,
                 1125
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -2161,13 +3342,20 @@
                 2487,
                 950
             ],
-            "move": 1,
-            "sense": 1,
-            "sound": 1,
+            "move": 20,
+            "sound": 20,
             "dir": 1,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "sight": 20,
+            "light": 20,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",

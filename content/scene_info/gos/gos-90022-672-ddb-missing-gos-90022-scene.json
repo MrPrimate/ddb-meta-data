@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -58,
+        "offsetY": 36,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [],
@@ -18,12 +26,25 @@
                             "ddbId": 2120,
                             "bookCode": "gos",
                             "slug": "the-sinister-secret-of-saltmarsh#TheSeaGhost",
+                            "linkName": "Chapter 2: The Sinister Secret of Saltmarsh",
+                            "slugLink": "16Bilge",
+                            "duplicate": false,
                             "contentChunkId": "d6a31896-ea6b-463e-9167-371687d90176",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 672,
-                            "linkId": "DRfpRvuSqm6vfdQp"
+                            "linkId": "tfHIulrdEreZGlXM",
+                            "labelName": "16. Bilge"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/16.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
@@ -32,18 +53,16 @@
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "T1WMUikAidRbYGKf",
+                    "_id": "b5VcpxH0MsLXtrVZ",
                     "name": "Swarm of Rot Grubs",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2300,
                     "y": 3200,
                     "disposition": -1,
@@ -51,10 +70,11 @@
                         "ddbActorFlags": {
                             "id": 17323,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": true,
+                            "flatAC": false,
                             "name": "Swarm of Rot Grubs"
                         }
                     },
@@ -64,15 +84,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "v8cpbC0mg5s6wZu1",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "kw6etuyDIzYwhZqk",
+                    "_id": "V4Wd5AV1znJTzpca",
                     "name": "Swarm of Rot Grubs",
                     "width": 1,
                     "height": 1,
-                    "scale": 1,
                     "x": 2400,
                     "y": 3300,
                     "disposition": -1,
@@ -80,10 +124,11 @@
                         "ddbActorFlags": {
                             "id": 17323,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": true,
+                            "flatAC": false,
                             "name": "Swarm of Rot Grubs"
                         }
                     },
@@ -93,15 +138,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "V0mRU7o3Uvl0uZrn",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "juSAtQPNceU7bqn1",
+                    "_id": "MYZHkleh5P3aYBev",
                     "name": "Rat",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 2900,
                     "y": 3100,
                     "disposition": -1,
@@ -109,10 +178,11 @@
                         "ddbActorFlags": {
                             "id": 16991,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Rat"
                         }
                     },
@@ -122,15 +192,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "MmQghAQpz25RTHkB",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "ySTKy7og84mUUZ2u",
+                    "_id": "EZoVNuldLRyQOMP7",
                     "name": "Rat",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 2100,
                     "y": 3100,
                     "disposition": -1,
@@ -138,10 +232,11 @@
                         "ddbActorFlags": {
                             "id": 16991,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Rat"
                         }
                     },
@@ -151,15 +246,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "jjyEVVjYGz5wkzHX",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "4Hg4078xUIJKIYnm",
+                    "_id": "kYOTbNgOjqdhF6ne",
                     "name": "Rat",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 1700,
                     "y": 3300,
                     "disposition": -1,
@@ -167,10 +286,11 @@
                         "ddbActorFlags": {
                             "id": 16991,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Rat"
                         }
                     },
@@ -180,15 +300,39 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "HVXYsMuElE3o3oBB",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 },
                 {
-                    "_id": "SjVo8ZF8kIfeNzqN",
+                    "_id": "WhO9gBj87tCGFGyA",
                     "name": "Rat",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 1900,
                     "y": 3400,
                     "disposition": -1,
@@ -196,10 +340,11 @@
                         "ddbActorFlags": {
                             "id": 16991,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Rat"
                         }
                     },
@@ -209,9 +354,9 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
                     "actorData": {
-                        "data": {
+                        "_id": "A74InV03XycmuQfG",
+                        "system": {
                             "details": {
                                 "cr": "0"
                             },
@@ -221,15 +366,36 @@
                                 }
                             }
                         },
-                        "oldHpVal": 1
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
                     }
                 },
                 {
-                    "_id": "oMcQOUEWNJD19Wmo",
+                    "_id": "lOlNgJxwBKM9uRst",
                     "name": "Rat",
                     "width": 1,
                     "height": 1,
-                    "scale": 0.5,
                     "x": 1800,
                     "y": 3100,
                     "disposition": -1,
@@ -237,10 +403,11 @@
                         "ddbActorFlags": {
                             "id": 16991,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
-                            "flatAC": true,
-                            "version": "2.7.7",
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Rat"
                         }
                     },
@@ -250,12 +417,37 @@
                     },
                     "elevation": 0,
                     "hidden": false,
-                    "tint": null,
-                    "actorData": {}
+                    "actorData": {
+                        "_id": "a4DkxAToxwYKT3kF",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
             "originalLink": "ddb://image/gos/03-pc.png",
-            "foundryVersion": "9.242",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Sea Ghost (Bilge)",
@@ -264,9 +456,9 @@
                     "lastUpdate": "0.3.27",
                     "notes": "0.1.50",
                     "tokens": "0.1.50",
-                    "walls": "0.3.27",
-                    "lights": "0.3.27",
-                    "drawings": "0.3.27",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.242"
                 }
             }
@@ -289,15 +481,19 @@
         "perfect-vision": {},
         "dynamic-illumination": [],
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 3438,
     "initial": {
         "x": 2459,
@@ -305,19 +501,17 @@
         "scale": 1
     },
     "lights": [],
-    "name": "Sea Ghost (Bilge)",
-    "navName": "Sea Ghost B",
+    "name": "Sea Ghost (Main Deck)",
+    "navName": "Sea Ghost (Main Deck)",
     "padding": 0.25,
-    "shiftX": -58,
-    "shiftY": 36,
     "tokenVision": true,
     "walls": [
         {
             "c": [
-                2423.5,
-                3306.5,
-                2414.2738636073764,
-                3284.2261363926236
+                2424,
+                3307,
+                2414,
+                3284
             ],
             "light": 10,
             "move": 20,
@@ -326,12 +520,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2414.2738636073764,
-                3284.2261363926236,
+                2414,
+                3284,
                 2392,
                 3275
             ],
@@ -342,14 +542,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 2392,
                 3275,
-                2369.7261363926236,
-                3284.2261363926236
+                2370,
+                3284
             ],
             "light": 10,
             "move": 20,
@@ -358,14 +564,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2369.7261363926236,
-                3284.2261363926236,
-                2360.5,
-                3306.5
+                2370,
+                3284,
+                2361,
+                3307
             ],
             "light": 10,
             "move": 20,
@@ -374,14 +586,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2360.5,
-                3306.5,
-                2369.7261363926236,
-                3328.7738636073764
+                2361,
+                3307,
+                2370,
+                3329
             ],
             "light": 10,
             "move": 20,
@@ -390,12 +608,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2369.7261363926236,
-                3328.7738636073764,
+                2370,
+                3329,
                 2392,
                 3338
             ],
@@ -406,14 +630,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 2392,
                 3338,
-                2414.2738636073764,
-                3328.7738636073764
+                2414,
+                3329
             ],
             "light": 10,
             "move": 20,
@@ -422,14 +652,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                2414.2738636073764,
-                3328.7738636073764,
-                2423.5,
-                3306.5
+                2414,
+                3329,
+                2424,
+                3307
             ],
             "light": 10,
             "move": 20,
@@ -438,7 +674,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -454,7 +696,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -470,7 +718,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -486,7 +740,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -502,7 +762,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
@@ -518,14 +784,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 1637,
                 3300,
-                1643.423,
-                3254.7780000000002
+                1643,
+                3255
             ],
             "light": 20,
             "move": 20,
@@ -534,14 +806,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1643.423,
-                3254.7780000000002,
-                1654.5440000000006,
-                3216.5040000000004
+                1643,
+                3255,
+                1655,
+                3217
             ],
             "light": 20,
             "move": 20,
@@ -550,14 +828,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1654.5440000000006,
-                3216.5040000000004,
-                1669.8409999999997,
-                3184.5659999999993
+                1655,
+                3217,
+                1670,
+                3185
             ],
             "light": 20,
             "move": 20,
@@ -566,14 +850,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1669.8409999999997,
-                3184.5659999999993,
-                1688.792,
-                3158.352
+                1670,
+                3185,
+                1689,
+                3158
             ],
             "light": 20,
             "move": 20,
@@ -582,14 +872,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1688.792,
-                3158.352,
-                1710.875,
-                3137.25
+                1689,
+                3158,
+                1711,
+                3137
             ],
             "light": 20,
             "move": 20,
@@ -598,14 +894,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1710.875,
-                3137.25,
-                1735.5679999999998,
-                3120.6479999999997
+                1711,
+                3137,
+                1736,
+                3121
             ],
             "light": 20,
             "move": 20,
@@ -614,14 +916,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1735.5679999999998,
-                3120.6479999999997,
-                1762.3489999999997,
-                3107.9339999999993
+                1736,
+                3121,
+                1762,
+                3108
             ],
             "light": 20,
             "move": 20,
@@ -630,14 +938,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1762.3489999999997,
-                3107.9339999999993,
-                1790.6960000000001,
-                3098.496
+                1762,
+                3108,
+                1791,
+                3098
             ],
             "light": 20,
             "move": 20,
@@ -646,14 +960,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1790.6960000000001,
-                3098.496,
-                1820.087,
-                3091.7219999999998
+                1791,
+                3098,
+                1820,
+                3092
             ],
             "light": 20,
             "move": 20,
@@ -662,12 +982,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1820.087,
-                3091.7219999999998,
+                1820,
+                3092,
                 1850,
                 3087
             ],
@@ -678,14 +1004,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 1850,
                 3512,
-                1819.736,
-                3510.114000000001
+                1820,
+                3510
             ],
             "light": 20,
             "move": 20,
@@ -694,14 +1026,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1819.736,
-                3510.114000000001,
-                1789.4480000000005,
-                3504.352000000001
+                1820,
+                3510,
+                1789,
+                3504
             ],
             "light": 20,
             "move": 20,
@@ -710,14 +1048,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1789.4480000000005,
-                3504.352000000001,
-                1759.8919999999998,
-                3494.5579999999995
+                1789,
+                3504,
+                1760,
+                3495
             ],
             "light": 20,
             "move": 20,
@@ -726,14 +1070,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1759.8919999999998,
-                3494.5579999999995,
-                1731.824,
-                3480.576
+                1760,
+                3495,
+                1732,
+                3481
             ],
             "light": 20,
             "move": 20,
@@ -742,14 +1092,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1731.824,
-                3480.576,
+                1732,
+                3481,
                 1706,
-                3462.25
+                3462
             ],
             "light": 20,
             "move": 20,
@@ -758,14 +1114,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
                 1706,
-                3462.25,
-                1683.176,
-                3439.424
+                3462,
+                1683,
+                3439
             ],
             "light": 20,
             "move": 20,
@@ -774,14 +1136,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1683.176,
-                3439.424,
-                1664.1080000000002,
-                3411.942
+                1683,
+                3439,
+                1664,
+                3412
             ],
             "light": 20,
             "move": 20,
@@ -790,14 +1158,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1664.1080000000002,
-                3411.942,
-                1649.5520000000001,
-                3379.648
+                1664,
+                3412,
+                1650,
+                3380
             ],
             "light": 20,
             "move": 20,
@@ -806,14 +1180,20 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1649.5520000000001,
-                3379.648,
-                1640.264,
-                3342.3860000000004
+                1650,
+                3380,
+                1640,
+                3342
             ],
             "light": 20,
             "move": 20,
@@ -822,12 +1202,18 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         },
         {
             "c": [
-                1640.264,
-                3342.3860000000004,
+                1640,
+                3342,
                 1637,
                 3300
             ],
@@ -838,7 +1224,13 @@
             "dir": 0,
             "door": 0,
             "ds": 0,
-            "flags": {}
+            "flags": {},
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            }
         }
     ],
     "weather": "",

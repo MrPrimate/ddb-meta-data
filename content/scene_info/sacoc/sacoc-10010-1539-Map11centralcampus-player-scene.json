@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 0,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -12,7 +20,7 @@
             "notes": [],
             "tokens": [],
             "originalLink": "ddb://image/sacoc/map-1.1-central-campus-player.jpg",
-            "foundryVersion": "9.238",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 1.1: Central Campus",
@@ -21,9 +29,9 @@
                     "lastUpdate": "0.1.45",
                     "notes": "0.1.45",
                     "tokens": "0.1.45",
-                    "walls": "0.1.45",
-                    "lights": "0.1.45",
-                    "drawings": "0.1.45",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "9.238"
                 }
             }
@@ -32,15 +40,19 @@
         "perfect-vision": {},
         "dynamic-illumination": {},
         "ddbimporter": {
-            "version": "2.7.7"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 10,
-    "gridType": 4,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 4,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 10,
+        "units": "ft"
+    },
     "height": 11603,
     "initial": {
         "x": 8676,
@@ -51,8 +63,6 @@
     "name": "Map 1.1: Central Campus",
     "navName": "Central Campus",
     "padding": 0.25,
-    "shiftX": 0,
-    "shiftY": 0,
     "tokenVision": true,
     "walls": [],
     "weather": "",

@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 8,
+        "offsetY": 0,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#302b65",
     "darkness": 0,
     "drawings": [],
@@ -11,19 +19,19 @@
             "contentChunkId": "ddb-missing-twbtw-90022",
             "notes": [],
             "tokens": [],
-            "foundryVersion": "9.255",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "The Domain of Prismeer",
                     "bookCode": "twbtw",
                     "contentChunkId": "ddb-missing-twbtw-90022",
-                    "lastUpdate": "0.2.12",
+                    "lastUpdate": "0.3.21",
                     "notes": "0.1.17",
                     "tokens": "0.1.17",
                     "walls": "0.1.17",
                     "lights": "0.1.17",
                     "drawings": "0.1.17",
-                    "foundry": "9.255"
+                    "foundry": "11.315"
                 }
             }
         },
@@ -31,15 +39,19 @@
         "perfect-vision": {},
         "dynamic-illumination": [],
         "ddbimporter": {
-            "version": "2.9.14"
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 100,
-    "gridDistance": 5,
-    "gridType": 4,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 4,
+        "size": 100,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 8277,
     "initial": {
         "x": 9843,
@@ -50,8 +62,6 @@
     "name": "The Domain of Prismeer",
     "navName": "The Domain of Prismeer",
     "padding": 0.25,
-    "shiftX": 8,
-    "shiftY": 0,
     "tokenVision": false,
     "walls": [],
     "weather": "",

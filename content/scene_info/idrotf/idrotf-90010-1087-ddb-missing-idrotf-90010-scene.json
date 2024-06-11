@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": 40,
+        "offsetY": 12,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -11,18 +19,18 @@
             "contentChunkId": "ddb-missing-idrotf-90010",
             "notes": [],
             "tokens": [],
-            "foundryVersion": "0.8.9",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Poster Map",
                     "bookCode": "idrotf",
                     "contentChunkId": "ddb-missing-idrotf-90010",
-                    "lastUpdate": "0.1.40",
+                    "lastUpdate": "0.3.18",
                     "notes": "0.0.14",
                     "tokens": "0.0.14",
-                    "walls": "0.3.18",
-                    "lights": "0.3.18",
-                    "drawings": "0.3.18"
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0"
                 }
             }
         },
@@ -34,26 +42,30 @@
             "saturation": null
         },
         "dynamic-illumination": [],
-        "ddbimporter": {}
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 50,
-    "gridDistance": 0.5,
-    "gridType": 2,
-    "gridUnits": "mile",
+    "grid": {
+        "type": 2,
+        "size": 50,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 0.5,
+        "units": "mile"
+    },
     "height": 5838,
     "initial": {
         "x": 4199,
         "y": 2995,
-        "scale": 0.19
+        "scale": 0.25
     },
     "lights": [],
     "name": "Poster Map",
     "navName": "Poster Map",
     "padding": 0,
-    "shiftX": 40,
-    "shiftY": 12,
     "tokenVision": false,
     "walls": [],
     "weather": "snow",

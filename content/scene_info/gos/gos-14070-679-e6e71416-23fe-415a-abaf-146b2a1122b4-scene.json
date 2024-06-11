@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -43,
+        "offsetY": 11,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 0,
     "drawings": [],
@@ -18,21 +26,33 @@
                             "ddbId": 2076,
                             "bookCode": "gos",
                             "slug": "the-styes#Part5TharizdunsProgeny",
+                            "linkName": "Chapter 8: The Styes",
+                            "slugLink": "L1RuinedSpire",
+                            "duplicate": false,
                             "contentChunkId": "8dfe7834-8de2-41ec-8052-17f09d043f31",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 679,
-                            "linkId": "xmAdZfJmItXZIAgH"
+                            "linkId": "96bd0s4gTTySMumd",
+                            "labelName": "L01. Ruined Spire"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/L1.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 1386.5,
-                            "y": 1445.5
+                            "x": 1387,
+                            "y": 1446
                         }
                     ],
                     "iconSize": 44,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -44,21 +64,33 @@
                             "ddbId": 2085,
                             "bookCode": "gos",
                             "slug": "the-styes#Part5TharizdunsProgeny",
+                            "linkName": "Chapter 8: The Styes",
+                            "slugLink": "L2FloodedTemple",
+                            "duplicate": false,
                             "contentChunkId": "e21af47b-c177-43ab-ad76-f76fff544dff",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 679,
-                            "linkId": "Ex1vbv8ukv7rVuPx"
+                            "linkId": "ZI5uVazPBkDRsmRW",
+                            "labelName": "L02. Flooded Temple"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/L2.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 1563.5,
-                            "y": 1091.5
+                            "x": 1564,
+                            "y": 1092
                         }
                     ],
                     "iconSize": 44,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 },
@@ -70,27 +102,40 @@
                             "ddbId": 2094,
                             "bookCode": "gos",
                             "slug": "the-styes#Part5TharizdunsProgeny",
+                            "linkName": "Chapter 8: The Styes",
+                            "slugLink": "L3LandgravesPit",
+                            "duplicate": false,
                             "contentChunkId": "34dfefff-02f5-45ee-a8e5-7e0ac7d13502",
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 679,
-                            "linkId": "78CUx4gMiUO5FwlO"
+                            "linkId": "cZaQh0XZSxenzPLI",
+                            "labelName": "L03. Landgrave’s Pit"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/L3.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 1150.5,
-                            "y": 1032.5
+                            "x": 1151,
+                            "y": 1033
                         }
                     ],
                     "iconSize": 44,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [],
-            "foundryVersion": "0.8.9",
+            "originalLink": "ddb://image/gos/12-pc.png",
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "Landgrave's Folly",
@@ -99,9 +144,9 @@
                     "lastUpdate": "0.3.27",
                     "notes": "0.3.27",
                     "tokens": "0.3.27",
-                    "walls": "0.3.27",
-                    "lights": "0.3.27",
-                    "drawings": "0.3.27",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0",
                     "foundry": "0.8.9"
                 }
             }
@@ -109,21 +154,26 @@
         "stairways": [],
         "perfect-vision": {},
         "dynamic-illumination": [],
-        "ddbimporter": {}
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 59,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 59,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 1500,
-    "initial": null,
+    "initial": {},
     "lights": [],
     "name": "Landgrave's Folly",
     "navName": "Landgrave's Folly",
-    "shiftX": -43,
-    "shiftY": 11,
+    "padding": 0.25,
     "tokenVision": true,
     "walls": [],
     "weather": "",

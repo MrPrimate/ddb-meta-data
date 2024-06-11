@@ -1,0 +1,798 @@
+{
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -9,
+        "offsetY": -16,
+        "rotation": 0,
+        "tint": null
+    },
+    "backgroundColor": "#333333",
+    "darkness": 0.6,
+    "drawings": [],
+    "flags": {
+        "ddb": {
+            "bookCode": "idrotf",
+            "ddbId": 10017,
+            "cobaltId": null,
+            "parentId": 1069,
+            "contentChunkId": "MapMap11bremen-player",
+            "notes": [
+                {
+                    "label": "Buried Treasures",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2023,
+                            "bookCode": "idrotf",
+                            "slug": "bremen#LocationsinBremen",
+                            "linkName": "Bremen",
+                            "slugLink": "BuriedTreasures",
+                            "duplicate": false,
+                            "contentChunkId": "dc54130c-2784-4d22-91f6-7cd5d24f26c7",
+                            "img": false,
+                            "note": true,
+                            "parentId": 1069,
+                            "linkId": "BqqTP2M4napLcAzI",
+                            "labelName": "Buried Treasures"
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 1088,
+                            "y": 3600
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "Five-Tavern Center",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 2028,
+                            "bookCode": "idrotf",
+                            "slug": "bremen#LocationsinBremen",
+                            "linkName": "Bremen",
+                            "slugLink": "FiveTavernCenter",
+                            "duplicate": false,
+                            "contentChunkId": "1ccc4a46-b1b1-4195-8edc-5b430181fbfc",
+                            "img": false,
+                            "note": true,
+                            "parentId": 1069,
+                            "linkId": "Q3tzB2fovYrBCGcQ",
+                            "labelName": "Five-Tavern Center"
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 1725,
+                            "y": 2513
+                        }
+                    ],
+                    "iconSize": 40,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                }
+            ],
+            "tokens": [],
+            "originalLink": "ddb://image/idrotf/map-1.1-bremen-player.jpg",
+            "foundryVersion": "11.315",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 1.1: Bremen",
+                    "bookCode": "idrotf",
+                    "contentChunkId": "MapMap11bremen-player",
+                    "lastUpdate": "0.3.18",
+                    "notes": "0.1.22",
+                    "tokens": "0.0.14",
+                    "walls": "1.1.0",
+                    "lights": "1.1.0",
+                    "drawings": "1.1.0"
+                }
+            }
+        },
+        "stairways": [],
+        "perfect-vision": {},
+        "dynamic-illumination": [],
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "globalLight": true,
+    "globalLightThreshold": null,
+    "grid": {
+        "type": 1,
+        "size": 75,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 50,
+        "units": "ft"
+    },
+    "height": 3690,
+    "initial": {
+        "x": 2010,
+        "y": 2494,
+        "scale": 0.36
+    },
+    "lights": [
+        {
+            "rotation": 324,
+            "x": 1090,
+            "y": 3723,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 324,
+            "x": 1224,
+            "y": 3652,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 309,
+            "x": 1570,
+            "y": 2468,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 213,
+            "x": 1597,
+            "y": 2550,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 159,
+            "x": 1661,
+            "y": 2607,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 270,
+            "x": 1727,
+            "y": 2345,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 279,
+            "x": 1919,
+            "y": 2355,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 282,
+            "x": 2190,
+            "y": 2178,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 180,
+            "x": 1341,
+            "y": 2030,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 330,
+            "x": 1906,
+            "y": 3185,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 90,
+            "x": 2323,
+            "y": 2696,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 105,
+            "x": 2500,
+            "y": 2326,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 102,
+            "x": 2551,
+            "y": 2179,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 270,
+            "x": 1864,
+            "y": 2113,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 270,
+            "x": 1229,
+            "y": 2909,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 33,
+            "x": 1914,
+            "y": 2629,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 33,
+            "x": 1971,
+            "y": 2681,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 330,
+            "x": 1532,
+            "y": 3494,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 291,
+            "x": 1215,
+            "y": 2547,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 318,
+            "x": 1523,
+            "y": 2915,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        },
+        {
+            "rotation": 357,
+            "x": 1004,
+            "y": 3483,
+            "hidden": false,
+            "config": {
+                "dim": 50,
+                "bright": 25,
+                "angle": 180,
+                "alpha": 0.25,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0
+            },
+            "walls": true,
+            "vision": false,
+            "flags": {}
+        }
+    ],
+    "name": "Map 1.1: Bremen",
+    "navName": "Bremen",
+    "padding": 0.25,
+    "tokenVision": false,
+    "walls": [],
+    "weather": "",
+    "width": 2716
+}

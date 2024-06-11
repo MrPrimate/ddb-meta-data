@@ -1,4 +1,12 @@
 {
+    "background": {
+        "scaleX": 1,
+        "scaleY": 1,
+        "offsetX": -49,
+        "offsetY": -3,
+        "rotation": 0,
+        "tint": null
+    },
     "backgroundColor": "#999999",
     "darkness": 1,
     "drawings": [],
@@ -18,35 +26,43 @@
                             "ddbId": 2120,
                             "bookCode": "ai",
                             "slug": "right-place-wrong-heroes#TheFissure",
+                            "linkName": "Episode 1: Right Place, Wrong Heroes",
+                            "slugLink": "8Tentacle",
+                            "duplicate": false,
                             "contentChunkId": "aac41f4e-053a-4f6c-b2cf-f2fda8bb1b1b",
-                            "userData": {
-                                "userDisplayName": "Pariah_Zero"
-                            },
-                            "note": true,
                             "img": false,
+                            "note": true,
                             "parentId": 710,
-                            "linkId": "xEJdl5a2FLomQ32v"
+                            "linkId": "5QKcz1xklMHDszxq",
+                            "labelName": "08. Tentacle"
                         }
+                    },
+                    "texture": {
+                        "src": "ddb-images/adventures/misc/assets/icons/8.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
                     },
                     "positions": [
                         {
-                            "x": 8927.29646381579,
-                            "y": 2804.636101973684
+                            "x": 8927,
+                            "y": 2805
                         }
                     ],
                     "iconSize": 40,
-                    "iconTint": null,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "zBuXLYqirZZOyKxh",
+                    "_id": "ruv0KrKgB1UpDuuR",
                     "name": "Enormous Tentacle",
                     "width": 3,
                     "height": 3,
-                    "scale": 1,
                     "x": 8755,
                     "y": 2635,
                     "disposition": -1,
@@ -54,8 +70,11 @@
                         "ddbActorFlags": {
                             "id": 360895,
                             "entityTypeId": 779871897,
-                            "creatureGroup": null,
+                            "creatureGroupId": null,
                             "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "flatAC": false,
                             "name": "Enormous Tentacle"
                         }
                     },
@@ -65,25 +84,45 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "lightAlpha": 1,
-                    "lightAngle": 360,
-                    "lightAnimation": {
-                        "speed": 5,
-                        "intensity": 5
+                    "actorData": {
+                        "_id": "hIS5Hu28qrmv7VjV",
+                        "system": {},
+                        "flags": {}
                     },
-                    "tint": null,
-                    "actorData": {}
+                    "light": {
+                        "alpha": 1,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "speed": 5,
+                            "intensity": 5,
+                            "type": null,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
                 }
             ],
+            "foundryVersion": "11.315",
             "versions": {
                 "ddbMetaData": {
                     "name": "The Fissure 2 Area 08",
                     "bookCode": "ai",
                     "contentChunkId": "ddb-missing-ai-103034",
                     "lastUpdate": "0.0.14",
-                    "notes": "0.0.14",
-                    "tokens": "0.0.14",
-                    "walls": "0.0.14",
+                    "notes": "1.1.0",
+                    "tokens": "1.1.0",
+                    "walls": "1.1.0",
                     "lights": "0.0.14",
                     "drawings": "0.0.14"
                 }
@@ -100,14 +139,21 @@
         "dynamic-illumination": {
             "_animating": false,
             "darknessColor": "#110033"
+        },
+        "ddbimporter": {
+            "version": "999.0.0"
         }
     },
     "globalLight": false,
     "globalLightThreshold": null,
-    "grid": 85,
-    "gridDistance": 5,
-    "gridType": 1,
-    "gridUnits": "ft",
+    "grid": {
+        "type": 1,
+        "size": 85,
+        "color": "#000000",
+        "alpha": 0.2,
+        "distance": 5,
+        "units": "ft"
+    },
     "height": 5500,
     "initial": {
         "x": 9051,
@@ -115,10 +161,9 @@
         "scale": 0.63
     },
     "lights": [],
-    "name": "The Fissure 2 Area 08",
+    "name": "The Fissure 2",
     "navName": "The Fissure 2",
-    "shiftX": -49,
-    "shiftY": -3,
+    "padding": 0.25,
     "tokenVision": true,
     "walls": [
         {
@@ -130,8 +175,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -142,8 +197,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -154,8 +219,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -166,8 +241,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -178,8 +263,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -190,8 +285,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -202,8 +307,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -214,8 +329,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -226,8 +351,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -238,8 +373,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -250,8 +395,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -262,8 +417,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -274,8 +439,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -286,8 +461,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -298,8 +483,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -310,8 +505,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -322,8 +527,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -334,8 +549,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -346,8 +571,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         },
         {
             "c": [
@@ -358,8 +593,18 @@
             ],
             "door": 0,
             "ds": 0,
-            "move": 1,
-            "sense": 1
+            "move": 20,
+            "sight": 20,
+            "light": 20,
+            "sound": 20,
+            "dir": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
         }
     ],
     "weather": "",
