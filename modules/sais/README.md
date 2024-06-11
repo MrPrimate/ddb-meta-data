@@ -8,7 +8,7 @@ This set contains everything a Dungeon Master needs to run adventures and campai
 
 - **New space backgrounds and races** for player characters to use in the D&D Beyond character builder
 
-- **New spells**¨NBSP;**and magic items** for your party
+- **New spells** **and magic items** for your party
 
 - **60+ new creatures** including astral elves, cosmic horrors, lunar and solar dragons, murder comets, and space clowns to use in encounters
 
