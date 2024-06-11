@@ -10,8 +10,6 @@ Welcome to Humblewood, a campaign setting where you get to adventure as birds an
 
 ---
 
-This purchase will unlock the contents of this sourcebook for use with D&D Beyond upon release, including the book in digital format in the game compendium and access options from the book in the searchable listings, Encounters tool, Maps tool, and digital character sheet.
-
 ## License
 
 This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

@@ -1,8 +1,6 @@
 # Keys from the Golden Vault
 
-<div><h3>More Purchase Options for this Product:</h3><ul><li><div><div><a>¨NBSP;<img> </a></div><div><div>D&amp;D Keys from the Golden Vault</div><div><div><a> <span>View Details</span> <i>External link</i></a></div></div></div></div></li></ul><p>Already have a redemption code? <a>Click here to redeem.</a></p></div>
-
-<span><strong>Preorder Keys from the Golden Keys to instantly unlock the Glided Glitz&nbsp;dice set and character sheet frames &amp; backdrops based on the book</strong></span>
+**Preorder Keys from the Golden Keys to instantly unlock the Glided Glitz dice set and character sheet frames & backdrops based on the book**
 
 A collection of 13 heist adventures for players level 1-11
 
@@ -14,11 +12,11 @@ Some jobs require more than simply wielding a sword or slinging a spell. Whether
 
 • **Detailed information, in-world maps, and advice for Dungeon Masters** to help run adventures with multiple paths to success**<br>
 
-<span>More collections of D&amp;D adventures:</span>
+More collections of D&D adventures:
 
-<span>- <a>Candlekeep Mysteries</a></span>
+- <a>Candlekeep Mysteries</a>
 
-<span>-&nbsp;<span><a>Journeys through the Radiant Citadel</a></span></span>
+- <a>Journeys through the Radiant Citadel</a>
 
 ---
 
