@@ -12,9 +12,9 @@ Some jobs require more than simply wielding a sword or slinging a spell. Whether
 
 More collections of D&D adventures:
 
-- <a>Candlekeep Mysteries</a>
+- Candlekeep Mysteries
 
-- <a>Journeys through the Radiant Citadel</a>
+- Journeys through the Radiant Citadel
 
 ---
 

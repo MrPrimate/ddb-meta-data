@@ -12,9 +12,9 @@ The forces of Tiamat, Queen of Evil Dragons, bring war to the Forgotten Realms. 
 
 Continue adventures in the Forgotten Realms
 
-- <a>Icewind Dale: Rime of the Frostmaiden</a>
+- Icewind Dale: Rime of the Frostmaiden
 
-- <a>Baldur’s Gate: Descent into Avernus</a>
+- Baldur’s Gate: Descent into Avernus
 
 ---
 

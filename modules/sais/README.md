@@ -30,11 +30,10 @@ This 3-book set comprises:
 
 Complete the core Dungeons & Dragons collection:<br>
 
-\- <a>Tasha's Cauldron of Everything</a>
-
-- <a>Dungeon Master's Guide</a>
-- <a>Monster Manual</a>
--<a>Xanathar's Guide To Everything</a>
+- Tasha's Cauldron of Everything
+- Dungeon Master's Guide
+- Monster Manual
+- Xanathar's Guide To Everything
 
 ---
 
