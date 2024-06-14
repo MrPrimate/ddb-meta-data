@@ -9,7 +9,6 @@ The city of Drakkenheim was destroyed by an Eldritch-fueled calamity… but it d
 - Explore **57****detailed maps** and battle Drakkenheim’s forces with **D&D Beyond Maps**
 - Frighten your players and build on your horror-fantasy campaign with Lairs of Etharis
 
-
 ---
 
 ## License
