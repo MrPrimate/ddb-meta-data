@@ -8,14 +8,7 @@ The forces of Tiamat, Queen of Evil Dragons, bring war to the Forgotten Realms. 
 
 • Wield 13** new magical items** against the forces of Tiamat with a click of your character sheet<br>
 
-• A good beginner adventure for Dungeon Masters including **rollable tables**, **detailed maps**, and **unique NPCs****<br>
-
-Continue adventures in the Forgotten Realms
-
-- Icewind Dale: Rime of the Frostmaiden
-
-- Baldur’s Gate: Descent into Avernus
-
+• A good beginner adventure for Dungeon Masters including **rollable tables**, **detailed maps**, and **unique NPCs**
 ---
 
 ## License
