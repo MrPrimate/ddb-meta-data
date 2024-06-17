@@ -1,87 +1,89 @@
 {
-    "id": "twbtw",
-    "name": "twbtw",
-    "title": "The Wild Beyond the Witchlight",
-    "description": "<blockquote>Something wicked this way comes in a Feywild Adventure for Dungeons &amp; Dragons fifth edition for players levels 1-8</blockquote><p>Once every eight years, the fantastic <strong>Witchlight Carnival</strong> touches down on your world, bringing joy to one settlement after the next. Its owners, Mister Witch and Mister Light, know how to put on a good show. But there's more to this magical extravaganza than meets the eye!</p><p>The carnival is a gateway to a fantastic <strong>Feywild</strong> domain unlike anything found on the Material Plane. Time has not been kind to this realm, however, and dark days lie ahead unless someone can thwart the dastardly schemes of the Hourglass Coven.</p>",
-    "authors": [
-        {
-            "name": "MrPrimate",
-            "email": "jack@mrprimate.co.uk",
-            "url": "https://mrprimate.co.uk",
-            "patreon": "https://www.patreon.com/MrPrimate",
-            "discord": "https://discord.gg/WzPuRuDJVP"
-        },
-        {
-            "name": "kid2407 / Tobias",
-            "discord": "kid2407 / Tobias#6450"
-        },
-        {
-            "name": "JacksonBockus",
-            "discord": "JacksonBockus#1378"
-        },
-        {
-            "name": "Pariah Zero",
-            "discord": "Pariah Zero#9919"
-        },
-        {
-            "name": "The Forge",
-            "url": "https://forge-vtt.com",
-            "email": "contact@forge-vtt.com",
-            "discord": "https://forge-vtt.com/discord",
-            "reddit": "https://www.reddit.com/r/ForgeVTT",
-            "twitter": "@ForgeVTT"
-        }
-    ],
-    "url": "https://www.dndbeyond.com/sources/TWBtW",
-    "license": "",
-    "readme": "",
-    "bugs": "",
-    "changelog": "",
-    "flags": {},
-    "version": "0.0.0",
-    "compatibility": {
-        "minimum": "0.7.9",
-        "verified": "10"
-    },
-    "minimumCoreVersion": "0.7.9",
-    "compatibleCoreVersion": "10",
-    "scripts": [],
-    "esmodules": [],
-    "styles": [],
-    "languages": [],
-    "packs": [
-        {
-            "name": "scenes",
-            "label": "TWBtW Scenes",
-            "path": "packs/scenes.db",
-            "entity": "Scene",
-            "type": "Scene",
-            "system": "dnd5e"
-        }
-    ],
-    "relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system",
-                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-                "compatibility": {
-                    "verified": "2.0.3"
-                }
-            }
-        ]
-    },
-    "system": ["dnd5e"],
-    "dependencies": [],
-    "socket": false,
-    "manifest": "",
-    "download": "",
-    "protected": false,
-    "manifestPlusVersion": "1.2.0",
-    "media": [
-        {
-            "type": "cover",
-            "url": "ddb://image/twbtw/listing_images/637587419509160992.jpeg"
-        }
-    ]
+	"id": "twbtw",
+	"name": "twbtw",
+	"title": "The Wild Beyond the Witchlight",
+	"description": "<blockquote>Something wicked this way comes in a Feywild Adventure for Dungeons &amp; Dragons fifth edition for players levels 1-8</blockquote><p>Once every eight years, the fantastic <strong>Witchlight Carnival</strong> touches down on your world, bringing joy to one settlement after the next. Its owners, Mister Witch and Mister Light, know how to put on a good show. But there's more to this magical extravaganza than meets the eye!</p><p>The carnival is a gateway to a fantastic <strong>Feywild</strong> domain unlike anything found on the Material Plane. Time has not been kind to this realm, however, and dark days lie ahead unless someone can thwart the dastardly schemes of the Hourglass Coven.</p>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "kid2407 / Tobias",
+			"discord": "kid2407 / Tobias#6450"
+		},
+		{
+			"name": "JacksonBockus",
+			"discord": "JacksonBockus#1378"
+		},
+		{
+			"name": "Pariah Zero",
+			"discord": "Pariah Zero#9919"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/TWBtW",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [
+		{
+			"name": "scenes",
+			"label": "TWBtW Scenes",
+			"path": "packs/scenes.db",
+			"entity": "Scene",
+			"type": "Scene",
+			"system": "dnd5e"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/twbtw/listing_images/637587419509160992.jpeg"
+		}
+	]
 }

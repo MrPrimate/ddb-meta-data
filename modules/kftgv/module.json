@@ -1,75 +1,77 @@
 {
-    "id": "kftgv",
-    "name": "kftgv",
-    "title": "Keys from the Golden Vault",
-    "description": "<p>A collection of 13 heist adventures for players level 1-11</p><p>Some jobs require more than simply wielding a sword or slinging a spell. Whether it’s procuring a well-guarded item or obtaining crucial information from an imprisoned contact, these tasks require careful planning and flawless execution. The secretive organization called the Golden Vault specializes in hiring crews for such jobs, and for the most daunting assignments—pursuing fabulous treasures and stopping dire threats—that crew is your character.</p><p>• A collection of 13<strong> stand-alone heist adventures for characters levels 1-11</strong><br>• Easy to drop in heist adventures into any setting or run as a one-shot<br>• <strong>Detailed information, in-world maps, and advice for Dungeon Masters</strong> to help run adventures with multiple paths to success</p>",
-    "authors": [
-        {
-            "name": "MrPrimate",
-            "email": "jack@mrprimate.co.uk",
-            "url": "https://mrprimate.co.uk",
-            "patreon": "https://www.patreon.com/MrPrimate",
-            "discord": "https://discord.gg/WzPuRuDJVP"
-        },
-        {
-            "name": "The Forge",
-            "url": "https://forge-vtt.com",
-            "email": "contact@forge-vtt.com",
-            "discord": "https://forge-vtt.com/discord",
-            "reddit": "https://www.reddit.com/r/ForgeVTT",
-            "twitter": "@ForgeVTT"
-        }
-    ],
-    "url": "https://www.dndbeyond.com/sources/KftGV",
-    "license": "",
-    "readme": "",
-    "bugs": "",
-    "changelog": "",
-    "flags": {},
-    "version": "0.0.0",
-    "compatibility": {
-        "minimum": "0.7.9",
-        "verified": "10"
-    },
-    "minimumCoreVersion": "0.7.9",
-    "compatibleCoreVersion": "10",
-    "scripts": [],
-    "esmodules": [],
-    "styles": [],
-    "languages": [],
-    "packs": [
-        {
-            "name": "scenes",
-            "label": "KftGV Scenes",
-            "path": "packs/scenes.db",
-            "entity": "Scene",
-            "type": "Scene",
-            "system": "dnd5e"
-        }
-    ],
-    "relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system",
-                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-                "compatibility": {
-                    "verified": "2.0.3"
-                }
-            }
-        ]
-    },
-    "system": ["dnd5e"],
-    "dependencies": [],
-    "socket": false,
-    "manifest": "",
-    "download": "",
-    "protected": false,
-    "manifestPlusVersion": "1.2.0",
-    "media": [
-        {
-            "type": "cover",
-            "url": "ddb://image/kftgv/listing_images/638070671792143197.jpeg"
-        }
-    ]
+	"id": "kftgv",
+	"name": "kftgv",
+	"title": "Keys from the Golden Vault",
+	"description": "<p>A collection of 13 heist adventures for players level 1-11</p><p>Some jobs require more than simply wielding a sword or slinging a spell. Whether it’s procuring a well-guarded item or obtaining crucial information from an imprisoned contact, these tasks require careful planning and flawless execution. The secretive organization called the Golden Vault specializes in hiring crews for such jobs, and for the most daunting assignments—pursuing fabulous treasures and stopping dire threats—that crew is your character.</p><p>• A collection of 13<strong> stand-alone heist adventures for characters levels 1-11</strong><br>• Easy to drop in heist adventures into any setting or run as a one-shot<br>• <strong>Detailed information, in-world maps, and advice for Dungeon Masters</strong> to help run adventures with multiple paths to success</p>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/KftGV",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [
+		{
+			"name": "scenes",
+			"label": "KftGV Scenes",
+			"path": "packs/scenes.db",
+			"entity": "Scene",
+			"type": "Scene",
+			"system": "dnd5e"
+		}
+	],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/kftgv/listing_images/638070671792143197.jpeg"
+		}
+	]
 }

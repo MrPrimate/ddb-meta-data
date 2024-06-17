@@ -1,66 +1,68 @@
 {
-    "id": "hcs",
-    "name": "hcs",
-    "title": "Humblewood Campaign Setting",
-    "description": "<p>In the world of Everden, nestled between the mighty Crest mountain range and the vast marshes of the Mokk Fields, lies a mystical forest known as Humblewood that hums with the Great Rhythm of nature. Now the fires have come, and the Woods have been thrown into chaos. Even in these dark times, brave heroes can be found within the Wood. Will you answer the call?</p><p>Welcome to Humblewood, a campaign setting where you get to adventure as birds and other woodland critters. Come and discover the mystery behind all the forest fires, is it the Bandit Coalition or something even more nefarious? Explore the verdant forest within:</p><ul><li>Embody the Great Rhythm of nature by selecting between <strong>10 new playable Races</strong> and <strong>4 new subclasses</strong> from within the <strong>D&amp;D Beyond character builder</strong></li><li>Empower your characters with <strong>3 new backgrounds</strong>, <strong>7 new feats</strong>, <strong>10 new spells</strong>, and<strong> new magic items</strong></li><li>Expand your DM toolkit with more than <strong>50 new monsters</strong> in the <strong>D&amp;D Beyond Encounters tool</strong> and <strong>11 new maps</strong> for use with <strong>D&amp;D Beyond Maps</strong></li></ul><hr>",
-    "authors": [
-        {
-            "name": "MrPrimate",
-            "email": "jack@mrprimate.co.uk",
-            "url": "https://mrprimate.co.uk",
-            "patreon": "https://www.patreon.com/MrPrimate",
-            "discord": "https://discord.gg/WzPuRuDJVP"
-        },
-        {
-            "name": "The Forge",
-            "url": "https://forge-vtt.com",
-            "email": "contact@forge-vtt.com",
-            "discord": "https://forge-vtt.com/discord",
-            "reddit": "https://www.reddit.com/r/ForgeVTT",
-            "twitter": "@ForgeVTT"
-        }
-    ],
-    "url": "https://www.dndbeyond.com/sources/hcs",
-    "license": "",
-    "readme": "",
-    "bugs": "",
-    "changelog": "",
-    "flags": {},
-    "version": "0.0.0",
-    "compatibility": {
-        "minimum": "0.7.9",
-        "verified": "10"
-    },
-    "minimumCoreVersion": "0.7.9",
-    "compatibleCoreVersion": "10",
-    "scripts": [],
-    "esmodules": [],
-    "styles": [],
-    "languages": [],
-    "packs": [],
-    "relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system",
-                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-                "compatibility": {
-                    "verified": "2.0.3"
-                }
-            }
-        ]
-    },
-    "system": ["dnd5e"],
-    "dependencies": [],
-    "socket": false,
-    "manifest": "",
-    "download": "",
-    "protected": false,
-    "manifestPlusVersion": "1.2.0",
-    "media": [
-        {
-            "type": "cover",
-            "url": "ddb://image/hcs/listing_images/638425036767623471.jpeg"
-        }
-    ]
+	"id": "hcs",
+	"name": "hcs",
+	"title": "Humblewood Campaign Setting",
+	"description": "<p>In the world of Everden, nestled between the mighty Crest mountain range and the vast marshes of the Mokk Fields, lies a mystical forest known as Humblewood that hums with the Great Rhythm of nature. Now the fires have come, and the Woods have been thrown into chaos. Even in these dark times, brave heroes can be found within the Wood. Will you answer the call?</p><p>Welcome to Humblewood, a campaign setting where you get to adventure as birds and other woodland critters. Come and discover the mystery behind all the forest fires, is it the Bandit Coalition or something even more nefarious? Explore the verdant forest within:</p><ul><li>Embody the Great Rhythm of nature by selecting between <strong>10 new playable Races</strong> and <strong>4 new subclasses</strong> from within the <strong>D&amp;D Beyond character builder</strong></li><li>Empower your characters with <strong>3 new backgrounds</strong>, <strong>7 new feats</strong>, <strong>10 new spells</strong>, and<strong> new magic items</strong></li><li>Expand your DM toolkit with more than <strong>50 new monsters</strong> in the <strong>D&amp;D Beyond Encounters tool</strong> and <strong>11 new maps</strong> for use with <strong>D&amp;D Beyond Maps</strong></li></ul><hr>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/hcs",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/hcs/listing_images/638425036767623471.jpeg"
+		}
+	]
 }

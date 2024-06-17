@@ -1,66 +1,68 @@
 {
-    "id": "phb",
-    "name": "phb",
-    "title": "Player's Handbook",
-    "description": "<blockquote>Arm Yourself for Adventure.</blockquote><p>The Player's Handbook is the essential core reference for every Dungeons &amp; Dragons role-player. This sourcebook provides you the tools and tips to help create your characters, equip them, and send them out into the world.</p>",
-    "authors": [
-        {
-            "name": "MrPrimate",
-            "email": "jack@mrprimate.co.uk",
-            "url": "https://mrprimate.co.uk",
-            "patreon": "https://www.patreon.com/MrPrimate",
-            "discord": "https://discord.gg/WzPuRuDJVP"
-        },
-        {
-            "name": "The Forge",
-            "url": "https://forge-vtt.com",
-            "email": "contact@forge-vtt.com",
-            "discord": "https://forge-vtt.com/discord",
-            "reddit": "https://www.reddit.com/r/ForgeVTT",
-            "twitter": "@ForgeVTT"
-        }
-    ],
-    "url": "https://www.dndbeyond.com/sources/PHB",
-    "license": "",
-    "readme": "",
-    "bugs": "",
-    "changelog": "",
-    "flags": {},
-    "version": "0.0.0",
-    "compatibility": {
-        "minimum": "0.7.9",
-        "verified": "10"
-    },
-    "minimumCoreVersion": "0.7.9",
-    "compatibleCoreVersion": "10",
-    "scripts": [],
-    "esmodules": [],
-    "styles": [],
-    "languages": [],
-    "packs": [],
-    "relationships": {
-        "systems": [
-            {
-                "id": "dnd5e",
-                "type": "system",
-                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-                "compatibility": {
-                    "verified": "2.0.3"
-                }
-            }
-        ]
-    },
-    "system": ["dnd5e"],
-    "dependencies": [],
-    "socket": false,
-    "manifest": "",
-    "download": "",
-    "protected": false,
-    "manifestPlusVersion": "1.2.0",
-    "media": [
-        {
-            "type": "cover",
-            "url": "ddb://image/phb/listing_images/637248131811862290.jpeg"
-        }
-    ]
+	"id": "phb",
+	"name": "phb",
+	"title": "Player's Handbook",
+	"description": "<blockquote>Arm Yourself for Adventure.</blockquote><p>The Player's Handbook is the essential core reference for every Dungeons &amp; Dragons role-player. This sourcebook provides you the tools and tips to help create your characters, equip them, and send them out into the world.</p>",
+	"authors": [
+		{
+			"name": "MrPrimate",
+			"email": "jack@mrprimate.co.uk",
+			"url": "https://mrprimate.co.uk",
+			"patreon": "https://www.patreon.com/MrPrimate",
+			"discord": "https://discord.gg/WzPuRuDJVP"
+		},
+		{
+			"name": "The Forge",
+			"url": "https://forge-vtt.com",
+			"email": "contact@forge-vtt.com",
+			"discord": "https://forge-vtt.com/discord",
+			"reddit": "https://www.reddit.com/r/ForgeVTT",
+			"twitter": "@ForgeVTT"
+		}
+	],
+	"url": "https://www.dndbeyond.com/sources/PHB",
+	"license": "",
+	"readme": "",
+	"bugs": "",
+	"changelog": "",
+	"flags": {},
+	"version": "0.0.0",
+	"compatibility": {
+		"minimum": "0.7.9",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [],
+	"styles": [],
+	"languages": [],
+	"packs": [],
+	"relationships": {
+		"systems": [
+			{
+				"id": "dnd5e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+				"compatibility": {
+					"verified": "2.0.3"
+				}
+			}
+		]
+	},
+	"system": [
+		"dnd5e"
+	],
+	"dependencies": [],
+	"socket": false,
+	"manifest": "",
+	"download": "",
+	"protected": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": [
+		{
+			"type": "cover",
+			"url": "ddb://image/phb/listing_images/637248131811862290.jpeg"
+		}
+	]
 }
