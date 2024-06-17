@@ -11,7 +11,6 @@ Bigby the Great recounts his journeys into the history, myth, and society of gia
 - Encounter **over 70 new monsters and other enormous creatures** to face in the **D&D Beyond Encounter Builder**.
 - Offers a plethora of tools for Dungeon Masters including **lair maps**, **detailed lore**, **adventure hooks**, **encounter tables**, **treasures**, **and giant roleplaying inspiration**.
 
-
 ## License
 
 This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

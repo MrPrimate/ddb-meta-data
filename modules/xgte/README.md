@@ -1,6 +1,6 @@
 # Xanathar's Guide to Everything
 
-*Xanathar's Guide to Everything* is the first major expansion for fifth edition Dungeons & Dragons, offering new rules and story options for your game.
+_Xanathar's Guide to Everything_ is the first major expansion for fifth edition Dungeons & Dragons, offering new rules and story options for your game.
 
 ## License
 

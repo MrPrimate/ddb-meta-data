@@ -6,7 +6,7 @@ Sparkling with the musings of the wizard Mordenkainen, this tome features a host
 
 The book also gathers together fantastical peoples from many different worlds. Each of these peoples represents a race option when you create your D&D character, expanding on the choices in the Player's Handbook.
 
-Compiling and updating monsters that originally appeared in *Volo's Guide to Monsters* and *Mordenkainen's Tome of Foes*, this book presents friends and foes for any D&D campaign, many of them accompanied by the comments of Mordenkainen. The wizard has faced many of these monsters and peoples on numerous wondrous adventures. Now it's time for you to venture forth and face these creatures yourself!
+Compiling and updating monsters that originally appeared in _Volo's Guide to Monsters_ and _Mordenkainen's Tome of Foes_, this book presents friends and foes for any D&D campaign, many of them accompanied by the comments of Mordenkainen. The wizard has faced many of these monsters and peoples on numerous wondrous adventures. Now it's time for you to venture forth and face these creatures yourself!
 
 ## License
 

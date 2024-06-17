@@ -1,12 +1,10 @@
 # Monstrous Compendium Vol. 4: Eldraine Creatures
 
-Add new and unique creatures inspired by the *Wilds of Eldraine* to your campaign and fight for your own fairy tale ending!
+Add new and unique creatures inspired by the _Wilds of Eldraine_ to your campaign and fight for your own fairy tale ending!
 
-- Discover **25 Fey & Fairy tale creatures** inspired by *Magic: The Gathering - Wilds of Eldraine*
+- Discover **25 Fey & Fairy tale creatures** inspired by _Magic: The Gathering - Wilds of Eldraine_
 - **Detailed stat blocks** and descriptions to use the monsters in your campaigns
 - Useable in **D&D Beyond DM tools like Encounters and Maps**
-
-
 
 ## License
 

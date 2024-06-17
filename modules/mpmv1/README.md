@@ -1,6 +1,5 @@
 # Misplaced Monsters: Volume One
 
-
 D&D Misplaced Monsters, Vol. 1 was created in partnership with Extra Life©, a fundraising program of the Children’s Miracle Network Hospitals© that helps children receive crucial medical care.
 
 • Unlocks 6 **misplaced monsters** to use in the Encounter Builder to create & run organized battles for your party

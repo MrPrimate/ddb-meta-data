@@ -1,6 +1,6 @@
 # Mordenkainen's Fiendish Folio Volume 1
 
-Crawling from the darkest recesses of D&D's history comes a ferocious menagerie of monsters malevolent and benign! These creatures first appeared in the *Fiend Folio* for first edition AD&D.
+Crawling from the darkest recesses of D&D's history comes a ferocious menagerie of monsters malevolent and benign! These creatures first appeared in the _Fiend Folio_ for first edition AD&D.
 
 ## License
 
