@@ -9,7 +9,7 @@ _Tal’Dorei Campaign Setting Reborn_ contains everything needed to unlock the r
 - **Over 35 magic items** \- including the **Vestiges of Divergence**, legendary artifacts that grow in power with their wielders
 - **More than 40 creature stat blocks**, many featured in the Critical Role campaigns and usable in the **D&D Beyond Encounter Builder**
 - **New lore and updated stat blocks** for each member of **Vox Machina**
-- **4** **exclusive backdrops** for your character sheet
+- **4 exclusive backdrops** for your character sheet
 
 ## License
 
