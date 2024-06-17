@@ -1,79 +1,79 @@
 {
-  "id": "erftlw",
-  "name": "erftlw",
-  "title": "Eberron: Rising from the Last War",
-  "description": "<p>Whether aboard an airship or a train car, embark on thrilling adventures shrouded in intrigue! Discover secrets buried by years of devastating war, in which magic-fueled weapons threatened an entire continent. This sourcebook provides tools that both players and Dungeon Masters need to explore the world of Eberron and help enter a prosperous new age or cause the shadow of war to descend once again.</p>",
-  "authors": [
-    {
-      "name": "MrPrimate",
-      "email": "jack@mrprimate.co.uk",
-      "url": "https://mrprimate.co.uk",
-      "patreon": "https://www.patreon.com/MrPrimate",
-      "discord": "https://discord.gg/WzPuRuDJVP"
-    },
-    {
-      "name": "Pariah Zero",
-      "discord": "Pariah Zero#9919"
-    },
-    {
-      "name": "The Forge",
-      "url": "https://forge-vtt.com",
-      "email": "contact@forge-vtt.com",
-      "discord": "https://forge-vtt.com/discord",
-      "reddit": "https://www.reddit.com/r/ForgeVTT",
-      "twitter": "@ForgeVTT"
-    }
-  ],
-  "url": "https://www.dndbeyond.com/sources/ERftLW",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": "",
-  "flags": {},
-  "version": "0.0.0",
-  "compatibility": {
-    "minimum": "0.7.9",
-    "verified": "10"
-  },
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "10",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [
-    {
-      "name": "scenes",
-      "label": "ERftLW Scenes",
-      "path": "packs/scenes.db",
-      "entity": "Scene",
-      "type": "Scene",
-      "system": "dnd5e"
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-        "compatibility": {
-          "verified": "2.0.3"
+    "id": "erftlw",
+    "name": "erftlw",
+    "title": "Eberron: Rising from the Last War",
+    "description": "<p>Whether aboard an airship or a train car, embark on thrilling adventures shrouded in intrigue! Discover secrets buried by years of devastating war, in which magic-fueled weapons threatened an entire continent. This sourcebook provides tools that both players and Dungeon Masters need to explore the world of Eberron and help enter a prosperous new age or cause the shadow of war to descend once again.</p>",
+    "authors": [
+        {
+            "name": "MrPrimate",
+            "email": "jack@mrprimate.co.uk",
+            "url": "https://mrprimate.co.uk",
+            "patreon": "https://www.patreon.com/MrPrimate",
+            "discord": "https://discord.gg/WzPuRuDJVP"
+        },
+        {
+            "name": "Pariah Zero",
+            "discord": "Pariah Zero#9919"
+        },
+        {
+            "name": "The Forge",
+            "url": "https://forge-vtt.com",
+            "email": "contact@forge-vtt.com",
+            "discord": "https://forge-vtt.com/discord",
+            "reddit": "https://www.reddit.com/r/ForgeVTT",
+            "twitter": "@ForgeVTT"
         }
-      }
+    ],
+    "url": "https://www.dndbeyond.com/sources/ERftLW",
+    "license": "",
+    "readme": "",
+    "bugs": "",
+    "changelog": "",
+    "flags": {},
+    "version": "0.0.0",
+    "compatibility": {
+        "minimum": "0.7.9",
+        "verified": "10"
+    },
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "10",
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "languages": [],
+    "packs": [
+        {
+            "name": "scenes",
+            "label": "ERftLW Scenes",
+            "path": "packs/scenes.db",
+            "entity": "Scene",
+            "type": "Scene",
+            "system": "dnd5e"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+                "compatibility": {
+                    "verified": "2.0.3"
+                }
+            }
+        ]
+    },
+    "system": ["dnd5e"],
+    "dependencies": [],
+    "socket": false,
+    "manifest": "",
+    "download": "",
+    "protected": false,
+    "manifestPlusVersion": "1.2.0",
+    "media": [
+        {
+            "type": "cover",
+            "url": "ddb://image/erftlw/listing_images/637245381196842264.jpeg"
+        }
     ]
-  },
-  "system": ["dnd5e"],
-  "dependencies": [],
-  "socket": false,
-  "manifest": "",
-  "download": "",
-  "protected": false,
-  "manifestPlusVersion": "1.2.0",
-  "media": [
-    {
-      "type": "cover",
-      "url": "ddb://image/erftlw/listing_images/637245381196842264.jpeg"
-    }
-  ]
 }

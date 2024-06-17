@@ -1,83 +1,83 @@
 {
-  "id": "bgdia",
-  "name": "bgdia",
-  "title": "Baldur's Gate: Descent into Avernus",
-  "description": "<blockquote>A Hellish Adventure for Levels 1-13</blockquote><p>Welcome to Baldur's Gate, a city of ambition and corruption situated at the crossroads of the Sword Coast. You've just started your adventuring career, but already find yourself embroiled in a plot that sprawls from the shadows of Baldur's Gate to the front lines of the planes-spanning Blood War! Do you have what it takes to turn infernal war machines and nefarious contracts against the archdevil Zariel and her diabolical hordes? And can you ever hope to find your way home safely when pitted against the infinite evils of the Nine Hells?</p>",
-  "authors": [
-    {
-      "name": "MrPrimate",
-      "email": "jack@mrprimate.co.uk",
-      "url": "https://mrprimate.co.uk",
-      "patreon": "https://www.patreon.com/MrPrimate",
-      "discord": "https://discord.gg/WzPuRuDJVP"
-    },
-    {
-      "name": "Pariah Zero",
-      "discord": "Pariah Zero#9919"
-    },
-    {
-      "name": "SEGApostle",
-      "discord": "SEGApostle#3490"
-    },
-    {
-      "name": "The Forge",
-      "url": "https://forge-vtt.com",
-      "email": "contact@forge-vtt.com",
-      "discord": "https://forge-vtt.com/discord",
-      "reddit": "https://www.reddit.com/r/ForgeVTT",
-      "twitter": "@ForgeVTT"
-    }
-  ],
-  "url": "https://www.dndbeyond.com/sources/BGDiA",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": "",
-  "flags": {},
-  "version": "0.0.0",
-  "compatibility": {
-    "minimum": "0.7.9",
-    "verified": "10"
-  },
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "10",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [
-    {
-      "name": "scenes",
-      "label": "BGDiA Scenes",
-      "path": "packs/scenes.db",
-      "entity": "Scene",
-      "type": "Scene",
-      "system": "dnd5e"
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-        "compatibility": {
-          "verified": "2.0.3"
+    "id": "bgdia",
+    "name": "bgdia",
+    "title": "Baldur's Gate: Descent into Avernus",
+    "description": "<blockquote>A Hellish Adventure for Levels 1-13</blockquote><p>Welcome to Baldur's Gate, a city of ambition and corruption situated at the crossroads of the Sword Coast. You've just started your adventuring career, but already find yourself embroiled in a plot that sprawls from the shadows of Baldur's Gate to the front lines of the planes-spanning Blood War! Do you have what it takes to turn infernal war machines and nefarious contracts against the archdevil Zariel and her diabolical hordes? And can you ever hope to find your way home safely when pitted against the infinite evils of the Nine Hells?</p>",
+    "authors": [
+        {
+            "name": "MrPrimate",
+            "email": "jack@mrprimate.co.uk",
+            "url": "https://mrprimate.co.uk",
+            "patreon": "https://www.patreon.com/MrPrimate",
+            "discord": "https://discord.gg/WzPuRuDJVP"
+        },
+        {
+            "name": "Pariah Zero",
+            "discord": "Pariah Zero#9919"
+        },
+        {
+            "name": "SEGApostle",
+            "discord": "SEGApostle#3490"
+        },
+        {
+            "name": "The Forge",
+            "url": "https://forge-vtt.com",
+            "email": "contact@forge-vtt.com",
+            "discord": "https://forge-vtt.com/discord",
+            "reddit": "https://www.reddit.com/r/ForgeVTT",
+            "twitter": "@ForgeVTT"
         }
-      }
+    ],
+    "url": "https://www.dndbeyond.com/sources/BGDiA",
+    "license": "",
+    "readme": "",
+    "bugs": "",
+    "changelog": "",
+    "flags": {},
+    "version": "0.0.0",
+    "compatibility": {
+        "minimum": "0.7.9",
+        "verified": "10"
+    },
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "10",
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "languages": [],
+    "packs": [
+        {
+            "name": "scenes",
+            "label": "BGDiA Scenes",
+            "path": "packs/scenes.db",
+            "entity": "Scene",
+            "type": "Scene",
+            "system": "dnd5e"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+                "compatibility": {
+                    "verified": "2.0.3"
+                }
+            }
+        ]
+    },
+    "system": ["dnd5e"],
+    "dependencies": [],
+    "socket": false,
+    "manifest": "",
+    "download": "",
+    "protected": false,
+    "manifestPlusVersion": "1.2.0",
+    "media": [
+        {
+            "type": "cover",
+            "url": "ddb://image/bgdia/listing_images/637244675832719441.jpeg"
+        }
     ]
-  },
-  "system": ["dnd5e"],
-  "dependencies": [],
-  "socket": false,
-  "manifest": "",
-  "download": "",
-  "protected": false,
-  "manifestPlusVersion": "1.2.0",
-  "media": [
-    {
-      "type": "cover",
-      "url": "ddb://image/bgdia/listing_images/637244675832719441.jpeg"
-    }
-  ]
 }

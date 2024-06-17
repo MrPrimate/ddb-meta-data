@@ -1,66 +1,66 @@
 {
-  "id": "dit",
-  "name": "dit",
-  "title": "Dead in Thay",
-  "description": "<blockquote>Adventure for Levels 9-11</blockquote><h2>ABOUT THE ORIGINAL</h2><p><em>Dead in Thay</em>, by Scott Fitzgerald Gray, was originally produced in 2014 as an adventure for the D&amp;D Encounters organized play program. At that time, it also served as a playtest for the rules that eventually became the fifth edition of the game. This version of the adventure has been modified for home play.</p><p>Featuring an immense and lethal dungeon, the adventure is a tribute to <em>Tomb of Horrors</em>, <em>Ruins of Undermountain</em>, and other killer dungeons from the game's history.</p>",
-  "authors": [
-    {
-      "name": "MrPrimate",
-      "email": "jack@mrprimate.co.uk",
-      "url": "https://mrprimate.co.uk",
-      "patreon": "https://www.patreon.com/MrPrimate",
-      "discord": "https://discord.gg/WzPuRuDJVP"
-    },
-    {
-      "name": "The Forge",
-      "url": "https://forge-vtt.com",
-      "email": "contact@forge-vtt.com",
-      "discord": "https://forge-vtt.com/discord",
-      "reddit": "https://www.reddit.com/r/ForgeVTT",
-      "twitter": "@ForgeVTT"
-    }
-  ],
-  "url": "https://www.dndbeyond.com/sources/DiT",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": "",
-  "flags": {},
-  "version": "0.0.0",
-  "compatibility": {
-    "minimum": "0.7.9",
-    "verified": "10"
-  },
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "10",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-        "compatibility": {
-          "verified": "2.0.3"
+    "id": "dit",
+    "name": "dit",
+    "title": "Dead in Thay",
+    "description": "<blockquote>Adventure for Levels 9-11</blockquote><h2>ABOUT THE ORIGINAL</h2><p><em>Dead in Thay</em>, by Scott Fitzgerald Gray, was originally produced in 2014 as an adventure for the D&amp;D Encounters organized play program. At that time, it also served as a playtest for the rules that eventually became the fifth edition of the game. This version of the adventure has been modified for home play.</p><p>Featuring an immense and lethal dungeon, the adventure is a tribute to <em>Tomb of Horrors</em>, <em>Ruins of Undermountain</em>, and other killer dungeons from the game's history.</p>",
+    "authors": [
+        {
+            "name": "MrPrimate",
+            "email": "jack@mrprimate.co.uk",
+            "url": "https://mrprimate.co.uk",
+            "patreon": "https://www.patreon.com/MrPrimate",
+            "discord": "https://discord.gg/WzPuRuDJVP"
+        },
+        {
+            "name": "The Forge",
+            "url": "https://forge-vtt.com",
+            "email": "contact@forge-vtt.com",
+            "discord": "https://forge-vtt.com/discord",
+            "reddit": "https://www.reddit.com/r/ForgeVTT",
+            "twitter": "@ForgeVTT"
         }
-      }
+    ],
+    "url": "https://www.dndbeyond.com/sources/DiT",
+    "license": "",
+    "readme": "",
+    "bugs": "",
+    "changelog": "",
+    "flags": {},
+    "version": "0.0.0",
+    "compatibility": {
+        "minimum": "0.7.9",
+        "verified": "10"
+    },
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "10",
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "languages": [],
+    "packs": [],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+                "compatibility": {
+                    "verified": "2.0.3"
+                }
+            }
+        ]
+    },
+    "system": ["dnd5e"],
+    "dependencies": [],
+    "socket": false,
+    "manifest": "",
+    "download": "",
+    "protected": false,
+    "manifestPlusVersion": "1.2.0",
+    "media": [
+        {
+            "type": "cover",
+            "url": "ddb://image/dit/listing_images/637248079254127234.jpeg"
+        }
     ]
-  },
-  "system": ["dnd5e"],
-  "dependencies": [],
-  "socket": false,
-  "manifest": "",
-  "download": "",
-  "protected": false,
-  "manifestPlusVersion": "1.2.0",
-  "media": [
-    {
-      "type": "cover",
-      "url": "ddb://image/dit/listing_images/637248079254127234.jpeg"
-    }
-  ]
 }

@@ -1,75 +1,75 @@
 {
-  "id": "sotdq",
-  "name": "sotdq",
-  "title": "Dragonlance: Shadow of the Dragon Queen",
-  "description": "<p>Takhisis the Dragon Queen has returned to the world of Krynn. Across the land, her armies of fanatical draconians wage a brutal war of conquest. As the Dragon Armies march on the unprepared nation of Solamnia, only the defenders of the city of Kalaman stand in their way. But the Dragon Armies want more than just to crush their foes. An ancient evil in the Dragon Queen’s service seeks a magical weapon that could dominate Krynn for all time.</p><p>Dragonlance: Shadow of the Dragon Queen is a tale of conflict and defiance set during the legendary War of the Lance. Create characters from Krynn, the world of the Dragonlance setting, then march them to the front lines of battle against the terrifying Dragon Armies.</p>",
-  "authors": [
-    {
-      "name": "MrPrimate",
-      "email": "jack@mrprimate.co.uk",
-      "url": "https://mrprimate.co.uk",
-      "patreon": "https://www.patreon.com/MrPrimate",
-      "discord": "https://discord.gg/WzPuRuDJVP"
-    },
-    {
-      "name": "The Forge",
-      "url": "https://forge-vtt.com",
-      "email": "contact@forge-vtt.com",
-      "discord": "https://forge-vtt.com/discord",
-      "reddit": "https://www.reddit.com/r/ForgeVTT",
-      "twitter": "@ForgeVTT"
-    }
-  ],
-  "url": "https://www.dndbeyond.com/sources/SotDQ",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": "",
-  "flags": {},
-  "version": "0.0.0",
-  "compatibility": {
-    "minimum": "0.7.9",
-    "verified": "10"
-  },
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "10",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [
-    {
-      "name": "scenes",
-      "label": "SotDQ Scenes",
-      "path": "packs/scenes.db",
-      "entity": "Scene",
-      "type": "Scene",
-      "system": "dnd5e"
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-        "compatibility": {
-          "verified": "2.0.3"
+    "id": "sotdq",
+    "name": "sotdq",
+    "title": "Dragonlance: Shadow of the Dragon Queen",
+    "description": "<p>Takhisis the Dragon Queen has returned to the world of Krynn. Across the land, her armies of fanatical draconians wage a brutal war of conquest. As the Dragon Armies march on the unprepared nation of Solamnia, only the defenders of the city of Kalaman stand in their way. But the Dragon Armies want more than just to crush their foes. An ancient evil in the Dragon Queen’s service seeks a magical weapon that could dominate Krynn for all time.</p><p>Dragonlance: Shadow of the Dragon Queen is a tale of conflict and defiance set during the legendary War of the Lance. Create characters from Krynn, the world of the Dragonlance setting, then march them to the front lines of battle against the terrifying Dragon Armies.</p>",
+    "authors": [
+        {
+            "name": "MrPrimate",
+            "email": "jack@mrprimate.co.uk",
+            "url": "https://mrprimate.co.uk",
+            "patreon": "https://www.patreon.com/MrPrimate",
+            "discord": "https://discord.gg/WzPuRuDJVP"
+        },
+        {
+            "name": "The Forge",
+            "url": "https://forge-vtt.com",
+            "email": "contact@forge-vtt.com",
+            "discord": "https://forge-vtt.com/discord",
+            "reddit": "https://www.reddit.com/r/ForgeVTT",
+            "twitter": "@ForgeVTT"
         }
-      }
+    ],
+    "url": "https://www.dndbeyond.com/sources/SotDQ",
+    "license": "",
+    "readme": "",
+    "bugs": "",
+    "changelog": "",
+    "flags": {},
+    "version": "0.0.0",
+    "compatibility": {
+        "minimum": "0.7.9",
+        "verified": "10"
+    },
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "10",
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "languages": [],
+    "packs": [
+        {
+            "name": "scenes",
+            "label": "SotDQ Scenes",
+            "path": "packs/scenes.db",
+            "entity": "Scene",
+            "type": "Scene",
+            "system": "dnd5e"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+                "compatibility": {
+                    "verified": "2.0.3"
+                }
+            }
+        ]
+    },
+    "system": ["dnd5e"],
+    "dependencies": [],
+    "socket": false,
+    "manifest": "",
+    "download": "",
+    "protected": false,
+    "manifestPlusVersion": "1.2.0",
+    "media": [
+        {
+            "type": "cover",
+            "url": "ddb://image/sotdq/listing_images/637951679601337771.jpeg"
+        }
     ]
-  },
-  "system": ["dnd5e"],
-  "dependencies": [],
-  "socket": false,
-  "manifest": "",
-  "download": "",
-  "protected": false,
-  "manifestPlusVersion": "1.2.0",
-  "media": [
-    {
-      "type": "cover",
-      "url": "ddb://image/sotdq/listing_images/637951679601337771.jpeg"
-    }
-  ]
 }

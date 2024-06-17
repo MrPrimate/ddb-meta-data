@@ -1,83 +1,83 @@
 {
-  "id": "sdw",
-  "name": "sdw",
-  "title": "Sleeping Dragon's Wake",
-  "description": "<blockquote>Adventure for Levels 9-11</blockquote><p>The third adventure in the Essentials Kit Bundle. Despite the depredations of those in the service of the Stormlord Talos, citizens of Neverwinter continue their work to rebuild the town of Leilon and reestablish it as a fortified waypoint on the High Road betwixt Neverwinter and Waterdeep. However, to make matters worse, a cadre of villains devoted to both Myrkul, god of death and the Cult of the Dragon, have risen from the Mere of Dead Men to strike out as well.</p>",
-  "authors": [
-    {
-      "name": "MrPrimate",
-      "email": "jack@mrprimate.co.uk",
-      "url": "https://mrprimate.co.uk",
-      "patreon": "https://www.patreon.com/MrPrimate",
-      "discord": "https://discord.gg/WzPuRuDJVP"
-    },
-    {
-      "name": "Pariah Zero",
-      "discord": "Pariah Zero#9919"
-    },
-    {
-      "name": "dinnydorf",
-      "discord": "dinnydorf#6300"
-    },
-    {
-      "name": "The Forge",
-      "url": "https://forge-vtt.com",
-      "email": "contact@forge-vtt.com",
-      "discord": "https://forge-vtt.com/discord",
-      "reddit": "https://www.reddit.com/r/ForgeVTT",
-      "twitter": "@ForgeVTT"
-    }
-  ],
-  "url": "https://www.dndbeyond.com/sources/SDW",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": "",
-  "flags": {},
-  "version": "0.0.0",
-  "compatibility": {
-    "minimum": "0.7.9",
-    "verified": "10"
-  },
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "10",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [
-    {
-      "name": "scenes",
-      "label": "SDW Scenes",
-      "path": "packs/scenes.db",
-      "entity": "Scene",
-      "type": "Scene",
-      "system": "dnd5e"
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-        "compatibility": {
-          "verified": "2.0.3"
+    "id": "sdw",
+    "name": "sdw",
+    "title": "Sleeping Dragon's Wake",
+    "description": "<blockquote>Adventure for Levels 9-11</blockquote><p>The third adventure in the Essentials Kit Bundle. Despite the depredations of those in the service of the Stormlord Talos, citizens of Neverwinter continue their work to rebuild the town of Leilon and reestablish it as a fortified waypoint on the High Road betwixt Neverwinter and Waterdeep. However, to make matters worse, a cadre of villains devoted to both Myrkul, god of death and the Cult of the Dragon, have risen from the Mere of Dead Men to strike out as well.</p>",
+    "authors": [
+        {
+            "name": "MrPrimate",
+            "email": "jack@mrprimate.co.uk",
+            "url": "https://mrprimate.co.uk",
+            "patreon": "https://www.patreon.com/MrPrimate",
+            "discord": "https://discord.gg/WzPuRuDJVP"
+        },
+        {
+            "name": "Pariah Zero",
+            "discord": "Pariah Zero#9919"
+        },
+        {
+            "name": "dinnydorf",
+            "discord": "dinnydorf#6300"
+        },
+        {
+            "name": "The Forge",
+            "url": "https://forge-vtt.com",
+            "email": "contact@forge-vtt.com",
+            "discord": "https://forge-vtt.com/discord",
+            "reddit": "https://www.reddit.com/r/ForgeVTT",
+            "twitter": "@ForgeVTT"
         }
-      }
+    ],
+    "url": "https://www.dndbeyond.com/sources/SDW",
+    "license": "",
+    "readme": "",
+    "bugs": "",
+    "changelog": "",
+    "flags": {},
+    "version": "0.0.0",
+    "compatibility": {
+        "minimum": "0.7.9",
+        "verified": "10"
+    },
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "10",
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "languages": [],
+    "packs": [
+        {
+            "name": "scenes",
+            "label": "SDW Scenes",
+            "path": "packs/scenes.db",
+            "entity": "Scene",
+            "type": "Scene",
+            "system": "dnd5e"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+                "compatibility": {
+                    "verified": "2.0.3"
+                }
+            }
+        ]
+    },
+    "system": ["dnd5e"],
+    "dependencies": [],
+    "socket": false,
+    "manifest": "",
+    "download": "",
+    "protected": false,
+    "manifestPlusVersion": "1.2.0",
+    "media": [
+        {
+            "type": "cover",
+            "url": "ddb://image/sdw/listing_images/637244676820916158.jpeg"
+        }
     ]
-  },
-  "system": ["dnd5e"],
-  "dependencies": [],
-  "socket": false,
-  "manifest": "",
-  "download": "",
-  "protected": false,
-  "manifestPlusVersion": "1.2.0",
-  "media": [
-    {
-      "type": "cover",
-      "url": "ddb://image/sdw/listing_images/637244676820916158.jpeg"
-    }
-  ]
 }

@@ -1,83 +1,83 @@
 {
-  "id": "cotn",
-  "name": "cotn",
-  "title": "Critical Role: Call of the Netherdeep",
-  "description": "<blockquote>CAN YOU CHANGE FATE?</blockquote><p>The greed of mortals has awakened a powerful entity long thought destroyed. For eons, this mighty champion of the gods has been imprisoned in the darkest depths of Exandria. His name has been forgotten, as have his heroic deeds. Languishing in despair, he calls out for new heroes to save him.</p><p>Inspired by the campaigns of the hit series Critical Role, this adventure begins in the Wastes of Xhorhas and leads to the glimmering oasis-city of Ank'Harel on the continent of Marquet, and from there into a sunken realm of gloom, corruption, and sorrow known as the Netherdeep. Above it all, the red moon of Ruidus watches, twisting the fates of those who have the power to shape the course of history.</p>",
-  "authors": [
-    {
-      "name": "MrPrimate",
-      "email": "jack@mrprimate.co.uk",
-      "url": "https://mrprimate.co.uk",
-      "patreon": "https://www.patreon.com/MrPrimate",
-      "discord": "https://discord.gg/WzPuRuDJVP"
-    },
-    {
-      "name": "Pariah Zero",
-      "discord": "Pariah Zero#9920"
-    },
-    {
-      "name": "Muizz",
-      "discord": "Muizz#2978"
-    },
-    {
-      "name": "The Forge",
-      "url": "https://forge-vtt.com",
-      "email": "contact@forge-vtt.com",
-      "discord": "https://forge-vtt.com/discord",
-      "reddit": "https://www.reddit.com/r/ForgeVTT",
-      "twitter": "@ForgeVTT"
-    }
-  ],
-  "url": "https://www.dndbeyond.com/sources/CotN",
-  "license": "",
-  "readme": "",
-  "bugs": "",
-  "changelog": "",
-  "flags": {},
-  "version": "0.0.0",
-  "compatibility": {
-    "minimum": "0.7.9",
-    "verified": "10"
-  },
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "10",
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [
-    {
-      "name": "scenes",
-      "label": "CotN Scenes",
-      "path": "packs/scenes.db",
-      "entity": "Scene",
-      "type": "Scene",
-      "system": "dnd5e"
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-        "compatibility": {
-          "verified": "2.0.3"
+    "id": "cotn",
+    "name": "cotn",
+    "title": "Critical Role: Call of the Netherdeep",
+    "description": "<blockquote>CAN YOU CHANGE FATE?</blockquote><p>The greed of mortals has awakened a powerful entity long thought destroyed. For eons, this mighty champion of the gods has been imprisoned in the darkest depths of Exandria. His name has been forgotten, as have his heroic deeds. Languishing in despair, he calls out for new heroes to save him.</p><p>Inspired by the campaigns of the hit series Critical Role, this adventure begins in the Wastes of Xhorhas and leads to the glimmering oasis-city of Ank'Harel on the continent of Marquet, and from there into a sunken realm of gloom, corruption, and sorrow known as the Netherdeep. Above it all, the red moon of Ruidus watches, twisting the fates of those who have the power to shape the course of history.</p>",
+    "authors": [
+        {
+            "name": "MrPrimate",
+            "email": "jack@mrprimate.co.uk",
+            "url": "https://mrprimate.co.uk",
+            "patreon": "https://www.patreon.com/MrPrimate",
+            "discord": "https://discord.gg/WzPuRuDJVP"
+        },
+        {
+            "name": "Pariah Zero",
+            "discord": "Pariah Zero#9920"
+        },
+        {
+            "name": "Muizz",
+            "discord": "Muizz#2978"
+        },
+        {
+            "name": "The Forge",
+            "url": "https://forge-vtt.com",
+            "email": "contact@forge-vtt.com",
+            "discord": "https://forge-vtt.com/discord",
+            "reddit": "https://www.reddit.com/r/ForgeVTT",
+            "twitter": "@ForgeVTT"
         }
-      }
+    ],
+    "url": "https://www.dndbeyond.com/sources/CotN",
+    "license": "",
+    "readme": "",
+    "bugs": "",
+    "changelog": "",
+    "flags": {},
+    "version": "0.0.0",
+    "compatibility": {
+        "minimum": "0.7.9",
+        "verified": "10"
+    },
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "10",
+    "scripts": [],
+    "esmodules": [],
+    "styles": [],
+    "languages": [],
+    "packs": [
+        {
+            "name": "scenes",
+            "label": "CotN Scenes",
+            "path": "packs/scenes.db",
+            "entity": "Scene",
+            "type": "Scene",
+            "system": "dnd5e"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+                "compatibility": {
+                    "verified": "2.0.3"
+                }
+            }
+        ]
+    },
+    "system": ["dnd5e"],
+    "dependencies": [],
+    "socket": false,
+    "manifest": "",
+    "download": "",
+    "protected": false,
+    "manifestPlusVersion": "1.2.0",
+    "media": [
+        {
+            "type": "cover",
+            "url": "ddb://image/cotn/listing_images/637695655261542821.jpeg"
+        }
     ]
-  },
-  "system": ["dnd5e"],
-  "dependencies": [],
-  "socket": false,
-  "manifest": "",
-  "download": "",
-  "protected": false,
-  "manifestPlusVersion": "1.2.0",
-  "media": [
-    {
-      "type": "cover",
-      "url": "ddb://image/cotn/listing_images/637695655261542821.jpeg"
-    }
-  ]
 }
