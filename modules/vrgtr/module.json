@@ -1,77 +1,75 @@
 {
-	"id": "vrgtr",
-	"name": "vrgtr",
-	"title": "Van Richten's Guide to Ravenloft",
-	"description": "<blockquote>FACE YOUR FEARS</blockquote><p>Terror stalks the nightmare realms of Ravenloft. No one knows this better than monster scholar Rudolph Van Richten. To arm a new generation against the creatures of the night, Van Richten—along with other heroes of Ravenloft like Ezmerelda d'Avenir and the Weathermay-Foxgrove Twins—shares his correspondence and case files in this tome of eerie tales and chilling truths about the Lands of the Mists.</p><p>Discover the mysteries of Ravenloft, mist-shrouded lands where infamous Darklords lurk among ageless vampires, zombie hordes, cosmic terrors, and worse. Then make your choice. Will you create your own Domains of Dread, settings to host endless terrifying adventures? Or will you join the ranks of haunted heroes who embrace macabre lineages, dual-edged Dark Gifts, haunted subclasses, and other forbidden powers? The mists of Ravenloft are rising. Overcome your dread or forever be its prisoner!</p>",
-	"authors": [
-		{
-			"name": "MrPrimate",
-			"email": "jack@mrprimate.co.uk",
-			"url": "https://mrprimate.co.uk",
-			"patreon": "https://www.patreon.com/MrPrimate",
-			"discord": "https://discord.gg/WzPuRuDJVP"
-		},
-		{
-			"name": "The Forge",
-			"url": "https://forge-vtt.com",
-			"email": "contact@forge-vtt.com",
-			"discord": "https://forge-vtt.com/discord",
-			"reddit": "https://www.reddit.com/r/ForgeVTT",
-			"twitter": "@ForgeVTT"
-		}
-	],
-	"url": "https://www.dndbeyond.com/sources/VRGtR",
-	"license": "",
-	"readme": "",
-	"bugs": "",
-	"changelog": "",
-	"flags": {},
-	"version": "0.0.0",
-	"compatibility": {
-		"minimum": "0.7.9",
-		"verified": "10"
-	},
-	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "10",
-	"scripts": [],
-	"esmodules": [],
-	"styles": [],
-	"languages": [],
-	"packs": [
-		{
-			"name": "scenes",
-			"label": "VRGtR Scenes",
-			"path": "packs/scenes.db",
-			"entity": "Scene",
-			"type": "Scene",
-			"system": "dnd5e"
-		}
-	],
-	"relationships": {
-		"systems": [
-			{
-				"id": "dnd5e",
-				"type": "system",
-				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-				"compatibility": {
-					"verified": "2.0.3"
-				}
-			}
-		]
-	},
-	"system": [
-		"dnd5e"
-	],
-	"dependencies": [],
-	"socket": false,
-	"manifest": "",
-	"download": "",
-	"protected": false,
-	"manifestPlusVersion": "1.2.0",
-	"media": [
-		{
-			"type": "cover",
-			"url": "ddb://image/vrgtr/listing_images/637496917952314322.jpeg"
-		}
-	]
+  "id": "vrgtr",
+  "name": "vrgtr",
+  "title": "Van Richten's Guide to Ravenloft",
+  "description": "<blockquote>FACE YOUR FEARS</blockquote><p>Terror stalks the nightmare realms of Ravenloft. No one knows this better than monster scholar Rudolph Van Richten. To arm a new generation against the creatures of the night, Van Richten—along with other heroes of Ravenloft like Ezmerelda d'Avenir and the Weathermay-Foxgrove Twins—shares his correspondence and case files in this tome of eerie tales and chilling truths about the Lands of the Mists.</p><p>Discover the mysteries of Ravenloft, mist-shrouded lands where infamous Darklords lurk among ageless vampires, zombie hordes, cosmic terrors, and worse. Then make your choice. Will you create your own Domains of Dread, settings to host endless terrifying adventures? Or will you join the ranks of haunted heroes who embrace macabre lineages, dual-edged Dark Gifts, haunted subclasses, and other forbidden powers? The mists of Ravenloft are rising. Overcome your dread or forever be its prisoner!</p>",
+  "authors": [
+    {
+      "name": "MrPrimate",
+      "email": "jack@mrprimate.co.uk",
+      "url": "https://mrprimate.co.uk",
+      "patreon": "https://www.patreon.com/MrPrimate",
+      "discord": "https://discord.gg/WzPuRuDJVP"
+    },
+    {
+      "name": "The Forge",
+      "url": "https://forge-vtt.com",
+      "email": "contact@forge-vtt.com",
+      "discord": "https://forge-vtt.com/discord",
+      "reddit": "https://www.reddit.com/r/ForgeVTT",
+      "twitter": "@ForgeVTT"
+    }
+  ],
+  "url": "https://www.dndbeyond.com/sources/VRGtR",
+  "license": "",
+  "readme": "",
+  "bugs": "",
+  "changelog": "",
+  "flags": {},
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "10"
+  },
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "10",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "VRGtR Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "type": "Scene",
+      "system": "dnd5e"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+        "compatibility": {
+          "verified": "2.0.3"
+        }
+      }
+    ]
+  },
+  "system": ["dnd5e"],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "manifestPlusVersion": "1.2.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "ddb://image/vrgtr/listing_images/637496917952314322.jpeg"
+    }
+  ]
 }

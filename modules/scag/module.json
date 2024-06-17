@@ -1,68 +1,66 @@
 {
-	"id": "scag",
-	"name": "scag",
-	"title": "Sword Coast Adventurer's Guide",
-	"description": "<p>The Sword Coast Adventurer's Guide is a valuable resource to start any game in the Sword Coast. Giving details to the region of the Forgotten Realms, the sourcebook comprises shining paragons of civilization, perilous locales fraught with evil, and a wilderness that offers an explorer both vast opportunity and great danger.</p>",
-	"authors": [
-		{
-			"name": "MrPrimate",
-			"email": "jack@mrprimate.co.uk",
-			"url": "https://mrprimate.co.uk",
-			"patreon": "https://www.patreon.com/MrPrimate",
-			"discord": "https://discord.gg/WzPuRuDJVP"
-		},
-		{
-			"name": "The Forge",
-			"url": "https://forge-vtt.com",
-			"email": "contact@forge-vtt.com",
-			"discord": "https://forge-vtt.com/discord",
-			"reddit": "https://www.reddit.com/r/ForgeVTT",
-			"twitter": "@ForgeVTT"
-		}
-	],
-	"url": "https://www.dndbeyond.com/sources/SCAG",
-	"license": "",
-	"readme": "",
-	"bugs": "",
-	"changelog": "",
-	"flags": {},
-	"version": "0.0.0",
-	"compatibility": {
-		"minimum": "0.7.9",
-		"verified": "10"
-	},
-	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "10",
-	"scripts": [],
-	"esmodules": [],
-	"styles": [],
-	"languages": [],
-	"packs": [],
-	"relationships": {
-		"systems": [
-			{
-				"id": "dnd5e",
-				"type": "system",
-				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-				"compatibility": {
-					"verified": "2.0.3"
-				}
-			}
-		]
-	},
-	"system": [
-		"dnd5e"
-	],
-	"dependencies": [],
-	"socket": false,
-	"manifest": "",
-	"download": "",
-	"protected": false,
-	"manifestPlusVersion": "1.2.0",
-	"media": [
-		{
-			"type": "cover",
-			"url": "ddb://image/scag/listing_images/637248149475504723.jpeg"
-		}
-	]
+  "id": "scag",
+  "name": "scag",
+  "title": "Sword Coast Adventurer's Guide",
+  "description": "<p>The Sword Coast Adventurer's Guide is a valuable resource to start any game in the Sword Coast. Giving details to the region of the Forgotten Realms, the sourcebook comprises shining paragons of civilization, perilous locales fraught with evil, and a wilderness that offers an explorer both vast opportunity and great danger.</p>",
+  "authors": [
+    {
+      "name": "MrPrimate",
+      "email": "jack@mrprimate.co.uk",
+      "url": "https://mrprimate.co.uk",
+      "patreon": "https://www.patreon.com/MrPrimate",
+      "discord": "https://discord.gg/WzPuRuDJVP"
+    },
+    {
+      "name": "The Forge",
+      "url": "https://forge-vtt.com",
+      "email": "contact@forge-vtt.com",
+      "discord": "https://forge-vtt.com/discord",
+      "reddit": "https://www.reddit.com/r/ForgeVTT",
+      "twitter": "@ForgeVTT"
+    }
+  ],
+  "url": "https://www.dndbeyond.com/sources/SCAG",
+  "license": "",
+  "readme": "",
+  "bugs": "",
+  "changelog": "",
+  "flags": {},
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "10"
+  },
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "10",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+        "compatibility": {
+          "verified": "2.0.3"
+        }
+      }
+    ]
+  },
+  "system": ["dnd5e"],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "manifestPlusVersion": "1.2.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "ddb://image/scag/listing_images/637248149475504723.jpeg"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
 
 Soar on a skyship from the metropolis of Emon to the distant haven of Whitestone, venture into wilderness rife with terrifying monsters and wayward mages, and uncover magic items that range from simple trinkets to the legendary Vestiges of Divergence. Explore dazzling new subclasses and backgrounds in your epic adventures in the world of Exandria and beyond! The adventure begins here!
 
-*Tal’Dorei Campaign Setting Reborn* contains everything needed to unlock the rich setting of Tal’Dorei and make it your own:
+_Tal’Dorei Campaign Setting Reborn_ contains everything needed to unlock the rich setting of Tal’Dorei and make it your own:
 
 - A guide to each major region, with story hooks to fuel your campaign
 - Expanded character options, including **9 subclasses**, **7 feats**, and **5 backgrounds** for use in the **D&D Beyond character creator**

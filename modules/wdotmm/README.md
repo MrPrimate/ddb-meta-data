@@ -6,7 +6,7 @@
 
 In the city of Waterdeep rests a tavern called the Yawning Portal, named after the gaping pit in its common room. At the bottom of this crumbling shaft is a labyrinthine dungeon shunned by all but the most daring adventurers. Known as Undermountain, this dungeon is the domain of the mad wizard Halaster Blackcloak. Long has the Mad Mage dwelt in these forlorn depths, seeding his lair with monsters, traps, and mysteries — to what end is a constant source of speculation and concern.
 
-This adventure picks up where *Waterdeep: Dragon Heist* leaves off, taking characters of 5th level or higher all the way to 20th level should they explore the entirety of Halaster's home. Twenty-three levels of Undermountain are detailed herein, along with the subterranean refuge of Skullport. Treasures and secrets abound, but tread with care!
+This adventure picks up where _Waterdeep: Dragon Heist_ leaves off, taking characters of 5th level or higher all the way to 20th level should they explore the entirety of Halaster's home. Twenty-three levels of Undermountain are detailed herein, along with the subterranean refuge of Skullport. Treasures and secrets abound, but tread with care!
 
 ## License
 

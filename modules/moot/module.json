@@ -1,81 +1,79 @@
 {
-	"id": "moot",
-	"name": "moot",
-	"title": "Mythic Odysseys of Theros",
-	"description": "<p>Explore the <em>Magic: The Gathering's plane of Theros</em>, a land shaped by the wrath of gods and the deeds of heroes, where champions vie for immortal favor and a place among the stars. From the temples of omen-speaking oracles to the five realms of the underworld, discover a rich world in this sourcebook for Dungeons &amp; Dragons fifth edition.</p>",
-	"authors": [
-		{
-			"name": "MrPrimate",
-			"email": "jack@mrprimate.co.uk",
-			"url": "https://mrprimate.co.uk",
-			"patreon": "https://www.patreon.com/MrPrimate",
-			"discord": "https://discord.gg/WzPuRuDJVP"
-		},
-		{
-			"name": "Pariah Zero",
-			"discord": "Pariah Zero#9919"
-		},
-		{
-			"name": "The Forge",
-			"url": "https://forge-vtt.com",
-			"email": "contact@forge-vtt.com",
-			"discord": "https://forge-vtt.com/discord",
-			"reddit": "https://www.reddit.com/r/ForgeVTT",
-			"twitter": "@ForgeVTT"
-		}
-	],
-	"url": "https://www.dndbeyond.com/sources/MOoT",
-	"license": "",
-	"readme": "",
-	"bugs": "",
-	"changelog": "",
-	"flags": {},
-	"version": "0.0.0",
-	"compatibility": {
-		"minimum": "0.7.9",
-		"verified": "10"
-	},
-	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "10",
-	"scripts": [],
-	"esmodules": [],
-	"styles": [],
-	"languages": [],
-	"packs": [
-		{
-			"name": "scenes",
-			"label": "MOoT Scenes",
-			"path": "packs/scenes.db",
-			"entity": "Scene",
-			"type": "Scene",
-			"system": "dnd5e"
-		}
-	],
-	"relationships": {
-		"systems": [
-			{
-				"id": "dnd5e",
-				"type": "system",
-				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-				"compatibility": {
-					"verified": "2.0.3"
-				}
-			}
-		]
-	},
-	"system": [
-		"dnd5e"
-	],
-	"dependencies": [],
-	"socket": false,
-	"manifest": "",
-	"download": "",
-	"protected": false,
-	"manifestPlusVersion": "1.2.0",
-	"media": [
-		{
-			"type": "cover",
-			"url": "ddb://image/moot/listing_images/637248108609488365.jpeg"
-		}
-	]
+  "id": "moot",
+  "name": "moot",
+  "title": "Mythic Odysseys of Theros",
+  "description": "<p>Explore the <em>Magic: The Gathering's plane of Theros</em>, a land shaped by the wrath of gods and the deeds of heroes, where champions vie for immortal favor and a place among the stars. From the temples of omen-speaking oracles to the five realms of the underworld, discover a rich world in this sourcebook for Dungeons &amp; Dragons fifth edition.</p>",
+  "authors": [
+    {
+      "name": "MrPrimate",
+      "email": "jack@mrprimate.co.uk",
+      "url": "https://mrprimate.co.uk",
+      "patreon": "https://www.patreon.com/MrPrimate",
+      "discord": "https://discord.gg/WzPuRuDJVP"
+    },
+    {
+      "name": "Pariah Zero",
+      "discord": "Pariah Zero#9919"
+    },
+    {
+      "name": "The Forge",
+      "url": "https://forge-vtt.com",
+      "email": "contact@forge-vtt.com",
+      "discord": "https://forge-vtt.com/discord",
+      "reddit": "https://www.reddit.com/r/ForgeVTT",
+      "twitter": "@ForgeVTT"
+    }
+  ],
+  "url": "https://www.dndbeyond.com/sources/MOoT",
+  "license": "",
+  "readme": "",
+  "bugs": "",
+  "changelog": "",
+  "flags": {},
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "10"
+  },
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "10",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "MOoT Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "type": "Scene",
+      "system": "dnd5e"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+        "compatibility": {
+          "verified": "2.0.3"
+        }
+      }
+    ]
+  },
+  "system": ["dnd5e"],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "manifestPlusVersion": "1.2.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "ddb://image/moot/listing_images/637248108609488365.jpeg"
+    }
+  ]
 }

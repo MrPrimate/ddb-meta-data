@@ -9,6 +9,7 @@ Some jobs require more than simply wielding a sword or slinging a spell. Whether
 • Easy to drop in heist adventures into any setting or run as a one-shot<br>
 
 • **Detailed information, in-world maps, and advice for Dungeon Masters** to help run adventures with multiple paths to success
+
 ## License
 
 This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

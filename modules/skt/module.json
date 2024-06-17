@@ -1,89 +1,87 @@
 {
-	"id": "skt",
-	"name": "skt",
-	"title": "Storm King's Thunder",
-	"description": "<blockquote>A Gigantic Adventure for Levels 1-10</blockquote><p>Ages ago, giants and dragons waged war across the Savage Frontier. These battles are long forgotten by the human civilizations of today, but ancient relics remain. And now, the land shudders once more with the thunder of giant footsteps. Puny adventurers must rise to the challenge, gather their strength, unlock the power of ancient runes, and take the fight to the giants' doorsteps. Only then can they forge an alliance to end the war before it begins.</p>",
-	"authors": [
-		{
-			"name": "MrPrimate",
-			"email": "jack@mrprimate.co.uk",
-			"url": "https://mrprimate.co.uk",
-			"patreon": "https://www.patreon.com/MrPrimate",
-			"discord": "https://discord.gg/WzPuRuDJVP"
-		},
-		{
-			"name": "Zac",
-			"discord": "Zac#3720"
-		},
-		{
-			"name": "whelan",
-			"discord": "whelan#7806"
-		},
-		{
-			"name": "ZEE-Zardya",
-			"discord": "ZEE-Zardya#0284"
-		},
-		{
-			"name": "The Forge",
-			"url": "https://forge-vtt.com",
-			"email": "contact@forge-vtt.com",
-			"discord": "https://forge-vtt.com/discord",
-			"reddit": "https://www.reddit.com/r/ForgeVTT",
-			"twitter": "@ForgeVTT"
-		}
-	],
-	"url": "https://www.dndbeyond.com/sources/SKT",
-	"license": "",
-	"readme": "",
-	"bugs": "",
-	"changelog": "",
-	"flags": {},
-	"version": "0.0.0",
-	"compatibility": {
-		"minimum": "0.7.9",
-		"verified": "10"
-	},
-	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "10",
-	"scripts": [],
-	"esmodules": [],
-	"styles": [],
-	"languages": [],
-	"packs": [
-		{
-			"name": "scenes",
-			"label": "SKT Scenes",
-			"path": "packs/scenes.db",
-			"entity": "Scene",
-			"type": "Scene",
-			"system": "dnd5e"
-		}
-	],
-	"relationships": {
-		"systems": [
-			{
-				"id": "dnd5e",
-				"type": "system",
-				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-				"compatibility": {
-					"verified": "2.0.3"
-				}
-			}
-		]
-	},
-	"system": [
-		"dnd5e"
-	],
-	"dependencies": [],
-	"socket": false,
-	"manifest": "",
-	"download": "",
-	"protected": false,
-	"manifestPlusVersion": "1.2.0",
-	"media": [
-		{
-			"type": "cover",
-			"url": "ddb://image/skt/listing_images/636383501361665378.jpeg"
-		}
-	]
+  "id": "skt",
+  "name": "skt",
+  "title": "Storm King's Thunder",
+  "description": "<blockquote>A Gigantic Adventure for Levels 1-10</blockquote><p>Ages ago, giants and dragons waged war across the Savage Frontier. These battles are long forgotten by the human civilizations of today, but ancient relics remain. And now, the land shudders once more with the thunder of giant footsteps. Puny adventurers must rise to the challenge, gather their strength, unlock the power of ancient runes, and take the fight to the giants' doorsteps. Only then can they forge an alliance to end the war before it begins.</p>",
+  "authors": [
+    {
+      "name": "MrPrimate",
+      "email": "jack@mrprimate.co.uk",
+      "url": "https://mrprimate.co.uk",
+      "patreon": "https://www.patreon.com/MrPrimate",
+      "discord": "https://discord.gg/WzPuRuDJVP"
+    },
+    {
+      "name": "Zac",
+      "discord": "Zac#3720"
+    },
+    {
+      "name": "whelan",
+      "discord": "whelan#7806"
+    },
+    {
+      "name": "ZEE-Zardya",
+      "discord": "ZEE-Zardya#0284"
+    },
+    {
+      "name": "The Forge",
+      "url": "https://forge-vtt.com",
+      "email": "contact@forge-vtt.com",
+      "discord": "https://forge-vtt.com/discord",
+      "reddit": "https://www.reddit.com/r/ForgeVTT",
+      "twitter": "@ForgeVTT"
+    }
+  ],
+  "url": "https://www.dndbeyond.com/sources/SKT",
+  "license": "",
+  "readme": "",
+  "bugs": "",
+  "changelog": "",
+  "flags": {},
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "10"
+  },
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "10",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "SKT Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "type": "Scene",
+      "system": "dnd5e"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+        "compatibility": {
+          "verified": "2.0.3"
+        }
+      }
+    ]
+  },
+  "system": ["dnd5e"],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "manifestPlusVersion": "1.2.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "ddb://image/skt/listing_images/636383501361665378.jpeg"
+    }
+  ]
 }

@@ -1,81 +1,79 @@
 {
-	"id": "wpm",
-	"name": "wpm",
-	"title": "White Plume Mountain",
-	"description": "<blockquote>Adventure for Level 8</blockquote><p>White Plume Mountain, by Lawrence Schick, was originally published in 1979 as an adventure for the first edition of the D&amp;D game. Schick related in the 2013 compilation Dungeons of Dread that he wrote the adventure as a way of persuading Gary Gygax to hire him as a game designer.</p>",
-	"authors": [
-		{
-			"name": "MrPrimate",
-			"email": "jack@mrprimate.co.uk",
-			"url": "https://mrprimate.co.uk",
-			"patreon": "https://www.patreon.com/MrPrimate",
-			"discord": "https://discord.gg/WzPuRuDJVP"
-		},
-		{
-			"name": "Pariah Zero",
-			"discord": "Pariah Zero#9919"
-		},
-		{
-			"name": "The Forge",
-			"url": "https://forge-vtt.com",
-			"email": "contact@forge-vtt.com",
-			"discord": "https://forge-vtt.com/discord",
-			"reddit": "https://www.reddit.com/r/ForgeVTT",
-			"twitter": "@ForgeVTT"
-		}
-	],
-	"url": "https://www.dndbeyond.com/sources/WPM",
-	"license": "",
-	"readme": "",
-	"bugs": "",
-	"changelog": "",
-	"flags": {},
-	"version": "0.0.0",
-	"compatibility": {
-		"minimum": "0.7.9",
-		"verified": "10"
-	},
-	"minimumCoreVersion": "0.7.9",
-	"compatibleCoreVersion": "10",
-	"scripts": [],
-	"esmodules": [],
-	"styles": [],
-	"languages": [],
-	"packs": [
-		{
-			"name": "scenes",
-			"label": "WPM Scenes",
-			"path": "packs/scenes.db",
-			"entity": "Scene",
-			"type": "Scene",
-			"system": "dnd5e"
-		}
-	],
-	"relationships": {
-		"systems": [
-			{
-				"id": "dnd5e",
-				"type": "system",
-				"manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
-				"compatibility": {
-					"verified": "2.0.3"
-				}
-			}
-		]
-	},
-	"system": [
-		"dnd5e"
-	],
-	"dependencies": [],
-	"socket": false,
-	"manifest": "",
-	"download": "",
-	"protected": false,
-	"manifestPlusVersion": "1.2.0",
-	"media": [
-		{
-			"type": "cover",
-			"url": "ddb://image/wpm/listing_images/637248705560259195.jpeg"
-		}
-	]
+  "id": "wpm",
+  "name": "wpm",
+  "title": "White Plume Mountain",
+  "description": "<blockquote>Adventure for Level 8</blockquote><p>White Plume Mountain, by Lawrence Schick, was originally published in 1979 as an adventure for the first edition of the D&amp;D game. Schick related in the 2013 compilation Dungeons of Dread that he wrote the adventure as a way of persuading Gary Gygax to hire him as a game designer.</p>",
+  "authors": [
+    {
+      "name": "MrPrimate",
+      "email": "jack@mrprimate.co.uk",
+      "url": "https://mrprimate.co.uk",
+      "patreon": "https://www.patreon.com/MrPrimate",
+      "discord": "https://discord.gg/WzPuRuDJVP"
+    },
+    {
+      "name": "Pariah Zero",
+      "discord": "Pariah Zero#9919"
+    },
+    {
+      "name": "The Forge",
+      "url": "https://forge-vtt.com",
+      "email": "contact@forge-vtt.com",
+      "discord": "https://forge-vtt.com/discord",
+      "reddit": "https://www.reddit.com/r/ForgeVTT",
+      "twitter": "@ForgeVTT"
+    }
+  ],
+  "url": "https://www.dndbeyond.com/sources/WPM",
+  "license": "",
+  "readme": "",
+  "bugs": "",
+  "changelog": "",
+  "flags": {},
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "10"
+  },
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "10",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "scenes",
+      "label": "WPM Scenes",
+      "path": "packs/scenes.db",
+      "entity": "Scene",
+      "type": "Scene",
+      "system": "dnd5e"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/dnd5e/releases/latest/download/system.json",
+        "compatibility": {
+          "verified": "2.0.3"
+        }
+      }
+    ]
+  },
+  "system": ["dnd5e"],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "",
+  "download": "",
+  "protected": false,
+  "manifestPlusVersion": "1.2.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "ddb://image/wpm/listing_images/637248705560259195.jpeg"
+    }
+  ]
 }

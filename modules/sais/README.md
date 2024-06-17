@@ -28,13 +28,6 @@ This 3-book set comprises:
 
 - _Light of Xaryxis_: An adventure for Dungeon Masters set in the Astral Plane. When a cosmic enemy threatens to destroy their world, brave heroes must do everything in their power to save it. This quest will take them across the teeming oceans of Wildspace to the silvery void of the Astral Sea and beyond. Along the way, they’ll make friends, encounter terrifying foes, and face one cliffhanger after another. Can they save their world before time runs out?
 
-Complete the core Dungeons & Dragons collection:<br>
-
-- Tasha's Cauldron of Everything
-- Dungeon Master's Guide
-- Monster Manual
-- Xanathar's Guide To Everything
-
 ---
 
 ## License
