@@ -1,3 +1,7 @@
+# 1.1.1
+
+- Where Evil Lies Support.
+
 # 1.1.0
 
 - Updates for Foundry v12. Existing adventure conversion.
