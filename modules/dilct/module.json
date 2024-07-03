@@ -37,7 +37,16 @@
 	"esmodules": [],
 	"styles": [],
 	"languages": [],
-	"packs": [],
+	"packs": [
+		{
+			"name": "scenes",
+			"label": "DILCT Scenes",
+			"path": "packs/scenes.db",
+			"entity": "Scene",
+			"type": "Scene",
+			"system": "dnd5e"
+		}
+	],
 	"relationships": {
 		"systems": [
 			{
