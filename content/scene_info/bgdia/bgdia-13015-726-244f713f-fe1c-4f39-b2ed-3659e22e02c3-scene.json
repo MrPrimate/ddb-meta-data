@@ -518,9 +518,6 @@
                     "y": 2324,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
@@ -571,9 +568,6 @@
                     "y": 2822,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
@@ -618,9 +612,6 @@
                     "y": 2822,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
@@ -665,9 +656,6 @@
                     "y": 1992,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
@@ -713,9 +701,6 @@
                     "y": 1992,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
@@ -761,9 +746,6 @@
                     "y": 1992,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 16829,
                             "entityTypeId": 779871897,
@@ -1186,9 +1168,6 @@
                     "y": 3652,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 16786,
                             "entityTypeId": 779871897,
@@ -1228,9 +1207,6 @@
                     "y": 3320,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 17185,
                             "entityTypeId": 779871897,
@@ -1386,9 +1362,6 @@
                     "y": 2490,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 16798,
                             "entityTypeId": 779871897,
@@ -1753,9 +1726,6 @@
                     "y": 1992,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "ddbActorFlags": {
                             "id": 17197,
                             "entityTypeId": 779871897,
@@ -1804,17 +1774,17 @@
                     "name": "Map 1.2: Elfsong Tavern",
                     "bookCode": "bgdia",
                     "contentChunkId": "244f713f-fe1c-4f39-b2ed-3659e22e02c3",
-                    "lastUpdate": "0.1.40",
+                    "lastUpdate": "0.2.9",
                     "notes": "0.1.40",
-                    "tokens": "0.1.40",
+                    "tokens": "1.1.2",
                     "walls": "0.2.9",
-                    "lights": "0.2.9",
+                    "lights": "1.1.2",
                     "drawings": "0.2.9"
                 }
             }
         },
         "stairways": [],
-        "perfect-vision": [],
+        "perfect-vision": {},
         "dynamic-illumination": [],
         "ddbimporter": {
             "version": "2.7.2"
@@ -1841,7 +1811,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.2,
-                "angle": 0,
+                "angle": 360,
                 "bright": 20,
                 "coloration": 1,
                 "dim": 40,
@@ -1873,7 +1843,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 55,
                 "coloration": 1,
                 "dim": 70,
@@ -1904,7 +1874,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -1935,7 +1905,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -1966,7 +1936,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -1997,7 +1967,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -2028,7 +1998,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -2059,7 +2029,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -2090,7 +2060,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -2121,7 +2091,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 75,
                 "coloration": 1,
                 "dim": 90,
@@ -2152,7 +2122,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 20,
                 "coloration": 1,
                 "dim": 40,
@@ -2183,7 +2153,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 60,
                 "coloration": 1,
                 "dim": 70,
@@ -2214,7 +2184,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 25,
                 "coloration": 1,
                 "dim": 40,
@@ -2245,7 +2215,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 25,
                 "coloration": 1,
                 "dim": 40,
@@ -2276,7 +2246,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 75,
                 "coloration": 1,
                 "dim": 90,
@@ -2307,7 +2277,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 65,
                 "coloration": 1,
                 "dim": 75,
@@ -2338,7 +2308,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 55,
                 "coloration": 1,
                 "dim": 70,
@@ -2369,7 +2339,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.35,
-                "angle": 0,
+                "angle": 360,
                 "bright": 20,
                 "coloration": 1,
                 "dim": 40,
@@ -2401,7 +2371,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -2432,7 +2402,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -2463,7 +2433,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -2494,7 +2464,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -2525,7 +2495,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
