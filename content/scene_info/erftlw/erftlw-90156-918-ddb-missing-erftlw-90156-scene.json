@@ -120,26 +120,12 @@
                     "y": 4100,
                     "disposition": 0,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
                             "sightLimit": null,
                             "light": {}
                         },
-                        "about-face": {
-                            "indicatorDisabled": false,
-                            "flipOrRotate": "global",
-                            "facingDirection": "",
-                            "direction": 90,
-                            "prevPos": {
-                                "x": 5500,
-                                "y": 4200
-                            }
-                        },
-                        "core": {},
                         "ddbActorFlags": {
                             "id": 487578,
                             "entityTypeId": 779871897,
@@ -176,7 +162,7 @@
                     },
                     "light": {
                         "alpha": 0.5,
-                        "angle": 0,
+                        "angle": 360,
                         "bright": 0,
                         "color": null,
                         "coloration": 1,
@@ -207,13 +193,6 @@
                     "y": 4100,
                     "disposition": -1,
                     "flags": {
-                        "about-face": {
-                            "direction": 90,
-                            "prevPos": {
-                                "x": 5100,
-                                "y": 4000
-                            }
-                        },
                         "ddbActorFlags": {
                             "id": 17165,
                             "entityTypeId": 779871897,
@@ -233,7 +212,7 @@
                     "actorData": {},
                     "light": {
                         "alpha": 0.5,
-                        "angle": 0,
+                        "angle": 360,
                         "bright": 0,
                         "coloration": 1,
                         "dim": 0,
@@ -263,13 +242,6 @@
                     "y": 4000,
                     "disposition": -1,
                     "flags": {
-                        "about-face": {
-                            "direction": 90,
-                            "prevPos": {
-                                "x": 5000,
-                                "y": 4000
-                            }
-                        },
                         "ddbActorFlags": {
                             "id": 17165,
                             "entityTypeId": 779871897,
@@ -289,7 +261,7 @@
                     "actorData": {},
                     "light": {
                         "alpha": 0.5,
-                        "angle": 0,
+                        "angle": 360,
                         "bright": 0,
                         "coloration": 1,
                         "dim": 0,
@@ -319,13 +291,6 @@
                     "y": 4100,
                     "disposition": -1,
                     "flags": {
-                        "about-face": {
-                            "direction": 90,
-                            "prevPos": {
-                                "x": 4800,
-                                "y": 4300
-                            }
-                        },
                         "ddbActorFlags": {
                             "id": 17165,
                             "entityTypeId": 779871897,
@@ -345,7 +310,7 @@
                     "actorData": {},
                     "light": {
                         "alpha": 0.5,
-                        "angle": 0,
+                        "angle": 360,
                         "bright": 0,
                         "coloration": 1,
                         "dim": 0,
@@ -375,13 +340,6 @@
                     "y": 4100,
                     "disposition": -1,
                     "flags": {
-                        "about-face": {
-                            "direction": 90,
-                            "prevPos": {
-                                "x": 4700,
-                                "y": 4300
-                            }
-                        },
                         "ddbActorFlags": {
                             "id": 17165,
                             "entityTypeId": 779871897,
@@ -401,7 +359,7 @@
                     "actorData": {},
                     "light": {
                         "alpha": 0.5,
-                        "angle": 0,
+                        "angle": 360,
                         "bright": 0,
                         "coloration": 1,
                         "dim": 0,
@@ -431,26 +389,12 @@
                     "y": 4300,
                     "disposition": -1,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
                             "sightLimit": null,
                             "light": {}
                         },
-                        "about-face": {
-                            "indicatorDisabled": false,
-                            "flipOrRotate": "global",
-                            "facingDirection": "",
-                            "direction": 90,
-                            "prevPos": {
-                                "x": 4800,
-                                "y": 4400
-                            }
-                        },
-                        "core": {},
                         "ddbActorFlags": {
                             "id": 16904,
                             "entityTypeId": 779871897,
@@ -480,7 +424,7 @@
                     },
                     "light": {
                         "alpha": 0.5,
-                        "angle": 0,
+                        "angle": 360,
                         "bright": 0,
                         "color": null,
                         "coloration": 1,
@@ -511,21 +455,12 @@
                     "y": 4500,
                     "disposition": 1,
                     "flags": {
-                        "splatter": {
-                            "bloodColor": ""
-                        },
                         "perfect-vision": {
                             "visionRules": "default",
                             "monoVisionColor": "",
                             "sightLimit": null,
                             "light": {}
                         },
-                        "about-face": {
-                            "indicatorDisabled": false,
-                            "flipOrRotate": "global",
-                            "facingDirection": ""
-                        },
-                        "core": {},
                         "ddbActorFlags": {
                             "id": 17045,
                             "entityTypeId": 779871897,
@@ -566,7 +501,7 @@
                     },
                     "light": {
                         "alpha": 0.5,
-                        "angle": 0,
+                        "angle": 360,
                         "bright": 0,
                         "color": null,
                         "coloration": 1,
@@ -595,11 +530,11 @@
                     "name": "Terminus Top-Level Apartments",
                     "bookCode": "erftlw",
                     "contentChunkId": "ddb-missing-erftlw-90156",
-                    "lastUpdate": "0.2.7",
+                    "lastUpdate": "0.2.9",
                     "notes": "0.2.9",
-                    "tokens": "0.2.7",
+                    "tokens": "1.1.2",
                     "walls": "0.2.7",
-                    "lights": "0.2.7",
+                    "lights": "1.1.2",
                     "drawings": "0.2.9",
                     "foundry": "9.249"
                 }
@@ -674,7 +609,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 50,
@@ -708,7 +643,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 60,
                 "coloration": 1,
                 "dim": 0,
@@ -742,7 +677,7 @@
             "vision": true,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 300,
                 "coloration": 1,
                 "dim": 0,
@@ -776,7 +711,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 20,
                 "coloration": 1,
                 "dim": 40,
@@ -810,7 +745,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 20,
@@ -844,7 +779,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 20,
@@ -878,7 +813,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 20,
                 "coloration": 1,
                 "dim": 40,
@@ -912,7 +847,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 20,
@@ -946,7 +881,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 20,
                 "coloration": 1,
                 "dim": 40,
@@ -980,7 +915,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 20,
@@ -1014,7 +949,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 20,
                 "coloration": 1,
                 "dim": 40,
@@ -1048,7 +983,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 20,
@@ -1082,7 +1017,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 20,
                 "coloration": 1,
                 "dim": 40,
@@ -1116,7 +1051,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 0,
                 "coloration": 1,
                 "dim": 20,
@@ -1150,7 +1085,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 20,
                 "coloration": 1,
                 "dim": 40,
@@ -1184,7 +1119,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 15,
                 "coloration": 1,
                 "dim": 30,
@@ -1218,7 +1153,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 15,
                 "coloration": 1,
                 "dim": 30,
@@ -1252,7 +1187,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 15,
                 "coloration": 1,
                 "dim": 30,
@@ -1286,7 +1221,7 @@
             "vision": false,
             "config": {
                 "alpha": 1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 1.7,
                 "coloration": 4,
                 "dim": 0,
@@ -1321,7 +1256,7 @@
             "vision": false,
             "config": {
                 "alpha": 1,
-                "angle": 0,
+                "angle": 360,
                 "bright": 1.4,
                 "coloration": 1,
                 "dim": 0,
@@ -1356,7 +1291,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 5,
                 "coloration": 1,
                 "dim": 10,
@@ -1391,7 +1326,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 15,
                 "coloration": 1,
                 "dim": 30,
@@ -1425,7 +1360,7 @@
             "vision": false,
             "config": {
                 "alpha": 0.5,
-                "angle": 0,
+                "angle": 360,
                 "bright": 15,
                 "coloration": 1,
                 "dim": 30,

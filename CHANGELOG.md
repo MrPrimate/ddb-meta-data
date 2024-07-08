@@ -1,3 +1,11 @@
+# 1.1.2
+
+- Fixes for a number of adventures in v12 setting light angle to zero.
+
+# 1.1.1
+
+- Where Evil Lies Support.
+
 # 1.1.0
 
 - Updates for Foundry v12. Existing adventure conversion.
