@@ -1,3 +1,7 @@
+# 1.1.5
+
+- Quests from the Infinite Staircase Chapter 7.
+
 # 1.1.4
 
 - Quests from the Infinite Staircase Chapters 5-6.
@@ -12,7 +16,7 @@
 
 # 1.1.1
 
-- Where Evil Lies Support.
+- Where Evil Lives Support.
 
 # 1.1.0
 
