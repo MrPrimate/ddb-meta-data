@@ -1,10 +1,22 @@
+# 1.1.5
+
+- Quests from the Infinite Staircase Chapter 7.
+
+# 1.1.4
+
+- Quests from the Infinite Staircase Chapters 5-6.
+
+# 1.1.3
+
+- Quests from the Infinite Staircase Chapters 1-4
+
 # 1.1.2
 
 - Fixes for a number of adventures in v12 setting light angle to zero.
 
 # 1.1.1
 
-- Where Evil Lies Support.
+- Where Evil Lives Support.
 
 # 1.1.0
 
