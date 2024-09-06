@@ -1,14 +1,24 @@
 # Rise of Tiamat
 
-> Adventure for Levels 8-15
+**A Draconic Adventure for Levels 8-15**
 
-## Thwart The Queen of Evil Dragons
+The Cult of the Dragon leads the charge in an unholy campaign to bring Tiamat back to the Forgotten Realms. With the race against evil moving from Waterdeep to the Sea of Moving Ice to Thay, the situation grows more perilous with each passing moment. The heroes must succeed, or Faerûn will succumb to draconic tyranny. In the end, the world will never be the same.
 
-> Avert the cataclysmic return of Tiamat in this adventure for the world's greatest roleplaying game
+• Adds **15 deadly monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
 
-The Cult of the Dragon leads the charge in an unholy campaign to bring Tiamat back to the Forgotten Realms. With the race against evil moving from Waterdeep to the Sea of Moving Ice to Thay, the situation grows more perilous with each passing moment.
+• Wield **7 magical items** against the forces of Tiamat with a click of your character sheet<br>
 
-The heroes must succeed, or Faerûn will succumb to draconic tyranny. In the end, the world will never be the same.
+• **Rollable tables**, **detailed map**s, and **a wealth of stats** to run this **96-page draconic adventure<br>
+
+**Continue the war against Tiamat in these follow-up adventures:
+
+- Hoard of the Dragon Queen
+
+- Baldur’s Gate: Descent into Avernus
+
+****
+
+---
 
 ## License
 

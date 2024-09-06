@@ -1,6 +1,6 @@
 # The Vecna Dossier
 
-> A fiendish foe for the World's Greatest Roleplaying Game
+A fiendish foe for the World's Greatest Roleplaying Game
 
 ## License
 

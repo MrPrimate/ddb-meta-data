@@ -1,12 +1,18 @@
-# Waterdeep Dungeon of the Mad Mage
+# Waterdeep: Dungeon of the Mad Mage
 
-> Adventure for Levels 5-20
+**A Dungeon Diving Adventure for Levels 5-20**
 
-> Explore the mega-dungeon of Undermountain in this adventure for the world's greatest roleplaying game.
+Dive into the dungeon shunned by all but the most daring adventurers. Known as Undermountain, this dungeon is the domain of the mad wizard Halaster Blackcloak. Long has the Mad Mage dwelt in these forlorn depths, seeding his lair with monsters, traps, and mysteries. This adventure picks up where Waterdeep: Dragon Heist leaves off, exploring the twenty-three levels of Undermountain along with the subterranean refuge of Skullport.
 
-In the city of Waterdeep rests a tavern called the Yawning Portal, named after the gaping pit in its common room. At the bottom of this crumbling shaft is a labyrinthine dungeon shunned by all but the most daring adventurers. Known as Undermountain, this dungeon is the domain of the mad wizard Halaster Blackcloak. Long has the Mad Mage dwelt in these forlorn depths, seeding his lair with monsters, traps, and mysteries — to what end is a constant source of speculation and concern.
+• Explore the **23 unique levels of the Undermountain**<br>
 
-This adventure picks up where _Waterdeep: Dragon Heist_ leaves off, taking characters of 5th level or higher all the way to 20th level should they explore the entirety of Halaster's home. Twenty-three levels of Undermountain are detailed herein, along with the subterranean refuge of Skullport. Treasures and secrets abound, but tread with care!
+• Adds **75 mad monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
+
+• Uncover **16 new magical items** and what they do with a click of your character sheet<br>
+
+• **Rollable tables**, **detailed maps**, and **helpful stats** to run this **256-page adventure** as the dungeon master
+
+---
 
 ## License
 

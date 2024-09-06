@@ -1,10 +1,26 @@
 # The Tortle Package
 
-This supplement also introduces a new playable character race, the tortle, and a new adventure location: Dangwaru, the Typhoon Palace. All of this is permissible for play within the D&D Adventurers League.
+All of this is permissible for play within the D&D Adventurers League.
 
-The Snout of Omgar is a geographical region described briefly in _Tomb of Annihilation_.
+The Snout of Omgar is a geographical region described briefly in *Tomb of Annihilation*.
 
-Not much is revealed about the location or its inhabitants in that adventure, however. _The Tortle Package_ is written for Dungeon Masters who want to know more about the Snout of Omgar.
+Not much is revealed about the location or its inhabitants in that adventure, however. *The Tortle Package* is written for Dungeon Masters who want to know more about the Snout of Omgar.<br>
+
+Discover the other books benefiting Extra Life:<br>
+
+\- Infernal Machine Rebuild<br>
+
+- Mordenkainen's Fiendish Folio Vol 1<br>
+
+-
+
+- One Grung Above<br>
+
+- Lost Laboratory of Kwalish
+
+---
+
+Proceeds from this product support ExtraLife. You can head to the  to find out more.
 
 ## License
 

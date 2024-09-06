@@ -1,8 +1,28 @@
 # Locathah Rising
 
-> Adventure for characters of 9th level
+**Proceeds from this adventure supplement support the charity Extra Life, for level 9 characters**
 
-Locathah Rising is a story about what happens when a normally peaceful species is pushed to the point of open conflict. As elemental forces threaten the safety of the nearby locathah communities, heroes rise from among their numbers to strike back and defend their homes and families.
+As elemental forces threaten the safety of the nearby locathah communities, heroes rise from among their numbers to strike back and defend their homes and families.
+
+• Play as **1 new race**, the Fishfolk Locathah, for use in the Character Builder<br>
+
+• Unlocks **6 aquatic monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
+
+• **Rollable tables**, **detailed maps**, and **a wealth of stats** to help dungeon masters run this adventure<br>
+
+Discover the other books benefiting Extra Life:<br>
+
+\- Infernal Machine Rebuild<br>
+
+- One Grung Above<br>
+
+- 
+
+- The Tortle Package<br>- Lost Laboratory of Kwalish
+
+---
+
+Extra Life supports Children's Miracle Network Hospitals® by raising funds and awareness that provide 32 million treatments each year to kids across the U.S. and Canada.
 
 ## License
 

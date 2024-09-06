@@ -1,16 +1,26 @@
 # Princes of the Apocalypse
 
-> Adventure for Levels 1-15
+**An Apocalyptic Adventure for Levels 1-15**
 
-## Primordial Evil Threatens the Realms
-
-> Prevent elemental annihilation in this adventure for the world's greatest roleplaying game
-
-The first signs are always small: bandits on the roads, pirates on the Dessarin River, monster sightings throughout the Sumber Hills all too close to the lands of civilized folk.
-
-To top things off, a delegation from the dwarven city of Mirabar has gone missing. Are these events all some bizarre coincidence, or is there a deeper reason behind them?
+The first signs are always small: bandits on the roads, pirates on the Dessarin River, monster sightings throughout the Sumber Hills - all too close to the lands of civilized folk. Are these events all some bizarre coincidence, or is there a deeper reason behind them?
 
 Working through its prophets, the Elder Elemental Eye has emerged to spread chaos across the Forgotten Realms. How will the adventurers prevent absolute devastation?
+
+• Adds **53 new monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
+
+• Wield **14 magical items** against the forces of the elements with a click of your character sheet<br>
+
+• **Rollable tables**, **detailed maps**, and **a wealth of stats** to run this **255-page apocalyptic adventure**
+
+Explore Faerûn with these next adventures:<br>
+
+\- Out of the Abyss<br>
+
+\- \- Tomb of Annihilation<br>
+
+\- Lost Mines of Phandelver
+
+---
 
 ## License
 

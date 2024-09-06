@@ -6,7 +6,8 @@ The city of Drakkenheim was destroyed by an Eldritch-fueled calamity… but it d
 - Add over **50 new monsters, NPCs,** and **legendary creatures** for use in **D&D Beyond Encounters**
 - Empower characters with **40+ new magic items**, **14 new spells**, and **5 new backgrounds**
 - Bring the world of Drakkenheim to life with mechanics for **personal quests, rivals, scheming factions,** and **urban exploration**
-- Frighten your players and build on your horror-fantasy campaign with Lairs of Etharis
+- Explore **57****detailed maps** and battle Drakkenheim’s forces with **D&D Beyond Maps**
+- Frighten your players and build on your horror-fantasy campaign with **
 
 ---
 

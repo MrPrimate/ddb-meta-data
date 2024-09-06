@@ -8,7 +8,17 @@ Some jobs require more than simply wielding a sword or slinging a spell. Whether
 
 • Easy to drop in heist adventures into any setting or run as a one-shot<br>
 
-• **Detailed information, in-world maps, and advice for Dungeon Masters** to help run adventures with multiple paths to success
+• **Detailed information, in-world maps, and advice for Dungeon Masters** to help run adventures with multiple paths to success**<br>
+
+Looking for more collection of adventures:
+
+**- Candlekeep Mysteries
+
+- Journeys through the Radiant Citadel
+
+**<br>
+
+---
 
 ## License
 

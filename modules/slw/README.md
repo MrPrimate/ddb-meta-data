@@ -1,8 +1,18 @@
-# Storm Lord's Wrath
+# Storm Lord’s Wrath
 
-> Adventure for Levels 7-9
+**Adventure for Levels 7-9**
 
-The second adventure in the Essentials Kit Bundle. Abandoned for many years, Leilon was once a fortified settlement midway along the High Road from Waterdeep to Neverwinter. Under the paid service of the Lord Protector Dagult Neverember, citizens of Neverwinter have returned, intent on reestablishing Leilon as a safe waypoint once more. Unfortunately, followers of Talos have also arrived, and they've brought the weather with them.
+The second adventure in the Essentials Kit Bundle. Abandoned for many years, Leilon was once a fortified settlement midway along the High Road from Waterdeep to Neverwinter. Under the paid service of the Lord Protector Dagult Neverember, citizens of Neverwinter have returned, intent on reestablishing Leilon as a safe waypoint once more. Unfortunately, followers of Talos have also arrived, and they’ve brought the weather with them.
+
+Continue the journey with these follow-up adventures:
+
+- Dragon of Icespire Peak
+
+- Sleeping Dragon's Wake
+
+-Divine Contention
+
+---
 
 ## License
 

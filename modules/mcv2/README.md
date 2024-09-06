@@ -1,4 +1,4 @@
-# Monstrous Compendium Volume Two: Dragonlance Creatures
+# Monstrous Compendium Vol. 2: Dragonlance Creatures
 
 Claim 11 additional Dragonlance monsters at no cost!
 

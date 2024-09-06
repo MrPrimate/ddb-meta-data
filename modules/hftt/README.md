@@ -1,6 +1,30 @@
 # Hunt for the Thessalhydra
 
-Unleash your imagination and live out the dream of exploring the upside down from the Netflix original series, Stranger Things. Everything you need to embark on a Stranger Things adventure! Mike Wheeler from Hawkins, Indiana, has created an awesome Dungeons & Dragons adventure... and now you get to play it!
+**Have your own Stranger Things Adventure for level 1-4**
+
+Unleash your imagination and live out the dream of exploring the Upside Down from the Netflix original series, Stranger Things. Mike Wheeler has created an awesome Dungeons & Dragons adventure...and now you get to play it.
+
+• Begin your own ***Stranger Things* D&D adventure** \-created, annotated, and animated by Will the Wise himself<br>
+
+• Unlock the **Thessalhydra and the Demogorgon** to use in the Encounter Builder to create & run organized battles for your party
+
+Check out these other collaborations:<br>
+
+\- Critical Role
+
+\- Acquisitions Incorporated
+
+Complete the core D&D collection:<br>
+
+\- Player's Handbook
+
+\- Monster Manual
+
+\- Xanathar's Guide To Everything <br>
+
+\- Dungeon Master's Guide
+
+---
 
 ## License
 

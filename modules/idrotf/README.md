@@ -1,10 +1,42 @@
 # Icewind Dale: Rime of the Frostmaiden
 
-> Icewind Dale: Rime of the Frostmaiden equips Dungeon Masters with everything you need to run an adventure for characters level 1 to 12
+**Icewind Dale: Rime of the Frostmaiden equips Dungeon Masters with everything you need to run an adventure for characters level 1 to 12.**
 
-Beneath the unyielding night sky, you stand before a towering glacier and recite an ancient rhyme, causing a crack to form in the great wall of ice. Beyond this yawning fissure, the Caves of Hunger await.
+Buy 
+
+*Icewind Dale: Rime of the Frostmaiden
+
+* to start playing a chilling horror adventure
+
+. 
+
+Beneath the unyielding night sky, you stand before a towering glacier and recite an ancient rhyme, causing a crack to form in the great wall of ice. Beyond this yawning fissure, the Caves of Hunger await. 
 
 What fantastic secrets and treasures are entombed in the sunless heart of the glacier, and what will their discovery mean for the denizens of Icewind Dale?
+
+• **26 unique locations** around Ten Towns filled with quests to guide new characters <br>
+
+• **80 new bone-chilling monsters** to use in the Encounter Builder to create & run battles<br>
+
+• **Rollable tables**, **detailed maps**, and **new NPCs** to help dungeon masters run this **320-page frigid adventure**
+
+Explore the world around Icewind Dale with these adventures:<br>
+
+- Tasha's Cauldron of Everything**<br>**
+
+- Sword Coast Adventure Guide
+
+- Baldur’s Gate: Descent into Avernus
+
+-¨NBSP;Waterdeep: Dragon Heist
+
+---
+
+encounter builder
+
+, character builder, and digital sheet
+
+.
 
 ## License
 

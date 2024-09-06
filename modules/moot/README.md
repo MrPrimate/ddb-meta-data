@@ -1,6 +1,22 @@
 # Mythic Odysseys of Theros
 
-Explore the _Magic: The Gathering's plane of Theros_, a land shaped by the wrath of gods and the deeds of heroes, where champions vie for immortal favor and a place among the stars. From the temples of omen-speaking oracles to the five realms of the underworld, discover a rich world in this sourcebook for Dungeons & Dragons fifth edition.
+Explore the **Magic: The Gathering’s plane of Theros**, a land shaped by the wrath of gods and the deeds of heroes, where champions vie for immortal favor and a place among the stars. From the temples of omen-speaking oracles to the five realms of the underworld, discover a rich world in this sourcebook for Dungeons & Dragons fifth edition.
+
+- Add **2 new races**, the **cat-like Leonin** and the **forest-dwelling Satyrs** for use in the Character Builder.
+- **2 new subclasses** to play, the **Bard’s College of Eloquence** and **Paladin’s Oath of Glory**
+- Wield **13 unique god-weapons** and gain **supernatural gifts** with just a click to your character sheet
+- Fight over **50 new monsters** including **new Mythic level creatures** using the encounter builder to create & run organized battles
+- Start playing with the **included level 1 adventure** *No Silent Secret<br>
+
+*
+
+More Magic: The Gathering<br>
+
+- Strixhaven: A Curriculum of Chaos
+
+<br>- Guildmasters' Guide to Ravnica
+
+---
 
 ## License
 

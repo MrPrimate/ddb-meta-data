@@ -6,9 +6,17 @@ The forces of Tiamat, Queen of Evil Dragons, bring war to the Forgotten Realms. 
 
 • Adds 31** tyrannical monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
 
-• Wield 13** new magical items** against the forces of Tiamat with a click of your character sheet<br>
+• Wield 13** new magical items** against the forces of Tiamat with a click of your character sheet<br>
 
-• A good beginner adventure for Dungeon Masters including **rollable tables**, **detailed maps**, and **unique NPCs**
+• A good beginner adventure for Dungeon Masters including **rollable tables**, **detailed maps**, and **unique NPCs****<br>
+
+**Continue adventures in the Forgotten Realms
+
+- Icewind Dale: Rime of the Frostmaiden
+
+- Baldur’s Gate: Descent into Avernus
+
+**<br>
 
 ---
 

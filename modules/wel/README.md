@@ -2,7 +2,7 @@
 
 The best dungeons have fun boss battles, exciting hazards, and glorious treasure.
 
-_Where Evil Lives: The MCDM Book of Boss Battles_ has all that, plus everything you need to run a lair out of the book in a moment’s notice. Use a premade dungeon when you have nothing else planned or build an entire campaign that leads up to a climactic encounter in a lair.
+*Where Evil Lives: The MCDM Book of Boss Battles* has all that, plus everything you need to run a lair out of the book in a moment’s notice. Use a premade dungeon when you have nothing else planned or build an entire campaign that leads up to a climactic encounter in a lair.
 
 This book includes 22 dungeons designed for levels 2-20, with at least one dungeon for each level of play. Each lair contains:
 
