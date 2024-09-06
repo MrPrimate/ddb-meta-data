@@ -262,7 +262,7 @@ async function assembleManifest(args) {
                 twitter: "@ForgeVTT",
             },
         ],
-        url: `https://www.dndbeyond.com/sources/${args.book}`,
+        url: `https://www.dndbeyond.com/sources/dnd/${args.book}`,
         license: "",
         readme: "",
         bugs: "",
