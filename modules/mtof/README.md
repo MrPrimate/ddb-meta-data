@@ -1,10 +1,8 @@
 # Mordenkainen’s Tome of Foes
 
-**Reveal the truth about the great conflicts of the D&D multiverse in this supplement**
+> Reveal the truth about the great conflicts of the D&D multiverse in this supplement
 
 Discover a tome full of research from the legendary mage Mordenkainen as he explores the multiverse and sheds light on dozens of new monsters and creatures from new planes of existence. This Sourcebook helps any dungeon master understand the history of races, devils, demons, and more to help run any creature for their game.
-
-• Adds **1 new race**, the **cosmic warring Gith**, and **11 new subraces** for use in the guided Character Builder
 
 ---
 

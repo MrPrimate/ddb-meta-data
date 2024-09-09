@@ -17,7 +17,6 @@ For Dungeon Masters:
 - Everything a Dungeon Master needs to craft a horror-themed campaign for Dungeons & Dragons, including rules and advice for building custom domains and Darklords using established horror tropes--or create your own sinister blend
 - **More than 30 new and familiar Domains of Dread** beyond Barovia like **Lamordia**, **Dementlieu**, **Kalakeri** and **Falkovnia**, appearing for the first time in fifth edition
 - A **brand-new haunted adventure** sure to add thrills and chills
-
 - Unleash a treasure trove of new story hooks, character options, and campaign customization to bring one of the most exciting D&D settings to life!
 
 Discover the mysteries of Ravenloft, mist-shrouded lands where infamous Darklords lurk among ageless vampires, zombie hordes, cosmic terrors, and worse. Then make your choice. Will you create your own Domains of Dread, settings to host endless terrifying adventures? Or will you join the ranks of haunted heroes who embrace macabre lineages, dual-edged Dark Gifts, haunted subclasses, and other forbidden powers? The mists of Ravenloft are rising. Overcome your dread or forever be its prisoner!

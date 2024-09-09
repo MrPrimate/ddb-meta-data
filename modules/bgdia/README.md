@@ -1,6 +1,6 @@
 # Baldur’s Gate: Descent into Avernus
 
-### **A Hellish Adventure for Levels 1-13**
+> A Hellish Adventure for Levels 1-13
 
 Welcome to Baldur’s Gate, a city of ambition and corruption situated at the crossroads of the Sword Coast. You’ve just started your adventuring career, but already find yourself embroiled in a plot that sprawls from the shadows of Baldur’s Gate to the front lines of the planes-spanning Blood War! Do you have what it takes to turn infernal war machines and nefarious contracts against the archdevil Zariel and her diabolical hordes? And can you ever hope to find your way home safely when pitted against the infinite evils of the Nine Hells?
 

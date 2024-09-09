@@ -1,6 +1,6 @@
 # Mordenkainen's Fiendish Folio Volume 1
 
-**Proceeds from this monster supplement support the charity Extra Life**
+> Proceeds from this monster supplement support the charity Extra Life
 
 Crawling from the darkest recesses of D&D's history comes a ferocious menagerie of monsters, malevolent and benign! These 17 creatures first appeared in the Fiend Folio for first edition AD&D. Now, thanks to your support of Extra Life, they enter the world of fifth edition D&D.
 

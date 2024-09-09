@@ -1,10 +1,8 @@
 # Locathah Rising
 
-**Proceeds from this adventure supplement support the charity Extra Life, for level 9 characters**
+> Proceeds from this adventure supplement support the charity Extra Life, for level 9 characters
 
 As elemental forces threaten the safety of the nearby locathah communities, heroes rise from among their numbers to strike back and defend their homes and families.
-
-• Play as **1 new race**, the Fishfolk Locathah, for use in the Character Builder
 
 • **Rollable tables**, **detailed maps**, and **a wealth of stats** to help dungeon masters run this adventure
 

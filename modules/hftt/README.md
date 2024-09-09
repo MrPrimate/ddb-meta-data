@@ -1,6 +1,6 @@
 # Hunt for the Thessalhydra
 
-**Have your own Stranger Things Adventure for level 1-4**
+> Have your own Stranger Things Adventure for level 1-4
 
 Unleash your imagination and live out the dream of exploring the Upside Down from the Netflix original series, Stranger Things. Mike Wheeler has created an awesome Dungeons & Dragons adventure...and now you get to play it.
 

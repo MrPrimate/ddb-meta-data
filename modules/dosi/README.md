@@ -1,6 +1,6 @@
 # Dragons of Stormwreck Isle
 
-**EXPLORE A MAGICAL WORLD**
+> EXPLORE A MAGICAL WORLD
 
 Dragons of Stormwreck Isle is your gateway to action-packed adventures in the cooperative storytelling game DUNGEONS & DRAGONS, where heroes battle monsters, find treasure, and undertake epic quests. This adventure contains everything you need to play heroic characters caught up in an ancient war among dragons as they explore the secrets of Stormwreck Isle.
 

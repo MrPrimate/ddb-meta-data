@@ -10,7 +10,6 @@ Dragonslayers and dragon scholars alike will appreciate the new dragon-themed op
 
 - Introduces **gem dragons** to Dungeons & Dragons fifth edition!
 - Reveals the story of the First World and the role **Bahamut** and **Tiamat** played in its creation and destruction.
-- Adds **new player character options**, including unique draconic **ancestries** for dragonborn, dragon-themed **subclasses** for monks and rangers, and **new feat and spell options** to use in the Character builder
 - Utilize a rich hoard of tools and information for **Dungeon Masters** to design Dragon themed encounters, adventures & campaigns across the worlds of D&D, with new dragon lair maps and details on **20 different kinds of dragons**.
 
 ---

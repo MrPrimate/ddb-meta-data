@@ -1,10 +1,8 @@
 # Acquisitions Incorporated
 
-**Explore a wealth of peril and personalities in this sourcebook for Dungeons & Dragons**
+> Explore a wealth of peril and personalities in this sourcebook for Dungeons & Dragons
 
 Acquisitions Incorporated is a different flavor of Dungeons & Dragons. A fifth edition D&D book created in partnership with Penny Arcade Inc. and inspired by the podcast and web series, this book is full of madcap heists, hilarious moments, and all the ingredients you need to include the adventures of Acquisitions Incorporated in your own D&D campaign.
-
-• Add **1 new playable race**, the mysterious Verdan, and **5 new player backgrounds** in the Character Builder
 
 • Climb the Acquisition Incorporated ladder with **adventures for characters level 1-6**
 

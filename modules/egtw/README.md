@@ -4,8 +4,6 @@ Explore the war-torn continent of Wildemount in this sourcebook from the second 
 
 • Use the heroic chronicle with **7 new backgrounds** to make a unique character’s backstory in the world of Exandria
 
-• Unlocks **3 new subclasses** with **15 new magic spells** to control time and space in the guided Character Builder.
-
 • Use **46 new items** including the Vestiges of Divergence and Arms of the Betrayer 
 
 ---

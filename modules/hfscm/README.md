@@ -1,4 +1,4 @@
-# Heroes’ Feast: Saving the Children’s Menu 
+# Heroes’ Feast: Saving the Children’s Menu
 
 Cook up a quest for your party with a 10th level adventure written by Deborah Ann Woll. An agreement to help a popular chef escalates into a giant-sized adventure full of danger, royal intrigue, and cheese. Add a dash of fun with the included recipe to cook up your own Kender Stumblenoodles from *Heroes’ Feast: Flavors of the Multiverse.*
 

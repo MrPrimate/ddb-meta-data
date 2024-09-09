@@ -7,13 +7,9 @@ Through the mists of the Ethereal Plane shines the Radiant Citadel. Travelers fr
 Each of the 13 adventures can be run by themselves or dropped in as part of an ongoing campaign. Explore this rich and varied collection of adventures in magical lands including:
 
 - **Thirteen NEW stand-alone adventures** spanning levels 1 to 14, each with its own set of maps
-
 - Introduces the **Radiant Citadel**, a new location on the Ethereal Plane that connects adventurers to richly detailed and distinct corners of the D&D multiverse
-
 - Each adventure can be dropped into **any existing Dungeon & Dragons campaign** setting or **on worlds of your own design**
-
 - Introduces **eleven NEW D&D monsters** for players to discover
-
 - There’s a story for every adventuring party, from **whimsical** and **light** to **dark** and **foreboding** and everything in between
 
 ---

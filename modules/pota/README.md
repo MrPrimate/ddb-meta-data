@@ -1,6 +1,6 @@
 # Princes of the Apocalypse
 
-**An Apocalyptic Adventure for Levels 1-15**
+> An Apocalyptic Adventure for Levels 1-15
 
 The first signs are always small: bandits on the roads, pirates on the Dessarin River, monster sightings throughout the Sumber Hills - all too close to the lands of civilized folk. Are these events all some bizarre coincidence, or is there a deeper reason behind them?
 

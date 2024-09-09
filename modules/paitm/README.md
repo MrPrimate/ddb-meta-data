@@ -6,7 +6,6 @@ Infinite realms of immortals and impossibilities, the Outer Planes brim with cel
 
 - Channel **7 otherworldly feats, new intriguing magic spells & more** powered by planar energies
 - Explore **12 new ascendant factions**, each with distinct cosmic ideologies
-
 - Journey across the Outlands in an **adventure for characters levels 3-10 and 17**
 - Adds **adventure hooks, encounter tables, maps of Sigil and the Outlands & more** to your game
 

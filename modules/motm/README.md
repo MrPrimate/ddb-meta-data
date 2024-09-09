@@ -10,7 +10,7 @@ Buy Monsters of the Multiverse for a monstrous volume of options for D&D players
 
 - **A multiverse of lore**. Includes updates to monster lore that refocuses the stories on the D&D multiverse, rather than on any particular world.
 
-#### **FACE THE DENIZENS OF THE COSMOS**
+> FACE THE DENIZENS OF THE COSMOS
 
 Sparkling with the musings of the wizard Mordenkainen, this tome features a host of creatures for use in the Dungeons & Dragons roleplaying game. Hailing from every corner of the multiverse, these creatures represent some of the most benevolent and malevolent forces that D&D heroes might face.
 

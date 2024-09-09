@@ -6,7 +6,6 @@ The notorious lich Vecna is weaving a ritual to eliminate good, obliterate the g
 
 - Face the archlich **Vecna** in all his terrifying glory.
 - Embark on an epic, high-level adventure for **characters levels 10-20**.
-
 - Explore **32 new maps** on the **Maps tool**.
 - Journey to **over 6 iconic D&D locations** across the Forgotten Realms, including Planescape, Spelljammer, Eberron, Ravenloft, Dragonlance, and Greyhawk.
 

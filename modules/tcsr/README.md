@@ -5,9 +5,7 @@ Soar on a skyship from the metropolis of Emon to the distant haven of Whitestone
 *Tal’Dorei Campaign Setting Reborn* contains everything needed to unlock the rich setting of Tal’Dorei and make it your own:
 
 - A guide to each major region, with story hooks to fuel your campaign
-
 - **Over 35 magic items** \- including the **Vestiges of Divergence**, legendary artifacts that grow in power with their wielders
-
 - **New lore and updated stat blocks** for each member of **Vox Machina**
 - **4** **exclusive backdrops** for your character sheet
 

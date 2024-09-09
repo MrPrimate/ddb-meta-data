@@ -1,6 +1,6 @@
 # Domains of Delight: A Feywild Accessory
 
-**All proceeds from Domains of Delight go to non-profit Extra Life, an online grassroots movement working to save sick and injured kids through the power of play.**
+> All proceeds from Domains of Delight go to non-profit Extra Life, an online grassroots movement working to save sick and injured kids through the power of play.
 
 Domains of Delight are to the Feywild what Domains of Dread are to the Shadowfell: sequestered realms governed by powerful beings. Whereas a Domain of Dread is ruled by a Darklord, a Domain of Delight is ruled by an archfey—the most powerful of Fey creatures. An archfey gives form to their Domain of Delight, shaping it in ways unique to their personality. Some Domains of Delight are bright and cheery, while others are gloomy, but each one reflects the emotional state of its ruler. A Domain of Delight can be as small as a few acres or as big as a country.
 

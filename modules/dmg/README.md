@@ -6,8 +6,6 @@ The Dungeon Master’s Guide provides the inspiration and guidance you need to s
 
 • **New optional game rules** to create unique and memorable sessions for your players
 
-• Adds **2 subclasses** and over **50 magic items** in the guided D&D Character Builder.
-
 • Get the** tools to run your own campaign** **and** **craft your own homebrew** monsters, items, traps, and more.
 
 ---
