@@ -6,13 +6,11 @@ Some jobs require more than simply wielding a sword or slinging a spell. Whether
 
 - A collection of 13** stand-alone heist adventures for characters levels 1-11**
 - Easy to drop in heist adventures into any setting or run as a one-shot
-
-• **Detailed information, in-world maps, and advice for Dungeon Masters** to help run adventures with multiple paths to success**
+- **Detailed information, in-world maps, and advice for Dungeon Masters** to help run adventures with multiple paths to success**
 
 Looking for more collection of adventures:
 
 **- Candlekeep Mysteries
-
 - Journeys through the Radiant Citadel
 
 ---

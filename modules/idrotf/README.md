@@ -17,6 +17,8 @@ What fantastic secrets and treasures are entombed in the sunless heart of the gl
 - **26 unique locations** around Ten Towns filled with quests to guide new characters 
 - **Rollable tables**, **detailed maps**, and **new NPCs** to help dungeon masters run this **320-page frigid adventure**
 
+---
+
 ## License
 
 This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

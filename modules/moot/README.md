@@ -7,11 +7,6 @@ Explore the **Magic: The Gathering’s plane of Theros**, a land shaped by the w
 
 *
 
-More Magic: The Gathering
-
-- Strixhaven: A Curriculum of Chaos
-- Guildmasters' Guide to Ravnica
-
 ---
 
 ## License

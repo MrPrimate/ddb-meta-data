@@ -7,10 +7,6 @@ Add new and unique creatures inspired by the *Wilds of Eldraine* to your campaig
 
 More *Magic The Gathering*:
 
-- 
-- 
-- 
-
 ---
 
 ## License
