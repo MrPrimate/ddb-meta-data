@@ -7,9 +7,6 @@ Immerse yourself in this grim world with a unique collection of character option
 - Create formidable heroes with 6 new subclasses! - Prove your zealotry in a world without gods as an Oath of Zeal Paladin or Inquisition Domain Cleric.
     - Master unique martial maneuvers as a Blade Breaker Fighter or Path of the Carrion Raven Barbarian.
     - Bring misfortune and woe to your foes as a Misfortune Bringer Rogue or College of Requiems Bard.
-
-    
-
 - Claim your gothic heritage with 2 new arcane Player Species: the Wechselkind and the Disembodied.
 - Flay your enemies or inflict festering wounds with 10 powerful spells
 - Unearth and wield the power of 10 new magic items.

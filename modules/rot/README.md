@@ -11,8 +11,6 @@ The Cult of the Dragon leads the charge in an unholy campaign to bring Tiamat ba
 - Hoard of the Dragon Queen
 - Baldur’s Gate: Descent into Avernus
 
-****
-
 ---
 
 ## License

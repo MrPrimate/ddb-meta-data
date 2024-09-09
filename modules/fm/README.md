@@ -13,7 +13,6 @@ Remember the first time you slew a dragon? What if all combat encounters could b
 - Rules for handling minions that will let your players feel like epic heroes as they cut through seas of enemies
 - Rules for friendly – and not so friendly – pet companions
 - Rules for retainers that will satisfy players who want a little goblin buddy or another kind of follower
-- Maps and monsters that can be used with DDB's Encounters Tool and Maps tool
 
 ## License
 

@@ -11,7 +11,6 @@ This book includes 22 dungeons designed for levels 2-20, with at least one dunge
 - A treasure hoard tailored to the dungeon’s denizens that includes an original magic item and other unique rewards
 - A full-color map, including a DM version with all the information needed to run the dungeon and a player version that omits secret doors and traps
 - Detailed descriptions of traps, hazards, and NPCs
-- Maps and monsters that can be used with DDB's Encounters Tool and Maps tool
 
 ## License
 

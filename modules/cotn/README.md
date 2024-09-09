@@ -14,8 +14,6 @@ Critical Role: Call of the Netherdeep contains **seven chapters of thrilling adv
 - Includes new magic items and creatures and introduces **new rival NPCs**.
 - Elements of the storyline tie into themes of Critical Role’s campaigns.
 
-!**
-
 ---
 
 ## License

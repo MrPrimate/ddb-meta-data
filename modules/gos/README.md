@@ -8,8 +8,6 @@ Nestled on the coast of the Azure Sea is Saltmarsh, a sleepy fishing village tha
 - **Detailed maps and tables** for mysterious new islands, fishing villages, pirate coves and more
 - Collects the following adventures: *The Sinister Secret of Saltmarsh*, *Danger at Dunwater*, *Salvage Operation*, *Isle of the Abby*, *The Final Enemy*, *Tammeraut’s Fate*, *The Styes
 
-*
-
 ---
 
 ## License

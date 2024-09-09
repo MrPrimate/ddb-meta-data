@@ -7,9 +7,6 @@ Takhisis the Dragon Queen has returned to the world of Krynn. Across the land, h
 Dragonlance: Shadow of the Dragon Queen is a tale of conflict and defiance set during the legendary War of the Lance. Create characters from Krynn, the world of the Dragonlance setting, then march them to the front lines of battle against the terrifying Dragon Armies.
 
 - **Introduces the Kender race
-
-    
-
 - **Adds the Lunar Sorcery subclass 
 
     **to
@@ -20,8 +17,6 @@ Dragonlance: Shadow of the Dragon Queen is a tale of conflict and defiance set d
 
     **to use in character creation
 
-    
-
 - Gives Dungeon Masters everything they need to run D&D campaigns set in 
 
     **Dragonlance 
@@ -30,13 +25,9 @@ Dragonlance: Shadow of the Dragon Queen is a tale of conflict and defiance set d
 
     ** War of the Lance
 
-    **
-
 - Fight against legendary villains like 
 
     **Lord Soth and legions of draconians, dragons, and other servants of the Dragon Queen
-
-    
 
 - Brings war as a genre of play to Dungeons and Dragons
 
@@ -49,8 +40,6 @@ Dragonlance: Shadow of the Dragon Queen is a tale of conflict and defiance set d
     ** depicting the 
 
     **continent of Ansalon and the Kalaman theater of war.
-
-    **
 
 ---
 

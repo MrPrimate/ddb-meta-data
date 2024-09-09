@@ -5,8 +5,6 @@ Explore the **Magic: The Gathering’s plane of Theros**, a land shaped by the w
 - **2 new subclasses** to play, the **Bard’s College of Eloquence** and **Paladin’s Oath of Glory**
 - Start playing with the **included level 1 adventure** *No Silent Secret
 
-*
-
 ---
 
 ## License
