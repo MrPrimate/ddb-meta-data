@@ -1,6 +1,6 @@
 # Van Richten’s Guide to Ravenloft
 
-FACE YOUR FEARS<br>
+FACE YOUR FEARS
 
 Terror stalks the nightmare realms of Ravenloft. No one knows this better than monster scholar Rudolph Van Richten. To arm a new generation against the creatures of the night, Van Richten--along with other heroes of Ravenloft like Ezmerelda d’Avenir and the Weathermay-Foxgrove Twins--shares his correspondence and case files in this tome of eerie tales and chilling truths about the Lands of the Mists.
 
@@ -8,7 +8,6 @@ Terror stalks the nightmare realms of Ravenloft. No one knows this better than m
 
 For Players:
 
-- **2 new subclasses**, the **College of Spirits** for bards and the **Undead pact** for warlocks for use in our **D&D Beyond Character Builder**
 - New character **lineages**, including **dhampir**, **hexblood**, and **reborn**, which provide altered abilities and traits to your character
 - **Dark Gifts** for characters that flesh out your place among the Domains of Dread
 - New backgrounds and trinkets themed specifically for a horror setting
@@ -18,18 +17,10 @@ For Dungeon Masters:
 - Everything a Dungeon Master needs to craft a horror-themed campaign for Dungeons & Dragons, including rules and advice for building custom domains and Darklords using established horror tropes--or create your own sinister blend
 - **More than 30 new and familiar Domains of Dread** beyond Barovia like **Lamordia**, **Dementlieu**, **Kalakeri** and **Falkovnia**, appearing for the first time in fifth edition
 - A **brand-new haunted adventure** sure to add thrills and chills
-- A horrific assortment of **creatures and monsters** like **carrionettes**, **vampiric mind flayers**, and other nightmares to terrify your players with the **D&D Beyond Encounter Builder**
+
 - Unleash a treasure trove of new story hooks, character options, and campaign customization to bring one of the most exciting D&D settings to life!
 
 Discover the mysteries of Ravenloft, mist-shrouded lands where infamous Darklords lurk among ageless vampires, zombie hordes, cosmic terrors, and worse. Then make your choice. Will you create your own Domains of Dread, settings to host endless terrifying adventures? Or will you join the ranks of haunted heroes who embrace macabre lineages, dual-edged Dark Gifts, haunted subclasses, and other forbidden powers? The mists of Ravenloft are rising. Overcome your dread or forever be its prisoner!
-
-Feeling brave? Check out these other spooky essentials:<br>
-
-\- <br>
-
-\- <br>
-
-\-
 
 ---
 

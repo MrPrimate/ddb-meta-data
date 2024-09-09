@@ -6,8 +6,6 @@ Spelljammer: Adventures in Space presents the Astral Plane as a Dungeons & Drago
 
 This set contains everything a Dungeon Master needs to run adventures and campaigns set in the starlit realms of Wildspace and the Astral Sea, as well as new options for players who want to create characters at home in this fantastic setting including:
 
-- **New space backgrounds and races** for player characters to use in the D&D Beyond character builder
-
 - **New spells****and magic items** for your party
 
 - **60+ new creatures** including astral elves, cosmic horrors, lunar and solar dragons, murder comets, and space clowns to use in encounters
@@ -27,14 +25,6 @@ This 3-book set comprises:
 - _Boo’s Astral Menagerie_: The Astral Plane holds more than the promise of adventure among the stars. It is also home to some of the most fantastic creatures in the D&D multiverse. Boo, the space hamster whose adventures with Minsc the Ranger are legendary, presents this compact collection of cosmic creatures to populate your Spelljammer adventures.
 
 - _Light of Xaryxis_: An adventure for Dungeon Masters set in the Astral Plane. When a cosmic enemy threatens to destroy their world, brave heroes must do everything in their power to save it. This quest will take them across the teeming oceans of Wildspace to the silvery void of the Astral Sea and beyond. Along the way, they’ll make friends, encounter terrifying foes, and face one cliffhanger after another. Can they save their world before time runs out?
-
-Complete the core Dungeons & Dragons collection:<br>
-
-\- Tasha's Cauldron of Everything
-
-- Dungeon Master's Guide
-- Monster Manual
--Xanathar's Guide To Everything
 
 ---
 

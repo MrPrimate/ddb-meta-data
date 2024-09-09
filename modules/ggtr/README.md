@@ -4,7 +4,7 @@ The world of Dungeons & Dragons meets the world of Magic: The Gathering in this 
 
 - Explore **5 unique races**, including the half-horse, half-human Centaurs and the Loxodon, large humanoid elephants
 - Add **2 new subclasses**, **the Circle of Spores and Order Domain**, and **10 new backgrounds** to the Character Builder
-- Equip any of the **45 new magic items** and see their unique powers with just a click on your character sheet
+
 - Unlock **79 new monsters** from Ravnica to use in the **Encounters tool** to create & run battles for your party
 - Jump into the action with the *Krenko’s Way* **adventure written for level 1 characters**
 

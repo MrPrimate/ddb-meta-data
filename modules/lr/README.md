@@ -4,21 +4,9 @@
 
 As elemental forces threaten the safety of the nearby locathah communities, heroes rise from among their numbers to strike back and defend their homes and families.
 
-• Play as **1 new race**, the Fishfolk Locathah, for use in the Character Builder<br>
+• Play as **1 new race**, the Fishfolk Locathah, for use in the Character Builder
 
-• Unlocks **6 aquatic monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
-
-• **Rollable tables**, **detailed maps**, and **a wealth of stats** to help dungeon masters run this adventure<br>
-
-Discover the other books benefiting Extra Life:<br>
-
-\- Infernal Machine Rebuild<br>
-
-- One Grung Above<br>
-
-- 
-
-- The Tortle Package<br>- Lost Laboratory of Kwalish
+• **Rollable tables**, **detailed maps**, and **a wealth of stats** to help dungeon masters run this adventure
 
 ---
 

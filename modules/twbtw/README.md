@@ -12,13 +12,9 @@ Journey to the Feywild and find:
 
 - Two new races—play as a **fairy** or as a **harengon**, a race of humanoid rabbits
 
-- New character backgrounds like the **Feylost** and the **Witchlight****Hand** for use in the **D&D Beyond Character Builder **
-
 - New ways to face encounters, including non combat options to allow players to think and roleplay their way through the adventure 
 
 - The return of **Warduke**, **Strongheart**, **Kelek** and other classic Dungeons & Dragons characters 
-
-- Easy to drop adventure into any campaign you have running on D&D Beyond
 
 - Includes a map of the Witchlight Carnival and **Prismeer, the Feywild Domain of Delight**
 

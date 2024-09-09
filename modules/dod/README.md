@@ -9,14 +9,6 @@ This accessory helps you create Domains of Delight and the archfey who rule them
 - **Adds Detailed information and tips about the Feywild** and how to use it in your game
 - Gives DMs **everything they need to create their own Archfey and Domains of Delight**
 
-Discover the other books benefiting Extra Life:
-
-- 
-- 
-- 
-- 
-- 
-
 ---
 
 Extra Life supports Children’s Miracle Network Hospitals® by raising funds and awareness that provide 32 million treatments each year to kids across the U.S. and Canada.

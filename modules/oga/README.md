@@ -6,21 +6,7 @@ From the jungles of Chult, these tribal frog-like humanoids are fiercely territo
 
 • Adds **the Grung race** to your playable options in the guided Character Builder.
 
-*Disclaimer this race isn’t a legal playable race in D&D adventure league or any campaign where the DM hates amphibians with an excess of apostrophes in their names… and yes, if you’re not immune to poison and you must touch the grung to heal it… you get to make a saving throw.<br>
-
-*Discover the other books benefiting Extra Life:<br>
-
-\- Infernal Machine Rebuild<br>
-
-- Mordenkainen's Fiendish Folio Vol 1<br>
-
--
-
-- The Tortle Package<br>- Lost Laboratory of Kwalish
-
-*<br>
-
-*
+*Disclaimer this race isn’t a legal playable race in D&D adventure league or any campaign where the DM hates amphibians with an excess of apostrophes in their names… and yes, if you’re not immune to poison and you must touch the grung to heal it… you get to make a saving throw.
 
 ---
 

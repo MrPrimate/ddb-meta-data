@@ -4,10 +4,9 @@ Infinite realms of immortals and impossibilities, the Outer Planes brim with cel
 
 *Planescape: Adventures in the Multiverse* comes with a plethora of new player options and provides Dungeon Masters everything they need to run adventures and campaigns set in Sigil and the Outlands, including adventure hooks, idiosyncratic locations, and multiversal calamities.
 
-- Discover **2 new backgrounds, the Gate Warden & the Planar Philosopher**, to build planar characters in the **D&D Beyond character builder**
 - Channel **7 otherworldly feats, new intriguing magic spells & more** powered by planar energies
 - Explore **12 new ascendant factions**, each with distinct cosmic ideologies
-- Face over **50 unusual creatures** including **planar incarnates, hierarch modrons, and time dragons** in the **Encounter Builder**
+
 - Journey across the Outlands in an **adventure for characters levels 3-10 and 17**
 - Adds **adventure hooks, encounter tables, maps of Sigil and the Outlands & more** to your game
 

@@ -8,8 +8,6 @@ Dragonlance: Shadow of the Dragon Queen is a tale of conflict and defiance set d
 
 - **Introduces the Kender race
 
-    ** for player characters to use in the D&D Beyond character builder
-
     
 
 - **Adds the Lunar Sorcery subclass 
@@ -37,8 +35,6 @@ Dragonlance: Shadow of the Dragon Queen is a tale of conflict and defiance set d
 - Fight against legendary villains like 
 
     **Lord Soth and legions of draconians, dragons, and other servants of the Dragon Queen
-
-    ** in the encounter builder
 
     
 

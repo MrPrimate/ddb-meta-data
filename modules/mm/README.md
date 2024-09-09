@@ -4,17 +4,7 @@
 
 The Monster Manual adds a horde of classic Dungeons & Dragons creatures, including dragons, giants, mind flayers, and beholders - to fill your campaign and challenge your players.
 
-• Adds **150 deadly monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
-
 • Unlocks **detailed stat blocks** and references for each D&D monster, animal, and NPC
-
-Complete the core Dungeons & Dragons collection:<br>
-
-- Tasha's Cauldron of Everything**<br>**- Player's Handbook
-
--Xanathar's Guide To Everything<br>
-
-\- Dungeon Master's Guide
 
 ---
 

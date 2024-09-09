@@ -9,17 +9,7 @@ Natasha the Dark, Iggwilv the Witch Queen, daughter of Baba Yaga or simply the w
 - **New spells**, **magic items**, and **artifacts**, as well as the introduction of **magical tattoos** and **Group Patrons** and **sidekicks**
 - An **expanded Dungeon Master toolkit**, including a plethora of puzzle guides of varying difficulties
 - New rules to **rework a character's racial traits** to customize their origin story
-- Run games in new locations like **Enchanted Springs **and** Eldritch Storms<br>
-
-Complete the core D&D collection:<br>
-
- \- <br>
-
- \- <br>
-
- \- <br>
-
- \-
+- Run games in new locations like **Enchanted Springs **and** Eldritch Storms
 
 ---
 

@@ -14,8 +14,6 @@ _Strixhaven™: A Curriculum of Chaos_ introduces the fantastical setting of Str
 
 - **Includes four adventures** that can be played as stand-alones or woven together to create one Strixhaven campaign taking players from level 1 to level 10
 
-- Encounter **over forty magical, mysterious creatures and NPCs** in the bestiary to battle in the D&D Beyond Encounters tool
-
 - Create new characters with the **new player race, the owlin**, one of the owlfolk who study at the university in the Character Builder 
 
 - Experience Dungeons & Dragons and Magic: The Gathering in new ways through the academic challenges, extracurricular activities and jobs, and relationships explored on campus 

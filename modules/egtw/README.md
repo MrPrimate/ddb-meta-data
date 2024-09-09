@@ -2,19 +2,11 @@
 
 Explore the war-torn continent of Wildemount in this sourcebook from the second season of the hit series Critical Role. As war brews between the Dwendalian Empire and the Kryn Dynasty, somewhere in the far corners of this landscape are secrets that could end this conflict and usher in a new age of peace—or burn the world to a cinder.
 
-• Use the heroic chronicle with **7 new backgrounds** to make a unique character’s backstory in the world of Exandria<br>
+• Use the heroic chronicle with **7 new backgrounds** to make a unique character’s backstory in the world of Exandria
 
-• Unlocks **3 new subclasses** with **15 new magic spells** to control time and space in the guided Character Builder.<br>
+• Unlocks **3 new subclasses** with **15 new magic spells** to control time and space in the guided Character Builder.
 
-• Use **46 new items** including the Vestiges of Divergence and Arms of the Betrayer <br>
-
-• Brings **over 40 new monsters** to use in the Encounter Builder to create & run organized battles for your party
-
-Explore these other campaign settings:<br>
-
-\- Mythic Odysseys of Theros<br>
-
-\- \-
+• Use **46 new items** including the Vestiges of Divergence and Arms of the Betrayer 
 
 ---
 

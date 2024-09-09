@@ -4,7 +4,6 @@ Add new and unique creatures inspired by the *Wilds of Eldraine* to your campaig
 
 - Discover **25 Fey & Fairy tale creatures** inspired by *Magic: The Gathering - Wilds of Eldraine*
 - **Detailed stat blocks** and descriptions to use the monsters in your campaigns
-- Useable in **D&D Beyond DM tools like Encounters and Maps**
 
 More *Magic The Gathering*:
 

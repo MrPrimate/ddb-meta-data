@@ -6,19 +6,7 @@ The first signs are always small: bandits on the roads, pirates on the Dessarin 
 
 Working through its prophets, the Elder Elemental Eye has emerged to spread chaos across the Forgotten Realms. How will the adventurers prevent absolute devastation?
 
-• Adds **53 new monsters** to use in the Encounter Builder to create & run organized battles for your party<br>
-
-• Wield **14 magical items** against the forces of the elements with a click of your character sheet<br>
-
 • **Rollable tables**, **detailed maps**, and **a wealth of stats** to run this **255-page apocalyptic adventure**
-
-Explore Faerûn with these next adventures:<br>
-
-\- Out of the Abyss<br>
-
-\- \- Tomb of Annihilation<br>
-
-\- Lost Mines of Phandelver
 
 ---
 

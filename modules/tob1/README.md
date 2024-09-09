@@ -4,7 +4,6 @@ Whether you need dungeon vermin or world-shaking villains, *Tome of Beasts 1* ha
 
 These monsters have been designed so that GMs can use them in their favorite settings for fantasy adventure. This monstrous tome contains:
 
-- More than **400 new monsters** for use with the **D&D Beyond Encounters tool**.
 - Updated with errata, streamlined mechanics, and new monster art from the original *Tome of Beasts*.
 - Expansive tables that organize creatures by challenge rating, creature type, and terrain.
 

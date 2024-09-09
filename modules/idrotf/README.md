@@ -14,27 +14,11 @@ Beneath the unyielding night sky, you stand before a towering glacier and recite
 
 What fantastic secrets and treasures are entombed in the sunless heart of the glacier, and what will their discovery mean for the denizens of Icewind Dale?
 
-• **26 unique locations** around Ten Towns filled with quests to guide new characters <br>
-
-• **80 new bone-chilling monsters** to use in the Encounter Builder to create & run battles<br>
+• **26 unique locations** around Ten Towns filled with quests to guide new characters 
 
 • **Rollable tables**, **detailed maps**, and **new NPCs** to help dungeon masters run this **320-page frigid adventure**
 
-Explore the world around Icewind Dale with these adventures:<br>
-
-- Tasha's Cauldron of Everything**<br>**
-
-- Sword Coast Adventure Guide
-
-- Baldur’s Gate: Descent into Avernus
-
--¨NBSP;Waterdeep: Dragon Heist
-
----
-
-encounter builder
-
-, character builder, and digital sheet
+---, character builder, and digital sheet
 
 .
 

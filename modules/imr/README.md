@@ -4,21 +4,7 @@
 
 Infernal Machine Rebuild launches players across distant places — and times to uncover additional components in order to reassemble the fabled Infernal Machine of Lum the Mad!
 
-• Unlocks **26 deadly creatures** to use in the Encounter Builder to create & run organized battles for your party<br>
-
-• Wield **8 new magical items** rebuild the Infernal machine with a click of your character sheet<br>
-
-• **Rollable tables**, **detailed maps**, and **unique NPCs** to help dungeon masters run this infernal adventure<br>
-
-Discover the other books benefiting Extra Life:<br>
-
-\- Locathah Rising<br>
-
-- One Grung Above<br>
-
-- Mordenkainen's Fiendish Folio Vol 1<br>
-
-- The Tortle Package<br>- Lost Laboratory of Kwalish
+• **Rollable tables**, **detailed maps**, and **unique NPCs** to help dungeon masters run this infernal adventure
 
 ---
 
