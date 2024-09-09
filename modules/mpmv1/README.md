@@ -1,10 +1,8 @@
 # Misplaced Monsters: Volume One
 
-**All proceeds from Misplaced Monsters go directly to the Seattle Children’s© Hospital and Seattle Children’s© Autism Center, supporting their mission to care for children and young adults of all backgrounds, regardless of their family’s ability to pay.
-
 D&D Misplaced Monsters, Vol. 1 was created in partnership with Extra Life©, a fundraising program of the Children’s Miracle Network Hospitals© that helps children receive crucial medical care.
 
-• **Detailed stat blocks** and descriptions to use the monsters in your game
+- **Detailed stat blocks** and descriptions to use the monsters in your game
 
 ---
 

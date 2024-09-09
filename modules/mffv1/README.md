@@ -4,7 +4,7 @@
 
 Crawling from the darkest recesses of D&D's history comes a ferocious menagerie of monsters, malevolent and benign! These 17 creatures first appeared in the Fiend Folio for first edition AD&D. Now, thanks to your support of Extra Life, they enter the world of fifth edition D&D.
 
-• **Detailed stat blocks** and descriptions to use the monsters in your game
+- **Detailed stat blocks** and descriptions to use the monsters in your game
 
 ---
 

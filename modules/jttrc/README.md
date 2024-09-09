@@ -1,6 +1,6 @@
 # Journeys through the Radiant Citadel
 
-#### **Light Your Path To Adventure
+#### Light Your Path To Adventure
 
 Through the mists of the Ethereal Plane shines the Radiant Citadel. Travelers from across the multiverse flock to this mysterious bastion to share their traditions, stories, and calls for heroes. A crossroads of wonders and adventures, the Radiant Citadel is the first step on the path to legend. Where will your journeys take you?
 

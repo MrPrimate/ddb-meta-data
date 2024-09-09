@@ -7,7 +7,7 @@ Each of the adventures contained within can be run by themselves or as part of a
 - Explore **20 ready-made horror fantasy adventures for** **levels 1-20** with **maps** for each one.
 - **Contains both *Lairs of Etharis* Volume 1 & 2.**
 
-Hungry for more dark fantasy? Explore the cosmic-horror-fueled **!
+Hungry for more dark fantasy? Explore the cosmic-horror-fueled !
 
 ---
 

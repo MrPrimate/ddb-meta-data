@@ -1,12 +1,10 @@
-# Volo's Guide to Monsters
+# Volo's Guide to Monsters**Research
 
-**Research
-
- Has Never Been So Dangerous**
+Has Never Been So Dangerous
 
 Learn about the most iconic monsters in the world of Dungeons & Dragons from the esteemed loremaster Volothamp Geddarm and Eliminster, the Sage of Shadowdale. This sourcebook breaks down the lairs and lore of monsters like giants, mind flayers, orcs, and more to give dungeon masters new dangers to throw at their party.
 
-• Explore **7 new monster lairs** **with maps**, **monster tables**, **and tactics** for players to face
+- Explore **7 new monster lairs** **with maps**, **monster tables**, **and tactics** for players to face
 
 ---
 

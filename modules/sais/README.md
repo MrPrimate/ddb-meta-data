@@ -6,7 +6,7 @@ Spelljammer: Adventures in Space presents the Astral Plane as a Dungeons & Drago
 
 This set contains everything a Dungeon Master needs to run adventures and campaigns set in the starlit realms of Wildspace and the Astral Sea, as well as new options for players who want to create characters at home in this fantastic setting including:
 
-- **New spells****and magic items** for your party
+- **New spells**and magic items** for your party
 - **60+ new creatures** including astral elves, cosmic horrors, lunar and solar dragons, murder comets, and space clowns to use in encounters
 - Rules for running D&D campaigns set in **Wildspace** and the **Astral Sea**
 - Deck plans and descriptions for spelljamming ships

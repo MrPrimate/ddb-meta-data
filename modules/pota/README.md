@@ -6,7 +6,7 @@ The first signs are always small: bandits on the roads, pirates on the Dessarin 
 
 Working through its prophets, the Elder Elemental Eye has emerged to spread chaos across the Forgotten Realms. How will the adventurers prevent absolute devastation?
 
-• **Rollable tables**, **detailed maps**, and **a wealth of stats** to run this **255-page apocalyptic adventure**
+- **Rollable tables**, **detailed maps**, and **a wealth of stats** to run this **255-page apocalyptic adventure**
 
 ---
 

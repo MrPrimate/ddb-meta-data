@@ -4,7 +4,7 @@
 
 Infernal Machine Rebuild launches players across distant places — and times to uncover additional components in order to reassemble the fabled Infernal Machine of Lum the Mad!
 
-• **Rollable tables**, **detailed maps**, and **unique NPCs** to help dungeon masters run this infernal adventure
+- **Rollable tables**, **detailed maps**, and **unique NPCs** to help dungeon masters run this infernal adventure
 
 ---
 

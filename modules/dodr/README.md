@@ -5,7 +5,7 @@ The city of Drakkenheim was destroyed by an Eldritch-fueled calamity… but it d
 - An epic cosmic-horror-fueled DM ready campaign for **levels 1-13**
 - Empower characters with **40+ new magic items**, **14 new spells**, and **5 new backgrounds**
 - Bring the world of Drakkenheim to life with mechanics for **personal quests, rivals, scheming factions,** and **urban exploration**
-- Frighten your players and build on your horror-fantasy campaign with **
+- Frighten your players and build on your horror-fantasy campaign with 
 
 ---
 
