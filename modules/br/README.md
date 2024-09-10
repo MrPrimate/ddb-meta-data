@@ -1,6 +1,8 @@
 # Basic Rules (2014)
 
-Contains free content from the *Dungeons & Dragons* Basic Rules and the rules in the SRD, released as part of the OGL.
+Contains free content from the _Dungeons & Dragons_ Basic Rules and the rules in the SRD, released as part of the OGL.
+
+---
 
 ## License
 

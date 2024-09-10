@@ -1,11 +1,11 @@
 # Tome of Beasts 1
 
-Whether you need dungeon vermin or world-shaking villains, *Tome of Beasts 1* has it. This book presents foes suitable for any campaign setting—from tiny drakes and peculiar spiders to demon lords and ancient dragons.
+Whether you need dungeon vermin or world-shaking villains, _Tome of Beasts 1_ has it. This book presents foes suitable for any campaign setting—from tiny drakes and peculiar spiders to demon lords and ancient dragons.
 
 These monsters have been designed so that GMs can use them in their favorite settings for fantasy adventure. This monstrous tome contains:
 
-- Updated with errata, streamlined mechanics, and new monster art from the original *Tome of Beasts*.
-- Expansive tables that organize creatures by challenge rating, creature type, and terrain.
+* Updated with errata, streamlined mechanics, and new monster art from the original _Tome of Beasts_.
+* Expansive tables that organize creatures by challenge rating, creature type, and terrain.
 
 ---
 

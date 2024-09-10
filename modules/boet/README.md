@@ -4,13 +4,15 @@ The Plane of Shadow exists beside the mortal world, a twisted reflection of the 
 
 Explore a world of shadows, just next door—one step down the shadow road. Inside you’ll find:
 
-- Details on the fey courts, bearfolk, ghouls, shades, and more
-- 25 playable species and species options, including sable elves, shadowborn bearfolk, and umbral humans
-- 10 subclasses, such as the light weaver sorcerer, shadow domain cleric, and shadow gnawer barbarian
-- 65 new shadowy and powerful spells to wield
-- 17 gods of the Shadow Realm and their followers
-- 27 new creatures, including the rose golem and the Styx giant
-- Plus full-color maps, new spells and magic items, and more!
+* Details on the fey courts, bearfolk, ghouls, shades, and more
+* 25 playable species and species options, including sable elves, shadowborn bearfolk, and umbral humans
+* 10 subclasses, such as the light weaver sorcerer, shadow domain cleric, and shadow gnawer barbarian
+* 65 new shadowy and powerful spells to wield
+* 17 gods of the Shadow Realm and their followers
+* 27 new creatures, including the rose golem and the Styx giant
+* Plus full-color maps, new spells and magic items, and more!
+
+---
 
 ## License
 

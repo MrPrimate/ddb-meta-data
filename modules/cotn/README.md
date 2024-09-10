@@ -8,11 +8,11 @@ Inspired by the campaigns of the hit series Critical Role, this adventure begins
 
 Critical Role: Call of the Netherdeep contains **seven chapters of thrilling adventure**, **new creatures** and **magic items**, and a poster map of Ank’Harel.
 
-- First major adventure module within Critical Role’s world of Exandria, taking players from levels **3-12**.
-- Multi-continental story that spans the scarred Wastes of Xhorhas, introduces the continent of Marquet, and eventually plunges players into the Netherdeep—a terrifying cross between the Far Realm and the deep ocean.
-- Bursting with **lore and all new art** depicting Exandria.
-- Includes new magic items and creatures and introduces **new rival NPCs**.
-- Elements of the storyline tie into themes of Critical Role’s campaigns.
+* First major adventure module within Critical Role’s world of Exandria, taking players from levels **3-12**.
+* Multi-continental story that spans the scarred Wastes of Xhorhas, introduces the continent of Marquet, and eventually plunges players into the Netherdeep—a terrifying cross between the Far Realm and the deep ocean.
+* Bursting with **lore and all new art** depicting Exandria.
+* Includes new magic items and creatures and introduces **new rival NPCs**.
+* Elements of the storyline tie into themes of Critical Role’s campaigns.
 
 ---
 

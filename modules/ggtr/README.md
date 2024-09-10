@@ -2,8 +2,8 @@
 
 The world of Dungeons & Dragons meets the world of Magic: The Gathering in this sourcebook for the plane of Ravnica. Explore the web of wars, intrigue, and lore as the Ten Guilds vie for power, wealth, influence, and control over the plane.
 
-- Explore **5 unique races**, including the half-horse, half-human Centaurs and the Loxodon, large humanoid elephants
-- Jump into the action with the *Krenko’s Way* **adventure written for level 1 characters**
+* Explore **5 unique races**, including the half-horse, half-human Centaurs and the Loxodon, large humanoid elephants
+* Jump into the action with the _Krenko’s Way_ **adventure written for level 1 characters**
 
 ---
 

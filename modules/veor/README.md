@@ -1,13 +1,13 @@
 # Vecna: Eve of Ruin
 
-The notorious lich Vecna is weaving a ritual to eliminate good, obliterate the gods, and subjugate all worlds. To stop Vecna before he remakes the universe, the heroes work with three of the multiverse’s most famous archmages, travel to far-flung locales, and rebuild the legendary *Rod of Seven Parts*.
+The notorious lich Vecna is weaving a ritual to eliminate good, obliterate the gods, and subjugate all worlds. To stop Vecna before he remakes the universe, the heroes work with three of the multiverse’s most famous archmages, travel to far-flung locales, and rebuild the legendary _Rod of Seven Parts_.
 
-*Vecna: Eve of Ruin* is a high-stakes adventure in which Dungeon Masters and players can change the multiverse’s fate. This book includes legendary D&D figures, iconic fantasy locations, terrifying new monsters, and more!
+_Vecna: Eve of Ruin_ is a high-stakes adventure in which Dungeon Masters and players can change the multiverse’s fate. This book includes legendary D&D figures, iconic fantasy locations, terrifying new monsters, and more!
 
-- Face the archlich **Vecna** in all his terrifying glory.
-- Embark on an epic, high-level adventure for **characters levels 10-20**.
-- Explore **32 new maps** on the **Maps tool**.
-- Journey to **over 6 iconic D&D locations** across the Forgotten Realms, including Planescape, Spelljammer, Eberron, Ravenloft, Dragonlance, and Greyhawk.
+* Face the archlich **Vecna** in all his terrifying glory.
+* Embark on an epic, high-level adventure for **characters levels 10-20**.
+* Explore **32 new maps** on the **Maps tool**.
+* Journey to **over 6 iconic D&D locations** across the Forgotten Realms, including Planescape, Spelljammer, Eberron, Ravenloft, Dragonlance, and Greyhawk.
 
 ---
 

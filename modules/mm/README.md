@@ -2,8 +2,7 @@
 
 > The A to Z Fantasy Bestiary
 
-The Monster Manual adds a horde of classic Dungeons & Dragons creatures, including dragons, giants, mind flayers, and beholders - to fill your campaign and challenge your players.
-- Unlocks **detailed stat blocks** and references for each D&D monster, animal, and NPC
+The Monster Manual adds a horde of classic Dungeons & Dragons creatures, including dragons, giants, mind flayers, and beholders - to fill your campaign and challenge your players. 
 
 ---
 

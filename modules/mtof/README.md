@@ -2,7 +2,15 @@
 
 > Reveal the truth about the great conflicts of the D&D multiverse in this supplement
 
-Discover a tome full of research from the legendary mage Mordenkainen as he explores the multiverse and sheds light on dozens of new monsters and creatures from new planes of existence. This Sourcebook helps any dungeon master understand the history of races, devils, demons, and more to help run any creature for their game.
+Discover a tome full of research from the legendary mage Mordenkainen as he explores the multiverse and sheds light on dozens of new monsters and creatures from new planes of existence. This Sourcebook helps any dungeon master understand the history of races, devils, demons, and more to help run any creature for their game. 
+
+Complete the core D&D collection:
+
+* Tasha's Cauldron of Everything
+\- Player's Handbook
+* Monster Manual
+* Xanathar's Guide To Everything
+* Volo's Guide to Monsters
 
 ---
 

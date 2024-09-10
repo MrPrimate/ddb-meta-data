@@ -4,8 +4,6 @@
 
 Acquisitions Incorporated is a different flavor of Dungeons & Dragons. A fifth edition D&D book created in partnership with Penny Arcade Inc. and inspired by the podcast and web series, this book is full of madcap heists, hilarious moments, and all the ingredients you need to include the adventures of Acquisitions Incorporated in your own D&D campaign.
 
-- Climb the Acquisition Incorporated ladder with **adventures for characters level 1-6**
-
 ---
 
 ## License

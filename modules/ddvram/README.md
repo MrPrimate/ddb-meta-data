@@ -4,9 +4,9 @@ This book is the perfect introduction to Dungeons & Dragons for fans of Rick and
 
 The book gives a Dungeon Master everything needed to play:
 
-- A **64-page D&D beginners rulebook filled with Rick’s commentary**
-- A **32-page adventure**, *The Lost Dungeon of Rickness*, for levels 1-3
-- **5 pre-generated character sheets** to play as Morty, Beth, Summer, Jerry, or Meatface
+* A **64-page D&D beginners rulebook filled with Rick’s commentary**
+* A **32-page adventure**, _The Lost Dungeon of Rickness_, for levels 1-3
+* **5 pre-generated character sheets** to play as Morty, Beth, Summer, Jerry, or Meatface
 
 ---
 

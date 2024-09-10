@@ -4,8 +4,6 @@
 
 Unleash your imagination and live out the dream of exploring the Upside Down from the Netflix original series, Stranger Things. Mike Wheeler has created an awesome Dungeons & Dragons adventure...and now you get to play it.
 
-- Begin your own **Stranger Things* D&D adventure** \-created, annotated, and animated by Will the Wise himself
-
 ---
 
 ## License

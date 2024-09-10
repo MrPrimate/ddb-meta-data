@@ -8,11 +8,11 @@ The carnival is a gateway to a fantastic **Feywild** domain unlike anything foun
 
 Journey to the Feywild and find: 
 
-- The first official Dungeons & Dragons adventure set in the **Feywild, the Plane of Faerie **
-- Two new races—play as a **fairy** or as a **harengon**, a race of humanoid rabbits
-- New ways to face encounters, including non combat options to allow players to think and roleplay their way through the adventure 
-- The return of **Warduke**, **Strongheart**, **Kelek** and other classic Dungeons & Dragons characters 
-- Includes a map of the Witchlight Carnival and **Prismeer, the Feywild Domain of Delight**
+* The first official Dungeons & Dragons adventure set in the **Feywild, the Plane of Faerie**
+* Two new races—play as a **fairy** or as a **harengon**, a race of humanoid rabbits
+* New ways to face encounters, including non combat options to allow players to think and roleplay their way through the adventure
+* The return of **Warduke**, **Strongheart**, **Kelek** and other classic Dungeons & Dragons characters
+* Includes a map of the Witchlight Carnival and **Prismeer, the Feywild Domain of Delight**
 
 ---
 

@@ -4,8 +4,6 @@
 
 The Cult of the Dragon leads the charge in an unholy campaign to bring Tiamat back to the Forgotten Realms. With the race against evil moving from Waterdeep to the Sea of Moving Ice to Thay, the situation grows more perilous with each passing moment. The heroes must succeed, or Faerûn will succumb to draconic tyranny. In the end, the world will never be the same.
 
-- **Rollable tables**, **detailed map**s, and **a wealth of stats** to run this **96-page draconic adventure
-
 ---
 
 ## License

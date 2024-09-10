@@ -4,7 +4,9 @@ In the world of Everden, nestled between the mighty Crest mountain range and the
 
 Welcome to Humblewood, a campaign setting where you get to adventure as birds and other woodland critters. Come and discover the mystery behind all the forest fires, is it the Bandit Coalition or something even more nefarious? Explore the verdant forest within:
 
-- Empower your characters with **3 new backgrounds**, **7 new feats**, **10 new spells**, and** new magic items**
+* Empower your characters with **3 new backgrounds**, **7 new feats**, **10 new spells**, and **new magic items**
+
+---
 
 ---
 

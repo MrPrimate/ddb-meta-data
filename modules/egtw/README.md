@@ -1,9 +1,6 @@
 # Explorer's Guide to Wildemount
 
-Explore the war-torn continent of Wildemount in this sourcebook from the second season of the hit series Critical Role. As war brews between the Dwendalian Empire and the Kryn Dynasty, somewhere in the far corners of this landscape are secrets that could end this conflict and usher in a new age of peace—or burn the world to a cinder.
-
-- Use the heroic chronicle with **7 new backgrounds** to make a unique character’s backstory in the world of Exandria
-- Use **46 new items** including the Vestiges of Divergence and Arms of the Betrayer 
+Explore the war-torn continent of Wildemount in this sourcebook from the second season of the hit series Critical Role. As war brews between the Dwendalian Empire and the Kryn Dynasty, somewhere in the far corners of this landscape are secrets that could end this conflict and usher in a new age of peace—or burn the world to a cinder. 
 
 ---
 
