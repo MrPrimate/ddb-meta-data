@@ -2,12 +2,6 @@
 
 Explore the war-torn continent of Wildemount in this sourcebook from the second season of the hit series Critical Role. As war brews between the Dwendalian Empire and the Kryn Dynasty, somewhere in the far corners of this landscape are secrets that could end this conflict and usher in a new age of peace—or burn the world to a cinder.
 
-Explore these other campaign settings:
-
-* Mythic Odysseys of Theros
-* Eberron: Rising from the Last War
-* Tasha's Cauldron of Everything
-
 ---
 
 ## License

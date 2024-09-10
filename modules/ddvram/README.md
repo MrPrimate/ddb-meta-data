@@ -4,19 +4,6 @@ This book is the perfect introduction to Dungeons & Dragons for fans of Rick and
 
 The book gives a Dungeon Master everything needed to play: • A **64-page D&D beginners rulebook filled with Rick’s commentary** • A **32-page adventure**, _The Lost Dungeon of Rickness_, for levels 1-3
 
-Check out these other collaborations:
-
-* Stranger Things
-* Critical Role
-* Acquisitions Incorporated
-
-Complete the core D&D collection:
-
-* Player's Handbook
-* Monster Manual
-* Xanathar's Guide To Everything
-* Dungeon Master's Guide
-
 ---
 
 ## License

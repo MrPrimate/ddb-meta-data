@@ -2,7 +2,7 @@
 
 > Proceeds from this adventure supplement support the charity Extra Life, for level 9 characters
 
-As elemental forces threaten the safety of the nearby locathah communities, heroes rise from among their numbers to strike back and defend their homes and families. 
+As elemental forces threaten the safety of the nearby locathah communities, heroes rise from among their numbers to strike back and defend their homes and families.
 
 ---
 

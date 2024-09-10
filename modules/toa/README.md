@@ -4,13 +4,6 @@
 
 The talk of the streets and taverns has all been about the so-called death curse: a wasting disease afflicting everyone who’s ever been raised from the dead. Victims grow thinner and weaker each day, slowly but steadily sliding toward the death they once denied. When they finally succumb, they can’t be raised — and neither can anyone else. Discover what’s behind this curse and secrets that lie in the Jungles of Chult in the adventure
 
-Explore Faerûn with these next adventures:
-
-* Out of the Abyss
-* Storm King's Thunder
-* Princes of the Apocalypse
-* Lost Mines of Phandelver
-
 ---
 
 ## License

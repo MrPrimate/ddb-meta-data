@@ -2,10 +2,6 @@
 
 _Xanathar's Guide to Everything_ is the first major expansion for fifth edition Dungeons & Dragons, offering new rules and story options for your game.
 
-Complete the core D&D collection:
-
-* Tasha's Cauldron of Everything
-
 ---
 
 ## License

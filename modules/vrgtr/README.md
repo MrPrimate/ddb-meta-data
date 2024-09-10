@@ -19,12 +19,6 @@ For Dungeon Masters:
 
 Discover the mysteries of Ravenloft, mist-shrouded lands where infamous Darklords lurk among ageless vampires, zombie hordes, cosmic terrors, and worse. Then make your choice. Will you create your own Domains of Dread, settings to host endless terrifying adventures? Or will you join the ranks of haunted heroes who embrace macabre lineages, dual-edged Dark Gifts, haunted subclasses, and other forbidden powers? The mists of Ravenloft are rising. Overcome your dread or forever be its prisoner!
 
-Feeling brave? Check out these other spooky essentials:
-
-* Curse of Strahd
-* Ghosts of Saltmarsh
-* Monster Manual
-
 ---
 
 ## License

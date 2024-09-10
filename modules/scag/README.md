@@ -4,10 +4,6 @@
 
 The Sword Coast Adventurer’s Guide is a valuable resource to start any game in the Sword Coast. Giving details to the region of the Forgotten Realms, the sourcebook comprises shining paragons of civilization, perilous locales fraught with evil, and a wilderness that offers an explorer both vast opportunity and great danger.
 
-Continue in the Forgotten Realms with these adventures:
-
-* Tasha's Cauldron of Everything
-
 ---
 
 ## License

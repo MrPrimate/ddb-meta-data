@@ -4,13 +4,6 @@
 
 The Player’s Handbook is the essential core reference for every Dungeons & Dragons roleplayer. This sourcebook provides you the tools and tips to help create your characters, equip them, and send them out into the world.
 
-Complete the core D&D collection:
-
-* Tasha's Cauldron of Everything
-* Dungeon Master's Guide
-* Monster Manual
-* Xanathar's Guide To Everything
-
 ---
 
 ## License

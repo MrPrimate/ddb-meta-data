@@ -6,18 +6,6 @@ Unleash your imagination and live out the dream of exploring the Upside Down fro
 
 * Begin your own **_Stranger Things_ D&D adventure** \-created, annotated, and animated by Will the Wise himself
 
-Check out these other collaborations:
-
-* Critical Role
-* Acquisitions Incorporated
-
-Complete the core D&D collection:
-
-* Player's Handbook
-* Monster Manual
-* Xanathar's Guide To Everything
-* Dungeon Master's Guide
-
 ---
 
 ## License

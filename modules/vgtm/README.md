@@ -4,10 +4,6 @@
 
 Learn about the most iconic monsters in the world of Dungeons & Dragons from the esteemed loremaster Volothamp Geddarm and Eliminster, the Sage of Shadowdale. This sourcebook breaks down the lairs and lore of monsters like giants, mind flayers, orcs, and more to give dungeon masters new dangers to throw at their party.
 
-Complete the core D&D collection:
-
-* Tasha's Cauldron of Everything
-
 ---
 
 ## License

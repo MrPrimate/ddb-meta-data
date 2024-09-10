@@ -4,10 +4,6 @@
 
 The Monster Manual adds a horde of classic Dungeons & Dragons creatures, including dragons, giants, mind flayers, and beholders - to fill your campaign and challenge your players.
 
-Complete the core Dungeons & Dragons collection:
-
-* Tasha's Cauldron of Everything
-
 ---
 
 ## License

@@ -4,12 +4,6 @@ Entertain and Inspire Your Players
 
 The Dungeon Master’s Guide provides the inspiration and guidance you need to spark your imagination and create worlds of adventure for your players to explore and enjoy. This core D&D book gives Dungeon Masters the world building advice, tips, tricks, and tools to create your own dungeons and adventures.
 
-Complete the core D&D collection:
-
-* Tasha's Cauldron of Everything
-* Monster Manual
-* Xanathar's Guide To Everything
-
 ---
 
 ## License
