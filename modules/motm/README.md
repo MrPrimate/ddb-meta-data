@@ -18,8 +18,15 @@ The book also gathers together fantastical peoples from many different worlds. E
 
 Compiling and updating monsters that originally appeared in _Volo’s Guide to Monsters_ and _Mordenkainen’s Tome of Foes_, this book presents friends and foes for any D&D campaign, many of them accompanied by the comments of Mordenkainen. The wizard has faced many of these monsters and peoples on numerous wondrous adventures. Now it’s time for you to venture forth and face these creatures yourself!
 
+Complete the core Dungeons & Dragons collection:
+
+* Tasha's Cauldron of Everything
+* Dungeon Master's Guide
+* Monster Manual
+* Xanathar's Guide To Everything
+
 ---
 
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

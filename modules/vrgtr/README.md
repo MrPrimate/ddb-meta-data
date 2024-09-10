@@ -1,7 +1,6 @@
 # Van Richten’s Guide to Ravenloft
 
-FACE YOUR FEARS  
-Terror stalks the nightmare realms of Ravenloft. No one knows this better than monster scholar Rudolph Van Richten. To arm a new generation against the creatures of the night, Van Richten--along with other heroes of Ravenloft like Ezmerelda d’Avenir and the Weathermay-Foxgrove Twins--shares his correspondence and case files in this tome of eerie tales and chilling truths about the Lands of the Mists.
+FACE YOUR FEARS
 
 _Van Richten’s Guide to Ravenloft_ contains macabre resources for fifth edition **players** and **Dungeon Masters** alike:
 
@@ -28,8 +27,6 @@ Feeling brave? Check out these other spooky essentials:
 
 ---
 
----
-
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

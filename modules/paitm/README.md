@@ -12,11 +12,11 @@ _Planescape: Adventures in the Multiverse_ comes with a plethora of new player o
 This 3 books set comprises:
 
 * _Sigil and the Outlands_: a setting book full of planar character options with details on the fantastic City of Doors, descriptions of the Outlands, the gate-towns that lead to the Outer planes, and more
-* _Turn of Fortune's_ Wheel: an adventure set in Sigil and the Outlands designed for character levels 3-10 with a jump to level 17
+* __Turn of Fortune's Wheel_: an adventure set in Sigil and the Outlands designed for character levels 3-10 with a jump to level 17
 * _Morte’s Planar Parade_: Follow Morte as he presents over 50 inhabitants of the Outer Plane, including incarnates, hierarch modrons, time dragons, and more with their stats and descriptions
 
 ---
 
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

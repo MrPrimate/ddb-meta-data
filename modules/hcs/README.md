@@ -8,8 +8,6 @@ Welcome to Humblewood, a campaign setting where you get to adventure as birds an
 
 ---
 
----
-
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

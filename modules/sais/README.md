@@ -19,8 +19,15 @@ This 3-book set comprises:
 * _Boo’s Astral Menagerie_: The Astral Plane holds more than the promise of adventure among the stars. It is also home to some of the most fantastic creatures in the D&D multiverse. Boo, the space hamster whose adventures with Minsc the Ranger are legendary, presents this compact collection of cosmic creatures to populate your Spelljammer adventures.
 * _Light of Xaryxis_: An adventure for Dungeon Masters set in the Astral Plane. When a cosmic enemy threatens to destroy their world, brave heroes must do everything in their power to save it. This quest will take them across the teeming oceans of Wildspace to the silvery void of the Astral Sea and beyond. Along the way, they’ll make friends, encounter terrifying foes, and face one cliffhanger after another. Can they save their world before time runs out?
 
+Complete the core Dungeons & Dragons collection:
+
+* Tasha's Cauldron of Everything
+* Dungeon Master's Guide
+* Monster Manual
+* Xanathar's Guide To Everything
+
 ---
 
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
