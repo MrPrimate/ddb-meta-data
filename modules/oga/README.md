@@ -1,7 +1,5 @@
 # One Grung Above
 
-> Proceeds from this character race supplement supports the charity Extra Life.
-
 From the jungles of Chult, these tribal frog-like humanoids are fiercely territorial and naturally secrete poison to use as weapons.
 
 ---

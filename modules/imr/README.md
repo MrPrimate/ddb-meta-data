@@ -1,7 +1,5 @@
 # Infernal Machine Rebuild
 
-> Proceeds from this adventure supplement supports the charity Extra Life, running levels 5-10
-
 Infernal Machine Rebuild launches players across distant places — and times to uncover additional components in order to reassemble the fabled Infernal Machine of Lum the Mad!
 
 ---

@@ -4,13 +4,6 @@
 
 Take a mad romp through the wards of Waterdeep as you uncover a villainous plot involving some of the city’s most influential figures. A grand urban caper awaits you. Pit your skill and bravado against villains the likes of which you’ve never faced before, and let the dragon hunt begin!
 
-More in the Forgotten Realms:
-
-* Tasha's Cauldron of Everything
-* Icewind Dale: Rime of the Frostmaiden
-* Baldur’s Gate: Descent into Avernus
-* Sword Coast Adventurer's Guide
-
 ---
 
 ## License

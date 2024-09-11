@@ -2,7 +2,10 @@
 
 This book is the perfect introduction to Dungeons & Dragons for fans of Rick and Morty. Choose characters from the Adult Swim show and learn to play D&D through a hilarious adventure with Rick’s sarcastic metacommentary and narcissistic genius leading you every step of the way.
 
-The book gives a Dungeon Master everything needed to play: • A **64-page D&D beginners rulebook filled with Rick’s commentary** • A **32-page adventure**, _The Lost Dungeon of Rickness_, for levels 1-3
+The book gives a Dungeon Master everything needed to play:
+
+* A **64-page D&D beginners rulebook filled with Rick’s commentary**
+* A **32-page adventure**, _The Lost Dungeon of Rickness_, for levels 1-3
 
 ---
 

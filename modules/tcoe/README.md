@@ -1,7 +1,5 @@
 # Tasha’s Cauldron of Everything
 
-Unlock a cauldron full of new playable content in this Dungeons and Dragons sourcebook.
-
 Natasha the Dark, Iggwilv the Witch Queen, daughter of Baba Yaga or simply the witch named Tasha, well-known for her spells such as Tasha’s hideous laughter, has compiled all the precious lore she has gathered during her illustrious career as an adventurer for the enrichment of all. Her book offers a taste of the great power that awaits D&D players and dungeon masters everywhere! Contained within the archmage’s musings are:
 
 * **92 pages full of new rules options and 25 new subclasses** for all of the character classes in the _Player’s Handbook_, like the **Fey Wanderer Ranger**

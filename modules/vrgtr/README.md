@@ -12,7 +12,7 @@ For Players:
 
 For Dungeon Masters:
 
-* Everything a Dungeon Master needs to craft a horror-themed campaign for Dungeons & Dragons, including rules and advice for building custom domains and Darklords using established horror tropes--or create your own sinister blend
+* Everything a Dungeon Master needs to craft a horror-themed campaign for Dungeons & Dragons, including rules and advice for building custom domains and Darklords using established horror tropes—or create your own sinister blend
 * **More than 30 new and familiar Domains of Dread** beyond Barovia like **Lamordia**, **Dementlieu**, **Kalakeri** and **Falkovnia**, appearing for the first time in fifth edition
 * A **brand-new haunted adventure** sure to add thrills and chills
 * Unleash a treasure trove of new story hooks, character options, and campaign customization to bring one of the most exciting D&D settings to life!

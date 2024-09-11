@@ -4,7 +4,7 @@ Buy Monsters of the Multiverse for a monstrous volume of options for D&D players
 
 ### For Players
 
-* Updated format that makes playable races relevant for **any class**\--on any world--in the multiverse.
+* Updated format that makes playable races relevant for **any class**—on any world—in the multiverse.
 
 ### For Dungeon Masters
 
