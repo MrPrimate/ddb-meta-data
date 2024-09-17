@@ -131,7 +131,6 @@ async function assemble(args) {
         assembleTables(args, contentPath),
         // assembleActors(args),
         // assembleItems(args),
-        // assembleManifest(args),
         assembleREADME(args),
     ]);
     outcomes.push(manifestOutcome);
@@ -238,7 +237,7 @@ async function assembleTables(args, contentPath) {
     return tables;
 }
 
-const DDB_REDIRECTIONS_PATH = path.resolve(__dirname, "./redirections.json");
+const DDB_REDIRECTIONS_PATH = path.resolve(__dirname, "./redirect.json");
 const DDB_SOURCES_MAP = fs.existsSync(DDB_REDIRECTIONS_PATH) ? fs.readJSONSync(DDB_REDIRECTIONS_PATH) : {};
 function cacheSourceUrl(bookName, sourceUrl) {
     DDB_SOURCES_MAP[bookName] = sourceUrl;
@@ -262,7 +261,7 @@ async function confirmSourceUrl(bookName, defaultUrl) {
     cacheSourceUrl(bookName, sourceUrl);
     return sourceUrl;
 }
-async function getRedirectionUrl(bookName, skipCheck = true) {
+async function getRedirectUrl(bookName, skipCheck = true) {
     if (skipCheck && DDB_SOURCES_MAP[bookName]) {
         console.log(`Using cached URL for ${bookName} (${DDB_SOURCES_MAP[bookName]})`);
         return DDB_SOURCES_MAP[bookName];
@@ -319,7 +318,7 @@ async function assembleManifest(args) {
                 twitter: "@ForgeVTT",
             },
         ],
-        url: await getRedirectionUrl(args.book),
+        url: await getRedirectUrl(args.book),
         license: "",
         readme: "",
         bugs: "",
