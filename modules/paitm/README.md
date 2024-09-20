@@ -4,19 +4,19 @@ Infinite realms of immortals and impossibilities, the Outer Planes brim with cel
 
 _Planescape: Adventures in the Multiverse_ comes with a plethora of new player options and provides Dungeon Masters everything they need to run adventures and campaigns set in Sigil and the Outlands, including adventure hooks, idiosyncratic locations, and multiversal calamities.
 
-- Discover **2 new backgrounds, the Gate Warden & the Planar Philosopher**, to build planar characters in the **D&D Beyond character builder**
-- Channel **7 otherworldly feats, new intriguing magic spells & more** powered by planar energies
-- Explore **12 new ascendant factions**, each with distinct cosmic ideologies
-- Face over **50 unusual creatures** including **planar incarnates, hierarch modrons, and time dragons** in the **Encounter Builder**
-- Journey across the Outlands in an **adventure for characters levels 3-10 and 17**
-- Adds **adventure hooks, encounter tables, maps of Sigil and the Outlands & more** to your game
+* Channel **7 otherworldly feats, new intriguing magic spells & more** powered by planar energies
+* Explore **12 new ascendant factions**, each with distinct cosmic ideologies
+* Journey across the Outlands in an **adventure for characters levels 3-10 and 17**
+* Adds **adventure hooks, encounter tables, maps of Sigil and the Outlands & more** to your game
 
 This 3 books set comprises:
 
-- _Sigil and the Outlands_: a setting book full of planar character options with details on the fantastic City of Doors, descriptions of the Outlands, the gate-towns that lead to the Outer planes, and more
-- \*_Turn of Fortune's_ Wheel\*: an adventure set in Sigil and the Outlands designed for character levels 3-10 with a jump to level 17
-- _Morte’s Planar Parade_: Follow Morte as he presents over 50 inhabitants of the Outer Plane, including incarnates, hierarch modrons, time dragons, and more with their stats and descriptions
+* _Sigil and the Outlands_: a setting book full of planar character options with details on the fantastic City of Doors, descriptions of the Outlands, the gate-towns that lead to the Outer planes, and more
+* __Turn of Fortune's Wheel_: an adventure set in Sigil and the Outlands designed for character levels 3-10 with a jump to level 17
+* _Morte’s Planar Parade_: Follow Morte as he presents over 50 inhabitants of the Outer Plane, including incarnates, hierarch modrons, time dragons, and more with their stats and descriptions
+
+---
 
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.

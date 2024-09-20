@@ -1,4 +1,5 @@
 const fs = require("fs-extra");
+const readline = require("node:readline");
 const path = require("path");
 const Datastore = require("nedb");
 const { ArgumentParser } = require("argparse");
@@ -124,14 +125,15 @@ async function assemble(args) {
 
     const contentPath = path.resolve(__dirname, "../../content");
 
+    const manifestOutcome = await assembleManifest(args);
     const outcomes = await Promise.allSettled([
         assembleScenes(args, contentPath),
         assembleTables(args, contentPath),
         // assembleActors(args),
         // assembleItems(args),
-        assembleManifest(args),
         assembleREADME(args),
     ]);
+    outcomes.push(manifestOutcome);
     outcomes.filter(outcome => outcome.fulfilled).map(outcome => console.error("Error", outcome.reason));
     console.info(`Done assembling meta data for ${args.book}`);
     console.timeEnd();
@@ -235,6 +237,60 @@ async function assembleTables(args, contentPath) {
     return tables;
 }
 
+const DDB_REDIRECTIONS_PATH = path.resolve(__dirname, "./redirect.json");
+const DDB_SOURCES_MAP = fs.existsSync(DDB_REDIRECTIONS_PATH) ? fs.readJSONSync(DDB_REDIRECTIONS_PATH) : {};
+function cacheSourceUrl(bookName, sourceUrl) {
+    DDB_SOURCES_MAP[bookName] = sourceUrl;
+    const sortedSourcesMap = Object.fromEntries(Object.entries(DDB_SOURCES_MAP).sort());
+    fs.writeJSONSync(DDB_REDIRECTIONS_PATH, sortedSourcesMap, { spaces: 4 });
+}
+async function confirmSourceUrl(bookName, defaultUrl) {
+    const sourceUrl = await new Promise((resolve) => {
+        const rl = readline.createInterface({
+            input: process.stdin,
+            output: process.stdout,
+        });
+        rl.question(
+            `Please check the correct URL for ${bookName} [${defaultUrl}] : `,
+            (url) => {
+                rl.close();
+                resolve(url || defaultUrl);
+            }
+        );
+    });
+    cacheSourceUrl(bookName, sourceUrl);
+    return sourceUrl;
+}
+async function getRedirectUrl(bookName, skipCheck = true) {
+    if (skipCheck && DDB_SOURCES_MAP[bookName]) {
+        console.log(`Using cached URL for ${bookName} (${DDB_SOURCES_MAP[bookName]})`);
+        return DDB_SOURCES_MAP[bookName];
+    }
+    const sourceUrl = DDB_SOURCES_MAP[bookName] || `https://www.dndbeyond.com/sources/dnd/${bookName}`;
+    console.log(`Checking URL for ${bookName} (${sourceUrl})...`);
+    try {
+        const response = await fetch(sourceUrl, { redirect: "follow", method: "HEAD" });
+        if (response.status === 200) {
+            if (response.url !== sourceUrl) {
+                if (DDB_SOURCES_MAP[bookName]) {
+                    console.warn(`Cached URL for ${bookName} (${DDB_SOURCES_MAP[bookName]}) redirects to ${response.url}`);
+                    return DDB_SOURCES_MAP[bookName];
+                }
+                if (!response.url.startsWith("https://www.dndbeyond.com/sources")) {
+                    return confirmSourceUrl(bookName, response.url);
+                }
+            }
+            cacheSourceUrl(bookName, response.url);
+            return response.url;
+        }
+        console.warn(`${response.status} ${response.statusText} ${sourceUrl}`);
+        return confirmSourceUrl(bookName, response.url);
+    } catch (err) {
+        console.error(`Error checking URL for ${bookName} (${sourceUrl})`, err);
+        return confirmSourceUrl(bookName, sourceUrl);
+    }
+}
+
 /**
  * Assembles the manifest
  * @param {object} args - Command line arguments
@@ -262,7 +318,7 @@ async function assembleManifest(args) {
                 twitter: "@ForgeVTT",
             },
         ],
-        url: `https://www.dndbeyond.com/sources/${args.book}`,
+        url: await getRedirectUrl(args.book),
         license: "",
         readme: "",
         bugs: "",

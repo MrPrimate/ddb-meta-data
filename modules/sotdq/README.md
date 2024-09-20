@@ -6,6 +6,14 @@ Takhisis the Dragon Queen has returned to the world of Krynn. Across the land, h
 
 Dragonlance: Shadow of the Dragon Queen is a tale of conflict and defiance set during the legendary War of the Lance. Create characters from Krynn, the world of the Dragonlance setting, then march them to the front lines of battle against the terrifying Dragon Armies.
 
+* **Adds the Lunar Sorcery subclass** to imbue sorcerers with lunar magic from Krynn's three mystical moons
+* **Brings new backgrounds like the Knights of Solamnia and Mages of High Sorcery** to use in character creation
+* Gives Dungeon Masters everything they need to run D&D campaigns set in **Dragonlance** during the **War of the Lance**
+* Brings war as a genre of play to Dungeons and Dragons fifth edition
+* Contains a **poster map** depicting the **continent of Ansalon and the Kalaman theater of war.**
+
+---
+
 ## License
 
-This data is release as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
+This data is released as Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. © Wizards of the Coast LLC.
