@@ -1,3 +1,7 @@
+# 1.1.6
+
+- Some map changes for Frozen Sick.
+
 # 1.1.5
 
 - Quests from the Infinite Staircase Chapter 7.
