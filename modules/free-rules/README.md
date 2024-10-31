@@ -1,6 +1,6 @@
 # D&D Free Rules (2024)
 
-Free product that provides listing content only.
+Everything you need to get started playing D&D!
 
 ---
 
