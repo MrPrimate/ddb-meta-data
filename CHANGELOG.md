@@ -1,3 +1,7 @@
+# 1.1.7
+
+- SOEE and DMG 2024 (Basic Parsing - no maps aligned)
+
 # 1.1.6
 
 - Some map changes for Frozen Sick.

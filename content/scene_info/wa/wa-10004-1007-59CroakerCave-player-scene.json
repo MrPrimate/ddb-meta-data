@@ -1,38 +1,803 @@
 {
     "background": {
-        "scaleX": 1,
-        "scaleY": 1,
+        "anchorX": 0,
+        "anchorY": 0,
         "offsetX": -62,
         "offsetY": -49,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
         "rotation": 0,
-        "tint": null
+        "tint": "#ffffff",
+        "alphaThreshold": 0
     },
     "backgroundColor": "#9aa4a5",
     "darkness": 1,
     "drawings": [],
+    "environment": {
+        "darknessLevel": 1,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": false,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 1
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
     "flags": {
         "ddb": {
             "bookCode": "wa",
-            "ddbId": 10006,
+            "ddbId": 10004,
             "cobaltId": null,
             "parentId": 1007,
             "contentChunkId": "59CroakerCave-player",
             "notes": [],
-            "tokens": [],
+            "tokens": [
+                {
+                    "_id": "w89nkNfgb9WiPcvH",
+                    "name": "Bandit",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1680,
+                    "y": 1330,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16798,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Bandit"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "QM6nl1N9uDuSmpzG",
+                        "name": "Bandit",
+                        "img": "tokenizer/npc-images/uttolot_elf_bandit.Avatarw89nkNfgb9WiPcvH.webp?1725128363364",
+                        "system": {
+                            "attributes": {
+                                "senses": {
+                                    "darkvision": 60
+                                }
+                            },
+                            "details": {
+                                "type": {
+                                    "custom": "",
+                                    "subtype": "Elf",
+                                    "swarm": ""
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "color": null,
+                        "negative": false,
+                        "priority": 0
+                    }
+                },
+                {
+                    "_id": "Nm8eYWSbP17DcuWN",
+                    "name": "Giant Ice Frog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1400,
+                    "y": 1680,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16884,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Giant Frog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "ZR6d2kW0zvVHjUHs",
+                        "system": {
+                            "traits": {
+                                "di": {
+                                    "value": [
+                                        "cold"
+                                    ]
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "color": null,
+                        "negative": false,
+                        "priority": 0
+                    }
+                },
+                {
+                    "_id": "4ASJrsZzL6YlE3KZ",
+                    "name": "Giant Ice Frog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1540,
+                    "y": 1400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16884,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Giant Frog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "ZR6d2kW0zvVHjUHs",
+                        "system": {
+                            "traits": {
+                                "di": {
+                                    "value": [
+                                        "cold"
+                                    ]
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "color": null,
+                        "negative": false,
+                        "priority": 0
+                    }
+                },
+                {
+                    "_id": "4QrmGhx6lhmuKbnX",
+                    "name": "Old Croaker",
+                    "width": 2,
+                    "height": 2,
+                    "x": 2520,
+                    "y": 910,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 744327,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Old Croaker"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "9dPPRzDtZZ9e53fu",
+                        "img": "tokenizer/npc-images/old_croaker.Avatar4QrmGhx6lhmuKbnX.webp?1725128966525",
+                        "system": {
+                            "attributes": {
+                                "spellcasting": "str"
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "color": null,
+                        "negative": false,
+                        "priority": 0
+                    }
+                },
+                {
+                    "_id": "drUeHy5hpQsfcZ38",
+                    "name": "Swarm of Bats",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2170,
+                    "y": 980,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17028,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Swarm of Bats"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "TZ3CojyHqVlyTNkr",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "value": 22
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "negative": false,
+                        "priority": 0,
+                        "color": null
+                    }
+                },
+                {
+                    "_id": "N3IeRf4RBfFJpwOi",
+                    "name": "Bandit",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1470,
+                    "y": 1610,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16798,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Bandit"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "QM6nl1N9uDuSmpzG",
+                        "name": "Bandit",
+                        "img": "tokenizer/npc-images/uttolot_elf_bandit.Avatarw89nkNfgb9WiPcvH.webp?1725128363364",
+                        "system": {
+                            "attributes": {
+                                "senses": {
+                                    "darkvision": 60
+                                }
+                            },
+                            "details": {
+                                "type": {
+                                    "custom": "",
+                                    "subtype": "Elf",
+                                    "swarm": ""
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "color": null,
+                        "negative": false,
+                        "priority": 0
+                    }
+                },
+                {
+                    "_id": "ovwMlikCWwhW2lAJ",
+                    "name": "Giant Ice Frog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1820,
+                    "y": 910,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16884,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Giant Frog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "ZR6d2kW0zvVHjUHs",
+                        "system": {
+                            "traits": {
+                                "di": {
+                                    "value": [
+                                        "cold"
+                                    ]
+                                }
+                            },
+                            "attributes": {
+                                "hp": {
+                                    "value": 18
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "color": null,
+                        "negative": false,
+                        "priority": 0
+                    }
+                },
+                {
+                    "_id": "wI4W67DqFpYxZw6C",
+                    "name": "Giant Ice Frog",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1680,
+                    "y": 840,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16884,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Giant Frog"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "ZR6d2kW0zvVHjUHs",
+                        "system": {
+                            "traits": {
+                                "di": {
+                                    "value": [
+                                        "cold"
+                                    ]
+                                }
+                            },
+                            "attributes": {
+                                "hp": {
+                                    "value": 15
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        },
+                        "color": null,
+                        "negative": false,
+                        "priority": 0
+                    }
+                },
+                {
+                    "_id": "PBguicH3Wau0tCxD",
+                    "name": "Hulil Lutan",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2170,
+                    "y": 560,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 744316,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Hulil Lutan"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "fo1caNWGyxQgI8YY",
+                        "img": "tokenizer/npc-images/hulil_lutan.AvatarPBguicH3Wau0tCxD.webp?1726962451017",
+                        "system": {},
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "84nuu8d3EzeE9yUK",
+                    "name": "Bandit",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1400,
+                    "y": 1470,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16798,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Bandit"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "MKuzVW1bIpedFFNT",
+                        "name": "Bandit",
+                        "system": {
+                            "traits": {
+                                "dr": {
+                                    "value": [
+                                        "poison"
+                                    ]
+                                }
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "t3VSIMorhWV6cvxs",
+                    "name": "Raegrin Mau",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2310,
+                    "y": 560,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 744330,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "6.0.3",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Raegrin Mau"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "_id": "oQGbHdjxFqT8JynZ",
+                        "img": "tokenizer/npc-images/raegrin_mau.Avatart3VSIMorhWV6cvxs.webp?1726971498233",
+                        "system": {
+                            "attributes": {
+                                "spellcasting": "str"
+                            }
+                        },
+                        "flags": {}
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
             "originalLink": "ddb://image/wa/5.9-croaker-cave-player.png",
-            "foundryVersion": "11.315",
+            "foundryVersion": "12.331",
             "versions": {
                 "ddbMetaData": {
                     "name": "Map 5.9: Croaker Cave",
                     "bookCode": "wa",
                     "contentChunkId": "59CroakerCave-player",
-                    "lastUpdate": "0.1.63",
+                    "lastUpdate": "1.1.0",
                     "notes": "0.0.14",
                     "tokens": "0.0.14",
-                    "walls": "1.1.0",
-                    "lights": "1.1.0",
-                    "drawings": "0.0.14",
-                    "foundry": "11.315"
+                    "walls": "1.1.7",
+                    "lights": "1.1.7",
+                    "drawings": "1.1.7",
+                    "foundry": "11.315",
+                    "regions": "1.1.7"
                 }
             }
         },
@@ -40,18 +805,32 @@
         "perfect-vision": {},
         "dynamic-illumination": [],
         "ddbimporter": {
-            "version": "999.0.0"
+            "version": "6.0.15"
         }
     },
+    "fog": {
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        },
+        "exploration": false,
+        "overlay": null
+    },
+    "foregroundElevation": 20,
     "globalLight": false,
-    "globalLightThreshold": null,
+    "globalLightThreshold": 1,
     "grid": {
         "type": 1,
         "size": 70,
+        "sizeX": 70,
+        "sizeY": 70,
+        "distance": 5,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1,
         "color": "#000000",
         "alpha": 0.2,
-        "distance": 5,
-        "units": "ft"
+        "diagonals": 0
     },
     "height": 1652,
     "initial": {
@@ -85,11 +864,15 @@
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
-                "shadows": 0
+                "shadows": 0,
+                "negative": false,
+                "priority": 0,
+                "color": null
             },
             "walls": true,
             "vision": false,
-            "flags": {}
+            "flags": {},
+            "elevation": 0
         },
         {
             "rotation": 0,
@@ -116,16 +899,21 @@
                 "luminosity": 0.5,
                 "saturation": 0,
                 "contrast": 0,
-                "shadows": 0
+                "shadows": 0,
+                "negative": false,
+                "priority": 0,
+                "color": null
             },
             "walls": true,
             "vision": false,
-            "flags": {}
+            "flags": {},
+            "elevation": 0
         }
     ],
     "name": "Map 5.9: Croaker Cave",
     "navName": "Croaker Cave",
     "padding": 0.25,
+    "regions": [],
     "tokenVision": true,
     "walls": [
         {
