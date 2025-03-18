@@ -1,3 +1,7 @@
+# 1.1.8
+
+- HBtD scene alignment
+
 # 1.1.7
 
 - SOEE and DMG 2024 (Basic Parsing - no maps aligned)
