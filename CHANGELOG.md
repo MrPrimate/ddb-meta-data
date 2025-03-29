@@ -1,3 +1,7 @@
+# 1.1.9
+
+- "Obojima: Tales from the Tall Grass" and "The Malady of Minarrh"
+
 # 1.1.8
 
 - HBtD scene alignment
