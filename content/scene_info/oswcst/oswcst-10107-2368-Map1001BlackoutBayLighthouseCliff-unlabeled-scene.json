@@ -1,0 +1,981 @@
+{
+    "background": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+    },
+    "backgroundColor": "#999999",
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.6
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "oswcst",
+            "ddbId": 10107,
+            "cobaltId": null,
+            "parentId": 2368,
+            "contentChunkId": "Map1001BlackoutBayLighthouseCliff-unlabeled",
+            "notes": [],
+            "tokens": [],
+            "originalLink": "ddb://image/oswcst/map-10.01-blackout-bay-lighthouse-cliff-grid.jpg",
+            "foundryVersion": "12.331",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map: Lighthouse Cliff",
+                    "bookCode": "oswcst",
+                    "contentChunkId": "Map1001BlackoutBayLighthouseCliff-unlabeled",
+                    "lastUpdate": "1.1.10",
+                    "notes": "1.1.10",
+                    "tokens": "1.1.10",
+                    "walls": "1.1.10",
+                    "lights": "1.1.10",
+                    "drawings": "1.1.10",
+                    "regions": "1.1.10",
+                    "foundry": "12.331"
+                }
+            }
+        },
+        "stairways": [],
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        },
+        "exploration": true,
+        "overlay": null
+    },
+    "foregroundElevation": 20,
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "sizeX": 100,
+        "sizeY": 100,
+        "distance": 5,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1,
+        "color": "#000000",
+        "alpha": 0,
+        "diagonals": 0
+    },
+    "height": 2200,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": 0.5
+    },
+    "lights": [],
+    "name": "Map: Lighthouse Cliff",
+    "navName": "Lighthouse Cliff",
+    "navOrder": 100001,
+    "padding": 0.25,
+    "regions": [
+        {
+            "name": "Region",
+            "_id": "woHp2FOfnHkfW4iM",
+            "color": "#4128cc",
+            "shapes": [
+                {
+                    "points": [
+                        1007,
+                        987,
+                        1073,
+                        1004,
+                        1144,
+                        1040,
+                        1198,
+                        1082,
+                        1250,
+                        1144,
+                        1283,
+                        1205,
+                        1304,
+                        1271,
+                        1313,
+                        1351,
+                        1306,
+                        1421,
+                        1287,
+                        1487,
+                        1256,
+                        1549,
+                        1214,
+                        1604,
+                        1163,
+                        1650,
+                        1094,
+                        1690,
+                        1029,
+                        1711,
+                        988,
+                        1713,
+                        913,
+                        1713,
+                        869,
+                        1707,
+                        819,
+                        1691,
+                        756,
+                        1663,
+                        702,
+                        1620,
+                        657,
+                        1568,
+                        622,
+                        1508,
+                        599,
+                        1443,
+                        588,
+                        1363,
+                        592,
+                        1294,
+                        609,
+                        1226,
+                        638,
+                        1164,
+                        686,
+                        1099,
+                        737,
+                        1053,
+                        796,
+                        1017,
+                        860,
+                        994,
+                        939,
+                        983
+                    ],
+                    "type": "polygon",
+                    "hole": false
+                }
+            ],
+            "elevation": {
+                "bottom": null,
+                "top": null
+            },
+            "behaviors": [
+                {
+                    "name": "Adjust Darkness Level",
+                    "type": "adjustDarknessLevel",
+                    "_id": "heKMJzhuNblPcJXO",
+                    "system": {
+                        "mode": 0,
+                        "modifier": 0.75
+                    },
+                    "disabled": false,
+                    "flags": {},
+                    "_stats": {
+                        "compendiumSource": null,
+                        "duplicateSource": null,
+                        "coreVersion": "12.331",
+                        "systemId": "dnd5e",
+                        "systemVersion": "4.3.9",
+                        "createdTime": 1747990117845,
+                        "modifiedTime": 1747990130339,
+                        "lastModifiedBy": "FuUmlFqqqH54Onkl"
+                    }
+                }
+            ],
+            "visibility": 0,
+            "locked": false,
+            "flags": {}
+        }
+    ],
+    "tokenVision": true,
+    "walls": [
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1313,
+                1351,
+                1306,
+                1421
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1306,
+                1421,
+                1287,
+                1487
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1287,
+                1487,
+                1256,
+                1549
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1256,
+                1549,
+                1214,
+                1604
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1214,
+                1604,
+                1163,
+                1650
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1163,
+                1650,
+                1094,
+                1690
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1094,
+                1690,
+                1029,
+                1711
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1029,
+                1711,
+                988,
+                1713
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                869,
+                1707,
+                819,
+                1691
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                819,
+                1691,
+                756,
+                1663
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                756,
+                1663,
+                702,
+                1620
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                702,
+                1620,
+                657,
+                1568
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                657,
+                1568,
+                622,
+                1508
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                622,
+                1508,
+                599,
+                1443
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                599,
+                1443,
+                588,
+                1363
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                588,
+                1363,
+                592,
+                1294
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                592,
+                1294,
+                609,
+                1226
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                609,
+                1226,
+                638,
+                1164
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                638,
+                1164,
+                686,
+                1099
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                686,
+                1099,
+                737,
+                1053
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                737,
+                1053,
+                796,
+                1017
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                796,
+                1017,
+                860,
+                994
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                860,
+                994,
+                939,
+                983
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                939,
+                983,
+                1007,
+                987
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1007,
+                987,
+                1073,
+                1004
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1073,
+                1004,
+                1144,
+                1040
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1144,
+                1040,
+                1198,
+                1082
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1198,
+                1082,
+                1250,
+                1144
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1250,
+                1144,
+                1283,
+                1205
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1283,
+                1205,
+                1304,
+                1271
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1304,
+                1271,
+                1313,
+                1351
+            ],
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                869,
+                1707,
+                913,
+                1713
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                950,
+                1100,
+                989,
+                986
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "door": 1,
+            "c": [
+                913,
+                1713,
+                988,
+                1713
+            ],
+            "dir": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        }
+    ],
+    "weather": "",
+    "width": 1700
+}
