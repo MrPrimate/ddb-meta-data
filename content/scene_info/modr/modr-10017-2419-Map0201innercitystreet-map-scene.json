@@ -1,0 +1,3270 @@
+{
+    "background": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+    },
+    "backgroundColor": "#2a2935",
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0.2,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.5
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "modr",
+            "ddbId": 10017,
+            "cobaltId": null,
+            "parentId": 2419,
+            "contentChunkId": "Map0201innercitystreet-map",
+            "notes": [],
+            "tokens": [],
+            "originalLink": "ddb://image/modr/map-02.01-inner-city-street.jpg",
+            "foundryVersion": "12.343",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map: Inner City Street",
+                    "bookCode": "modr",
+                    "contentChunkId": "Map0201innercitystreet-map",
+                    "lastUpdate": "1.1.11",
+                    "notes": "1.1.11",
+                    "tokens": "1.1.11",
+                    "walls": "1.1.11",
+                    "lights": "1.1.11",
+                    "drawings": "1.1.11",
+                    "regions": "1.1.11",
+                    "foundry": "12.343"
+                }
+            }
+        },
+        "stairways": [],
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        },
+        "exploration": true,
+        "overlay": null
+    },
+    "foregroundElevation": 20,
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "sizeX": 100,
+        "sizeY": 100,
+        "distance": 5,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1,
+        "color": "#000000",
+        "alpha": 0.2,
+        "diagonals": 0
+    },
+    "height": 3200,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": 0.5
+    },
+    "lights": [
+        {
+            "x": 850,
+            "y": 1600,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1150,
+            "y": 1550,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1100,
+            "y": 1200,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1450,
+            "y": 1150,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 950,
+            "y": 950,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1750,
+            "y": 1650,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 2200,
+            "y": 1650,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1800,
+            "y": 1950,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 2250,
+            "y": 2250,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 2600,
+            "y": 2250,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 2350,
+            "y": 2950,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 2450,
+            "y": 3300,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 2150,
+            "y": 3450,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1400,
+            "y": 3600,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 700,
+            "y": 3950,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 700,
+            "y": 3250,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1150,
+            "y": 3000,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1550,
+            "y": 3250,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1250,
+            "y": 2850,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 850,
+            "y": 2850,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 850,
+            "y": 2350,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        },
+        {
+            "x": 1050,
+            "y": 2400,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.2,
+                "angle": 360,
+                "bright": 0,
+                "color": "#431e5c",
+                "coloration": 1,
+                "dim": 9.18,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 0.5
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        }
+    ],
+    "name": "Map: Inner City Street",
+    "navName": "Inner City Street",
+    "navOrder": 100001,
+    "padding": 0.25,
+    "regions": [],
+    "tokenVision": true,
+    "walls": [
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1138,
+                838,
+                1138,
+                1025
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1138,
+                1025,
+                1438,
+                1025
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1438,
+                1025,
+                1438,
+                838
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1438,
+                838,
+                1138,
+                838
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1300,
+                1013,
+                1300,
+                850
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                750,
+                1138,
+                750,
+                800
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                938,
+                1338,
+                588,
+                1338
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                938,
+                1338,
+                938,
+                800
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1150,
+                1263,
+                1150,
+                1363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1150,
+                1363,
+                1300,
+                1363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1300,
+                1363,
+                1300,
+                1263
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1300,
+                1263,
+                1375,
+                1263
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1375,
+                1263,
+                1450,
+                1288
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1450,
+                1288,
+                1450,
+                1363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1450,
+                1363,
+                1300,
+                1363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1300,
+                1263,
+                1150,
+                1263
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1438,
+                1663,
+                975,
+                1663
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1213,
+                1638,
+                1213,
+                2225
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1438,
+                2175,
+                975,
+                2175
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                975,
+                2175,
+                975,
+                1663
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1438,
+                1663,
+                1438,
+                2175
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                600,
+                1550,
+                825,
+                1550
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                825,
+                1550,
+                825,
+                1850
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                825,
+                1850,
+                675,
+                1850
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                675,
+                1850,
+                675,
+                1988
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                675,
+                1988,
+                825,
+                1988
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                825,
+                1988,
+                825,
+                2275
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                825,
+                2275,
+                600,
+                2275
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                688,
+                2138,
+                588,
+                2138
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                700,
+                1713,
+                588,
+                1713
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                700,
+                2575,
+                563,
+                2575
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                588,
+                2775,
+                738,
+                2775
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                738,
+                2775,
+                700,
+                2575
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                700,
+                2575,
+                663,
+                2400
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                663,
+                2400,
+                563,
+                2388
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1050,
+                2363,
+                1050,
+                2738
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1050,
+                2738,
+                1438,
+                2738
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1438,
+                2738,
+                1438,
+                2363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1438,
+                2363,
+                1050,
+                2363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1050,
+                2738,
+                1438,
+                2363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1050,
+                2363,
+                1438,
+                2738
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1200,
+                2975,
+                688,
+                2975
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                688,
+                2975,
+                688,
+                3425
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                688,
+                3425,
+                1200,
+                3425
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1200,
+                3425,
+                1200,
+                2975
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1238,
+                3200,
+                650,
+                3200
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                875,
+                4000,
+                875,
+                3663
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                875,
+                3663,
+                1425,
+                3663
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1425,
+                3663,
+                1425,
+                4000
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1063,
+                3850,
+                1238,
+                3850
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1425,
+                4000,
+                1238,
+                3850
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1063,
+                3850,
+                875,
+                4000
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2238,
+                3863,
+                1838,
+                3863
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1838,
+                3863,
+                1838,
+                3475
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1838,
+                3475,
+                2088,
+                3475
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2088,
+                3475,
+                2088,
+                3600
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2088,
+                3600,
+                2238,
+                3600
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2238,
+                3600,
+                2238,
+                3863
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1975,
+                3738,
+                2238,
+                3738
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1975,
+                3738,
+                1975,
+                3475
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2813,
+                3475,
+                2650,
+                3475
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2650,
+                3475,
+                2650,
+                3675
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2650,
+                3675,
+                2838,
+                3675
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2650,
+                3675,
+                2650,
+                3900
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2650,
+                3900,
+                2800,
+                3900
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2200,
+                3250,
+                1900,
+                3250
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1900,
+                3250,
+                1900,
+                2650
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1900,
+                2650,
+                2200,
+                2650
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2200,
+                2650,
+                2200,
+                2725
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2200,
+                2725,
+                2300,
+                2725
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2300,
+                2725,
+                2300,
+                2913
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2300,
+                2913,
+                2200,
+                2913
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2200,
+                2913,
+                2200,
+                2988
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2200,
+                2988,
+                2300,
+                2988
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2300,
+                2988,
+                2300,
+                3175
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2300,
+                3175,
+                2200,
+                3175
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2200,
+                3175,
+                2200,
+                3250
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2313,
+                3075,
+                2100,
+                3075
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2313,
+                2813,
+                2100,
+                2813
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2050,
+                2788,
+                2050,
+                3100
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2825,
+                2650,
+                2563,
+                2650
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2563,
+                2650,
+                2563,
+                2838
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2563,
+                2838,
+                2813,
+                2838
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2713,
+                2650,
+                2713,
+                2838
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1813,
+                1900,
+                1813,
+                2288
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1813,
+                2288,
+                2088,
+                2288
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2088,
+                2288,
+                2088,
+                2213
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2088,
+                2213,
+                2125,
+                2213
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2125,
+                2213,
+                2125,
+                2125
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2125,
+                2125,
+                2200,
+                2125
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2200,
+                2125,
+                2200,
+                1900
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2200,
+                1900,
+                1813,
+                1900
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2200,
+                2088,
+                1813,
+                2088
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2825,
+                1363,
+                2475,
+                1363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2475,
+                1363,
+                2475,
+                1750
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2475,
+                1750,
+                2800,
+                1750
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2475,
+                1750,
+                2825,
+                1363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2838,
+                1725,
+                2475,
+                1363
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1863,
+                1175,
+                1863,
+                1525
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                1863,
+                1525,
+                2238,
+                1525
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2238,
+                1525,
+                2238,
+                975
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2238,
+                975,
+                1863,
+                975
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2063,
+                975,
+                2063,
+                1525
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2863,
+                1250,
+                2500,
+                1250
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2500,
+                1250,
+                2500,
+                838
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2500,
+                838,
+                2713,
+                838
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2713,
+                838,
+                2775,
+                775
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 10,
+            "sight": 10,
+            "sound": 10,
+            "move": 20,
+            "c": [
+                2875,
+                1050,
+                2500,
+                1050
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        }
+    ],
+    "weather": "",
+    "width": 2200
+}
