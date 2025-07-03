@@ -1,3 +1,8 @@
+# 1.1.12
+
+- Dragon Delves, complete
+- The Crooked Moon, partially complete.
+
 # 1.1.11
 
 - Monsters of Drakkenheim
