@@ -1,0 +1,385 @@
+{
+    "background": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+    },
+    "backgroundColor": "#e5dcd1",
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.5
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "tcmp2",
+            "ddbId": 10031,
+            "cobaltId": null,
+            "parentId": 2470,
+            "contentChunkId": "Map0303loungecar-map",
+            "notes": [],
+            "tokens": [
+                {
+                    "_id": "dWesX7iGuLoip7gP",
+                    "name": "The Songstress",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2200,
+                    "y": 400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 5559965,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "999.0.0",
+                            "isLegacy": false,
+                            "sources": [
+                                {
+                                    "sourceId": 194,
+                                    "pageNumber": 536,
+                                    "sourceType": 1
+                                }
+                            ],
+                            "compendiumId": "ddbWayHai5559965",
+                            "sourceId": 194,
+                            "sourceCategory": 34,
+                            "flatAC": false,
+                            "keepToken": true,
+                            "keepAvatar": true,
+                            "avatarImage": "assets/03-007.the-songstress.png",
+                            "tokenImage": "assets/03-007.the-songstress.png",
+                            "name": "Wayward Haint"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "_id": "dWesX7iGuLoip7gP",
+                        "name": "The Songstress",
+                        "img": "ddb-images/adventures/The_Crooked_Moon_Part_Two__Monsters___Adventure_Campaign/assets/03-007.the-songstress.png",
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "temp": null,
+                                    "tempmax": null
+                                }
+                            }
+                        },
+                        "flags": {
+                            "ddbimporter": {
+                                "keepToken": true,
+                                "keepAvatar": true
+                            }
+                        }
+                    },
+                    "light": {
+                        "negative": false,
+                        "priority": 0,
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                }
+            ],
+            "originalLink": "ddb://image/tcmp2/map-03.03-lounge-car.png",
+            "foundryVersion": "12.343",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map: Lounge Car",
+                    "bookCode": "tcmp2",
+                    "contentChunkId": "Map0303loungecar-map",
+                    "lastUpdate": "1.1.12",
+                    "notes": "1.1.12",
+                    "tokens": "1.1.12",
+                    "walls": "1.1.12",
+                    "lights": "1.1.12",
+                    "drawings": "1.1.12",
+                    "regions": "1.1.12",
+                    "foundry": "12.343"
+                }
+            }
+        },
+        "stairways": [],
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        },
+        "exploration": true,
+        "overlay": null
+    },
+    "foregroundElevation": 20,
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "sizeX": 100,
+        "sizeY": 100,
+        "distance": 5,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1,
+        "color": "#000000",
+        "alpha": 0,
+        "diagonals": 0
+    },
+    "height": 700,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": 0.5
+    },
+    "lights": [],
+    "name": "Map: Lounge Car",
+    "navName": "Lounge Car",
+    "navOrder": 100001,
+    "padding": 0.25,
+    "regions": [],
+    "tokenVision": true,
+    "walls": [
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "door": 1,
+            "c": [
+                1288,
+                588,
+                1288,
+                500
+            ],
+            "dir": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "door": 1,
+            "c": [
+                2413,
+                500,
+                2413,
+                600
+            ],
+            "dir": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1288,
+                500,
+                1288,
+                375
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1288,
+                375,
+                2413,
+                375
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                2413,
+                375,
+                2413,
+                500
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                2413,
+                600,
+                2413,
+                725
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                2413,
+                725,
+                1288,
+                725
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        },
+        {
+            "light": 20,
+            "sight": 20,
+            "sound": 20,
+            "move": 20,
+            "c": [
+                1288,
+                725,
+                1288,
+                588
+            ],
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "flags": {}
+        }
+    ],
+    "weather": "",
+    "width": 2400
+}
