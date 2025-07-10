@@ -1,3 +1,7 @@
+# 1.1.13
+
+- More Crooked Moon scenes and fixes. (Up to Crooked Nightmare)
+
 # 1.1.12
 
 - Dragon Delves, complete
