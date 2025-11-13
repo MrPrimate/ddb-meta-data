@@ -1,3 +1,13 @@
+# 1.1.17
+
+- Forgotten Realms Adventures in Faerun
+- Astarion's Book of Hungers
+Astarions 
+
+# 1.1.16
+
+- Heroes of the Borderlands
+
 # 1.1.15
 
 - Abomination Vaults.
