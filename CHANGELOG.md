@@ -1,3 +1,8 @@
+# 1.1.18
+
+- DOIP Scenes Regenerated
+- Support for Lorwyn
+
 # 1.1.17
 
 - Forgotten Realms Adventures in Faerun
