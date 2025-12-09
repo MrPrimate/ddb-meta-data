@@ -1,0 +1,158 @@
+{
+    "background": {
+        "anchorX": 0,
+        "anchorY": 0,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "fill",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0
+    },
+    "backgroundColor": "#6f8ea1",
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0.6,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.7
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "oswhap",
+            "ddbId": 10048,
+            "cobaltId": null,
+            "parentId": 2670,
+            "contentChunkId": "Map0401RemoteCampsite-ungridded",
+            "notes": [],
+            "tokens": [],
+            "originalLink": "ddb://image/oswhap/map-04.01-RemoteCampsite-no-grid.jpg",
+            "foundryVersion": "13.351",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Camp",
+                    "bookCode": "oswhap",
+                    "contentChunkId": "Map0401RemoteCampsite-ungridded",
+                    "lastUpdate": "1.1.19",
+                    "notes": "1.1.19",
+                    "tokens": "1.1.19",
+                    "walls": "1.1.19",
+                    "lights": "1.1.19",
+                    "drawings": "1.1.19",
+                    "regions": "1.1.19",
+                    "foundry": "13.351"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        },
+        "exploration": true,
+        "overlay": null
+    },
+    "foregroundElevation": 20,
+    "grid": {
+        "type": 1,
+        "size": 100,
+        "sizeX": 100,
+        "sizeY": 100,
+        "distance": 5,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1,
+        "color": "#000000",
+        "alpha": 0,
+        "diagonals": 0
+    },
+    "height": 2200,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "lights": [
+        {
+            "x": 1575,
+            "y": 2073,
+            "elevation": 0,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "bright": 2.5,
+                "color": null,
+                "coloration": 1,
+                "dim": 22.43,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {}
+        }
+    ],
+    "name": "Camp",
+    "navName": "Camp",
+    "navOrder": 100001,
+    "padding": 0.25,
+    "regions": [],
+    "tokenVision": true,
+    "walls": [],
+    "weather": "",
+    "width": 1700
+}
