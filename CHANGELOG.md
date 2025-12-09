@@ -1,3 +1,7 @@
+# 1.1.19
+
+- Basic scenes for One-Shot Wonders: Holiday Adventure Pack, Netheril’s Fall, Eberron: Forge of the Artificer, and Fated Flight of the Recluse.
+
 # 1.1.18
 
 - DOIP Scenes Regenerated
@@ -7,7 +11,6 @@
 
 - Forgotten Realms Adventures in Faerun
 - Astarion's Book of Hungers
-Astarions 
 
 # 1.1.16
 
