@@ -1,3 +1,7 @@
+# 1.1.20
+
+- Fix CM scenes.
+
 # 1.1.19
 
 - Basic scenes for One-Shot Wonders: Holiday Adventure Pack, Netheril’s Fall, Eberron: Forge of the Artificer, and Fated Flight of the Recluse.
