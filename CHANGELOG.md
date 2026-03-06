@@ -1,3 +1,7 @@
+# 1.1.21
+
+- Heroes of the Borderlands "Bugbear Lair" scene
+
 # 1.1.20
 
 - Fix CM scenes.
