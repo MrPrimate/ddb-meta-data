@@ -1,3 +1,7 @@
+# 1.1.22
+
+- Faster Faster Purple Worm 1.
+
 # 1.1.21
 
 - Heroes of the Borderlands "Bugbear Lair" scene
