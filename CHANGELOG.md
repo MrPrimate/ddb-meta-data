@@ -1,3 +1,7 @@
+# 1.1.23
+
+- Fixes to ToA due to DDB formating updates.
+
 # 1.1.22
 
 - Faster Faster Purple Worm 1.
