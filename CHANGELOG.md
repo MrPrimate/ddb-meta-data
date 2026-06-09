@@ -1,3 +1,7 @@
+# 1.1.26
+
+- Waterdeep Dragon Heist fixes.
+
 # 1.1.23
 
 - Fixes to ToA due to DDB formating updates.
