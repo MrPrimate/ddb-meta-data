@@ -311,10 +311,10 @@
     "flags": {
         "ddb": {
             "bookCode": "wdh",
-            "ddbId": 13051,
+            "ddbId": 103069,
             "cobaltId": null,
             "parentId": 558,
-            "contentChunkId": "f9a869c9-cd1c-4b3f-8b3b-613624572508",
+            "contentChunkId": "ddb-missing-wdh-103069",
             "notes": [
                 {
                     "label": "W1. Stone Staircase",
@@ -826,8 +826,8 @@
                     },
                     "positions": [
                         {
-                            "x": 3868,
-                            "y": 2053
+                            "x": 3950,
+                            "y": 1950
                         }
                     ],
                     "iconSize": 100,
@@ -909,7 +909,7 @@
                     "textAnchor": 1
                 },
                 {
-                    "label": "Converted Windmill: Spring",
+                    "label": "Converted Windmill: Summer",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -917,13 +917,13 @@
                             "bookCode": "wdh",
                             "slug": "dragon-season#Encounter10ConvertedWindmill",
                             "linkName": "Encounter 10: Converted Windmill",
-                            "slugLink": "ConvertedWindmillSpring",
+                            "slugLink": "ConvertedWindmillSummer",
                             "duplicate": false,
                             "contentChunkId": null,
                             "img": false,
                             "note": false,
                             "parentId": 558,
-                            "labelName": "Converted Windmill: Spring"
+                            "labelName": "Converted Windmill: Summer"
                         }
                     },
                     "texture": {
@@ -937,8 +937,82 @@
                     },
                     "positions": [
                         {
-                            "x": 1818,
-                            "y": 1833
+                            "x": 1745,
+                            "y": 1754
+                        }
+                    ],
+                    "iconSize": 100,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "Cult Fanatics",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 50,
+                            "bookCode": "wdh",
+                            "slug": "dragon-season#Encounter10ConvertedWindmill",
+                            "linkName": "Encounter 10: Converted Windmill",
+                            "slugLink": "CultFanatics",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 558,
+                            "labelName": "Cult Fanatics"
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 3869,
+                            "y": 2051
+                        }
+                    ],
+                    "iconSize": 100,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "Devils’ Arrival",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 50,
+                            "bookCode": "wdh",
+                            "slug": "dragon-season#Encounter10ConvertedWindmill",
+                            "linkName": "Encounter 10: Converted Windmill",
+                            "slugLink": "DevilsArrival",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 558,
+                            "labelName": "Devils’ Arrival"
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 3951,
+                            "y": 2336
                         }
                     ],
                     "iconSize": 100,
@@ -3342,23 +3416,139 @@
                     }
                 },
                 {
-                    "_id": "lpl0aDZqvwTI8qyF",
-                    "name": "Urlaster Ghann",
+                    "_id": "mr6afsA843sIlBvn",
+                    "name": "Arn Xalrondar",
                     "width": 1,
                     "height": 1,
                     "x": 3800,
-                    "y": 2000,
+                    "y": 1900,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16829,
+                            "id": 16836,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Commoner"
+                            "flatAC": false,
+                            "name": "Cult Fanatic"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        },
+                        "name": "Arn Xalrondar"
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "Z4Cg9BX6iz3oXnq6",
+                    "name": "Seffia Naelryke",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3700,
+                    "y": 2000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16836,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Cult Fanatic"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        },
+                        "name": "Seffia Naelryke"
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "KzVEWSS20PLy3tQ2",
+                    "name": "Spined Devil",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4000,
+                    "y": 2300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17214,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Spined Devil"
                         }
                     },
                     "actorLink": false,
@@ -3372,22 +3562,6 @@
                             "midi-qol": {
                                 "concentration-damage": 0
                             }
-                        },
-                        "name": "Urlaster Ghann",
-                        "system": {
-                            "attributes": {
-                                "hp": {
-                                    "temp": null,
-                                    "tempmax": null
-                                },
-                                "init": {
-                                    "bonus": null
-                                }
-                            },
-                            "details": {
-                                "cr": "0"
-                            },
-                            "quantity": "1"
                         }
                     },
                     "light": {
@@ -3415,23 +3589,23 @@
                     }
                 },
                 {
-                    "_id": "ZlTixiAmg7vW5Lgl",
-                    "name": "Volkarr Kibbens",
+                    "_id": "h6eJVQkAl1f3a33c",
+                    "name": "Spined Devil",
                     "width": 1,
                     "height": 1,
-                    "x": 3800,
-                    "y": 1900,
+                    "x": 4100,
+                    "y": 2300,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16829,
+                            "id": 17214,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Commoner"
+                            "flatAC": false,
+                            "name": "Spined Devil"
                         }
                     },
                     "actorLink": false,
@@ -3445,22 +3619,63 @@
                             "midi-qol": {
                                 "concentration-damage": 0
                             }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
                         },
-                        "name": "Volkarr Kibbens",
-                        "system": {
-                            "attributes": {
-                                "hp": {
-                                    "temp": null,
-                                    "tempmax": null
-                                },
-                                "init": {
-                                    "bonus": null
-                                }
-                            },
-                            "details": {
-                                "cr": "0"
-                            },
-                            "quantity": "1"
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "c0IA0FZSUuVhEsw7",
+                    "name": "Spined Devil",
+                    "width": 1,
+                    "height": 1,
+                    "x": 4200,
+                    "y": 2300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17214,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Spined Devil"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
                         }
                     },
                     "light": {
@@ -3488,20 +3703,20 @@
                     }
                 }
             ],
-            "originalLink": "ddb://image/wdh/c4018.jpg",
-            "foundryVersion": "10.291",
+            "foundryVersion": "0.8.9",
             "versions": {
                 "ddbMetaData": {
-                    "name": "Warehouse",
+                    "name": "Converted Windmill (Summer)",
                     "bookCode": "wdh",
-                    "contentChunkId": "f9a869c9-cd1c-4b3f-8b3b-613624572508",
-                    "lastUpdate": "0.3.26",
-                    "notes": "0.3.25",
-                    "tokens": "0.3.25",
-                    "walls": "0.3.26",
-                    "lights": "0.3.26",
-                    "drawings": "0.3.26",
-                    "foundry": "10.291"
+                    "contentChunkId": "ddb-missing-wdh-103069",
+                    "lastUpdate": "1.1.26",
+                    "notes": "1.1.26",
+                    "tokens": "1.1.26",
+                    "walls": "1.1.26",
+                    "lights": "1.1.26",
+                    "drawings": "1.1.26",
+                    "regions": "1.1.26",
+                    "foundry": "0.8.9"
                 }
             }
         },
@@ -3887,7 +4102,7 @@
             }
         }
     ],
-    "name": "Converted Windmill",
+    "name": "Converted Windmill (Summer)",
     "navName": "Converted Windmill",
     "padding": 0.25,
     "tokenVision": true,
@@ -7928,7 +8143,7 @@
             "c": [
                 3500,
                 1912,
-                3687,
+                3700,
                 1900
             ],
             "light": 20,
@@ -7942,7 +8157,7 @@
         },
         {
             "c": [
-                3687,
+                3700,
                 1900,
                 3725,
                 1900
@@ -7958,7 +8173,7 @@
         },
         {
             "c": [
-                3687,
+                3700,
                 1900,
                 3700,
                 1925
@@ -8612,9 +8827,25 @@
         },
         {
             "c": [
-                3237,
-                1450,
-                3312,
+                3262,
+                2062,
+                3350,
+                2162
+            ],
+            "light": 0,
+            "move": 20,
+            "sight": 0,
+            "sound": 0,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "flags": {}
+        },
+        {
+            "c": [
+                4050,
+                1437,
+                3975,
                 1350
             ],
             "light": 0,
@@ -8628,9 +8859,9 @@
         },
         {
             "c": [
-                3550,
-                1212,
                 3762,
+                1212,
+                3550,
                 1212
             ],
             "light": 0,
@@ -8644,26 +8875,10 @@
         },
         {
             "c": [
-                3975,
+                3312,
                 1350,
-                4050,
-                1437
-            ],
-            "light": 0,
-            "move": 20,
-            "sight": 0,
-            "sound": 0,
-            "dir": 0,
-            "door": 0,
-            "ds": 0,
-            "flags": {}
-        },
-        {
-            "c": [
-                3350,
-                2162,
-                3262,
-                2062
+                3237,
+                1450
             ],
             "light": 0,
             "move": 20,

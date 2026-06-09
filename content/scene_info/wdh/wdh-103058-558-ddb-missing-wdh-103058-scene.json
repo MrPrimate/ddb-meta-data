@@ -13,10 +13,10 @@
     "flags": {
         "ddb": {
             "bookCode": "wdh",
-            "ddbId": 103061,
+            "ddbId": 103058,
             "cobaltId": null,
             "parentId": 558,
-            "contentChunkId": "ddb-missing-wdh-103061",
+            "contentChunkId": "ddb-missing-wdh-103058",
             "notes": [
                 {
                     "label": "O1. Vestibule",
@@ -202,27 +202,138 @@
                     "iconSize": 100,
                     "textColor": "#FFFFFF",
                     "textAnchor": 1
+                },
+                {
+                    "label": "House Rosznar Guards",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 47,
+                            "bookCode": "wdh",
+                            "slug": "dragon-season#Encounter7OldTower",
+                            "linkName": "Encounter 7: Old Tower",
+                            "slugLink": "HouseRosznarGuards",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 558,
+                            "labelName": "House Rosznar Guards"
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 2448,
+                            "y": 2158
+                        }
+                    ],
+                    "iconSize": 100,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "Bought and Paid For",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 47,
+                            "bookCode": "wdh",
+                            "slug": "dragon-season#Encounter7OldTower",
+                            "linkName": "Encounter 7: Old Tower",
+                            "slugLink": "BoughtandPaidFor",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 558,
+                            "labelName": "Bought and Paid For"
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 2519,
+                            "y": 2841
+                        }
+                    ],
+                    "iconSize": 100,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
+                },
+                {
+                    "label": "Path to the Vault",
+                    "flags": {
+                        "ddb": {
+                            "cobaltId": null,
+                            "ddbId": 47,
+                            "bookCode": "wdh",
+                            "slug": "dragon-season#Encounter7OldTower",
+                            "linkName": "Encounter 7: Old Tower",
+                            "slugLink": "PathtotheVault3",
+                            "duplicate": false,
+                            "contentChunkId": null,
+                            "img": false,
+                            "note": false,
+                            "parentId": 558,
+                            "labelName": "Path to the Vault"
+                        }
+                    },
+                    "texture": {
+                        "src": "icons/svg/book.svg",
+                        "scaleX": 1,
+                        "scaleY": 1,
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rotation": 0,
+                        "tint": null
+                    },
+                    "positions": [
+                        {
+                            "x": 1550,
+                            "y": 2450
+                        }
+                    ],
+                    "iconSize": 100,
+                    "textColor": "#FFFFFF",
+                    "textAnchor": 1
                 }
             ],
             "tokens": [
                 {
-                    "_id": "wzyrUpjDjqLd00IT",
-                    "name": "Amath Sercent",
+                    "_id": "Xzb8K8wjr1I7TN1D",
+                    "name": "Guard",
                     "width": 1,
                     "height": 1,
-                    "x": 3600,
-                    "y": 1800,
+                    "x": 2500,
+                    "y": 2000,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16985,
+                            "id": 16915,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
                             "flatAC": false,
-                            "name": "Priest"
+                            "name": "Guard"
                         }
                     },
                     "actorLink": false,
@@ -236,8 +347,7 @@
                             "midi-qol": {
                                 "concentration-damage": 0
                             }
-                        },
-                        "name": "Amath Sercent"
+                        }
                     },
                     "light": {
                         "alpha": 0.5,
@@ -264,23 +374,23 @@
                     }
                 },
                 {
-                    "_id": "NyGxdlZk4HPeTelM",
-                    "name": "Acolyte",
+                    "_id": "Wa1AVxCyFKCuLZur",
+                    "name": "Guard",
                     "width": 1,
                     "height": 1,
-                    "x": 3400,
+                    "x": 2700,
                     "y": 2000,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16763,
+                            "id": 16915,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Acolyte"
+                            "flatAC": false,
+                            "name": "Guard"
                         }
                     },
                     "actorLink": false,
@@ -321,194 +431,23 @@
                     }
                 },
                 {
-                    "_id": "xFw6UAx1ULSsfj6Z",
-                    "name": "Acolyte",
+                    "_id": "P0SNzI4b8qAojhlB",
+                    "name": "Guard",
                     "width": 1,
                     "height": 1,
-                    "x": 3600,
-                    "y": 2000,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16763,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.15",
-                            "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Acolyte"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "LDtZnJB6c86EegfI",
-                    "name": "Acolyte",
-                    "width": 1,
-                    "height": 1,
-                    "x": 3800,
-                    "y": 2000,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16763,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.15",
-                            "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Acolyte"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "JeAHzQgEk62tV6Md",
-                    "name": "Acolyte",
-                    "width": 1,
-                    "height": 1,
-                    "x": 3400,
-                    "y": 1900,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16763,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.15",
-                            "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Acolyte"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "UucOjFGTiHKz6YXj",
-                    "name": "Flying Snake",
-                    "width": 1,
-                    "height": 1,
-                    "x": 3700,
+                    "x": 2500,
                     "y": 2200,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16864,
+                            "id": 16915,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Flying Snake"
+                            "flatAC": false,
+                            "name": "Guard"
                         }
                     },
                     "actorLink": false,
@@ -516,7 +455,7 @@
                         "attribute": "attributes.hp"
                     },
                     "elevation": 0,
-                    "hidden": true,
+                    "hidden": false,
                     "actorData": {
                         "flags": {
                             "midi-qol": {
@@ -549,23 +488,23 @@
                     }
                 },
                 {
-                    "_id": "yzoa3hJD0Im4amQy",
-                    "name": "Flying Snake",
+                    "_id": "0gXp0ecgvN2YHWKm",
+                    "name": "Guard",
                     "width": 1,
                     "height": 1,
-                    "x": 3700,
-                    "y": 2100,
+                    "x": 2700,
+                    "y": 2200,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16864,
+                            "id": 16915,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Flying Snake"
+                            "flatAC": false,
+                            "name": "Guard"
                         }
                     },
                     "actorLink": false,
@@ -573,7 +512,7 @@
                         "attribute": "attributes.hp"
                     },
                     "elevation": 0,
-                    "hidden": true,
+                    "hidden": false,
                     "actorData": {
                         "flags": {
                             "midi-qol": {
@@ -606,23 +545,23 @@
                     }
                 },
                 {
-                    "_id": "MkLCmCQlWT986yEy",
-                    "name": "Flying Snake",
+                    "_id": "ME2hoMQwL4f9UqPK",
+                    "name": "Black Viper",
                     "width": 1,
                     "height": 1,
-                    "x": 3700,
-                    "y": 2300,
+                    "x": 2400,
+                    "y": 2500,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16864,
+                            "id": 149834,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Flying Snake"
+                            "flatAC": false,
+                            "name": "Black Viper"
                         }
                     },
                     "actorLink": false,
@@ -630,7 +569,7 @@
                         "attribute": "attributes.hp"
                     },
                     "elevation": 0,
-                    "hidden": true,
+                    "hidden": false,
                     "actorData": {
                         "flags": {
                             "midi-qol": {
@@ -663,12 +602,12 @@
                     }
                 },
                 {
-                    "_id": "nXI7XqUGHuuvnXst",
-                    "name": "Shan Chien",
+                    "_id": "oalaRDnamphU8piW",
+                    "name": "Jarbokken Frostbeard",
                     "width": 1,
                     "height": 1,
-                    "x": 3700,
-                    "y": 1900,
+                    "x": 2400,
+                    "y": 2700,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
@@ -694,7 +633,7 @@
                                 "concentration-damage": 0
                             }
                         },
-                        "name": "Shan Chien"
+                        "name": "Jarbokken Frostbeard"
                     },
                     "light": {
                         "alpha": 0.5,
@@ -721,23 +660,23 @@
                     }
                 },
                 {
-                    "_id": "aZO0Z1HrRLcUgYaY",
-                    "name": "Manshoon's Simulacrum",
+                    "_id": "34PlCCO88OPtH7uL",
+                    "name": "Pynt Oomtrowl",
                     "width": 1,
                     "height": 1,
-                    "x": 1600,
+                    "x": 2500,
                     "y": 2600,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 285380,
+                            "id": 16829,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
                             "flatAC": true,
-                            "name": "Manshoon's Simulacrum"
+                            "name": "Commoner"
                         }
                     },
                     "actorLink": false,
@@ -745,13 +684,72 @@
                         "attribute": "attributes.hp"
                     },
                     "elevation": 0,
-                    "hidden": true,
+                    "hidden": false,
                     "actorData": {
                         "flags": {
                             "midi-qol": {
                                 "concentration-damage": 0
                             }
+                        },
+                        "name": "Pynt Oomtrowl"
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
                         }
+                    }
+                },
+                {
+                    "_id": "zeinum9UsHwyhvec",
+                    "name": "Sembra Vashir",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2300,
+                    "y": 2500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        },
+                        "name": "Sembra Vashir"
                     },
                     "light": {
                         "alpha": 0.5,
@@ -778,31 +776,31 @@
                     }
                 }
             ],
-            "originalLink": "ddb://image/wdh/c4012.jpg",
-            "foundryVersion": "10.291",
+            "foundryVersion": "0.8.9",
             "versions": {
                 "ddbMetaData": {
-                    "name": "Old Tower (Winter)",
+                    "name": "Old Tower (Summer)",
                     "bookCode": "wdh",
-                    "contentChunkId": "ddb-missing-wdh-103061",
-                    "lastUpdate": "0.3.25",
-                    "notes": "0.3.25",
-                    "tokens": "0.3.25",
-                    "walls": "0.3.25",
-                    "lights": "0.3.25",
-                    "drawings": "0.3.25",
-                    "foundry": "10.291"
+                    "contentChunkId": "ddb-missing-wdh-103058",
+                    "lastUpdate": "1.1.26",
+                    "notes": "1.1.26",
+                    "tokens": "1.1.26",
+                    "walls": "1.1.26",
+                    "lights": "1.1.26",
+                    "drawings": "1.1.26",
+                    "regions": "1.1.26",
+                    "foundry": "0.8.9"
                 }
             }
         },
         "stairways": [
             {
-                "_id": "xFboB8g10oNDEthu",
-                "scene": null,
-                "name": "sw-tUwG1MtM",
-                "x": 2650,
-                "y": 2800,
-                "label": "Stairway to cellar",
+                "_id": "tQFa2omXV5jqsrFM",
+                "scene": "ykJFqxhSrsALd4nJ",
+                "name": "sw-VGBKEVHN",
+                "x": 1600,
+                "y": 2550,
+                "label": "Doorway to the Vault",
                 "fontFamily": "Arial",
                 "fontSize": null,
                 "textColor": null,
@@ -810,25 +808,7 @@
                 "width": null,
                 "height": null,
                 "disabled": false,
-                "hidden": false,
-                "animate": false,
-                "partnerSceneLabel": false
-            },
-            {
-                "_id": "4xupeYHTjI20tdlh",
-                "scene": null,
-                "name": "sw-tUwG1MtM",
-                "x": 1550,
-                "y": 3200,
-                "label": "Stairway to ground floor",
-                "fontFamily": "Arial",
-                "fontSize": null,
-                "textColor": null,
-                "icon": null,
-                "width": null,
-                "height": null,
-                "disabled": false,
-                "hidden": false,
+                "hidden": true,
                 "animate": false,
                 "partnerSceneLabel": false
             }
@@ -1621,7 +1601,7 @@
             }
         }
     ],
-    "name": "Old Tower (Winter)",
+    "name": "Old Tower (Summer)",
     "navName": "Old Tower",
     "padding": 0.25,
     "tokenVision": true,

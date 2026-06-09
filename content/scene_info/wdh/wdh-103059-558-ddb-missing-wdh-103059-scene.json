@@ -9,7 +9,46 @@
     },
     "backgroundColor": "#333333",
     "darkness": 0,
-    "drawings": [],
+    "drawings": [
+        {
+            "_id": "yEd2Z32MgVHOrKi1",
+            "author": "ZWZhNTMzZTE2NzI3",
+            "shape": {
+                "type": "r",
+                "width": 654,
+                "height": 372,
+                "radius": null,
+                "points": []
+            },
+            "x": 2363,
+            "y": 1538,
+            "z": 0,
+            "rotation": 0,
+            "bezierFactor": 0,
+            "fillType": 0,
+            "fillColor": "#FFFFFF",
+            "fillAlpha": 0.1,
+            "strokeWidth": 8,
+            "strokeColor": "#FFFFFF",
+            "strokeAlpha": 1,
+            "texture": null,
+            "text": "Note: In the autumn edition, the interior of the tower is subject to a permanent antimagic field.",
+            "fontFamily": "Signika",
+            "fontSize": 48,
+            "textColor": "#000000",
+            "textAlpha": 1,
+            "hidden": true,
+            "locked": false,
+            "flags": {
+                "tagger": {},
+                "perfect-vision": {
+                    "enabled": false,
+                    "fit": false,
+                    "prototype": null
+                }
+            }
+        }
+    ],
     "flags": {
         "ddb": {
             "bookCode": "wdh",
@@ -204,7 +243,7 @@
                     "textAnchor": 1
                 },
                 {
-                    "label": "House Rosznar Guards",
+                    "label": "Where’s the Stone?",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -212,13 +251,13 @@
                             "bookCode": "wdh",
                             "slug": "dragon-season#Encounter7OldTower",
                             "linkName": "Encounter 7: Old Tower",
-                            "slugLink": "HouseRosznarGuards",
+                            "slugLink": "WherestheStone3",
                             "duplicate": false,
                             "contentChunkId": null,
                             "img": false,
                             "note": false,
                             "parentId": 558,
-                            "labelName": "House Rosznar Guards"
+                            "labelName": "Where’s the Stone?"
                         }
                     },
                     "texture": {
@@ -232,82 +271,8 @@
                     },
                     "positions": [
                         {
-                            "x": 2448,
-                            "y": 2158
-                        }
-                    ],
-                    "iconSize": 100,
-                    "textColor": "#FFFFFF",
-                    "textAnchor": 1
-                },
-                {
-                    "label": "Bought and Paid For",
-                    "flags": {
-                        "ddb": {
-                            "cobaltId": null,
-                            "ddbId": 47,
-                            "bookCode": "wdh",
-                            "slug": "dragon-season#Encounter7OldTower",
-                            "linkName": "Encounter 7: Old Tower",
-                            "slugLink": "BoughtandPaidFor",
-                            "duplicate": false,
-                            "contentChunkId": null,
-                            "img": false,
-                            "note": false,
-                            "parentId": 558,
-                            "labelName": "Bought and Paid For"
-                        }
-                    },
-                    "texture": {
-                        "src": "icons/svg/book.svg",
-                        "scaleX": 1,
-                        "scaleY": 1,
-                        "offsetX": 0,
-                        "offsetY": 0,
-                        "rotation": 0,
-                        "tint": null
-                    },
-                    "positions": [
-                        {
-                            "x": 2519,
-                            "y": 2841
-                        }
-                    ],
-                    "iconSize": 100,
-                    "textColor": "#FFFFFF",
-                    "textAnchor": 1
-                },
-                {
-                    "label": "Path to the Vault",
-                    "flags": {
-                        "ddb": {
-                            "cobaltId": null,
-                            "ddbId": 47,
-                            "bookCode": "wdh",
-                            "slug": "dragon-season#Encounter7OldTower",
-                            "linkName": "Encounter 7: Old Tower",
-                            "slugLink": "PathtotheVault3",
-                            "duplicate": false,
-                            "contentChunkId": null,
-                            "img": false,
-                            "note": false,
-                            "parentId": 558,
-                            "labelName": "Path to the Vault"
-                        }
-                    },
-                    "texture": {
-                        "src": "icons/svg/book.svg",
-                        "scaleX": 1,
-                        "scaleY": 1,
-                        "offsetX": 0,
-                        "offsetY": 0,
-                        "rotation": 0,
-                        "tint": null
-                    },
-                    "positions": [
-                        {
-                            "x": 1550,
-                            "y": 2450
+                            "x": 3425,
+                            "y": 2121
                         }
                     ],
                     "iconSize": 100,
@@ -317,366 +282,23 @@
             ],
             "tokens": [
                 {
-                    "_id": "Xzb8K8wjr1I7TN1D",
-                    "name": "Guard",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2500,
-                    "y": 2000,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16915,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.15",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Guard"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "Wa1AVxCyFKCuLZur",
-                    "name": "Guard",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2700,
-                    "y": 2000,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16915,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.15",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Guard"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "P0SNzI4b8qAojhlB",
-                    "name": "Guard",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2500,
-                    "y": 2200,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16915,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.15",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Guard"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "0gXp0ecgvN2YHWKm",
-                    "name": "Guard",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2700,
-                    "y": 2200,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16915,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.15",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Guard"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "ME2hoMQwL4f9UqPK",
-                    "name": "Black Viper",
+                    "_id": "ulR3SlaTM6xunxVQ",
+                    "name": "Flying Sword",
                     "width": 1,
                     "height": 1,
                     "x": 2400,
-                    "y": 2500,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 149834,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.15",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Black Viper"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "oalaRDnamphU8piW",
-                    "name": "Jarbokken Frostbeard",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2400,
-                    "y": 2700,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16829,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.15",
-                            "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Commoner"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        },
-                        "name": "Jarbokken Frostbeard"
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "34PlCCO88OPtH7uL",
-                    "name": "Pynt Oomtrowl",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2500,
                     "y": 2600,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16829,
+                            "id": 16865,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Commoner"
+                            "flatAC": false,
+                            "name": "Flying Sword"
                         }
                     },
                     "actorLink": false,
@@ -690,8 +312,7 @@
                             "midi-qol": {
                                 "concentration-damage": 0
                             }
-                        },
-                        "name": "Pynt Oomtrowl"
+                        }
                     },
                     "light": {
                         "alpha": 0.5,
@@ -718,23 +339,23 @@
                     }
                 },
                 {
-                    "_id": "zeinum9UsHwyhvec",
-                    "name": "Sembra Vashir",
+                    "_id": "EmDuKMTeFe1Wig69",
+                    "name": "Flying Sword",
                     "width": 1,
                     "height": 1,
-                    "x": 2300,
+                    "x": 2800,
                     "y": 2500,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16829,
+                            "id": 16865,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.15",
                             "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Commoner"
+                            "flatAC": false,
+                            "name": "Flying Sword"
                         }
                     },
                     "actorLink": false,
@@ -748,8 +369,577 @@
                             "midi-qol": {
                                 "concentration-damage": 0
                             }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
                         },
-                        "name": "Sembra Vashir"
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "K2m5bJhRl0HZdkSq",
+                    "name": "Flying Sword",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2700,
+                    "y": 2800,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16865,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Flying Sword"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "LxaYpOBKRCyjuLdU",
+                    "name": "Flying Sword",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2400,
+                    "y": 2400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16865,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Flying Sword"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "ViV7WYRZ1v9LiPQF",
+                    "name": "Flying Sword",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3400,
+                    "y": 1900,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16865,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Flying Sword"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "IbGoEeNiaOOkfKsR",
+                    "name": "Flying Sword",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3700,
+                    "y": 2000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16865,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Flying Sword"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "v8C0nN8YaFfisnha",
+                    "name": "Flying Sword",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3400,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16865,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Flying Sword"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "G5Y5Nkp2NbtjMjYD",
+                    "name": "Flying Sword",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1600,
+                    "y": 2900,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16865,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Flying Sword"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "UcD41yOMzwomPHxs",
+                    "name": "Flying Sword",
+                    "width": 1,
+                    "height": 1,
+                    "x": 1700,
+                    "y": 3000,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16865,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Flying Sword"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "65iEzWEYww08OrcD",
+                    "name": "Drow Gunslinger",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3400,
+                    "y": 1400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 149812,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Drow Gunslinger"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "aQkeVBCkLZze1rET",
+                    "name": "Drow Gunslinger",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3600,
+                    "y": 1400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 149812,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Drow Gunslinger"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "JYlVodvMXm0E85om",
+                    "name": "Drow Gunslinger",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3800,
+                    "y": 1500,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 149812,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.15",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Drow Gunslinger"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        }
                     },
                     "light": {
                         "alpha": 0.5,
@@ -776,31 +966,31 @@
                     }
                 }
             ],
-            "originalLink": "ddb://image/wdh/c4012.jpg",
-            "foundryVersion": "10.291",
+            "foundryVersion": "0.8.9",
             "versions": {
                 "ddbMetaData": {
-                    "name": "Old Tower (Summer)",
+                    "name": "Old Tower (Autumn)",
                     "bookCode": "wdh",
                     "contentChunkId": "ddb-missing-wdh-103059",
-                    "lastUpdate": "0.3.25",
-                    "notes": "0.3.25",
-                    "tokens": "0.3.25",
-                    "walls": "0.3.25",
-                    "lights": "0.3.25",
-                    "drawings": "0.3.25",
-                    "foundry": "10.291"
+                    "lastUpdate": "1.1.26",
+                    "notes": "1.1.26",
+                    "tokens": "1.1.26",
+                    "walls": "1.1.26",
+                    "lights": "1.1.26",
+                    "drawings": "1.1.26",
+                    "regions": "1.1.26",
+                    "foundry": "0.8.9"
                 }
             }
         },
         "stairways": [
             {
-                "_id": "tQFa2omXV5jqsrFM",
-                "scene": "ykJFqxhSrsALd4nJ",
-                "name": "sw-VGBKEVHN",
-                "x": 1600,
-                "y": 2550,
-                "label": "Doorway to the Vault",
+                "_id": "xFboB8g10oNDEthu",
+                "scene": null,
+                "name": "sw-tUwG1MtM",
+                "x": 2650,
+                "y": 2800,
+                "label": "Stairway to cellar",
                 "fontFamily": "Arial",
                 "fontSize": null,
                 "textColor": null,
@@ -808,7 +998,25 @@
                 "width": null,
                 "height": null,
                 "disabled": false,
-                "hidden": true,
+                "hidden": false,
+                "animate": false,
+                "partnerSceneLabel": false
+            },
+            {
+                "_id": "4xupeYHTjI20tdlh",
+                "scene": null,
+                "name": "sw-tUwG1MtM",
+                "x": 1550,
+                "y": 3200,
+                "label": "Stairway to ground floor",
+                "fontFamily": "Arial",
+                "fontSize": null,
+                "textColor": null,
+                "icon": null,
+                "width": null,
+                "height": null,
+                "disabled": false,
+                "hidden": false,
                 "animate": false,
                 "partnerSceneLabel": false
             }
@@ -1601,7 +1809,7 @@
             }
         }
     ],
-    "name": "Old Tower (Summer)",
+    "name": "Old Tower (Autumn)",
     "navName": "Old Tower",
     "padding": 0.25,
     "tokenVision": true,

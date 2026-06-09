@@ -9,46 +9,7 @@
     },
     "backgroundColor": "#999999",
     "darkness": 0,
-    "drawings": [
-        {
-            "_id": "4IEaxXRvbBJbT4FR",
-            "author": "ZWZhNTMzZTE2NzI3",
-            "shape": {
-                "type": "r",
-                "width": 637,
-                "height": 238,
-                "radius": null,
-                "points": []
-            },
-            "x": 87.5,
-            "y": 1312.5,
-            "z": 0,
-            "rotation": 0,
-            "bezierFactor": 0,
-            "fillType": 0,
-            "fillColor": "#FFFFFF",
-            "fillAlpha": 0.1,
-            "strokeWidth": 8,
-            "strokeColor": "#FFFFFF",
-            "strokeAlpha": 1,
-            "texture": null,
-            "text": "This is the cart that careens. Feel free to use a different image if you prefer.",
-            "fontFamily": "Signika",
-            "fontSize": 48,
-            "textColor": "#FFFFFF",
-            "textAlpha": 1,
-            "hidden": true,
-            "locked": false,
-            "flags": {
-                "tagger": {},
-                "perfect-vision": {
-                    "enabled": false,
-                    "fit": false,
-                    "prototype": null
-                }
-            }
-        }
-    ],
+    "drawings": [],
     "flags": {
         "ddb": {
             "bookCode": "wdh",
@@ -134,7 +95,7 @@
                     "textAnchor": 1
                 },
                 {
-                    "label": "Alley: Autumn",
+                    "label": "Alley: Winter",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -142,13 +103,13 @@
                             "bookCode": "wdh",
                             "slug": "dragon-season#Encounter1Alley",
                             "linkName": "Encounter 1: Alley",
-                            "slugLink": "AlleyAutumn",
+                            "slugLink": "AlleyWinter",
                             "duplicate": false,
                             "contentChunkId": null,
                             "img": false,
                             "note": false,
                             "parentId": 558,
-                            "labelName": "Alley: Autumn"
+                            "labelName": "Alley: Winter"
                         }
                     },
                     "texture": {
@@ -162,8 +123,8 @@
                     },
                     "positions": [
                         {
-                            "x": 2248,
-                            "y": 1762
+                            "x": 2237,
+                            "y": 1775
                         }
                     ],
                     "iconSize": 40,
@@ -173,12 +134,267 @@
             ],
             "tokens": [
                 {
-                    "_id": "p6N9fDFuIm7blhFV",
-                    "name": "Nat",
+                    "_id": "1cPNuZB5dmSi5GIU",
+                    "name": "Bugbear",
                     "width": 1,
                     "height": 1,
-                    "x": 300,
-                    "y": 1900,
+                    "x": 2200,
+                    "y": 2400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16817,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.12",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Bugbear"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "eBUFHNYNDwgY2RPS",
+                    "name": "Bugbear",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2200,
+                    "y": 2300,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16817,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.12",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Bugbear"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "RueU31rWXGfdJhWI",
+                    "name": "Bugbear",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2100,
+                    "y": 2400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16817,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.12",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Bugbear"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "umaI8P94Tio8zhXa",
+                    "name": "Bugbear",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2300,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16817,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.12",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Bugbear"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "dABX7Sxkmy0fV7tO",
+                    "name": "Bugbear",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2200,
+                    "y": 2200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16817,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.12",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Bugbear"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "jWFK8Z0tPfIcPQz0",
+                    "name": "Sora Cuttle",
+                    "width": 1,
+                    "height": 1,
+                    "x": 3000,
+                    "y": 1100,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
@@ -197,28 +413,13 @@
                         "attribute": "attributes.hp"
                     },
                     "elevation": 0,
-                    "hidden": true,
+                    "hidden": false,
                     "actorData": {
-                        "name": "Nat",
+                        "name": "Sora Cuttle",
                         "flags": {
                             "midi-qol": {
                                 "concentration-damage": 0
                             }
-                        },
-                        "system": {
-                            "attributes": {
-                                "hp": {
-                                    "temp": null,
-                                    "tempmax": null
-                                },
-                                "init": {
-                                    "bonus": null
-                                }
-                            },
-                            "details": {
-                                "cr": "0"
-                            },
-                            "quantity": "1"
                         }
                     },
                     "light": {
@@ -246,23 +447,23 @@
                     }
                 },
                 {
-                    "_id": "d6LfrZ2Dl8HRmz5l",
-                    "name": "Jenks",
+                    "_id": "l7GmkaQtHHeR3ZKz",
+                    "name": "Avareen Windrivver",
                     "width": 1,
                     "height": 1,
-                    "x": 500,
-                    "y": 1900,
+                    "x": 2700,
+                    "y": 1300,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16829,
+                            "id": 17021,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.12",
                             "isLegacy": false,
                             "flatAC": true,
-                            "name": "Commoner"
+                            "name": "Spy"
                         }
                     },
                     "actorLink": false,
@@ -270,9 +471,9 @@
                         "attribute": "attributes.hp"
                     },
                     "elevation": 0,
-                    "hidden": true,
+                    "hidden": false,
                     "actorData": {
-                        "name": "Jenks",
+                        "name": "Avareen Windrivver",
                         "flags": {
                             "midi-qol": {
                                 "concentration-damage": 0
@@ -304,92 +505,23 @@
                     }
                 },
                 {
-                    "_id": "YsXQaq7RNNboGeN0",
-                    "name": "Squiddly",
-                    "width": 1,
-                    "height": 1,
-                    "x": 600,
-                    "y": 1900,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16829,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Commoner"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": true,
-                    "actorData": {
-                        "name": "Squiddly",
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
-                        }
-                    },
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "2kc9DOe4BlQLgLr0",
-                    "name": "Jarlaxle Baenre",
+                    "_id": "1pg6vv734697qYoY",
+                    "name": "Thug",
                     "width": 1,
                     "height": 1,
                     "x": 2600,
-                    "y": 900,
+                    "y": 1400,
                     "disposition": -1,
                     "flags": {
-                        "perfect-vision": {
-                            "light": {
-                                "resolution": 1
-                            },
-                            "sight": {
-                                "range": null
-                            }
-                        },
-                        "monks-bloodsplats": {
-                            "bloodsplat-colour": ""
-                        },
                         "ddbActorFlags": {
-                            "id": 149550,
+                            "id": 17035,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.12",
                             "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Jarlaxle Baenre"
+                            "flatAC": false,
+                            "name": "Thug"
                         }
                     },
                     "actorLink": false,
@@ -397,43 +529,110 @@
                         "attribute": "attributes.hp"
                     },
                     "elevation": 0,
-                    "hidden": true,
-                    "actorData": {
-                        "system": {
-                            "attributes": {
-                                "hp": {
-                                    "temp": null,
-                                    "tempmax": null
-                                },
-                                "init": {
-                                    "bonus": null
-                                }
-                            },
-                            "quantity": [
-                                "1",
-                                "1"
-                            ],
-                            "uses": {
-                                "value": [
-                                    "1",
-                                    "1",
-                                    "1",
-                                    "1"
-                                ],
-                                "max": [
-                                    "1",
-                                    "1",
-                                    "1",
-                                    "1"
-                                ]
-                            }
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
                         },
-                        "flags": {
-                            "midi-qol": {
-                                "concentration-damage": 0
-                            }
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "MxCmrkHRQaBVme57",
+                    "name": "Swashbuckler",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2700,
+                    "y": 1200,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 17340,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.12",
+                            "isLegacy": true,
+                            "flatAC": false,
+                            "name": "Swashbuckler"
                         }
                     },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "oBExgXBDK7gF9vDd",
+                    "name": "Ott Steeltoes",
+                    "width": 1,
+                    "height": 1,
+                    "x": 2400,
+                    "y": 1400,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 280417,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.12",
+                            "isLegacy": false,
+                            "flatAC": false,
+                            "name": "Ott Steeltoes"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": false,
+                    "actorData": {},
                     "light": {
                         "alpha": 0.5,
                         "angle": 360,
@@ -459,20 +658,20 @@
                     }
                 }
             ],
-            "originalLink": "ddb://image/wdh/c4003.jpg",
-            "foundryVersion": "10.291",
+            "foundryVersion": "0.8.9",
             "versions": {
                 "ddbMetaData": {
-                    "name": "Mistshore (Autumn)",
+                    "name": "Alley (Winter)",
                     "bookCode": "wdh",
                     "contentChunkId": "ddb-missing-wdh-103045",
-                    "lastUpdate": "0.3.24",
-                    "notes": "0.3.24",
-                    "tokens": "0.3.24",
-                    "walls": "0.3.24",
-                    "lights": "0.3.24",
-                    "drawings": "0.3.24",
-                    "foundry": "10.291"
+                    "lastUpdate": "1.1.26",
+                    "notes": "1.1.26",
+                    "tokens": "1.1.26",
+                    "walls": "1.1.26",
+                    "lights": "1.1.26",
+                    "drawings": "1.1.26",
+                    "regions": "1.1.26",
+                    "foundry": "0.8.9"
                 }
             }
         },
@@ -505,7 +704,75 @@
     },
     "lights": [
         {
-            "x": 2400,
+            "x": 2563,
+            "y": 1423,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#7f4a14",
+                "coloration": 1,
+                "dim": 40,
+                "attenuation": 0.5,
+                "luminosity": 0.45,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {}
+            }
+        },
+        {
+            "x": 2539,
+            "y": 1440,
+            "rotation": 0,
+            "walls": true,
+            "vision": false,
+            "config": {
+                "alpha": 0.35,
+                "angle": 360,
+                "bright": 5,
+                "color": "#a2642a",
+                "coloration": 5,
+                "dim": 40,
+                "attenuation": 0.5,
+                "luminosity": 0.15,
+                "saturation": 0.25,
+                "contrast": 0.3,
+                "shadows": 0.5,
+                "animation": {
+                    "type": "torch",
+                    "speed": 2,
+                    "intensity": 2,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                }
+            },
+            "hidden": false,
+            "flags": {
+                "tagger": {}
+            }
+        },
+        {
+            "x": 2350,
             "y": 1700,
             "rotation": 0,
             "walls": false,
@@ -585,7 +852,7 @@
             }
         }
     ],
-    "name": "Alley (Autumn)",
+    "name": "Alley (Winter)",
     "navName": "Alley",
     "padding": 0.25,
     "tokenVision": true,

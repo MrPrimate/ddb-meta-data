@@ -11,17 +11,17 @@
     "darkness": 0,
     "drawings": [
         {
-            "_id": "gB19ICiHJ8BH31gb",
+            "_id": "4IEaxXRvbBJbT4FR",
             "author": "ZWZhNTMzZTE2NzI3",
             "shape": {
                 "type": "r",
-                "width": 790,
-                "height": 257,
+                "width": 637,
+                "height": 238,
                 "radius": null,
                 "points": []
             },
-            "x": 1750,
-            "y": 375,
+            "x": 87.5,
+            "y": 1312.5,
             "z": 0,
             "rotation": 0,
             "bezierFactor": 0,
@@ -32,7 +32,7 @@
             "strokeColor": "#FFFFFF",
             "strokeAlpha": 1,
             "texture": null,
-            "text": "If any spined devils survived the previous encounter, they will be here as well.",
+            "text": "This is the cart that careens. Feel free to use a different image if you prefer.",
             "fontFamily": "Signika",
             "fontSize": 48,
             "textColor": "#FFFFFF",
@@ -134,7 +134,7 @@
                     "textAnchor": 1
                 },
                 {
-                    "label": "Alley: Summer",
+                    "label": "Alley: Autumn",
                     "flags": {
                         "ddb": {
                             "cobaltId": null,
@@ -142,13 +142,13 @@
                             "bookCode": "wdh",
                             "slug": "dragon-season#Encounter1Alley",
                             "linkName": "Encounter 1: Alley",
-                            "slugLink": "AlleySummer",
+                            "slugLink": "AlleyAutumn",
                             "duplicate": false,
                             "contentChunkId": null,
                             "img": false,
                             "note": false,
                             "parentId": 558,
-                            "labelName": "Alley: Summer"
+                            "labelName": "Alley: Autumn"
                         }
                     },
                     "texture": {
@@ -162,8 +162,8 @@
                     },
                     "positions": [
                         {
-                            "x": 2359,
-                            "y": 1855
+                            "x": 2248,
+                            "y": 1762
                         }
                     ],
                     "iconSize": 40,
@@ -173,114 +173,12 @@
             ],
             "tokens": [
                 {
-                    "_id": "Ilvf0NcW0jniJQVW",
-                    "name": "Draft Horse",
-                    "width": 2,
-                    "height": 2,
-                    "x": 2900,
-                    "y": 1600,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16844,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Draft Horse"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {},
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "MogJt5zea3eqHO5Y",
-                    "name": "Draft Horse",
-                    "width": 2,
-                    "height": 2,
-                    "x": 2900,
-                    "y": 1800,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16844,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Draft Horse"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": false,
-                    "actorData": {},
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "xCtBfBQKSwPeczUN",
-                    "name": "Haru Hamatori",
+                    "_id": "p6N9fDFuIm7blhFV",
+                    "name": "Nat",
                     "width": 1,
                     "height": 1,
-                    "x": 2800,
-                    "y": 1800,
+                    "x": 300,
+                    "y": 1900,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
@@ -299,9 +197,82 @@
                         "attribute": "attributes.hp"
                     },
                     "elevation": 0,
-                    "hidden": false,
+                    "hidden": true,
                     "actorData": {
-                        "name": "Haru Hamatori",
+                        "name": "Nat",
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
+                        },
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "temp": null,
+                                    "tempmax": null
+                                },
+                                "init": {
+                                    "bonus": null
+                                }
+                            },
+                            "details": {
+                                "cr": "0"
+                            },
+                            "quantity": "1"
+                        }
+                    },
+                    "light": {
+                        "alpha": 0.5,
+                        "angle": 360,
+                        "bright": 0,
+                        "color": null,
+                        "coloration": 1,
+                        "dim": 0,
+                        "attenuation": 0.5,
+                        "luminosity": 0.5,
+                        "saturation": 0,
+                        "contrast": 0,
+                        "shadows": 0,
+                        "animation": {
+                            "type": null,
+                            "speed": 5,
+                            "intensity": 5,
+                            "reverse": false
+                        },
+                        "darkness": {
+                            "min": 0,
+                            "max": 1
+                        }
+                    }
+                },
+                {
+                    "_id": "d6LfrZ2Dl8HRmz5l",
+                    "name": "Jenks",
+                    "width": 1,
+                    "height": 1,
+                    "x": 500,
+                    "y": 1900,
+                    "disposition": -1,
+                    "flags": {
+                        "ddbActorFlags": {
+                            "id": 16829,
+                            "entityTypeId": 779871897,
+                            "creatureGroupId": null,
+                            "creatureFlags": [],
+                            "version": "3.4.12",
+                            "isLegacy": false,
+                            "flatAC": true,
+                            "name": "Commoner"
+                        }
+                    },
+                    "actorLink": false,
+                    "bar1": {
+                        "attribute": "attributes.hp"
+                    },
+                    "elevation": 0,
+                    "hidden": true,
+                    "actorData": {
+                        "name": "Jenks",
                         "flags": {
                             "midi-qol": {
                                 "concentration-damage": 0
@@ -333,23 +304,23 @@
                     }
                 },
                 {
-                    "_id": "zw009gV0rljNZk5w",
-                    "name": "Willifort Crowelle",
+                    "_id": "YsXQaq7RNNboGeN0",
+                    "name": "Squiddly",
                     "width": 1,
                     "height": 1,
-                    "x": 2700,
-                    "y": 1800,
+                    "x": 600,
+                    "y": 1900,
                     "disposition": -1,
                     "flags": {
                         "ddbActorFlags": {
-                            "id": 16843,
+                            "id": 16829,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.12",
                             "isLegacy": false,
                             "flatAC": true,
-                            "name": "Doppelganger"
+                            "name": "Commoner"
                         }
                     },
                     "actorLink": false,
@@ -359,7 +330,7 @@
                     "elevation": 0,
                     "hidden": true,
                     "actorData": {
-                        "name": "Willifort Crowelle",
+                        "name": "Squiddly",
                         "flags": {
                             "midi-qol": {
                                 "concentration-damage": 0
@@ -391,74 +362,34 @@
                     }
                 },
                 {
-                    "_id": "9aFD2QCGm1oU92NX",
-                    "name": "Bearded Devil",
+                    "_id": "2kc9DOe4BlQLgLr0",
+                    "name": "Jarlaxle Baenre",
                     "width": 1,
                     "height": 1,
-                    "x": 2700,
-                    "y": 1900,
+                    "x": 2600,
+                    "y": 900,
                     "disposition": -1,
                     "flags": {
-                        "ddbActorFlags": {
-                            "id": 16803,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Bearded Devil"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": true,
-                    "actorData": {},
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
+                        "perfect-vision": {
+                            "light": {
+                                "resolution": 1
+                            },
+                            "sight": {
+                                "range": null
+                            }
                         },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "u8fW2nTLX3fWwnZX",
-                    "name": "Imp",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2400,
-                    "y": 1900,
-                    "disposition": -1,
-                    "flags": {
+                        "monks-bloodsplats": {
+                            "bloodsplat-colour": ""
+                        },
                         "ddbActorFlags": {
-                            "id": 16933,
+                            "id": 149550,
                             "entityTypeId": 779871897,
                             "creatureGroupId": null,
                             "creatureFlags": [],
                             "version": "3.4.12",
                             "isLegacy": false,
                             "flatAC": true,
-                            "name": "Imp"
+                            "name": "Jarlaxle Baenre"
                         }
                     },
                     "actorLink": false,
@@ -467,262 +398,42 @@
                     },
                     "elevation": 0,
                     "hidden": true,
-                    "actorData": {},
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
+                    "actorData": {
+                        "system": {
+                            "attributes": {
+                                "hp": {
+                                    "temp": null,
+                                    "tempmax": null
+                                },
+                                "init": {
+                                    "bonus": null
+                                }
+                            },
+                            "quantity": [
+                                "1",
+                                "1"
+                            ],
+                            "uses": {
+                                "value": [
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1"
+                                ],
+                                "max": [
+                                    "1",
+                                    "1",
+                                    "1",
+                                    "1"
+                                ]
+                            }
                         },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "iEta0ooxHizGUdoA",
-                    "name": "Imp",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2400,
-                    "y": 1800,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16933,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Imp"
+                        "flags": {
+                            "midi-qol": {
+                                "concentration-damage": 0
+                            }
                         }
                     },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": true,
-                    "actorData": {},
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "rwtJETZ9mQq9TWRB",
-                    "name": "Imp",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2500,
-                    "y": 1900,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 16933,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": true,
-                            "name": "Imp"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": true,
-                    "actorData": {},
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "IJL73JXKMXfCWSI8",
-                    "name": "Spined Devil",
-                    "width": 1,
-                    "height": 1,
-                    "x": 1900,
-                    "y": 300,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 17214,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Spined Devil"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": true,
-                    "actorData": {},
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "JP5PD6x20sNwQafq",
-                    "name": "Spined Devil",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2000,
-                    "y": 300,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 17214,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Spined Devil"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": true,
-                    "actorData": {},
-                    "light": {
-                        "alpha": 0.5,
-                        "angle": 360,
-                        "bright": 0,
-                        "color": null,
-                        "coloration": 1,
-                        "dim": 0,
-                        "attenuation": 0.5,
-                        "luminosity": 0.5,
-                        "saturation": 0,
-                        "contrast": 0,
-                        "shadows": 0,
-                        "animation": {
-                            "type": null,
-                            "speed": 5,
-                            "intensity": 5,
-                            "reverse": false
-                        },
-                        "darkness": {
-                            "min": 0,
-                            "max": 1
-                        }
-                    }
-                },
-                {
-                    "_id": "jNhIcze52Pk8aSqO",
-                    "name": "Spined Devil",
-                    "width": 1,
-                    "height": 1,
-                    "x": 2100,
-                    "y": 300,
-                    "disposition": -1,
-                    "flags": {
-                        "ddbActorFlags": {
-                            "id": 17214,
-                            "entityTypeId": 779871897,
-                            "creatureGroupId": null,
-                            "creatureFlags": [],
-                            "version": "3.4.12",
-                            "isLegacy": false,
-                            "flatAC": false,
-                            "name": "Spined Devil"
-                        }
-                    },
-                    "actorLink": false,
-                    "bar1": {
-                        "attribute": "attributes.hp"
-                    },
-                    "elevation": 0,
-                    "hidden": true,
-                    "actorData": {},
                     "light": {
                         "alpha": 0.5,
                         "angle": 360,
@@ -748,20 +459,20 @@
                     }
                 }
             ],
-            "originalLink": "ddb://image/wdh/c4003.jpg",
-            "foundryVersion": "10.291",
+            "foundryVersion": "0.8.9",
             "versions": {
                 "ddbMetaData": {
-                    "name": "Alley (Summer)",
+                    "name": "Alley (Autumn)",
                     "bookCode": "wdh",
                     "contentChunkId": "ddb-missing-wdh-103044",
-                    "lastUpdate": "0.3.24",
-                    "notes": "0.3.24",
-                    "tokens": "0.3.24",
-                    "walls": "0.3.24",
-                    "lights": "0.3.24",
-                    "drawings": "0.3.24",
-                    "foundry": "10.291"
+                    "lastUpdate": "1.1.26",
+                    "notes": "1.1.26",
+                    "tokens": "1.1.26",
+                    "walls": "1.1.26",
+                    "lights": "1.1.26",
+                    "drawings": "1.1.26",
+                    "regions": "1.1.26",
+                    "foundry": "0.8.9"
                 }
             }
         },
@@ -803,7 +514,7 @@
                 "alpha": 0.1,
                 "angle": 360,
                 "bright": 0,
-                "color": "#b79471",
+                "color": "#94a6bc",
                 "coloration": 1,
                 "dim": 129.33,
                 "attenuation": 0.5,
@@ -843,7 +554,7 @@
                 "alpha": 0.1,
                 "angle": 360,
                 "bright": 0,
-                "color": "#ab9c8c",
+                "color": "#647080",
                 "coloration": 1,
                 "dim": 129.33,
                 "attenuation": 0.5,
@@ -874,7 +585,7 @@
             }
         }
     ],
-    "name": "Alley (Summer)",
+    "name": "Alley (Autumn)",
     "navName": "Alley",
     "padding": 0.25,
     "tokenVision": true,
@@ -2188,7 +1899,7 @@
             "sound": 20,
             "dir": 0,
             "door": 1,
-            "ds": 2,
+            "ds": 1,
             "flags": {
                 "simbuls-cover-calculator": {
                     "coverLevel": 3
