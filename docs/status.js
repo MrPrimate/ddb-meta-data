@@ -58,7 +58,6 @@ async function parseData(availableBooks) {
         tokens: scene.flags.ddb.tokens ? scene.flags.ddb.tokens.length : 0,
         tiles: scene.flags.ddb?.tiles ? scene.flags.ddb.tiles.length : 0,
         stairways: scene.flags.stairways && Array.isArray(scene.flags.stairways) ? scene.flags.stairways.length : 0,
-        perfectVision: scene.flags["perfect-vision"] && !Array.isArray(scene.flags["perfect-vision"]) ? true : false,
       };
       return result;
     });
@@ -299,7 +298,6 @@ function generateSceneRow(sceneData) {
   let otherNoteContent = "";
   if (sceneData.tiles.length > 0) otherNoteContent += "<li><i>Helper tiles placed</i></li>";
   if (sceneData.stairways > 0) otherNoteContent += "<li><i>Stairways Support</i></li>";
-  if (sceneData.perfectVision) otherNoteContent += "<li><i>Perfect Vision Support</i></li>";
 
   const otherNotes = (otherNoteContent !== "") 
     ? `
