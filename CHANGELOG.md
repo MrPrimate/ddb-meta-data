@@ -1,3 +1,7 @@
+# 1.1.30
+
+- Ravenloft: The Horrors Within scenes
+
 # 1.1.26
 
 - Waterdeep Dragon Heist fixes.
