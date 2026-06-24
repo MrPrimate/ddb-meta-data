@@ -1,0 +1,1152 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.6
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "rthw",
+            "ddbId": 10019,
+            "cobaltId": null,
+            "parentId": 2830,
+            "contentChunkId": "Map0201Barovia-player",
+            "notes": [],
+            "tokens": [],
+            "originalLink": "ddb://image/rthw/map-03-01.barovia-player.jpg",
+            "foundryVersion": "14.363",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 2.1: Barovia",
+                    "bookCode": "rthw",
+                    "contentChunkId": "Map0201Barovia-player",
+                    "lastUpdate": "1.1.30",
+                    "notes": "1.1.30",
+                    "tokens": "1.1.30",
+                    "walls": "1.1.30",
+                    "lights": "1.1.30",
+                    "drawings": "1.1.30",
+                    "regions": "1.1.30",
+                    "foundry": "14.363"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0.2,
+        "color": "#000000",
+        "distance": 0.25,
+        "size": 50,
+        "type": 0,
+        "units": "mi",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 2761,
+    "initial": {
+        "x": 3845,
+        "y": 2119,
+        "scale": 0.292
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#282828",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null,
+                "tint": "#ffffff"
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 1271,
+            "y": 3316,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 1798,
+            "y": 3382,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 2344,
+            "y": 3382,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 2848,
+            "y": 3431,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 3416,
+            "y": 3461,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 3934,
+            "y": 3436,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 4515,
+            "y": 3415,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 5087,
+            "y": 3330,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 5354,
+            "y": 2899,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 5390,
+            "y": 2380,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 5189,
+            "y": 1900,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 5200,
+            "y": 1358,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 5243,
+            "y": 844,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 4622,
+            "y": 833,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 3922,
+            "y": 807,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 4308,
+            "y": 670,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 3490,
+            "y": 749,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 3025,
+            "y": 770,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 2456,
+            "y": 783,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 1890,
+            "y": 807,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 1271,
+            "y": 835,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 1262,
+            "y": 1321,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 1235,
+            "y": 1808,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 1222,
+            "y": 2366,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.5,
+                "angle": 360,
+                "color": "#4a4760",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 5,
+                    "intensity": 5,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 0.81,
+                "dim": 1.63
+            },
+            "name": "Mist",
+            "x": 1241,
+            "y": 2925,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        }
+    ],
+    "name": "Map 2.1: Barovia",
+    "navName": "Barovia",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": -71,
+    "shiftY": 11,
+    "tokenVision": false,
+    "transition": {
+        "type": "fade",
+        "duration": 1500,
+        "activeOnly": true
+    },
+    "walls": [],
+    "weather": "",
+    "width": 4268
+}

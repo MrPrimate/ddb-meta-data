@@ -1,0 +1,151 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0.5,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": true,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.7
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "rthw",
+            "ddbId": 10027,
+            "cobaltId": null,
+            "parentId": 2830,
+            "contentChunkId": "Map0202OutsidetheVillage-player",
+            "notes": [],
+            "tokens": [],
+            "originalLink": "ddb://image/rthw/map-03-05.outside-the-village-player.jpg",
+            "foundryVersion": "14.363",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 2.2: Outside the Village",
+                    "bookCode": "rthw",
+                    "contentChunkId": "Map0202OutsidetheVillage-player",
+                    "lastUpdate": "1.1.30",
+                    "notes": "1.1.30",
+                    "tokens": "1.1.30",
+                    "walls": "1.1.30",
+                    "lights": "1.1.30",
+                    "drawings": "1.1.30",
+                    "regions": "1.1.30",
+                    "foundry": "14.363"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0,
+        "color": "#000000",
+        "distance": 5,
+        "size": 230,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 3064,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#686868",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null,
+                "tint": "#ffffff"
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [],
+    "name": "Map 2.2: Outside the Village",
+    "navName": "Outside the Village",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": 90,
+    "shiftY": 97,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [],
+    "weather": "",
+    "width": 4096
+}

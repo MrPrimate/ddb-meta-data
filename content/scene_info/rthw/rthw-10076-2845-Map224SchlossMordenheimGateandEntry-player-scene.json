@@ -1,0 +1,3327 @@
+{
+    "drawings": [],
+    "environment": {
+        "darknessLevel": 0.7,
+        "darknessLock": false,
+        "globalLight": {
+            "enabled": false,
+            "alpha": 0.5,
+            "bright": false,
+            "color": null,
+            "coloration": 1,
+            "luminosity": 0,
+            "saturation": 0,
+            "contrast": 0,
+            "shadows": 0,
+            "darkness": {
+                "min": 0,
+                "max": 0.8
+            }
+        },
+        "cycle": true,
+        "base": {
+            "hue": 0,
+            "intensity": 0,
+            "luminosity": 0,
+            "saturation": 0,
+            "shadows": 0
+        },
+        "dark": {
+            "hue": 0.7138888888888889,
+            "intensity": 0,
+            "luminosity": -0.25,
+            "saturation": 0,
+            "shadows": 0
+        }
+    },
+    "flags": {
+        "ddb": {
+            "bookCode": "rthw",
+            "ddbId": 10076,
+            "cobaltId": null,
+            "parentId": 2845,
+            "contentChunkId": "Map224SchlossMordenheimGateandEntry-player",
+            "notes": [],
+            "tokens": [],
+            "originalLink": "ddb://image/rthw/map-13-03.schloss-mordenheim-gate-and-entry-player.jpg",
+            "foundryVersion": "14.364",
+            "versions": {
+                "ddbMetaData": {
+                    "name": "Map 2.24: Schloss Mordenheim - Gate And Entry",
+                    "bookCode": "rthw",
+                    "contentChunkId": "Map224SchlossMordenheimGateandEntry-player",
+                    "lastUpdate": "1.1.30",
+                    "notes": "1.1.30",
+                    "tokens": "1.1.30",
+                    "walls": "1.1.30",
+                    "lights": "1.1.30",
+                    "drawings": "1.1.30",
+                    "regions": "1.1.30",
+                    "foundry": "14.364"
+                }
+            }
+        },
+        "stairways": {},
+        "perfect-vision": {},
+        "dynamic-illumination": {},
+        "ddbimporter": {
+            "version": "999.0.0",
+            "gridSize": 110,
+            "gridSource": "detected",
+            "gridSceneScale": 0.996556,
+            "gridMultiplier": 1,
+            "gridChoiceKey": "autocorrelation",
+            "imageDimensions": {
+                "x": 4096,
+                "y": 2791
+            },
+            "gridDetection": {
+                "detected": true,
+                "size": 110.38018066132673,
+                "offsetX": 16.611342847303206,
+                "offsetY": 64.1961279378948,
+                "confidence": 0.46620976175246687,
+                "diagnostics": {
+                    "sizeX": 110.38018066132673,
+                    "sizeY": 110.38018066132673,
+                    "confidenceX": 0.33287642841913356,
+                    "confidenceY": 0.33287642841913356,
+                    "width": 4096,
+                    "height": 2791,
+                    "scaleFactor": 1,
+                    "expectedSize": 111.00277709960938,
+                    "lagMin": 0,
+                    "lagMax": 0
+                },
+                "priorOffsetX": 110.80401611328125,
+                "priorOffsetY": 62.328338623046875,
+                "priorSize": 111.00277709960938,
+                "templateSize": 110.45236053466705,
+                "templateOffsetX": 14.66248626711463,
+                "templateOffsetY": 63.97958831787385,
+                "templateScore": 35718.2361252076
+            },
+            "gridCandidates": {
+                "autocorrelation": {
+                    "paintedSize": 110.38018066132673,
+                    "gridSize": 110,
+                    "sceneScale": 0.996556,
+                    "sceneWidth": 4082,
+                    "offsetX": 17,
+                    "offsetY": 64,
+                    "rawPaintedOffsetX": 16.611,
+                    "rawPaintedOffsetY": 64.196
+                },
+                "template": {
+                    "paintedSize": 110.45236053466705,
+                    "gridSize": 110,
+                    "sceneScale": 0.995904,
+                    "sceneWidth": 4079,
+                    "offsetX": 15,
+                    "offsetY": 64,
+                    "rawPaintedOffsetX": 14.662,
+                    "rawPaintedOffsetY": 63.98
+                },
+                "priorPeriod": {
+                    "paintedSize": 111.00277709960938,
+                    "gridSize": 111,
+                    "sceneScale": 0.999975,
+                    "sceneWidth": 4096,
+                    "offsetX": 111,
+                    "offsetY": 62,
+                    "rawPaintedOffsetX": 110.804,
+                    "rawPaintedOffsetY": 62.328
+                },
+                "tokenScale": null,
+                "tokenScaleDoubled": null,
+                "tokenScaleHalved": null,
+                "multiplier": 1
+            },
+            "gridDetectedAt": 1781983871165,
+            "gridLevelId": "defaultLevel0000"
+        }
+    },
+    "fog": {
+        "mode": 1,
+        "colors": {
+            "explored": null,
+            "unexplored": null
+        }
+    },
+    "grid": {
+        "alpha": 0.2,
+        "color": "#000000",
+        "distance": 5,
+        "size": 110,
+        "type": 1,
+        "units": "ft",
+        "style": "solidLines",
+        "thickness": 1
+    },
+    "height": 2781,
+    "initial": {
+        "x": null,
+        "y": null,
+        "scale": null
+    },
+    "initialLevel": "defaultLevel0000",
+    "levels": [
+        {
+            "_id": "defaultLevel0000",
+            "name": "Level",
+            "background": {
+                "color": "#383838",
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "foreground": {
+                "src": null,
+                "tint": "#ffffff",
+                "alphaThreshold": 0.75
+            },
+            "textures": {
+                "anchorX": 0.5,
+                "anchorY": 0.5,
+                "offsetX": 0,
+                "offsetY": 0,
+                "fit": "fill",
+                "scaleX": 1,
+                "scaleY": 1,
+                "rotation": 0
+            },
+            "elevation": {
+                "bottom": 0,
+                "top": 20
+            },
+            "fog": {
+                "src": null
+            },
+            "visibility": {
+                "levels": []
+            },
+            "sort": 0,
+            "flags": {}
+        }
+    ],
+    "lights": [
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.4,
+                "angle": 360,
+                "color": "#d5ea99",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 2.5,
+                "dim": 5
+            },
+            "name": "Ambient Light",
+            "x": 3968,
+            "y": 1758,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.4,
+                "angle": 360,
+                "color": "#d5ea99",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 2.5,
+                "dim": 5
+            },
+            "name": "Ambient Light",
+            "x": 4400,
+            "y": 1760,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.4,
+                "angle": 360,
+                "color": "#d5ea99",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 2.5,
+                "dim": 5
+            },
+            "name": "Ambient Light",
+            "x": 4400,
+            "y": 2200,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        },
+        {
+            "elevation": 0,
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "walls": true,
+            "vision": false,
+            "hidden": false,
+            "config": {
+                "negative": false,
+                "priority": 0,
+                "alpha": 0.4,
+                "angle": 360,
+                "color": "#d5ea99",
+                "coloration": 1,
+                "attenuation": 0.5,
+                "luminosity": 0.5,
+                "saturation": 0,
+                "contrast": 0,
+                "shadows": 0,
+                "animation": {
+                    "type": "fog",
+                    "speed": 3,
+                    "intensity": 3,
+                    "reverse": false
+                },
+                "darkness": {
+                    "min": 0,
+                    "max": 1
+                },
+                "bright": 2.5,
+                "dim": 5
+            },
+            "name": "Ambient Light",
+            "x": 3974,
+            "y": 2200,
+            "rotation": 0,
+            "locked": false,
+            "flags": {}
+        }
+    ],
+    "name": "Map 2.24: Schloss Mordenheim - Gate And Entry",
+    "navName": "Schloss Mordenheim - Gate And Entry",
+    "navOrder": 0,
+    "padding": 0.25,
+    "regions": [],
+    "shiftX": 17,
+    "shiftY": 64,
+    "tokenVision": true,
+    "transition": {
+        "type": null,
+        "duration": 1500,
+        "activeOnly": false
+    },
+    "walls": [
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1059,
+                2956,
+                1251,
+                2956
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1251,
+                2956,
+                1297,
+                3028
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1297,
+                3028,
+                1367,
+                3096
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1367,
+                3096,
+                1457,
+                3143
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1457,
+                3143,
+                1570,
+                3169
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1570,
+                3169,
+                1691,
+                3159
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1691,
+                3159,
+                1801,
+                3105
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1801,
+                3105,
+                1847,
+                3060
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1875,
+                3032,
+                1921,
+                2944
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1921,
+                2944,
+                1950,
+                2862
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1950,
+                2862,
+                1953,
+                2790
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1953,
+                2790,
+                1937,
+                2698
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1937,
+                2698,
+                1897,
+                2613
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1897,
+                2613,
+                1827,
+                2533
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1827,
+                2533,
+                1760,
+                2486
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1760,
+                2486,
+                1696,
+                2460
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1696,
+                2460,
+                1650,
+                2448
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                1650,
+                2448,
+                1540,
+                2448
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1540,
+                2448,
+                1479,
+                2460
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1479,
+                2460,
+                1396,
+                2502
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1396,
+                2502,
+                1317,
+                2568
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1317,
+                2568,
+                1271,
+                2637
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1271,
+                2637,
+                1237,
+                2716
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1237,
+                2716,
+                1226,
+                2810
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1226,
+                2810,
+                1237,
+                2894
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1237,
+                2894,
+                1251,
+                2956
+            ]
+        },
+        {
+            "c": [
+                1847,
+                3060,
+                1875,
+                3032
+            ],
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {}
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1847,
+                3060,
+                2010,
+                3060
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2010,
+                3060,
+                2011,
+                2997
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2011,
+                2997,
+                1965,
+                2998
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1965,
+                2998,
+                1966,
+                2429
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1966,
+                2429,
+                1684,
+                2430
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1684,
+                2430,
+                1650,
+                2448
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1540,
+                2448,
+                1513,
+                2434
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1513,
+                2434,
+                1430,
+                2434
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1430,
+                2434,
+                1430,
+                1554
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1430,
+                1554,
+                1746,
+                1554
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1746,
+                1554,
+                1746,
+                1526
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1746,
+                1526,
+                1746,
+                1513
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1746,
+                1513,
+                1430,
+                1513
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1430,
+                1513,
+                1430,
+                770
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1430,
+                770,
+                3190,
+                770
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3190,
+                770,
+                3740,
+                770
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3740,
+                770,
+                4964,
+                770
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4964,
+                770,
+                4964,
+                1526
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4964,
+                1526,
+                4964,
+                1953
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4964,
+                1953,
+                4932,
+                2023
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4932,
+                2023,
+                4893,
+                2057
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4893,
+                2057,
+                4868,
+                2090
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4868,
+                2090,
+                4868,
+                2434
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4868,
+                2434,
+                3768,
+                2434
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3768,
+                2434,
+                3768,
+                2090
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3768,
+                2090,
+                3740,
+                2090
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3740,
+                2090,
+                3726,
+                2090
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3726,
+                2090,
+                3726,
+                2434
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3726,
+                2434,
+                3094,
+                2434
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3094,
+                2434,
+                3080,
+                2448
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2970,
+                2448,
+                2894,
+                2473
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2894,
+                2473,
+                2823,
+                2513
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2823,
+                2513,
+                2740,
+                2588
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2740,
+                2588,
+                2691,
+                2677
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2691,
+                2677,
+                2668,
+                2793
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2668,
+                2793,
+                2678,
+                2890
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2678,
+                2890,
+                2727,
+                3009
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2727,
+                3009,
+                2774,
+                3059
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2818,
+                3105,
+                2909,
+                3152
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2909,
+                3152,
+                3012,
+                3176
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3012,
+                3176,
+                3119,
+                3167
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3119,
+                3167,
+                3240,
+                3111
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3240,
+                3111,
+                3331,
+                3021
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3331,
+                3021,
+                3383,
+                2918
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3383,
+                2918,
+                3397,
+                2807
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3397,
+                2807,
+                3376,
+                2686
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3376,
+                2686,
+                3319,
+                2584
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3319,
+                2584,
+                3227,
+                2499
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3227,
+                2499,
+                3080,
+                2448
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2970,
+                2448,
+                2953,
+                2429
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2953,
+                2429,
+                2654,
+                2430
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2654,
+                2430,
+                2654,
+                2991
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2654,
+                2991,
+                2609,
+                2993
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2609,
+                2993,
+                2609,
+                3067
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2609,
+                3067,
+                2758,
+                3066
+            ]
+        },
+        {
+            "c": [
+                2774,
+                3059,
+                2818,
+                3105
+            ],
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {}
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2774,
+                3059,
+                2758,
+                3066
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                2970,
+                2448,
+                3080,
+                2448
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3383,
+                2681,
+                3383,
+                2507
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3383,
+                2507,
+                5175,
+                2505
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4964,
+                1526,
+                4304,
+                1526
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                4304,
+                1526,
+                4180,
+                1526
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                4180,
+                1526,
+                4070,
+                1526
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                4070,
+                1526,
+                3740,
+                1526
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3740,
+                770,
+                3740,
+                880
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                3740,
+                880,
+                3740,
+                990
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3740,
+                990,
+                3740,
+                1210
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                3740,
+                1210,
+                3616,
+                1210
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3616,
+                1210,
+                3190,
+                1210
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3190,
+                1210,
+                3190,
+                1526
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3190,
+                1526,
+                3740,
+                1526
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3740,
+                1210,
+                3740,
+                1526
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3740,
+                1526,
+                3740,
+                1870
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                3740,
+                1870,
+                3740,
+                1980
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                3740,
+                1980,
+                3740,
+                2090
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                3190,
+                1526,
+                2310,
+                1526
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                2310,
+                1526,
+                2200,
+                1526
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                2200,
+                1526,
+                2090,
+                1526
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                2090,
+                1526,
+                1980,
+                1526
+            ]
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                1980,
+                1526,
+                1870,
+                1526
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 1,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": {
+                "type": "",
+                "texture": null,
+                "flip": false,
+                "double": false,
+                "direction": 1,
+                "duration": 750,
+                "strength": 1
+            },
+            "flags": {},
+            "c": [
+                1870,
+                1526,
+                1760,
+                1526
+            ],
+            "doorSound": ""
+        },
+        {
+            "levels": [
+                "defaultLevel0000"
+            ],
+            "light": 20,
+            "move": 20,
+            "sight": 20,
+            "sound": 20,
+            "dir": 0,
+            "door": 0,
+            "ds": 0,
+            "threshold": {
+                "light": null,
+                "sight": null,
+                "sound": null,
+                "attenuation": false
+            },
+            "animation": null,
+            "flags": {},
+            "c": [
+                1760,
+                1526,
+                1746,
+                1526
+            ]
+        }
+    ],
+    "weather": "",
+    "width": 4082
+}
