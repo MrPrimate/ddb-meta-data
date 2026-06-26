@@ -1,3 +1,7 @@
+# 1.1.31
+
+- Shadows of Sithicus
+
 # 1.1.30
 
 - Ravenloft: The Horrors Within scenes
